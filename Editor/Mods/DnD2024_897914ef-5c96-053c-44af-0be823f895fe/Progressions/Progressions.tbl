@@ -9179,6 +9179,9 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,4,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Sangromancer_3_FullBlooded" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,2,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9187,6 +9190,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3616323d-7c63-4cf3-be33-1f096fbeabda" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="4" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9195,6 +9201,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dedc8fff-5ecd-4348-9b9c-2d7af6d13530" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="5" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9203,6 +9213,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6f5bd422-9886-442c-bc57-734a40fad7f3" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="6" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Sangromancer_6_SanguineVigor" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9211,6 +9225,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ff563e2b-029c-4733-90e4-edd8e8f0093a" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="7" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9219,6 +9237,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f13300fd-a301-41cc-b9a8-2fc3551a2f68" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="8" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9227,6 +9248,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="67757b93-726c-4259-813b-e88f95cfae2b" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="9" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9235,6 +9260,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d5135dfb-0dd6-49e9-a9eb-241d73c49559" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="10" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Sangromancer_10_BloodForBlood" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9243,6 +9272,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="92ec03ac-5f88-43f4-855b-563df7bcd6df" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
+        <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9251,6 +9284,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8b39d11c-d839-46ef-8eaf-5996c58c6edf" />
         <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
         <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="12" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0)" />
       </fields>
     </stat_object>
     <stat_object color="#FF1E90FF" is_substat="false">

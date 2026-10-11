@@ -951,6 +951,13 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="dc5d7f06-92fd-454b-9ebe-116d1504b5de"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="BloodForBloodTurn"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="e75eb4e2-03bb-417a-b92f-258830888549"/>
+                </node>
             </children>
         </node>
     </region>

@@ -13215,5 +13215,42 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,ProficiencyBonus*2,Fire,Magical)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2e05fe6-9ebb-49a8-a86e-972b91664f51" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sangromancer_3_FullBlooded" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha97aba35g50a8g4f8cga12dg8a6e1f58648b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd51c82b5g8cbfg4a47gb203gaf4aa4f552f1" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BloodRush" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnShortRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(HitPointDice12,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05f08bda-07a1-4d9c-9a70-94151b8f2b65" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sangromancer_6_SanguineVigor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf40af40gcaf2g4f24g82b6ga630074cbd53" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c887967g618eg4300gbe8dgbdcb766522df" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SanguineShield" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(ClassLevel(Wizard))" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSangromancySpell() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(SpellPowerLevel)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dab3668f-9fc7-480e-b1ec-76502e84b6a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Sangromancer_10_BloodForBlood" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h50492efbg3372g4d9cga349gb10c1f1b3fb9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf48c417bg098bg42c4g858dg2120c442716f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_BloodForBlood_1);UnlockInterrupt(Interrupt_BloodForBlood_2);UnlockInterrupt(Interrupt_BloodForBlood_3);UnlockInterrupt(Interrupt_BloodForBlood_4);ActionResource(BloodForBloodTurn,1,0)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

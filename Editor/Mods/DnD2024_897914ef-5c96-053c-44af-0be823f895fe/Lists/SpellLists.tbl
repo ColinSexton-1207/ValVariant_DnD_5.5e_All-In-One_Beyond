@@ -2850,5 +2850,20 @@
         <field name="Spells" type="StringTableFieldDefinition" value="Target_BlessingOfTheRavenQueen" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="930f973e-08c9-4873-8cb0-fe27b958d80e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard Savant Dummy to Sangromancy" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_SavantDummy_1;Shout_SavantDummy_2;Shout_SavantDummy_3;Shout_SavantDummy_4;Shout_SavantDummy_5;Shout_SavantDummy_6" />
+        <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="398d9fdb-0101-4226-b2eb-08a2dae9accb" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="398d9fdb-0101-4226-b2eb-08a2dae9accb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wizard Savant Sangromancy" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_BloodBond;Shout_ExtractIron;Target_Reanimate;Target_SanguinePoppet;Shout_BloodWisp;Shout_SanguineShield;Shout_SenseLifeblood;Shout_TheftOfVitae;Target_WiltingSmite;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Consumption;Shout_CrimsonLash;Target_ShroudBlood;Target_Somnolence;Target_VibratingHumors" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

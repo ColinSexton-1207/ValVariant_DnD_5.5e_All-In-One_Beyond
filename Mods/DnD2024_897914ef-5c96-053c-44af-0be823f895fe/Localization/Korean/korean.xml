@@ -7176,4 +7176,14 @@
   <content contentuid="h2101cc35g2017g44cdga70cgc9822cd02f0c" version="1">행동을 사용해 피의 인형을 터뜨릴 수 있습니다.</content>
   <content contentuid="h2cd25251gc04bg4e3bgb4fag7e7950a5d44d" version="1">죽음의 폭발</content>
   <content contentuid="h443ad59cg702cg4cabg9809g2e7b97cd061d" version="1">인형이 피를 뿜으며 폭발합니다. [1] 안의 모든 크리처는 민첩 내성 굴림을 하며, 실패하면 소모한 생명력 주사위를 굴린 만큼 사령 피해를 입고, 성공하면 그 절반만큼만 피해를 입습니다.</content>
+  <content contentuid="hcfa2facdg4c3cg1021gfd3eg30a73f3d1d9e" version="1">혈마법사</content>
+  <content contentuid="hf1b92570g558cg1b80gf616g89d6dc285ccb" version="1">혈마법이라 불리는 흔치 않은 마법 학파를 연구합니다. 어두운 평판과 달리 혈마법 자체에 사악한 면은 없지만, 시전자에게 요구하는 대가는 끔찍합니다. 혈마법사인 당신의 마법은 지식 이상의 것, 곧 희생을 요구합니다. 다른 위저드는 당신을 의심하거나 대놓고 적대할 수도 있지만, 당신이 다루는 기예의 힘만큼은 누구도 부정할 수 없습니다.</content>
+  <content contentuid="ha97aba35g50a8g4f8cga12dg8a6e1f58648b" version="1">3레벨: 충만한 피</content>
+  <content contentuid="hd51c82b5g8cbfg4a47gb203gaf4aa4f552f1" version="1">피에서 마법을 끌어냅니다. 위저드 레벨 + 1개만큼 d12 생명력 주사위를 얻으며, 혈마법 주문을 시전할 때 다른 생명력 주사위 대신 소모할 수 있습니다.&lt;br&gt;&lt;br&gt;짧은 휴식을 마치면 소모한 d12 생명력 주사위를 1개 회복하고, 긴 휴식을 마치면 모두 회복합니다.</content>
+  <content contentuid="hcf40af40gcaf2g4f24g82b6ga630074cbd53" version="1">6레벨: 혈기 왕성</content>
+  <content contentuid="h8c887967g618eg4300gbe8dgbdcb766522df" version="1">최대 생명력이 6 증가하며, 이후 위저드 레벨을 얻을 때마다 1씩 증가합니다.&lt;br&gt;&lt;br&gt;주문 슬롯을 사용해 혈마법 주문을 시전할 때마다 그 주문 슬롯의 레벨만큼 생명력을 회복합니다.</content>
+  <content contentuid="hb4d5da63gcfdag4533gac70g621e4dc2529b" version="1">피에는 피</content>
+  <content contentuid="hf48c417bg098bg42c4g858dg2120c442716f" version="1">자신의 턴마다 한 번, 직접 시전한 위저드 주문으로 크리처에게 피해를 줄 때 생명력 주사위 1개를 소모해 굴리고, 굴린 값만큼 추가 사령 피해를 줄 수 있습니다.&lt;br&gt;&lt;br&gt;그 크리처가 피투성이 상태라면 두 번 굴려 더 높은 값을 사용합니다.</content>
+  <content contentuid="h1cad49afg33e7g49a2g8792g1583fabf032c" version="1">생명력 주사위 1개를 소모해 [1]를 추가로 줍니다. 대상이 피투성이 상태라면 두 번 굴려 더 높은 값을 사용합니다.</content>
+  <content contentuid="h50492efbg3372g4d9cga349gb10c1f1b3fb9" version="1">10레벨: 피에는 피</content>
 </contentList>

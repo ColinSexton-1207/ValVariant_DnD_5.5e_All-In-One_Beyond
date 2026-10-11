@@ -3423,5 +3423,54 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30382921-733b-43e1-8202-00551a3c15da" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BloodForBlood_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb4d5da63gcfdag4533gac70g621e4dc2529b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1cad49afg33e7g49a2g8792g1583fabf032c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BoilBlood" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsSpell() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(max(1d6,1d6),Necrotic,Magical);IF(not HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(1d6,Necrotic,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="HitPointDice06:1;BloodForBloodTurn:1;" />
+        <field name="Stack" type="StringTableFieldDefinition" value="BloodForBlood" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="246fda71-41b7-4b26-b79f-4e3a218b2f84" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BloodForBlood_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="30382921-733b-43e1-8202-00551a3c15da" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(max(1d8,1d8),Necrotic,Magical);IF(not HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(1d8,Necrotic,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="HitPointDice08:1;BloodForBloodTurn:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44ad381a-9d60-4e0a-ad1a-398bc2cdc3cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BloodForBlood_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="30382921-733b-43e1-8202-00551a3c15da" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Necrotic)" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(max(1d10,1d10),Necrotic,Magical);IF(not HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(1d10,Necrotic,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="HitPointDice10:1;BloodForBloodTurn:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7162233-a4f3-4b03-9df6-a50fec1300a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_BloodForBlood_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="30382921-733b-43e1-8202-00551a3c15da" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d12,Necrotic)" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(max(1d12,1d12),Necrotic,Magical);IF(not HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(1d12,Necrotic,Magical);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="HitPointDice12:1;BloodForBloodTurn:1;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
