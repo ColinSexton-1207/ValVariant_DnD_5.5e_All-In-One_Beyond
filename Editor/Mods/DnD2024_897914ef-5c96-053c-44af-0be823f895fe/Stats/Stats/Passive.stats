@@ -341,7 +341,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3da240ff-7fa5-46ae-b331-9a31557bde1c" />
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasterySap" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6846e460g6aecg1e76g52c0g8c751abe8744" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SAP,100,1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
@@ -354,7 +354,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="50fcf3d9-d232-4860-a10c-b6dd0ff9f570" />
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasterySlow" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7773a857g54d9g0e61gc338g5671eef1378d" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_SLOW,100,1)" />
@@ -380,7 +380,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b5b4f3df-4feb-4956-bb0a-5fd7e60b113e" />
         <field name="Name" type="NameTableFieldDefinition" value="WeaponMasteryVex" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="483cb96d-db7e-4d80-801c-cd7d1ec0d7cb" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0019ff2g27f5g13abg7a86g646b2f8a1f55" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="TARGET:ApplyStatus(WEAPONMASTERY_VEX,100,2)" />
@@ -418,7 +418,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="435ac388-ef94-4546-b787-4f1e58ae2481" />
         <field name="Name" type="NameTableFieldDefinition" value="HasWeaponMastery_Nick" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbe460a9gf800gdb75g15bbg2b81a80fe8ab" version="2" />
-        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0de5940ag21a0gff32gb8dfg01c84e54f73e" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Multiattack_WhirlwindAttack" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -442,7 +442,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c0f1eaea-98ff-4087-8fa7-7304050b90ee" />
         <field name="Name" type="NameTableFieldDefinition" value="HasWeaponMastery_Sap" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf74199bg92cbg93dega0fbgebb535603f83" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h6846e460g6aecg1e76g52c0g8c751abe8744" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05a1ab8cg6b39gabd2g55c7g3a1f851c31fb" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ConcussiveSmash" />
@@ -454,7 +454,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5921fdc3-bf09-4f99-bb30-17ffe2032e79" />
         <field name="Name" type="NameTableFieldDefinition" value="HasWeaponMastery_Slow" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb839de91gb995ge42eg62b9g1dd41fe4da4b" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h7773a857g54d9g0e61gc338g5671eef1378d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53e29765gaf78g1680g5805g24b5594244ac" version="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
@@ -479,7 +479,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0168136d-477d-4607-81ec-717ebbdc8903" />
         <field name="Name" type="NameTableFieldDefinition" value="HasWeaponMastery_Vex" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdfca5f76g305cgff0cg0532gbc6b23ff9367" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf0019ff2g27f5g13abg7a86g646b2f8a1f55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd724f72fgcda8gb6acgb5c4gd95d169dd0b4" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_OpeningAttack" />
