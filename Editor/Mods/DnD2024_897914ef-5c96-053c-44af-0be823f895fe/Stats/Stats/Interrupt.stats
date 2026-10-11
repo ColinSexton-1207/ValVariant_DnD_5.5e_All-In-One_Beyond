@@ -229,6 +229,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f78a58b1-bf97-48bd-a025-5af2634c6ded" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HellishRebuke_Race" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="190af403-8356-4b0c-85a9-242e330fcda9" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;RaceSpellLevel1:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cfd2497f-e963-427d-92ea-b1cb6e845eff" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FountOfMoonlight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81a318d3g7d25ge9f7g6cb8g0d641f9d7d75" version="1" />

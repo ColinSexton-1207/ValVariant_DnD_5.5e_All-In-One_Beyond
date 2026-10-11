@@ -152,6 +152,11 @@ new entry "Interrupt_HellishRebuke_6"
 type "InterruptData"
 using "Interrupt_HellishRebuke_6"
 
+new entry "Interrupt_HellishRebuke_Race"
+type "InterruptData"
+using "Interrupt_HellishRebuke"
+data "Cost" "ReactionActionPoint:1;RaceSpellLevel1:1"
+
 new entry "Interrupt_FountOfMoonlight"
 type "InterruptData"
 data "DisplayName" "h81a318d3g7d25ge9f7g6cb8g0d641f9d7d75;1"

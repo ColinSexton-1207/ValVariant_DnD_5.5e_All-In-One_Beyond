@@ -8675,7 +8675,6 @@
                     <attribute id="UUID" type="guid" value="db13a1fb-7d64-4309-a1c8-e2a5c752ded5"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HighElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
@@ -8684,7 +8683,6 @@
                     <attribute id="UUID" type="guid" value="32c7bfcd-d38e-4c23-935a-5652a335d203"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="HighElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
@@ -8703,7 +8701,6 @@
                     <attribute id="UUID" type="guid" value="b262db2c-7a80-4c76-a1e8-0efdb9c1db13"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="WoodElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Longstrider"/>
@@ -8712,7 +8709,6 @@
                     <attribute id="UUID" type="guid" value="b52ac48f-c96a-4264-81d3-6e459f466fa4"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="WoodElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_PassWithoutTrace"/>
@@ -8730,7 +8726,6 @@
                     <attribute id="UUID" type="guid" value="1af31dd3-12db-41f9-8e6e-85980e69603c"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="IceElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_IceKnife"/>
@@ -8739,7 +8734,6 @@
                     <attribute id="UUID" type="guid" value="202ab1b9-036f-4d3f-b98e-ac53a1c1f4a2"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="IceElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_GustOfWind"/>
@@ -8780,7 +8774,6 @@
                     <attribute id="UUID" type="guid" value="c91bb3ce-73d0-4330-80e1-562880a53472"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="LolthDrow"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
@@ -8789,7 +8782,6 @@
                     <attribute id="UUID" type="guid" value="f91b409d-cd06-4950-8407-f923cbfe118a"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="LolthDrow"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
@@ -8807,7 +8799,6 @@
                     <attribute id="UUID" type="guid" value="3feba964-0ae4-4ae5-b2a1-e515f0973efe"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="SeldarineDrow"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
@@ -8816,7 +8807,6 @@
                     <attribute id="UUID" type="guid" value="ab797e14-2032-4dd2-8c08-b949fe79c1be"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="SeldarineDrow"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
@@ -8919,7 +8909,6 @@
                     <attribute id="UUID" type="guid" value="a8b18f0c-fe70-4f13-9dbc-23f4dbc3d648"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="AsmodeusTiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_RayOfSickness"/>
@@ -8928,7 +8917,6 @@
                     <attribute id="UUID" type="guid" value="bf3c33f5-4b95-4048-91f5-d8ff6f7a9cdd"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="AsmodeusTiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_HoldPerson"/>
@@ -8946,7 +8934,6 @@
                     <attribute id="UUID" type="guid" value="bdd1cf22-1b3c-4bc6-8313-898a49fcfe49"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="MephistophelesTiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FalseLife"/>
@@ -8955,7 +8942,6 @@
                     <attribute id="UUID" type="guid" value="5b3c1a37-18a8-40cf-8bf6-cad43b3ff0cc"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="MephistophelesTiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_RayOfEnfeeblement"/>
@@ -8973,7 +8959,6 @@
                     <attribute id="UUID" type="guid" value="89d57acd-85ff-4da6-b989-9b82d0241e46"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="ZarielTiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_HellishRebuke"/>
@@ -8982,7 +8967,6 @@
                     <attribute id="UUID" type="guid" value="09be3a4b-3360-414e-b3fb-1e4a04b63331"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="ZarielTiefling"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
@@ -9008,7 +8992,6 @@
                     <attribute id="UUID" type="guid" value="43bfa29a-fd63-4f47-850e-6714f0333022"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HighHalfElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
@@ -9017,7 +9000,6 @@
                     <attribute id="UUID" type="guid" value="533158e2-3767-497a-b4fc-e3fe71214092"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="HighHalfElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
@@ -9034,7 +9016,6 @@
                     <attribute id="UUID" type="guid" value="cb0f84ec-1b1d-4ecc-9ab5-76261e332f5a"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="WoodHalfElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Longstrider"/>
@@ -9043,7 +9024,6 @@
                     <attribute id="UUID" type="guid" value="4b067f07-ae97-45c4-945d-4b342f1d50ca"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="WoodHalfElf"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_PassWithoutTrace"/>
@@ -9060,7 +9040,6 @@
                     <attribute id="UUID" type="guid" value="58dae581-c25a-4dfb-8a57-589bf4b34f62"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HalfDrow"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_FaerieFire"/>
@@ -9069,7 +9048,6 @@
                     <attribute id="UUID" type="guid" value="87d2588b-bd2e-43df-ace0-2c2d3efea0ca"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="HalfDrow"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
@@ -9088,7 +9066,6 @@
                     <attribute id="UUID" type="guid" value="f653d537-bc14-4fea-b7d2-25734ec928a2"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Jump"/>
@@ -9097,7 +9074,6 @@
                     <attribute id="UUID" type="guid" value="851880cb-3b5d-4129-9b25-3bb17d849f87"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2);"/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
                     <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
