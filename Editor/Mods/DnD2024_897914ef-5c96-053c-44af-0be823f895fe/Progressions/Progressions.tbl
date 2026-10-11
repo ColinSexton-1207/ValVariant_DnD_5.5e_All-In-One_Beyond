@@ -1872,7 +1872,6 @@
         <field name="FSName" type="StringTableFieldDefinition" value="WarDomain" />
         <field name="Level" type="ByteTableFieldDefinition" value="8" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(4935a640-e3ec-48f7-933b-512b72268e68,,,,AlwaysPrepared)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
