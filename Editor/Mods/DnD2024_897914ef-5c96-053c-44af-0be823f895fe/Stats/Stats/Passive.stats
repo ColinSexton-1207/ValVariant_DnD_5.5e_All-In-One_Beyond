@@ -13040,16 +13040,33 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c2cfa3c3-7781-436b-8c1f-55be94e8a247" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_FaerieFire" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d29b0f9g1385g404fg92d5gf2a9f521f6f2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h665d3660g3166g496cg810ag058a362f96fe" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FaerieFire" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_FaerieFire,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);IF(HasActionResource('RaceSpellLevel1',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_FaerieFire'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel1,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3e003a41-ee72-4382-9878-76b23de26ea7" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_MistyStep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h612f71bbg5b82g4bb9gb0c2g0e8321750646" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h65adba9aga467g4bc1gabdegaf9afa5cd75b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source) and not HasActionResource('MistyStep',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_MistyStep'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="520ee19a-0b70-4d6b-8e49-2f651adafa43" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_MistyStep_GithyankiPsionics" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h20c40786g068cg49a3ga110g95e370a784e7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h65adba9aga467g4bc1gabdegaf9afa5cd75b" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_MistyStep,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source) and not HasActionResource('MistyStep',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_MistyStep'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -13062,16 +13079,22 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1aa40e3-63aa-4152-8a4e-e7bf662bd500" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_Longstrider" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h27a87aeegab4bg415cg8bf9g85c8b2a83010" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha80c05d5g845bg492dgb9f9gc99143153153" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Longstrider,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);IF(HasActionResource('RaceSpellLevel1',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_Longstrider'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel1,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0fbab807-abc6-4a6e-a01b-adcee23bcb54" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_PassWithoutTrace" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41876e15g0bf7g46f8g8a24gf5d8521962e9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc85e36ccgcaa8g4379g833bgd58af97465e2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_PassWithoutTrace" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_PassWithoutTrace,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_PassWithoutTrace'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -13092,16 +13115,22 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2e6df4a2-ed00-45ef-a609-708f35aad671" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_IceKnife" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c70d4d4gc18bg4d4fg8666g6d0034be4af3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h56430629g20b5g486ag9cbfga24aaae4a933" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_IceKnife" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_IceKnife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);IF(HasActionResource('RaceSpellLevel1',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Projectile_IceKnife'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel1,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="844c4048-fa25-469d-8cb3-f5d2819ff1f2" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_GustOfWind" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c4a913dg631bg4de1g8356g3f7398cdc174" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h696bbc7cgbbf4g494dgb8f2g8c2fc17f1595" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GustOfWind" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Zone_GustOfWind,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Zone_GustOfWind'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -13114,8 +13143,22 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6f048c00-2aaf-4c80-855e-4fd4f6051319" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_Darkness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbe393686gf052g4c77g8086g106ba697db10" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e1febf1gd3dfg4ed9g885aga956550140fe" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkness" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Darkness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_Darkness'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5992df2b-aa6c-4efd-ad5e-05a8650d912c" />
+        <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_Darkness_FiendishLegacy" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h92ffe325g1395g4d1fgad22g9ffb416f4290" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e1febf1gd3dfg4ed9g885aga956550140fe" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkness" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Darkness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_Darkness'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -13128,8 +13171,11 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2d9f12f9-0320-4113-a4c7-1a8aa6f435de" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_Jump" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d8ebcdcg216bg4c37g8b29g6ab0236a605a" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8ebc0f00g3928g4d36ga505g069c2305a7c0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_LongJump" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Jump,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);IF(HasActionResource('RaceSpellLevel1',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_Jump'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel1,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -13142,40 +13188,55 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0e2b3b30-f6d5-479b-9904-577808a7a0f7" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_RayOfSickness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf50c2622g31cdg4353ga50egdea5762d09cf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he72a8ebdg4896g4312gac60g41205e99ee34" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_RayOfSickness" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfSickness,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);IF(HasActionResource('RaceSpellLevel1',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Projectile_RayOfSickness'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel1,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="67c5fb62-8099-425b-a1e8-c0e5d8e72b36" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_HoldPerson" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h06313efag66c3g4098g87c6g199023dbb6b7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2b4f1e6dg34e8g47bbga0f8ge0fff739e657" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_HoldPerson" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_HoldPerson,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_HoldPerson'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="34969470-f080-49ad-a40e-bee5988090d5" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_FalseLife" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f6cb8f9gf811g4704g8855g295b9b165169" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c032f68gf473g4ee5gaac2gac9754533c8c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_FalseLife" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FalseLife,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);IF(HasActionResource('RaceSpellLevel1',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_FalseLife'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel1,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="97c2127e-28b8-43a6-ba29-159bfa8e62aa" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_RayOfEnfeeblement" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he90c6d2eg6537g4767g9394g8848bc0796dc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3892fdc9g9996g44afg905ag99758d213c6d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_RayOfInfeeblement" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_RayOfEnfeeblement,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel2,1,0);IF(HasActionResource('RaceSpellLevel2',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Projectile_RayOfEnfeeblement'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,RaceSpellLevel2,1,0));" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cb08745c-0536-4479-a1bd-92ef1d3b5463" />
         <field name="Name" type="NameTableFieldDefinition" value="RaceSpell_HellishRebuke" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfffc0b5cg4f04g4427g81ffg35d9baed5a9b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae229038g432ag49f7g9f11g4fa19c7f6653" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HellishRebuke" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_HellishRebuke,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(RaceSpellLevel1,1,0);UnlockInterrupt(Interrupt_HellishRebuke_Race);" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

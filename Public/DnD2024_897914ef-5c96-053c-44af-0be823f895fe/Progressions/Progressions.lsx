@@ -8969,7 +8969,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="ZarielTiefling"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_Darkness_FiendishLegacy"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="957ba6a9-68f4-4190-a432-25675d00f434"/>
                     <attribute id="UUID" type="guid" value="0394d93d-5f86-42e6-821b-91777c6e120b"/>
@@ -9076,7 +9076,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Githyanki"/>
-                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep"/>
+                    <attribute id="PassivesAdded" type="LSString" value="RaceSpell_MistyStep_GithyankiPsionics"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="81e2cb57-6a12-4429-b3a5-f72549355b3b"/>
                     <attribute id="UUID" type="guid" value="37ad7172-291b-4a05-b226-2734170fb4fa"/>

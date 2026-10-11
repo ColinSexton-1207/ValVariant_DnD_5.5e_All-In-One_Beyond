@@ -7191,4 +7191,32 @@
   <content contentuid="h0eba67adgea0eg4691g8eaagd57f6d19cb80" version="1">독사의 혀: 물기</content>
   <content contentuid="h9a049fd5g902cg4becga52ag17de90497595" version="1">자신으로부터 [1] 이내의 크리처 하나에게 근접 주문 공격을 가합니다. 명중하면, 목표는 [2]를 입고 주문 지속시간 동안 &lt;LSTag Type="Status" Tooltip="POISONED"&gt;중독&lt;/LSTag&gt; 상태가 됩니다.</content>
   <content contentuid="h5e3d4271g514eg4c5dgbdb8g5a3f337d17de" version="1">독사의 혀 두루마리</content>
+  <content contentuid="h665d3660g3166g496cg810ag058a362f96fe" version="1">&lt;LSTag Type="Spell" Tooltip="Target_FaerieFire"&gt;요정불&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="ha80c05d5g845bg492dgb9f9gc99143153153" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Longstrider"&gt;활보&lt;/LSTag&gt;가 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h56430629g20b5g486ag9cbfga24aaae4a933" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_IceKnife"&gt;얼음 칼&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="he72a8ebdg4896g4312gac60g41205e99ee34" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_RayOfSickness"&gt;독 광선&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h5c032f68gf473g4ee5gaac2gac9754533c8c" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_FalseLife"&gt;거짓 목숨&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="hae229038g432ag49f7g9f11g4fa19c7f6653" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_HellishRebuke"&gt;지옥의 질책&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h8ebc0f00g3928g4d36ga505g069c2305a7c0" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Jump"&gt;도약&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h65adba9aga467g4bc1gabdegaf9afa5cd75b" version="1">&lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;안개 걸음&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="hc85e36ccgcaa8g4379g833bgd58af97465e2" version="1">&lt;LSTag Type="Spell" Tooltip="Shout_PassWithoutTrace"&gt;신출귀몰&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h696bbc7cgbbf4g494dgb8f2g8c2fc17f1595" version="1">&lt;LSTag Type="Spell" Tooltip="Zone_GustOfWind"&gt;돌풍&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h7e1febf1gd3dfg4ed9g885aga956550140fe" version="1">&lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;어둠&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h2b4f1e6dg34e8g47bbga0f8ge0fff739e657" version="1">&lt;LSTag Type="Spell" Tooltip="Target_HoldPerson"&gt;인간형 포박&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h3892fdc9g9996g44afg905ag99758d213c6d" version="1">&lt;LSTag Type="Spell" Tooltip="Projectile_RayOfEnfeeblement"&gt;약화 광선&lt;/LSTag&gt;이 항상 준비된 상태가 됩니다. 주문 슬롯을 소모하지 않고 이 주문을 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
+  <content contentuid="h1d29b0f9g1385g404fg92d5gf2a9f521f6f2" version="1">엘프 혈통: 요정불</content>
+  <content contentuid="h27a87aeegab4bg415cg8bf9g85c8b2a83010" version="1">엘프 혈통: 활보</content>
+  <content contentuid="h2c70d4d4gc18bg4d4fg8666g6d0034be4af3" version="1">엘프 혈통: 얼음 칼</content>
+  <content contentuid="h612f71bbg5b82g4bb9gb0c2g0e8321750646" version="1">엘프 혈통: 안개 걸음</content>
+  <content contentuid="h41876e15g0bf7g46f8g8a24gf5d8521962e9" version="1">엘프 혈통: 신출귀몰</content>
+  <content contentuid="h7c4a913dg631bg4de1g8356g3f7398cdc174" version="1">엘프 혈통: 돌풍</content>
+  <content contentuid="hbe393686gf052g4c77g8086g106ba697db10" version="1">엘프 혈통: 어둠</content>
+  <content contentuid="hf50c2622g31cdg4353ga50egdea5762d09cf" version="1">마족의 유산: 독 광선</content>
+  <content contentuid="h5f6cb8f9gf811g4704g8855g295b9b165169" version="1">마족의 유산: 거짓 목숨</content>
+  <content contentuid="hfffc0b5cg4f04g4427g81ffg35d9baed5a9b" version="1">마족의 유산: 지옥의 질책</content>
+  <content contentuid="h06313efag66c3g4098g87c6g199023dbb6b7" version="1">마족의 유산: 인간형 포박</content>
+  <content contentuid="he90c6d2eg6537g4767g9394g8848bc0796dc" version="1">마족의 유산: 약화 광선</content>
+  <content contentuid="h6d8ebcdcg216bg4c37g8b29g6ab0236a605a" version="1">기스양키 초능력: 도약</content>
+  <content contentuid="h92ffe325g1395g4d1fgad22g9ffb416f4290" version="1">마족의 유산: 어둠</content>
+  <content contentuid="h20c40786g068cg49a3ga110g95e370a784e7" version="1">기스양키 초능력: 안개 걸음</content>
 </contentList>

@@ -7191,4 +7191,32 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h0eba67adgea0eg4691g8eaagd57f6d19cb80" version="1">Serpent Tongue: Bite</content>
   <content contentuid="h9a049fd5g902cg4becga52ag17de90497595" version="1">Make a melee spell attack against a creature within [1] of you. On a hit, the target takes [2] and is &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; for the duration of the spell.</content>
   <content contentuid="h5e3d4271g514eg4c5dgbdb8g5a3f337d17de" version="1">Scroll of Serpent Tongue</content>
+  <content contentuid="h665d3660g3166g496cg810ag058a362f96fe" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Target_FaerieFire"&gt;Faerie Fire&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="ha80c05d5g845bg492dgb9f9gc99143153153" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Target_Longstrider"&gt;Longstrider&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h56430629g20b5g486ag9cbfga24aaae4a933" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Projectile_IceKnife"&gt;Ice Knife&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="he72a8ebdg4896g4312gac60g41205e99ee34" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfSickness"&gt;Ray of Sickness&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h5c032f68gf473g4ee5gaac2gac9754533c8c" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Shout_FalseLife"&gt;False Life&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="hae229038g432ag49f7g9f11g4fa19c7f6653" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Shout_HellishRebuke"&gt;Hellish Rebuke&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h8ebc0f00g3928g4d36ga505g069c2305a7c0" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Target_Jump"&gt;Jump&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h65adba9aga467g4bc1gabdegaf9afa5cd75b" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="hc85e36ccgcaa8g4379g833bgd58af97465e2" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Shout_PassWithoutTrace"&gt;Pass Without Trace&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h696bbc7cgbbf4g494dgb8f2g8c2fc17f1595" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Zone_GustOfWind"&gt;Gust of Wind&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h7e1febf1gd3dfg4ed9g885aga956550140fe" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h2b4f1e6dg34e8g47bbga0f8ge0fff739e657" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Target_HoldPerson"&gt;Hold Person&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h3892fdc9g9996g44afg905ag99758d213c6d" version="1">You always have &lt;LSTag Type="Spell" Tooltip="Projectile_RayOfEnfeeblement"&gt;Ray of Enfeeblement&lt;/LSTag&gt; prepared. You can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
+  <content contentuid="h1d29b0f9g1385g404fg92d5gf2a9f521f6f2" version="1">Elven Lineage: Faerie Fire</content>
+  <content contentuid="h27a87aeegab4bg415cg8bf9g85c8b2a83010" version="1">Elven Lineage: Longstrider</content>
+  <content contentuid="h2c70d4d4gc18bg4d4fg8666g6d0034be4af3" version="1">Elven Lineage: Ice Knife</content>
+  <content contentuid="h612f71bbg5b82g4bb9gb0c2g0e8321750646" version="1">Elven Lineage: Misty Step</content>
+  <content contentuid="h41876e15g0bf7g46f8g8a24gf5d8521962e9" version="1">Elven Lineage: Pass Without Trace</content>
+  <content contentuid="h7c4a913dg631bg4de1g8356g3f7398cdc174" version="1">Elven Lineage: Gust of Wind</content>
+  <content contentuid="hbe393686gf052g4c77g8086g106ba697db10" version="1">Elven Lineage: Darkness</content>
+  <content contentuid="hf50c2622g31cdg4353ga50egdea5762d09cf" version="1">Fiendish Legacy: Ray of Sickness</content>
+  <content contentuid="h5f6cb8f9gf811g4704g8855g295b9b165169" version="1">Fiendish Legacy: False Life</content>
+  <content contentuid="hfffc0b5cg4f04g4427g81ffg35d9baed5a9b" version="1">Fiendish Legacy: Hellish Rebuke</content>
+  <content contentuid="h06313efag66c3g4098g87c6g199023dbb6b7" version="1">Fiendish Legacy: Hold Person</content>
+  <content contentuid="he90c6d2eg6537g4767g9394g8848bc0796dc" version="1">Fiendish Legacy: Ray of Enfeeblement</content>
+  <content contentuid="h6d8ebcdcg216bg4c37g8b29g6ab0236a605a" version="1">Githyanki Psionics: Jump</content>
+  <content contentuid="h92ffe325g1395g4d1fgad22g9ffb416f4290" version="1">Fiendish Legacy: Darkness</content>
+  <content contentuid="h20c40786g068cg49a3ga110g95e370a784e7" version="1">Githyanki Psionics: Misty Step</content>
 </contentList>
