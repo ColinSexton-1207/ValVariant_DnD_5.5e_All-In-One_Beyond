@@ -2286,6 +2286,2085 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="209a3401-7719-4630-8dae-a9b6aff519eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5d63ff14-bedb-41a4-bc02-b0f56e91051b" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da555f2d-2686-4d66-9404-924e8d3fa282" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c83fdf7-94e4-4787-b179-e15cb13bd3eb" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36b72194-d181-416d-bcf3-505e38c22e57" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4521a1be-a6ec-42f4-a02d-4d86396587ca" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ef603e5d-e0a1-42b9-98d5-3e59d79d5c41" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9472a247-f92c-46ca-b864-3c26660428c5" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0550494-2c6f-4e46-aa9f-d12823059c1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="09097b74-6580-4c54-b758-4f52fe9d32ee" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05067caa-91ba-44ab-8345-6084ef702c0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="370ec670-cf16-4584-bf85-3dbfc03b9fa1" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7664f598-a04a-4895-b950-2c29096eff8d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef4e9162-d2d7-429a-99c8-bdb3f9299a10" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ad821dc-1ef8-4cac-93c5-1b37d6dbd2d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cff9100e-e1df-45cd-a9c8-b28a83d608f8" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d49ac60-bb8d-4299-b145-f3990196fce5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5a51a4c-1a52-4506-8e33-8f9ccdb1e446" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4de9543b-c329-4d59-9162-315b84aa2918" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dcaf80a3-aaa4-4777-a86b-8677fefa6f5a" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8c4a5d34-93df-40df-9b7d-9a7588dd24c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="32f436f6-fcca-4e68-935e-0a870eaa754a" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20d74a93-95e8-44b5-a886-0042dc90a733" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="935dbc8e-c4ec-4441-b9c2-acda9b92756c" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="789445ec-60bf-492e-9d02-f26e0e9f9da1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="89baff50-b934-466e-baf3-3c83406af2d9" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21c90a27-015c-4e1f-acd1-28d8cd91ffff" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9e96399-f221-4ddc-a39b-acc2cf52ba12" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbe4f231-8d20-4d30-9f2f-04c4534a7802" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c4cf073d-beaa-49a0-b6b3-118227250dc2" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66e9d8b5-c530-4cbf-a845-1e72352d340f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3835c917-851a-4805-9478-3619645aa69e" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ac583fc-0e76-441d-8252-3871f9a12c16" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff57ecef-8adc-499a-aa12-7b4eaa85cc99" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="612ba1ed-1734-4d93-a56c-39e076508cb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e4fbbe9-460a-49ae-a92b-4cb7f23ef520" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7fff5017-079c-4d18-8927-f8225b885355" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ff1a636-df8c-45d9-808d-149bf4ee1168" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb13234c-5259-4fe8-b001-99eb9c309019" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="67436516-ff32-4336-9dee-ab10a0c4ace3" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3916b9d-78d2-4c80-8e71-78ad889491d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6268083e-5ca2-4897-87ca-8cc28c134363" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb1f4898-a9b2-4597-b256-4dee295ad3d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="629148b9-bedf-4184-92fa-8b1bc18aef2e" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ec397d1-ba50-4f9f-8c36-03676440277e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1e84bfb8-a814-43b3-94c6-1429a30727d8" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a463ad4-e747-4acd-9657-6eeecce22c12" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="afdbd8cd-51e8-4a52-8ae5-20bb7cd73cb4" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04db9234-d6c0-41df-9fc6-e718108ba2fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88f73c93-aefc-4355-a2a1-ea6b6a731e5c" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4057d46b-816e-4e95-8308-61993663f0a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="68b5ec12-ef37-4216-add8-e5096fb08384" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f36f17d9-0461-4e95-b46d-14cf1ab5e1d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="50291305-259a-4ba9-b36a-b8a9d782dac1" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2e86affb-a924-4ef1-a7ba-d43a339e708e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9c046394-630b-4d3c-844a-86044f306348" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="37b886cc-18e1-4740-81f9-e22b31030907" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b57c61a6-45a4-4c84-aa44-f835a6163a09" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a09f1fc8-fc91-4d09-8a17-f4df0b939ec2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36cc651f-9884-48f1-b199-292a05ac6774" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e21b7f91-8430-4105-aca8-94d570b73240" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38d80074-56e8-4c2c-b9b8-00283328478b" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9135d589-8efc-4306-b3b4-ece27862971b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Male" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4379c0b9-1d14-4845-9793-35c4c8612b6d" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="714625bf-ecb6-443f-94c8-d8f239bc2d55" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Female" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e166ced8-5c76-4bbf-a5b3-98e40427b8b0" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38c3778a-636e-48cb-af60-47f405145e88" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="209a3401-7719-4630-8dae-a9b6aff519eb" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male_2;Shout_DisguiseSelf_Tiefling_Female_2;Shout_DisguiseSelf_Drow_Male_2;Shout_DisguiseSelf_Drow_Female_2;Shout_DisguiseSelf_Human_Male_2;Shout_DisguiseSelf_Human_Female_2;Shout_DisguiseSelf_Githyanki_Male_2;Shout_DisguiseSelf_Githyanki_Female_2;Shout_DisguiseSelf_Dwarf_Male_2;Shout_DisguiseSelf_Dwarf_Female_2;Shout_DisguiseSelf_Elf_Male_2;Shout_DisguiseSelf_Elf_Female_2;Shout_DisguiseSelf_HalfElf_Male_2;Shout_DisguiseSelf_HalfElf_Female_2;Shout_DisguiseSelf_Halfling_Male_2;Shout_DisguiseSelf_Halfling_Female_2;Shout_DisguiseSelf_Dragonborn_Male_2;Shout_DisguiseSelf_Dragonborn_Female_2;Shout_DisguiseSelf_HalfOrc_Male_2;Shout_DisguiseSelf_HalfOrc_Female_2;Shout_DisguiseSelf_Gnome_Male_2;Shout_DisguiseSelf_Gnome_Female_2;Shout_DisguiseSelf_Human_Strong_Male_2;Shout_DisguiseSelf_Human_Strong_Female_2;Shout_DisguiseSelf_Drow_Strong_Male_2;Shout_DisguiseSelf_Drow_Strong_Female_2;Shout_DisguiseSelf_Elf_Strong_Male_2;Shout_DisguiseSelf_Elf_Strong_Female_2;Shout_DisguiseSelf_HalfElf_Strong_Male_2;Shout_DisguiseSelf_HalfElf_Strong_Female_2;Shout_DisguiseSelf_Tiefling_Strong_Male_2;Shout_DisguiseSelf_Tiefling_Strong_Female_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3aa48384-e5e4-40b7-a1cb-1b7337f2266f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da555f2d-2686-4d66-9404-924e8d3fa282" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b93e520-aa80-4582-91a5-8e5a52589977" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36b72194-d181-416d-bcf3-505e38c22e57" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="049331c2-bfb5-47cf-9e4d-dc69ad409677" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef603e5d-e0a1-42b9-98d5-3e59d79d5c41" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5aeb18b-0c2d-4051-b94c-ceef5aebb459" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0550494-2c6f-4e46-aa9f-d12823059c1f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b891cbc-b54c-4801-9fdb-8038e020d772" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05067caa-91ba-44ab-8345-6084ef702c0e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61badcd0-d144-4a28-a56d-c7a2a7a9da1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7664f598-a04a-4895-b950-2c29096eff8d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a8f0144d-137f-4a5f-bfa2-8a79adcd1cc9" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ad821dc-1ef8-4cac-93c5-1b37d6dbd2d8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91645e9b-a08d-44f2-89be-b8a0a4595467" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d49ac60-bb8d-4299-b145-f3990196fce5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99240b74-7595-4830-81d7-420879a970c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4de9543b-c329-4d59-9162-315b84aa2918" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad84720c-1a5a-44a0-857c-89e4b4fcbde0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c4a5d34-93df-40df-9b7d-9a7588dd24c7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64923000-ea91-4537-be27-716a21adf333" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d74a93-95e8-44b5-a886-0042dc90a733" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dcd0fcf6-1171-4796-9233-2c89546a1e66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="789445ec-60bf-492e-9d02-f26e0e9f9da1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55997745-e54a-4910-baf4-39e76320bae4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21c90a27-015c-4e1f-acd1-28d8cd91ffff" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff3cc61c-d5e5-420a-ade2-6118fb0abc66" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe4f231-8d20-4d30-9f2f-04c4534a7802" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83d0d395-7b0c-435e-a022-5503f45da1fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66e9d8b5-c530-4cbf-a845-1e72352d340f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="947bd2c7-d625-443c-903f-2ec2bff0f591" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ac583fc-0e76-441d-8252-3871f9a12c16" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7ed3335b-73c8-451e-ac2d-554c88fed207" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612ba1ed-1734-4d93-a56c-39e076508cb4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8da49756-f835-4472-abc2-8e0bd2213237" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7fff5017-079c-4d18-8927-f8225b885355" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9067586-d88f-4ac7-9e76-b155fdc969f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb13234c-5259-4fe8-b001-99eb9c309019" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2fb111dc-70b8-4882-8045-be3bf256794d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3916b9d-78d2-4c80-8e71-78ad889491d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a06d823b-d5e9-4181-b7e5-71757fa4e290" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb1f4898-a9b2-4597-b256-4dee295ad3d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="474a39f8-2000-45ca-8b7b-6ec3539ebb59" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ec397d1-ba50-4f9f-8c36-03676440277e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed1e22e7-5707-4e6a-8f17-35e05209b82c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a463ad4-e747-4acd-9657-6eeecce22c12" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="075b7baf-85c2-41df-8e8c-0895140f7cea" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04db9234-d6c0-41df-9fc6-e718108ba2fa" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6d7b01dc-bc25-46a4-aa70-3071cf41d272" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4057d46b-816e-4e95-8308-61993663f0a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4a36dd9-c4d6-4699-8cdb-dcf9c3775760" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f36f17d9-0461-4e95-b46d-14cf1ab5e1d7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="054f0cf5-cea4-4d00-b029-afda19f9baf3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e86affb-a924-4ef1-a7ba-d43a339e708e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="965a49f4-feef-4a55-a456-4efd30fe3f75" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37b886cc-18e1-4740-81f9-e22b31030907" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7150656d-fb06-4875-9f96-0c7383f44a03" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a09f1fc8-fc91-4d09-8a17-f4df0b939ec2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13656e56-d54a-497f-8f09-06138a6f4788" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e21b7f91-8430-4105-aca8-94d570b73240" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9988973b-05f0-4a98-884a-f61f4e6c93ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Male_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9135d589-8efc-4306-b3b4-ece27862971b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f9c7376-bf54-41d2-909b-f288ee0567e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Female_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="714625bf-ecb6-443f-94c8-d8f239bc2d55" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ced1e0a3-8ba5-4a94-9e8f-51889025f114" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="209a3401-7719-4630-8dae-a9b6aff519eb" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male_3;Shout_DisguiseSelf_Tiefling_Female_3;Shout_DisguiseSelf_Drow_Male_3;Shout_DisguiseSelf_Drow_Female_3;Shout_DisguiseSelf_Human_Male_3;Shout_DisguiseSelf_Human_Female_3;Shout_DisguiseSelf_Githyanki_Male_3;Shout_DisguiseSelf_Githyanki_Female_3;Shout_DisguiseSelf_Dwarf_Male_3;Shout_DisguiseSelf_Dwarf_Female_3;Shout_DisguiseSelf_Elf_Male_3;Shout_DisguiseSelf_Elf_Female_3;Shout_DisguiseSelf_HalfElf_Male_3;Shout_DisguiseSelf_HalfElf_Female_3;Shout_DisguiseSelf_Halfling_Male_3;Shout_DisguiseSelf_Halfling_Female_3;Shout_DisguiseSelf_Dragonborn_Male_3;Shout_DisguiseSelf_Dragonborn_Female_3;Shout_DisguiseSelf_HalfOrc_Male_3;Shout_DisguiseSelf_HalfOrc_Female_3;Shout_DisguiseSelf_Gnome_Male_3;Shout_DisguiseSelf_Gnome_Female_3;Shout_DisguiseSelf_Human_Strong_Male_3;Shout_DisguiseSelf_Human_Strong_Female_3;Shout_DisguiseSelf_Drow_Strong_Male_3;Shout_DisguiseSelf_Drow_Strong_Female_3;Shout_DisguiseSelf_Elf_Strong_Male_3;Shout_DisguiseSelf_Elf_Strong_Female_3;Shout_DisguiseSelf_HalfElf_Strong_Male_3;Shout_DisguiseSelf_HalfElf_Strong_Female_3;Shout_DisguiseSelf_Tiefling_Strong_Male_3;Shout_DisguiseSelf_Tiefling_Strong_Female_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4c974c2-ec95-4e03-b10f-d61685ab96e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da555f2d-2686-4d66-9404-924e8d3fa282" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43b0db0b-dc04-43b8-a5cc-8bcc7a2fa045" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36b72194-d181-416d-bcf3-505e38c22e57" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb296600-7f12-41ff-aa5f-1253307d9630" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef603e5d-e0a1-42b9-98d5-3e59d79d5c41" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78ee1be9-7fae-408d-9381-08f542a4fc26" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0550494-2c6f-4e46-aa9f-d12823059c1f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2dda3ab5-d4f3-475e-a6d9-cdaf999c78a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05067caa-91ba-44ab-8345-6084ef702c0e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76cfbbc8-aa69-4910-9f95-0bdf46a79f51" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7664f598-a04a-4895-b950-2c29096eff8d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0269f9c3-7ceb-4f6c-89b2-45da2fa8cd2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ad821dc-1ef8-4cac-93c5-1b37d6dbd2d8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c0a47dde-5971-4b01-87c1-81381b98cb94" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d49ac60-bb8d-4299-b145-f3990196fce5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dadafc56-148c-4a89-b9e4-19a29468410e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4de9543b-c329-4d59-9162-315b84aa2918" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72245e5c-1e35-4251-8152-b37a828a3663" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c4a5d34-93df-40df-9b7d-9a7588dd24c7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f74e926-c58e-4814-aa5a-ae17841e046e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d74a93-95e8-44b5-a886-0042dc90a733" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04ce6d64-8802-4ea9-a50c-a0daa09de4b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="789445ec-60bf-492e-9d02-f26e0e9f9da1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b4f77d0b-0941-4e71-9cf2-a863adfb09ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21c90a27-015c-4e1f-acd1-28d8cd91ffff" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b3b9c8c-e4d8-4442-9271-5cf28bf8d511" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe4f231-8d20-4d30-9f2f-04c4534a7802" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a97ff32-6264-4a95-b667-9ca1fa128714" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66e9d8b5-c530-4cbf-a845-1e72352d340f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7d4cc96-ff17-42f6-a6c2-1d8e90988dff" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ac583fc-0e76-441d-8252-3871f9a12c16" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e80eabb-7f99-41f9-a9d4-65cb83af922b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612ba1ed-1734-4d93-a56c-39e076508cb4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e5d796e-25f8-4215-9c69-40f7a81913d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7fff5017-079c-4d18-8927-f8225b885355" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba637603-d7d0-4beb-bcb6-a28dae67160c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb13234c-5259-4fe8-b001-99eb9c309019" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15ffc45f-7b2d-4cd9-8ab1-b33146b503c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3916b9d-78d2-4c80-8e71-78ad889491d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6750059-eb21-4dc2-9fc9-4455895f6b7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb1f4898-a9b2-4597-b256-4dee295ad3d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5e6e369-ee57-4214-9d09-466ee44636df" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ec397d1-ba50-4f9f-8c36-03676440277e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="de5e63de-f5fe-4119-a1b7-9de8fe860f1b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a463ad4-e747-4acd-9657-6eeecce22c12" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="08893268-a5ab-4e26-a7dc-70a069f484f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04db9234-d6c0-41df-9fc6-e718108ba2fa" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45006fc6-9019-4b1b-9bf6-14ba960a0532" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4057d46b-816e-4e95-8308-61993663f0a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="065b95bf-9fa6-413e-a304-25a71f06daf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f36f17d9-0461-4e95-b46d-14cf1ab5e1d7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a12252b2-4a4d-4d96-abbc-a35737ec4375" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e86affb-a924-4ef1-a7ba-d43a339e708e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f8ca861-d6ec-432a-871e-796bca9513e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37b886cc-18e1-4740-81f9-e22b31030907" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f2602e5e-1c04-4254-8904-8e663e00e6f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a09f1fc8-fc91-4d09-8a17-f4df0b939ec2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76ae9520-1ccc-47a5-9f80-206fbf533acd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e21b7f91-8430-4105-aca8-94d570b73240" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30b02440-792f-4bfb-89d5-24faf0a5ff97" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Male_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9135d589-8efc-4306-b3b4-ece27862971b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09287ced-1dbe-4271-bf23-92273d2afa02" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Female_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="714625bf-ecb6-443f-94c8-d8f239bc2d55" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98e21c7f-e85a-44dc-9de3-e54cf86dca46" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="209a3401-7719-4630-8dae-a9b6aff519eb" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male_4;Shout_DisguiseSelf_Tiefling_Female_4;Shout_DisguiseSelf_Drow_Male_4;Shout_DisguiseSelf_Drow_Female_4;Shout_DisguiseSelf_Human_Male_4;Shout_DisguiseSelf_Human_Female_4;Shout_DisguiseSelf_Githyanki_Male_4;Shout_DisguiseSelf_Githyanki_Female_4;Shout_DisguiseSelf_Dwarf_Male_4;Shout_DisguiseSelf_Dwarf_Female_4;Shout_DisguiseSelf_Elf_Male_4;Shout_DisguiseSelf_Elf_Female_4;Shout_DisguiseSelf_HalfElf_Male_4;Shout_DisguiseSelf_HalfElf_Female_4;Shout_DisguiseSelf_Halfling_Male_4;Shout_DisguiseSelf_Halfling_Female_4;Shout_DisguiseSelf_Dragonborn_Male_4;Shout_DisguiseSelf_Dragonborn_Female_4;Shout_DisguiseSelf_HalfOrc_Male_4;Shout_DisguiseSelf_HalfOrc_Female_4;Shout_DisguiseSelf_Gnome_Male_4;Shout_DisguiseSelf_Gnome_Female_4;Shout_DisguiseSelf_Human_Strong_Male_4;Shout_DisguiseSelf_Human_Strong_Female_4;Shout_DisguiseSelf_Drow_Strong_Male_4;Shout_DisguiseSelf_Drow_Strong_Female_4;Shout_DisguiseSelf_Elf_Strong_Male_4;Shout_DisguiseSelf_Elf_Strong_Female_4;Shout_DisguiseSelf_HalfElf_Strong_Male_4;Shout_DisguiseSelf_HalfElf_Strong_Female_4;Shout_DisguiseSelf_Tiefling_Strong_Male_4;Shout_DisguiseSelf_Tiefling_Strong_Female_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0a256ce-0d1d-497b-9564-a52ac9eb9766" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da555f2d-2686-4d66-9404-924e8d3fa282" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c60e77f-4a82-4dae-96a5-b0d46a5bb548" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36b72194-d181-416d-bcf3-505e38c22e57" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45053bec-ebbd-452d-8763-1d49e154c11a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef603e5d-e0a1-42b9-98d5-3e59d79d5c41" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0190955e-1877-43fd-814e-ec126bb11db1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0550494-2c6f-4e46-aa9f-d12823059c1f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5987261c-a9e4-4fe8-b850-ef41fc47d0c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05067caa-91ba-44ab-8345-6084ef702c0e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55db4369-1f45-48f5-9898-d3f0c6ada51d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7664f598-a04a-4895-b950-2c29096eff8d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="311a4d8b-8ef9-4371-9c5d-2686a4a029cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ad821dc-1ef8-4cac-93c5-1b37d6dbd2d8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06f5a7f0-1051-469b-ad47-d710877d39d2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d49ac60-bb8d-4299-b145-f3990196fce5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aba1a7d6-2fd8-4312-b687-8648ffbd551f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4de9543b-c329-4d59-9162-315b84aa2918" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e06a2e2c-31d0-471d-8cec-2d6eb2127776" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c4a5d34-93df-40df-9b7d-9a7588dd24c7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51cb4ae0-d73a-4c07-a844-0e2639886a5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d74a93-95e8-44b5-a886-0042dc90a733" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c65df4ea-d40c-42af-82f8-de02c8a0f557" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="789445ec-60bf-492e-9d02-f26e0e9f9da1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b983e553-63e1-46c8-8e55-d41e169e86ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21c90a27-015c-4e1f-acd1-28d8cd91ffff" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06abebf1-f534-468d-ba35-cd69d303757f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe4f231-8d20-4d30-9f2f-04c4534a7802" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="222fdf11-a52b-48c8-ba91-840f6512aea0" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66e9d8b5-c530-4cbf-a845-1e72352d340f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="128dadc1-81b4-4d08-8ea7-cb80ee825e7e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ac583fc-0e76-441d-8252-3871f9a12c16" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="761d8023-a038-4721-aea7-528a94823317" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612ba1ed-1734-4d93-a56c-39e076508cb4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bce47ad5-a150-4e20-b945-18f0dc1ea0fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7fff5017-079c-4d18-8927-f8225b885355" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a540948e-7b5a-4994-ba9e-c1d778d0982b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb13234c-5259-4fe8-b001-99eb9c309019" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c42daeef-6cae-47d2-b70a-52c81b70b5b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3916b9d-78d2-4c80-8e71-78ad889491d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ade53622-2508-4e47-a409-6b6531d8924e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb1f4898-a9b2-4597-b256-4dee295ad3d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9432edc8-ff33-44ef-a62a-d22a51da826d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ec397d1-ba50-4f9f-8c36-03676440277e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d204b237-6f1c-4634-b97f-5070a5862e5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a463ad4-e747-4acd-9657-6eeecce22c12" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16405bec-2240-4cf8-b497-cb8e4c346fcb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04db9234-d6c0-41df-9fc6-e718108ba2fa" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46784e2e-8696-43ad-99ee-e6292add3c7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4057d46b-816e-4e95-8308-61993663f0a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="654bc3bb-9479-4acc-baf3-6efd7c4e83f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f36f17d9-0461-4e95-b46d-14cf1ab5e1d7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9a34e80-1ec0-471d-8bc7-03ff9eecda19" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e86affb-a924-4ef1-a7ba-d43a339e708e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="861d0cf7-7a8e-49ad-bcb0-e56b3f33753c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37b886cc-18e1-4740-81f9-e22b31030907" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea4cedd7-29d2-4d44-bbae-0febf80cd4e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a09f1fc8-fc91-4d09-8a17-f4df0b939ec2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b95f35f7-0fa5-4528-945e-05c3c3840fa6" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e21b7f91-8430-4105-aca8-94d570b73240" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b1deab8-d78d-493b-9102-9fa90faac71f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Male_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9135d589-8efc-4306-b3b4-ece27862971b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdada780-ce2f-4fcd-a8fe-053966c2c4c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Female_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="714625bf-ecb6-443f-94c8-d8f239bc2d55" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a894593e-b44b-4a44-b77e-c513fcdd28dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="209a3401-7719-4630-8dae-a9b6aff519eb" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male_5;Shout_DisguiseSelf_Tiefling_Female_5;Shout_DisguiseSelf_Drow_Male_5;Shout_DisguiseSelf_Drow_Female_5;Shout_DisguiseSelf_Human_Male_5;Shout_DisguiseSelf_Human_Female_5;Shout_DisguiseSelf_Githyanki_Male_5;Shout_DisguiseSelf_Githyanki_Female_5;Shout_DisguiseSelf_Dwarf_Male_5;Shout_DisguiseSelf_Dwarf_Female_5;Shout_DisguiseSelf_Elf_Male_5;Shout_DisguiseSelf_Elf_Female_5;Shout_DisguiseSelf_HalfElf_Male_5;Shout_DisguiseSelf_HalfElf_Female_5;Shout_DisguiseSelf_Halfling_Male_5;Shout_DisguiseSelf_Halfling_Female_5;Shout_DisguiseSelf_Dragonborn_Male_5;Shout_DisguiseSelf_Dragonborn_Female_5;Shout_DisguiseSelf_HalfOrc_Male_5;Shout_DisguiseSelf_HalfOrc_Female_5;Shout_DisguiseSelf_Gnome_Male_5;Shout_DisguiseSelf_Gnome_Female_5;Shout_DisguiseSelf_Human_Strong_Male_5;Shout_DisguiseSelf_Human_Strong_Female_5;Shout_DisguiseSelf_Drow_Strong_Male_5;Shout_DisguiseSelf_Drow_Strong_Female_5;Shout_DisguiseSelf_Elf_Strong_Male_5;Shout_DisguiseSelf_Elf_Strong_Female_5;Shout_DisguiseSelf_HalfElf_Strong_Male_5;Shout_DisguiseSelf_HalfElf_Strong_Female_5;Shout_DisguiseSelf_Tiefling_Strong_Male_5;Shout_DisguiseSelf_Tiefling_Strong_Female_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46257f1a-d619-4d1a-b1e9-6fd3b2507858" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da555f2d-2686-4d66-9404-924e8d3fa282" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61376914-eee0-4db3-8ddb-274a0b1af417" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36b72194-d181-416d-bcf3-505e38c22e57" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24042e37-4518-441b-bb1e-ed8a07e2c389" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef603e5d-e0a1-42b9-98d5-3e59d79d5c41" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d5dc76a-8933-42cf-bdc7-028c78334784" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0550494-2c6f-4e46-aa9f-d12823059c1f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="80bb9497-dae9-4f18-9712-14be91c5141c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05067caa-91ba-44ab-8345-6084ef702c0e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68f8cd04-c93e-40c1-ac4c-275a546eac8b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7664f598-a04a-4895-b950-2c29096eff8d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be71c0f3-528f-4e83-8887-8ba3ec164e51" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ad821dc-1ef8-4cac-93c5-1b37d6dbd2d8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f84afa3b-4438-41e5-b40d-26ce2ad33ef8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d49ac60-bb8d-4299-b145-f3990196fce5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31b4d5c2-3b00-47d3-bf19-ddc95e0f6ea8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4de9543b-c329-4d59-9162-315b84aa2918" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41463cc1-785c-49e7-8d73-08c5156e5425" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c4a5d34-93df-40df-9b7d-9a7588dd24c7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="336054b2-d3a3-47ba-b488-8363c034633c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d74a93-95e8-44b5-a886-0042dc90a733" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="469b2e1a-a7c5-47b5-8685-a3180a24c24b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="789445ec-60bf-492e-9d02-f26e0e9f9da1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8643b018-3d27-4548-9aec-f923e3b07f45" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21c90a27-015c-4e1f-acd1-28d8cd91ffff" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc3dd781-ca40-4d50-b018-7fafa2f363b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe4f231-8d20-4d30-9f2f-04c4534a7802" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c2bebf3-fa97-4402-9d5a-9892363a8df1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66e9d8b5-c530-4cbf-a845-1e72352d340f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a83b86f-b660-4984-bf92-acd937c9299a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ac583fc-0e76-441d-8252-3871f9a12c16" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f99007d7-71d1-4af1-90ef-05f112601c51" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612ba1ed-1734-4d93-a56c-39e076508cb4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0df05918-cad5-4c37-8baa-b4597a86b403" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7fff5017-079c-4d18-8927-f8225b885355" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="374e5358-6d03-4d02-b21d-c9b1b1c46b6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb13234c-5259-4fe8-b001-99eb9c309019" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="243e5e2a-944b-4593-bcb9-bad7dd544f08" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3916b9d-78d2-4c80-8e71-78ad889491d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a84511a-b066-4f3b-814d-513a56dc26d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb1f4898-a9b2-4597-b256-4dee295ad3d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad9312b5-5a23-4846-9f27-e5421fd5d34b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ec397d1-ba50-4f9f-8c36-03676440277e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1f2a5a9-457c-440e-a463-8a4ceee65fc1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a463ad4-e747-4acd-9657-6eeecce22c12" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6bed4348-517b-4725-839c-ec497048a15a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04db9234-d6c0-41df-9fc6-e718108ba2fa" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27acbdb5-6b2a-4a59-b0bd-a41b7553a952" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4057d46b-816e-4e95-8308-61993663f0a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e699a9d-ed33-485b-9237-7bd55a0ac71f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f36f17d9-0461-4e95-b46d-14cf1ab5e1d7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d1e270dc-74cf-48f9-aee4-ccf0a67ba8ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e86affb-a924-4ef1-a7ba-d43a339e708e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="002d3ec5-ade0-40d7-afae-ef3fe7b78dab" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37b886cc-18e1-4740-81f9-e22b31030907" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d457423d-2a39-4a22-a07d-b4fddac7e0b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a09f1fc8-fc91-4d09-8a17-f4df0b939ec2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82d1cee1-c98e-458d-9a84-46fdfaf326c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e21b7f91-8430-4105-aca8-94d570b73240" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af5a922b-d4fc-4a29-84ae-5a22f1a292be" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Male_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9135d589-8efc-4306-b3b4-ece27862971b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6727579-9c53-4047-add7-f344c8556d0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Female_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="714625bf-ecb6-443f-94c8-d8f239bc2d55" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0528d299-3d72-40df-a830-fa1456879b44" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="209a3401-7719-4630-8dae-a9b6aff519eb" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male_6;Shout_DisguiseSelf_Tiefling_Female_6;Shout_DisguiseSelf_Drow_Male_6;Shout_DisguiseSelf_Drow_Female_6;Shout_DisguiseSelf_Human_Male_6;Shout_DisguiseSelf_Human_Female_6;Shout_DisguiseSelf_Githyanki_Male_6;Shout_DisguiseSelf_Githyanki_Female_6;Shout_DisguiseSelf_Dwarf_Male_6;Shout_DisguiseSelf_Dwarf_Female_6;Shout_DisguiseSelf_Elf_Male_6;Shout_DisguiseSelf_Elf_Female_6;Shout_DisguiseSelf_HalfElf_Male_6;Shout_DisguiseSelf_HalfElf_Female_6;Shout_DisguiseSelf_Halfling_Male_6;Shout_DisguiseSelf_Halfling_Female_6;Shout_DisguiseSelf_Dragonborn_Male_6;Shout_DisguiseSelf_Dragonborn_Female_6;Shout_DisguiseSelf_HalfOrc_Male_6;Shout_DisguiseSelf_HalfOrc_Female_6;Shout_DisguiseSelf_Gnome_Male_6;Shout_DisguiseSelf_Gnome_Female_6;Shout_DisguiseSelf_Human_Strong_Male_6;Shout_DisguiseSelf_Human_Strong_Female_6;Shout_DisguiseSelf_Drow_Strong_Male_6;Shout_DisguiseSelf_Drow_Strong_Female_6;Shout_DisguiseSelf_Elf_Strong_Male_6;Shout_DisguiseSelf_Elf_Strong_Female_6;Shout_DisguiseSelf_HalfElf_Strong_Male_6;Shout_DisguiseSelf_HalfElf_Strong_Female_6;Shout_DisguiseSelf_Tiefling_Strong_Male_6;Shout_DisguiseSelf_Tiefling_Strong_Female_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5b46b27-0c92-476f-b363-e256690e79e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="da555f2d-2686-4d66-9404-924e8d3fa282" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e170b8a2-f30d-4856-bd48-bf1fbb44dc94" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36b72194-d181-416d-bcf3-505e38c22e57" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b50c5b77-5004-40da-9ae2-fcf181c5dcaa" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ef603e5d-e0a1-42b9-98d5-3e59d79d5c41" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b5dc17d-030e-47f1-8c7a-5a1028281f2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0550494-2c6f-4e46-aa9f-d12823059c1f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5bbe01b9-0127-47a1-94ce-52fa8b4f8b2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="05067caa-91ba-44ab-8345-6084ef702c0e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d652e8eb-5910-47af-9e8d-a6f6a5b53485" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7664f598-a04a-4895-b950-2c29096eff8d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88219110-3985-432e-90f1-898c39dc739a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ad821dc-1ef8-4cac-93c5-1b37d6dbd2d8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e0d1b37a-98ca-4dfb-9aa1-f65d64f7eb67" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Githyanki_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d49ac60-bb8d-4299-b145-f3990196fce5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Githyanki_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dba2bb96-94f8-48ff-a209-7f24ec778faa" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4de9543b-c329-4d59-9162-315b84aa2918" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71d0503c-59f2-43b8-bea8-2a60c032c7e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dwarf_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8c4a5d34-93df-40df-9b7d-9a7588dd24c7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dwarf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30c9e24d-a56f-485f-ae02-5a30e7be938a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="20d74a93-95e8-44b5-a886-0042dc90a733" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7aef3831-b291-4dbd-9b02-e3a096b88eb1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="789445ec-60bf-492e-9d02-f26e0e9f9da1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d9b2184c-945b-4009-8707-3e215dd96358" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21c90a27-015c-4e1f-acd1-28d8cd91ffff" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f094694-c8fd-4025-a0a3-35263f240b0f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe4f231-8d20-4d30-9f2f-04c4534a7802" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="91732267-80f0-43ff-b476-5b57251c8fff" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66e9d8b5-c530-4cbf-a845-1e72352d340f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a93aed7-e928-4a4b-94f0-ae68fb2c8764" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Halfling_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ac583fc-0e76-441d-8252-3871f9a12c16" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Halfling_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f8ec16e7-7762-4535-b523-ed0fc5e1e846" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612ba1ed-1734-4d93-a56c-39e076508cb4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="478dd13e-d2da-40a4-8ad7-474c99bd0eb1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Dragonborn_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7fff5017-079c-4d18-8927-f8225b885355" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Dragonborn_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="27714dcf-17b0-4488-a831-9495a2c7e7f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb13234c-5259-4fe8-b001-99eb9c309019" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40157d98-cb56-4d1e-a1b1-709aa18793e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfOrc_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b3916b9d-78d2-4c80-8e71-78ad889491d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfOrc_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c287e60d-b542-4a20-8a85-9df7df05ff63" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb1f4898-a9b2-4597-b256-4dee295ad3d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e306f3ef-2118-4ff4-bfef-84261f64dabd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Gnome_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ec397d1-ba50-4f9f-8c36-03676440277e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Gnome_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5551e3db-782f-4589-819c-f27c5588782b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a463ad4-e747-4acd-9657-6eeecce22c12" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1671756a-b633-460f-ae6f-ed121a539854" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Human_Strong_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="04db9234-d6c0-41df-9fc6-e718108ba2fa" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Human_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="307b1a10-385e-4c29-ada1-5f4ac11fb702" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4057d46b-816e-4e95-8308-61993663f0a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db9e55bd-e349-4ed9-98f2-2c34c70db414" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Drow_Strong_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f36f17d9-0461-4e95-b46d-14cf1ab5e1d7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Drow_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c4954d99-510b-496d-8bdc-6733a3081960" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e86affb-a924-4ef1-a7ba-d43a339e708e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="333fd02d-1be6-4be2-a5cb-15d146a5f6f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Elf_Strong_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37b886cc-18e1-4740-81f9-e22b31030907" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Elf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec9b395d-5fe6-43eb-9055-e750088b3e5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a09f1fc8-fc91-4d09-8a17-f4df0b939ec2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0f194936-36e4-4d32-bb37-49af6b5c7489" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_HalfElf_Strong_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e21b7f91-8430-4105-aca8-94d570b73240" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_HalfElf_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8f2068dd-abb8-4580-9a09-6fc5cbfc942f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Male_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9135d589-8efc-4306-b3b4-ece27862971b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Male" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="effe6430-33d1-44f3-9bb7-84ea97cdcf35" />
+        <field name="Name" type="NameTableFieldDefinition" value="DisguiseSelf_Tiefling_Strong_Female_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="714625bf-ecb6-443f-94c8-d8f239bc2d55" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_DisguiseSelf_Tiefling_Strong_Female" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2c98a39c-a044-41c5-adf6-22d816ba7b18" />
         <field name="Name" type="NameTableFieldDefinition" value="ShadowBlade_Class" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="73051268-f0b9-4cb4-bac0-f7aed9958e24" />

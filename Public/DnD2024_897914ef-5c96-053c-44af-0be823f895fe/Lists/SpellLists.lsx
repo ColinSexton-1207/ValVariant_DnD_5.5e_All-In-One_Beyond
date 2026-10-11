@@ -1996,7 +1996,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Ritual Caster Feat"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DisguiseSelf;Shout_FeatherFall_Ritual;Target_FindFamiliar;Target_Jump_Ritual;Target_Longstrider_Ritual;Shout_SpeakWithAnimals;Target_PhantomSteed;Target_SpeakWithDead"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FeatherFall_Ritual;Target_FindFamiliar;Target_Jump_Ritual;Target_Longstrider_Ritual;Shout_SpeakWithAnimals;Target_PhantomSteed;Target_SpeakWithDead"/>
                     <attribute id="UUID" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"/>
                 </node>
                 <node id="SpellList">
