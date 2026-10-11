@@ -2425,7 +2425,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf652a768gef39g78fdg661dg8ddbb887d3f3" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h748a060egc16cg7d82gf97eg22830dd0c9f1" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3103" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) and not SpellId('Target_AuraOfVitality_Activate');" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6558,7 +6558,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) and not SpellId('Target_AuraOfVitality_Activate');" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(2+SpellPowerLevel); ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)" />
       </fields>
     </stat_object>
@@ -12615,7 +12615,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65c236c4gca30g9d80g8ce9geda1067e572a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c04874bg78bdgf61ag7978g3898f2f266ca" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) or SpellId('Target_AuraOfVitality_Activate');" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HealDoneGreaterThan(0) and (IsSpell() or IsCantrip()) and not SpellId('Target_AuraOfVitality_Activate');" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d4);ApplyStatus(PASSIVE_DISCIPLE_OF_LIFE,100,0)" />
       </fields>
     </stat_object>

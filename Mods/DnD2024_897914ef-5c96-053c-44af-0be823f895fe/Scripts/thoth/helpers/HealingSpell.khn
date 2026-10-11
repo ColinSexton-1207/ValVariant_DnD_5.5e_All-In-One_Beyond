@@ -95,7 +95,6 @@ function IsHeallingSpell()
     | SpellId('Shout_HealingWord_Mass_4')
     | SpellId('Shout_HealingWord_Mass_5')
     | SpellId('Shout_HealingWord_Mass_6')
-    | SpellId('Target_AuraOfVitality_Activate')
     | SpellId('Target_CureWounds_Mass')
     | SpellId('Target_CureWounds_Mass_6')
 end
