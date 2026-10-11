@@ -7985,7 +7985,7 @@
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice06,1,0);ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(ArcaneRecoveryPoint,1,0)" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="UnlockedSpellSlotLevel2" />
-        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="e6a0eb75-7a01-4f40-8563-24ba2615e99b;8047cf29-2c79-4f12-a4bf-d965a023be63;7a3feb8d-dda7-46ec-9029-1f302f537432;7577b0e1-a517-4f82-8f72-05a227dc5e88;46d31950-6917-444e-ac87-706702825215;c059dca1-c17d-4dce-8260-83ede5070eac;436c9e1a-3a39-48dd-b753-7cee1bd19c00;fbb8347b-20e3-4846-ba91-0552cd12fc5f;a12f2924-30b4-4185-9db9-2c5b383ff449" />
+        <field name="SubClasses" type="GuidObjectListTableFieldDefinition" value="e6a0eb75-7a01-4f40-8563-24ba2615e99b;8047cf29-2c79-4f12-a4bf-d965a023be63;7a3feb8d-dda7-46ec-9029-1f302f537432;7577b0e1-a517-4f82-8f72-05a227dc5e88;46d31950-6917-444e-ac87-706702825215;c059dca1-c17d-4dce-8260-83ede5070eac;436c9e1a-3a39-48dd-b753-7cee1bd19c00;fbb8347b-20e3-4846-ba91-0552cd12fc5f;1afe7574-c6e2-4f11-83e0-146e81685efb;a12f2924-30b4-4185-9db9-2c5b383ff449" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,2,0)" />
       </fields>
     </stat_object>
@@ -9169,6 +9169,88 @@
         <field name="FSName" type="StringTableFieldDefinition" value="TransmutationSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="12" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1052" />
+        <field name="UUID" type="IdTableFieldDefinition" value="234566b5-9ed6-43d5-b48c-5f3cf594db02" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+        <field name="Level" type="ByteTableFieldDefinition" value="3" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1053" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3616323d-7c63-4cf3-be33-1f096fbeabda" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1054" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dedc8fff-5ecd-4348-9b9c-2d7af6d13530" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1055" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6f5bd422-9886-442c-bc57-734a40fad7f3" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1056" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ff563e2b-029c-4733-90e4-edd8e8f0093a" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1057" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f13300fd-a301-41cc-b9a8-2fc3551a2f68" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1058" />
+        <field name="UUID" type="IdTableFieldDefinition" value="67757b93-726c-4259-813b-e88f95cfae2b" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1059" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d5135dfb-0dd6-49e9-a9eb-241d73c49559" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1060" />
+        <field name="UUID" type="IdTableFieldDefinition" value="92ec03ac-5f88-43f4-855b-563df7bcd6df" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1061" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8b39d11c-d839-46ef-8eaf-5996c58c6edf" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="bd5f7880-233d-4ce5-8833-636988444183" />
+        <field name="FSName" type="StringTableFieldDefinition" value="Sangromancer" />
       </fields>
     </stat_object>
     <stat_object color="#FF1E90FF" is_substat="false">

@@ -7176,4 +7176,6 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h2101cc35g2017g44cdga70cgc9822cd02f0c" version="1">You can detonate your Sanguine Poppet as an action.</content>
   <content contentuid="h2cd25251gc04bg4e3bgb4fag7e7950a5d44d" version="1">Death Burst</content>
   <content contentuid="h443ad59cg702cg4cabg9809g2e7b97cd061d" version="1">The poppet explodes in a burst of blood. Each creature within [1] makes a Dexterity saving throw, taking Necrotic damage equal to a roll of the expended Hit Point Dice on a failed save, or half as much on a successful one.</content>
+  <content contentuid="hcfa2facdg4c3cg1021gfd3eg30a73f3d1d9e" version="1">Sangromancer</content>
+  <content contentuid="hf1b92570g558cg1b80gf616g89d6dc285ccb" version="1">You study an uncommon school of magic known as Sangromancy or blood magic. Despite its dark reputation, there's nothing inherently evil about the practice of Sangromancy, though its demands on its practitioners are gruesome. As a Sangromancer, your chosen magic demands more than knowledge: it demands sacrifice. Other Wizards may view you with skepticism or even outright hostility, but none can deny the potency of your art.</content>
 </contentList>
