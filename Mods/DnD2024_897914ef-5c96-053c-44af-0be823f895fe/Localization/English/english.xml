@@ -7186,4 +7186,9 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="hf48c417bg098bg42c4g858dg2120c442716f" version="1">Once on each of your turns when you deal damage to a creature with a Wizard spell you cast, you can spend a Hit Point Die, roll the die, and deal extra Necrotic damage equal to the roll.&lt;br&gt;&lt;br&gt;If the creature is Bloodied, you roll twice and use the higher of the two rolls.</content>
   <content contentuid="h1cad49afg33e7g49a2g8792g1583fabf032c" version="1">Spend a Hit Point Die to deal an additional [1]. If the target is Bloodied, roll twice and use the higher roll.</content>
   <content contentuid="h50492efbg3372g4d9cga349gb10c1f1b3fb9" version="1">Level 10: Blood for Blood</content>
+  <content contentuid="h22721711g54beg4cf3g93bbga6817edfe307" version="1">Serpent Tongue</content>
+  <content contentuid="h65a38a9dg7a9dg4a14ga426gfeb902404367" version="1">You transform your tongue into a poisonous serpent for the duration. As a Bonus Action, you can make a melee spell attack against a creature within [1] of you. On a hit, the target takes [2] and is &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; for the duration of the spell.</content>
+  <content contentuid="h0eba67adgea0eg4691g8eaagd57f6d19cb80" version="1">Serpent Tongue: Bite</content>
+  <content contentuid="h9a049fd5g902cg4becga52ag17de90497595" version="1">Make a melee spell attack against a creature within [1] of you. On a hit, the target takes [2] and is &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; for the duration of the spell.</content>
+  <content contentuid="h5e3d4271g514eg4c5dgbdb8g5a3f337d17de" version="1">Scroll of Serpent Tongue</content>
 </contentList>

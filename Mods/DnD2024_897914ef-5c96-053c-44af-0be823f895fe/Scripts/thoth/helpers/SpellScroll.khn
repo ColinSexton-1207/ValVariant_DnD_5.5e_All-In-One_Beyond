@@ -177,6 +177,7 @@ local SPELL_CLASS_MAP = {
     Shout_MassHealingWord_spellscroll = '3 Bard Cleric',
     Target_PlantGrowth_spellscroll = '3 Bard Druid Ranger',
     Shout_SpiritGuardians_spellscroll = '3 Cleric',
+    Shout_SerpentTongue_spellscroll = '3 Warlock Wizard',
 
     Target_ArcaneEye_spellscroll = '4 Artificer Wizard',
     Target_Banishment_spellscroll = '4 Cleric Paladin Sorcerer Warlock Wizard',
@@ -675,4 +676,5 @@ function IsScrollSpell()
     | SpellId('Target_SummonElemental_spellscroll')
     | SpellId('Shout_EarthTremor_spellscroll')
     | SpellId('Target_StaggeringSmite_spellscroll')
+    | SpellId('Shout_SerpentTongue_spellscroll')
 end

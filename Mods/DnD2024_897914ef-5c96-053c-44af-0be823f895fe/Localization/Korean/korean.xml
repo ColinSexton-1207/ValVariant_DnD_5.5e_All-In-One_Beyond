@@ -7186,4 +7186,9 @@
   <content contentuid="hf48c417bg098bg42c4g858dg2120c442716f" version="1">자신의 턴마다 한 번, 직접 시전한 위저드 주문으로 크리처에게 피해를 줄 때 생명력 주사위 1개를 소모해 굴리고, 굴린 값만큼 추가 사령 피해를 줄 수 있습니다.&lt;br&gt;&lt;br&gt;그 크리처가 피투성이 상태라면 두 번 굴려 더 높은 값을 사용합니다.</content>
   <content contentuid="h1cad49afg33e7g49a2g8792g1583fabf032c" version="1">생명력 주사위 1개를 소모해 [1]를 추가로 줍니다. 대상이 피투성이 상태라면 두 번 굴려 더 높은 값을 사용합니다.</content>
   <content contentuid="h50492efbg3372g4d9cga349gb10c1f1b3fb9" version="1">10레벨: 피에는 피</content>
+  <content contentuid="h22721711g54beg4cf3g93bbga6817edfe307" version="1">독사의 혀</content>
+  <content contentuid="h65a38a9dg7a9dg4a14ga426gfeb902404367" version="1">지속시간 동안 자신의 혀를 독사로 변환합니다. 보조 행동으로 자신으로부터 [1] 이내의 크리처 하나에게 근접 주문 공격을 가할 수 있습니다. 명중하면, 목표는 [2]를 입고 주문 지속시간 동안 &lt;LSTag Type="Status" Tooltip="POISONED"&gt;중독&lt;/LSTag&gt; 상태가 됩니다.</content>
+  <content contentuid="h0eba67adgea0eg4691g8eaagd57f6d19cb80" version="1">독사의 혀: 물기</content>
+  <content contentuid="h9a049fd5g902cg4becga52ag17de90497595" version="1">자신으로부터 [1] 이내의 크리처 하나에게 근접 주문 공격을 가합니다. 명중하면, 목표는 [2]를 입고 주문 지속시간 동안 &lt;LSTag Type="Status" Tooltip="POISONED"&gt;중독&lt;/LSTag&gt; 상태가 됩니다.</content>
+  <content contentuid="h5e3d4271g514eg4c5dgbdb8g5a3f337d17de" version="1">독사의 혀 두루마리</content>
 </contentList>

@@ -15174,6 +15174,46 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73a4e978-d9c0-4888-9e8b-e584c4b17ff5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SERPENT_TONGUE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22721711g54beg4cf3g93bbga6817edfe307" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h65a38a9dg7a9dg4a14ga426gfeb902404367" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(1d12,Piercing)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SerpentTongue" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SERPENT_TONGUE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SerpentTongue_Bite);" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66a4cff0-f323-45df-9a12-e2549f864f5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SERPENT_TONGUE_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73a4e978-d9c0-4888-9e8b-e584c4b17ff5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(2d12,Piercing)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SerpentTongue_Bite_4);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1c851179-7b29-4469-ad4e-614b066e0a5f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SERPENT_TONGUE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73a4e978-d9c0-4888-9e8b-e584c4b17ff5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(3d12,Piercing)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SerpentTongue_Bite_5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e6c3912-a6fc-48bb-84fc-fb20ed2b72f2" />
+        <field name="Name" type="NameTableFieldDefinition" value="SERPENT_TONGUE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="73a4e978-d9c0-4888-9e8b-e584c4b17ff5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(4d12,Piercing)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SerpentTongue_Bite_6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="56f04b63-f77b-42be-827b-e2e3b6c40df2" />
         <field name="Name" type="NameTableFieldDefinition" value="ASHARDALONS_STRIDE_BURN" />
         <field name="StackId" type="StringTableFieldDefinition" value="ASHARDALONS_STRIDE_BURN" />

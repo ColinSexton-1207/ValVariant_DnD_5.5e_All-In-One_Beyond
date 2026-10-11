@@ -2964,6 +2964,81 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5decc9e2-5f42-4943-8cdd-b536a7443301" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Transmutation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SerpentTongue" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22721711g54beg4cf3g93bbga6817edfe307" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h65a38a9dg7a9dg4a14ga426gfeb902404367" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(1d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d12,Piercing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE,100,10)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d12,Piercing)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_DisguiseSelf_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_DisguiseSelf_L1to3" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_PolymorphGeneric" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;bcc3b0d9-f04f-4448-aab0-e0ad641167cc,,;bf924cc6-8b39-4c3b-b1c0-eda264cf6150,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9e7ec23c-4b13-4a88-b3d6-1df1782e4359" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="c33c578f-fc5c-4a9d-a961-78b7bfff73d7" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="ebcd0860-3695-4762-b9f5-4e441c4bf888" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba7c6183-546c-40b2-a345-a752f0b45eee" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5decc9e2-5f42-4943-8cdd-b536a7443301" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE_4,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(2d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d12,Piercing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE_4,100,10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SerpentTongue" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3fc435ae-80c5-4de7-a96e-176b434436a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5decc9e2-5f42-4943-8cdd-b536a7443301" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE_5,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(3d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d12,Piercing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE_5,100,10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SerpentTongue" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="278e6d14-1a86-4d03-9b27-dfefe2b03c89" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5decc9e2-5f42-4943-8cdd-b536a7443301" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE_6,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(4d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12,Piercing)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SERPENT_TONGUE_6,100,10)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_SerpentTongue" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7805624f-5112-4063-a48a-cd82b9620076" />
@@ -10441,6 +10516,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f1f046ba-2158-4992-96cc-c33cdabc96b7" />
         <field name="Name" type="NameTableFieldDefinition" value="AshardalonsStride_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa320ee8-c8bb-4949-bd0e-2c0258c5297d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="caac7f74-5d4b-48f8-82b9-614c565fe5ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5decc9e2-5f42-4943-8cdd-b536a7443301" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>

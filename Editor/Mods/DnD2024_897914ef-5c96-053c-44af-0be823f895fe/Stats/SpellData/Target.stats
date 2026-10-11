@@ -11217,6 +11217,69 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d16a9351-c7e6-4dd3-8113-0eba00e74219" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_Bite" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d12,Piercing,Magical);ApplyStatus(POISONED,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Character()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_SerpentTongue" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0eba67adgea0eg4691g8eaagd57f6d19cb80" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9a049fd5g902cg4becga52ag17de90497595" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(1d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d12,Piercing)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,10)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_VampireBite" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_VampireBite" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f13da615-33ae-412e-8314-4ac4fc560dbf,,;0b0775f0-96b0-4f8e-994d-5bfbae3ec0f0,,;01fe9641-f630-4ed2-8035-1186dc7a5803,,;e6643712-8521-4c83-b518-1a10d61da4ef,,;f28943e2-f5e6-4133-80ef-8c7c4f628920,,;1c693368-c595-46bd-b8c5-e406f9486ef8,,;a6ff21b9-291e-44c8-bf87-8de3703c5e97,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;CannotTargetTerrain;CannotTargetItems;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="PhysicalDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7fb582d5-8a10-4e14-99c6-cf3856ed81a4" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="beb643ec-4b17-4618-951a-e98230f757b6" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e415a119-48eb-407e-9e3a-d48266a3b902" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b906dfde-ade8-40e7-ba07-7c3c79f7c739" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_Bite_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d16a9351-c7e6-4dd3-8113-0eba00e74219" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d12,Piercing,Magical);ApplyStatus(POISONED,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(2d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d12,Piercing)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bde77fbc-9ef0-4d0e-82a5-da325b676b0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_Bite_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d16a9351-c7e6-4dd3-8113-0eba00e74219" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d12,Piercing,Magical);ApplyStatus(POISONED,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(3d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d12,Piercing)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1a5a970-176e-4270-aa22-1bdf84fe5046" />
+        <field name="Name" type="NameTableFieldDefinition" value="SerpentTongue_Bite_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d16a9351-c7e6-4dd3-8113-0eba00e74219" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12,Piercing,Magical);ApplyStatus(POISONED,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(4d12,Piercing)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12,Piercing)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8ce1f06a-ded3-446d-8801-2ca34a5130b9" />
