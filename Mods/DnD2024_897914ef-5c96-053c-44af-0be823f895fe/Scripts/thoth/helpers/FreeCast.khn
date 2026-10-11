@@ -1,0 +1,130 @@
+function FreeCastChromaticOrb()
+    return SpellId('Projectile_ChromaticOrb_Acid')
+    | SpellId('Projectile_ChromaticOrb_Cold')
+    | SpellId('Projectile_ChromaticOrb_Fire')
+    | SpellId('Projectile_ChromaticOrb_Lightning')
+    | SpellId('Projectile_ChromaticOrb_Poison')
+    | SpellId('Projectile_ChromaticOrb_Thunder')
+end
+
+function FreeCastCommand()
+    return SpellId('Target_Command_Halt')
+    | SpellId('Target_Command_Approach')
+    | SpellId('Target_Command_Drop')
+    | SpellId('Target_Command_Flee')
+    | SpellId('Target_Command_Grovel')
+end
+
+function FreeCastFindFamiliar()
+    return SpellId('Target_FindFamiliar_Cat')
+    | SpellId('Target_FindFamiliar_Crab')
+    | SpellId('Target_FindFamiliar_Frog')
+    | SpellId('Target_FindFamiliar_Rat')
+    | SpellId('Target_FindFamiliar_Raven')
+    | SpellId('Target_FindFamiliar_Spider')
+end
+
+function FreeCastBloodbaneRune()
+    return SpellId('Target_BloodbaneRune6')
+    | SpellId('Target_BloodbaneRune8')
+    | SpellId('Target_BloodbaneRune10')
+    | SpellId('Target_BloodbaneRune12')
+end
+
+function FreeCastCreateDestroyWater()
+    return SpellId('Target_CreateWater')
+    | SpellId('Target_DestroyWater')
+end
+
+function FreeCastBloodRush()
+    return SpellId('Shout_BloodRush6')
+    | SpellId('Shout_BloodRush8')
+    | SpellId('Shout_BloodRush10')
+    | SpellId('Shout_BloodRush12')
+end
+
+function FreeCastCrimsonLash()
+    return SpellId('Shout_CrimsonLash6')
+    | SpellId('Shout_CrimsonLash8')
+    | SpellId('Shout_CrimsonLash10')
+    | SpellId('Shout_CrimsonLash12')
+end
+
+function FreeCastDisguiseSelf()
+    return SpellId('Shout_DisguiseSelf_Tiefling_Male')
+    | SpellId('Shout_DisguiseSelf_Tiefling_Female')
+    | SpellId('Shout_DisguiseSelf_Drow_Male')
+    | SpellId('Shout_DisguiseSelf_Drow_Female')
+    | SpellId('Shout_DisguiseSelf_Human_Male')
+    | SpellId('Shout_DisguiseSelf_Human_Female')
+    | SpellId('Shout_DisguiseSelf_Githyanki_Male')
+    | SpellId('Shout_DisguiseSelf_Githyanki_Female')
+    | SpellId('Shout_DisguiseSelf_Dwarf_Male')
+    | SpellId('Shout_DisguiseSelf_Dwarf_Female')
+    | SpellId('Shout_DisguiseSelf_Elf_Male')
+    | SpellId('Shout_DisguiseSelf_Elf_Female')
+    | SpellId('Shout_DisguiseSelf_HalfElf_Male')
+    | SpellId('Shout_DisguiseSelf_HalfElf_Female')
+    | SpellId('Shout_DisguiseSelf_Halfling_Male')
+    | SpellId('Shout_DisguiseSelf_Halfling_Female')
+    | SpellId('Shout_DisguiseSelf_Dragonborn_Male')
+    | SpellId('Shout_DisguiseSelf_Dragonborn_Female')
+    | SpellId('Shout_DisguiseSelf_HalfOrc_Male')
+    | SpellId('Shout_DisguiseSelf_HalfOrc_Female')
+    | SpellId('Shout_DisguiseSelf_Gnome_Male')
+    | SpellId('Shout_DisguiseSelf_Gnome_Female')
+    | SpellId('Shout_DisguiseSelf_Human_Strong_Male')
+    | SpellId('Shout_DisguiseSelf_Human_Strong_Female')
+    | SpellId('Shout_DisguiseSelf_Drow_Strong_Male')
+    | SpellId('Shout_DisguiseSelf_Drow_Strong_Female')
+    | SpellId('Shout_DisguiseSelf_Elf_Strong_Male')
+    | SpellId('Shout_DisguiseSelf_Elf_Strong_Female')
+    | SpellId('Shout_DisguiseSelf_HalfElf_Strong_Male')
+    | SpellId('Shout_DisguiseSelf_HalfElf_Strong_Female')
+    | SpellId('Shout_DisguiseSelf_Tiefling_Strong_Male')
+    | SpellId('Shout_DisguiseSelf_Tiefling_Strong_Female')
+end
+
+function FreeCastBoilBlood()
+    return SpellId('Target_BoilBlood6')
+    | SpellId('Target_BoilBlood8')
+    | SpellId('Target_BoilBlood10')
+    | SpellId('Target_BoilBlood12')
+end
+
+function FreeCastConsumption()
+    return SpellId('Target_Consumption6')
+    | SpellId('Target_Consumption8')
+    | SpellId('Target_Consumption10')
+    | SpellId('Target_Consumption12')
+end
+
+function FreeCastShroudBlood()
+    return SpellId('Target_ShroudBlood6')
+    | SpellId('Target_ShroudBlood8')
+    | SpellId('Target_ShroudBlood10')
+    | SpellId('Target_ShroudBlood12')
+end
+
+function FreeCastVibratingHumors()
+    return SpellId('Target_VibratingHumors6')
+    | SpellId('Target_VibratingHumors8')
+    | SpellId('Target_VibratingHumors10')
+    | SpellId('Target_VibratingHumors12')
+end
+
+function FreeCastSomnolence()
+    return SpellId('Target_Somnolence6')
+    | SpellId('Target_Somnolence8')
+    | SpellId('Target_Somnolence10')
+    | SpellId('Target_Somnolence12')
+end
+
+function FreeCastHex()
+    return SpellId('Target_Hex_Strength')
+    | SpellId('Target_Hex_Dexterity')
+    | SpellId('Target_Hex_Constitution')
+    | SpellId('Target_Hex_Intelligence')
+    | SpellId('Target_Hex_Wisdom')
+    | SpellId('Target_Hex_Charisma')
+end
