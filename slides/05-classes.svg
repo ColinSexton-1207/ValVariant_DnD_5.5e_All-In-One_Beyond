@@ -76,7 +76,7 @@
 <text x="662.0" y="406" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Hexblade Patron</text>
 <text x="662.0" y="433" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Undead Patron</text>
 <text x="947.0" y="232" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" fill="url(#goldGrad)">Wizard</text>
-<text x="947.0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9089a8">9 subclasses</text>
+<text x="947.0" y="256" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#9089a8">10 subclasses</text>
 <line x1="941.0" y1="268" x2="1194.0" y2="268" stroke="#4a4370" stroke-width="1"/>
 <text x="947.0" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Abjurer</text>
 <text x="947.0" y="325" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Bladesinger</text>
@@ -86,6 +86,7 @@
 <text x="947.0" y="433" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Evoker</text>
 <text x="947.0" y="460" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Illusionist</text>
 <text x="947.0" y="487" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Necromancer</text>
-<text x="947.0" y="514" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Transmuter</text>
+<text x="947.0" y="514" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Sangromancer</text>
+<text x="947.0" y="541" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#cdc4e0">Transmuter</text>
 
 </svg>
