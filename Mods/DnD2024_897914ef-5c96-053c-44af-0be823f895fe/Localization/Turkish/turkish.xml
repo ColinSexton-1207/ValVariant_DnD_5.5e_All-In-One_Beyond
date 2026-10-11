@@ -809,9 +809,9 @@ Kalıcı olarak kullanmak üzere bir Basit Büyü seçtiğinizde, onu hemen öğ
   <content contentuid="h3522b895gaf8eg23c8ge2a5g19305a3832ce" version="1">Köken Yeteneği: Büyü Çaylağı (Druid)</content>
   <content contentuid="h3be2808fgdf36g2f49g651dgd7072fe1c369" version="1">Büyü Çaylağı (Druid): Basit Büyü</content>
   <content contentuid="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1">Büyü Çaylağı (Büyücü): Basit Büyü</content>
-  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="1">İki Basit Büyü. Rahip, Druid veya Büyücü büyü listelerinden seçtiğiniz iki Basit Büyü öğrenirsiniz. Bu yeteneği seçtiğinizde, bu büyüler için büyü yapma yeteneğiniz olarak Zekâ, Bilgelik veya Karizma'yı seçin.
+  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="2">İki Basit Büyü. Rahip, Druid veya Büyücü büyü listelerinden seçtiğiniz iki Basit Büyü öğrenirsiniz. Bu yeteneği seçtiğinizde, bu büyüler için büyü yapma yeteneğiniz olarak Zekâ, Bilgelik veya Karizma'yı seçin.
 
-1. SeviyeBüyü. Cantrip'leriniz için seçtiğiniz listeden bir adet 1. seviye büyü seçin. Bu büyüyü her zaman hazır tutarsınız ve onu kullanmak için bir adet 1. seviye Büyü Yuvası kazanırsınız.</content>
+1. SeviyeBüyü. Cantrip'leriniz için seçtiğiniz listeden bir adet 1. seviye büyü seçin. Bu büyüyü her zaman hazır tutarsınız. Ayrıca, bu büyüyü Büyü Yuvası harcamadan da kullanabilirsiniz, ancak bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir.</content>
   <content contentuid="hb18213feg1443g46dfg66c8g43152a53cf75" version="3">Basit Büyü öğrenme modu etkindir. Tüm Druid Basit Büyü'leri büyü listenize eklenir.
 
 Kalıcı olarak kullanmak üzere bir Basit Büyü seçtiğinizde, onu hemen öğrenirsiniz — geçerli bir hedef belirlemenize veya büyüyü tamamlamanıza gerek yoktur.
@@ -2103,13 +2103,13 @@ Bu özelliği bir kez kullandığınızda, Kısa Dinlenme veya Uzun Dinlenme tam
   <content contentuid="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1">Can Puanlarınız 0'a düşerse büyü sona erer. Ayrıca, birbirine bağlı yaratıklardan herhangi birine büyü tekrar uygulanırsa da sona erer. Büyü, yalnızca siz ve hedef birbirinize 60 fit mesafedeyken etkisini sürdürür.</content>
   <content contentuid="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1">Can Puanlarınız 0'a düşerse büyü sona erer. Ayrıca, birbirine bağlı yaratıklardan herhangi birine büyü tekrar uygulanırsa da sona erer. Büyü, yalnızca siz ve hedef birbirinize 60 fit mesafedeyken etkisini sürdürür.</content>
   <content contentuid="h90381d36g6a66g678dgc622g940db553e2a2" version="1">Yetenek: Fey Touched</content>
-  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="1">Kehanet veya Büyüleme okulundan 1. seviye bir büyü seçin. Bu büyü ve Misty Step her zaman hazır durumdadır. Ayrıca bir adet 1. seviye büyü yuvası ve bir adet 2. seviye büyü yuvası kazanırsınız.</content>
+  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="2">Kehanet veya Büyüleme okulundan 1. seviye bir büyü seçin. Bu büyü ve Misty Step her zaman hazır durumdadır. Bu büyülerin her birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak o büyüyü bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h373ea885g4542g96b0g1626g9afe46582637" version="1">Yetenek: Gölge Dokunuşu</content>
-  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="1">İllüzyon veya Nekromansi okulundan 1. seviye bir büyü seçin. Bu büyü ile Görünmezlik büyüsünü her zaman hazır tutarsınız. Ayrıca bir adet 1. seviye büyü yuvası ve bir adet 2. seviye büyü yuvası kazanırsınız.</content>
+  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="2">İllüzyon veya Nekromansi okulundan 1. seviye bir büyü seçin. Bu büyü ile Görünmezlik büyüsünü her zaman hazır tutarsınız. Bu büyülerin her birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak o büyüyü bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h3e078741g3071gaa98ga931g651f9cac58d8" version="1">Peri Dokunuşu</content>
-  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="1">Kehanet veya Büyüleme okulundan bir adet 1. seviye büyü seçin. Bu büyü ile Sisli Adım her zaman hazır durumdadır. Ayrıca bir adet 1. seviye büyü yuvası ve bir adet 2. seviye büyü yuvası kazanırsınız.</content>
+  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="2">Kehanet veya Büyüleme okulundan bir adet 1. seviye büyü seçin. Bu büyü ile Sisli Adım her zaman hazır durumdadır. Bu büyülerin her birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak o büyüyü bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h45c39024gdfe0g1fbeg74d2g67115110174b" version="1">Gölgenin Dokunuşu</content>
-  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="1">İllüzyon veya Nekromansi okulundan 1. seviye bir büyü seçin. Bu büyü ile Görünmezlik büyüsünü her zaman hazır tutarsınız. Ayrıca bir adet 1. seviye büyü yuvası ve bir adet 2. seviye büyü yuvası kazanırsınız.</content>
+  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="2">İllüzyon veya Nekromansi okulundan 1. seviye bir büyü seçin. Bu büyü ile Görünmezlik büyüsünü her zaman hazır tutarsınız. Bu büyülerin her birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak o büyüyü bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="hc8800178g3eabg44b8g93a8g0d839444e75f" version="1">Peri Dokunuşu: Hayvan Dostluğu</content>
   <content contentuid="hdc7ba426ge98dg4316g94c9g943ef2f71ef1" version="1">Peri Büyüsü: Hayvan Dostluğu</content>
   <content contentuid="hbe627f0bg708bg47b4gba79gf882af49eaca" version="1">Peri Dokunuşu: Felaket</content>
@@ -3505,15 +3505,15 @@ BüyüBenim Emrim Altında. Kurnazlık da çelik kadar güçlüdür. Karanlık b
   <content contentuid="h4272602ag3fa1g398bgb969g13be228622d0" version="1">Kullanımdan Kaldırıldı</content>
   <content contentuid="h1fb22109gb584g03f6g66f8g5a967386d305" version="1">Kullanımdan Kaldırıldı</content>
   <content contentuid="hd9a3ce8dg39a9gb357gf766g5a7a8e8a2b47" version="1">Büyü Çırağı: Rahip</content>
-  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="1">2 adet&lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; ve rahip büyü listesinden 1. seviye bir büyü öğrenirsiniz.</content>
+  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="2">2 adet&lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; ve rahip büyü listesinden 1. seviye bir büyü öğrenirsiniz. Bu büyüyü her zaman hazır tutarsınız. Ayrıca, bu büyüyü Büyü Yuvası harcamadan da kullanabilirsiniz, ancak bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir.</content>
   <content contentuid="hafe8b652g4e6agf0fdg68cdgfa9f15790432" version="1">Büyü Çıraklığı: Druid</content>
-  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="1">2 adet&lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; ve druid büyü listesinden 1. seviye bir büyü öğrenirsiniz.</content>
+  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="2">2 adet&lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; ve druid büyü listesinden 1. seviye bir büyü öğrenirsiniz. Bu büyüyü her zaman hazır tutarsınız. Ayrıca, bu büyüyü Büyü Yuvası harcamadan da kullanabilirsiniz, ancak bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir.</content>
   <content contentuid="hc0b48f30g3f17g3a7fg830dgd6bcb23043d6" version="1">Kullanımdan kaldırıldı</content>
   <content contentuid="h3199ad9dg3293g80a6g74adg1bf55e642821" version="1">Kullanımdan kaldırıldı</content>
   <content contentuid="h14abb3cdgc934g76a7g47aeg2111983c2f7a" version="1">Kullanımdan kaldırıldı</content>
   <content contentuid="hd8bfa253g9a70g0b3dga7f3g8b52b646dc9a" version="1">Kullanımdan kaldırıldı</content>
   <content contentuid="h01e4f65cg7f45g4509g7911g655523dbfc23" version="1">Büyü Çaylağı: Büyücü</content>
-  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="1">2 adet&lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; ve büyücü büyü listesinden 1. seviye bir büyü öğrenirsiniz.</content>
+  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="2">2 adet&lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; ve büyücü büyü listesinden 1. seviye bir büyü öğrenirsiniz. Bu büyüyü her zaman hazır tutarsınız. Ayrıca, bu büyüyü Büyü Yuvası harcamadan da kullanabilirsiniz, ancak bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir.</content>
   <content contentuid="hb45ab210g4dfeg44aage273g11ab2c83f7b8" version="1">Koruma Mühürleri</content>
   <content contentuid="hd8757627g198cg4659gbdcbgf8c916e4b023" version="1">Bonus Eyleminizi kullanarak bir yaratığa illrigger mührü yerleştirdiğinizde veya bir yaratığa yerleştirilmiş bir mührü yaktığınızda, 2 tur boyunca Blade Ward etkisinden yararlanırsınız.</content>
   <content contentuid="h6fbb1933ge0e0gc26ag9144gcde944d43651" version="1">Bir Sihir eylemi olarak, Kutsal Sembolünüzü gösterir ve İlahi Güç Kanalize etme yeteneğinizden bir kullanım harcarsınız; böylece kendinizden kaynaklanan 30 fitlik bir yayılma alanında bir ışık parlaması yayarsınız. O bölgedeki Darkness büyüsüyle yaratılanlar gibi tüm büyülü Karanlık etkileri ortadan kaldırılır. Ayrıca, o bölgedeki seçtiğiniz her yaratık bir Dayanıklılık kurtulma zarı atışı yapmak zorundadır; atışı başaramazsa [1] alır, başarılı olursa ise bu hasarın yarısı kadar hasar alır.</content>
@@ -3567,9 +3567,9 @@ DoğalSilahlar. Pençeleriniz, dişleriniz, boynuzlarınız veya isabet ettiğin
 
 GeceGörüşü. 60 fit menzilli Karanlık Görüş yeteneğiniz vardır. Zaten Karanlık Görüş yeteneğiniz varsa, menzili 30 fit artar.</content>
   <content contentuid="ha288579eg93c9g19b4gd809gcbf44c5b3b6b" version="1">Yetenek: Büyü Bükücü</content>
-  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="1">Eski Gelenekler öğretileriyle aktarılan doğa ilaçlarını ve büyüler biliyorsunuz ve bunları ördüğünüz küçük hasır tılsımlara aktarabilirsiniz. Aşağıdaki avantajları elde edersiniz.
+  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="2">Eski Gelenekler öğretileriyle aktarılan doğa ilaçlarını ve büyüler biliyorsunuz ve bunları ördüğünüz küçük hasır tılsımlara aktarabilirsiniz. Aşağıdaki avantajları elde edersiniz.
 
-Bless ve Hex büyülerini her zaman hazır tutarsınız. Ayrıca, bunları yapmak için kullanılabilecek bir adet 1. seviye Büyü Yuvası kazanırsınız.</content>
+Bless ve Hex büyülerini her zaman hazır tutarsınız. Bu büyülerden birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h62e3caedgde0fgd173g13ddg989c09ea72d8" version="1">Yetenek: Mezar Bekçisi</content>
   <content contentuid="he41177dagaf29g13c8gc756g66414bcb409d" version="1">Cenaze törenlerini incelemek ve ölenlerin huzurunu sağlamak, sizi yaşayanlar ve ölüler dünyası arasında bir köprü haline getirmiştir. Aşağıdaki avantajları elde edersiniz.
 
@@ -3612,9 +3612,9 @@ DoğalZırh. Size 10 + Çeviklik ve Dayanıklılık modifiyeniz kadar Zırh Sın
 DoğalSilahlar. Pençeleriniz, dişleriniz, boynuzlarınız veya isabet ettiğinde 1d6 hasar veren Silahsız Saldırılar yapmak için kullanabileceğiniz başka bir doğal silahınız vardır.
 
 GeceGörüşü. 60 fit menzilli Karanlık Görüş yeteneğine sahipsiniz. Zaten Karanlık Görüş yeteneğiniz varsa, menzili 30 fit artar.</content>
-  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="1">Eski Gelenekler öğretileriyle aktarılan doğa ilaçlarını ve büyüler bilirsiniz ve bunları ördüğünüz küçük hasır tılsımlara aktarabilirsiniz. Aşağıdaki avantajları kazanırsınız.
+  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="2">Eski Gelenekler öğretileriyle aktarılan doğa ilaçlarını ve büyüler bilirsiniz ve bunları ördüğünüz küçük hasır tılsımlara aktarabilirsiniz. Aşağıdaki avantajları kazanırsınız.
 
-Bless ve Hex büyülerini her zaman hazır bulundurursunuz. Ayrıca, bunları yapmak için kullanılabilecek bir adet 1. seviye Büyü Yuvası kazanırsınız.</content>
+Bless ve Hex büyülerini her zaman hazır bulundurursunuz. Bu büyülerden birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h894a8c5dg5c28g7d23gb198gb51499628687" version="1">Cenaze törenlerini incelemek ve ölenlerin huzurunu sağlamak, sizi yaşayanlar ve ölüler dünyası arasında bir köprü haline getirmiştir. Aşağıdaki avantajları kazanırsınız.
 
 İlahiKanal. Rahip sınıfının İlahi Kanal özelliği kullanım hakkını bir kez kazanırsınız ve bununla Ölüleri Uzaklaştırma etkisini yaratabilirsiniz. Zaten İlahi Kanal özelliğine sahipseniz, bu kullanım hakkını seçtiğiniz bir sınıftan bu özelliğe ekleyebilirsiniz.</content>
@@ -4434,7 +4434,7 @@ KaçınılmazKılıç. Her turda bir kez, Lanetinizle lanetlenmiş bir hedefe ka
   <content contentuid="hf03aeb95g5dbbg3147g324cg388502cbfe2e" version="1">Hex'inizle lanetlenmiş bir hedeften hasar aldığınızda, bir Tepki kullanarak bu hasarı 2d8 artı Karizma modifiyeniz kadar azaltabilirsiniz. Bu özelliği Karizma modifiyeniz kadar kullanabilirsiniz ve Uzun Dinlenme'yi tamamladığınızda harcadığınız tüm kullanımları geri kazanırsınız.</content>
   <content contentuid="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1">Açlık Büyüsü</content>
   <content contentuid="h10cb65eeg6a98g7720g30f1g78e524e4746c" version="2">Yetenek: Rune Shaper</content>
-  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="1">Rune Büyüsü. Rune Büyüleri tablosundan seçtiğiniz iki rune'u bilirsiniz. Rune Büyüleri tablosunda gösterildiği gibi, bu rune'larla ilişkili 1. seviye büyüler öğrenirsiniz. Yalnızca bu büyüler için kullanılabilen bir adet 1. seviye Büyü Yuvası kazanırsınız. Ayrıca, sahip olduğunuz diğer Büyü Yuvaları'nı kullanarak rune'larınızla ilişkili büyüler de yapabilirsiniz.</content>
+  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="2">Rune Büyüsü. Rune Büyüleri tablosundan seçtiğiniz iki rune'u bilirsiniz. Rune Büyüleri tablosunda gösterildiği gibi, bu rune'larla ilişkili 1. seviye büyüler öğrenirsiniz. Bu büyülerin her birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak o büyüyü bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1">Köken Yeteneği: Devlerin Darbesi</content>
   <content contentuid="h603f364eg76f2g4896gd3eeg723e7e1e85a7" version="2">Devlerin gücünün yankısını size veren ilkel büyüyü özümsemişsiniz. Her turda bir kez, bir hedefi yakın dövüş silahı saldırısı veya atılan silah kullanarak menzilli silah saldırısı ile vurduğunuzda, seçtiğiniz avantaja bağlı olarak saldırıya ek bir etki katabilirsiniz. Bu yeteneği, Yetkinlik Bonusu kadar kez kullanabilirsiniz ve Uzun Dinlenme tamamladığınızda harcadığınız tüm kullanım haklarınızı geri kazanırsınız.</content>
   <content contentuid="hae3fe0d8g977dg32d2g8d96g1076ec054f12" version="1">Rün Şekillendirici: Bulut</content>
@@ -4466,7 +4466,7 @@ KaçınılmazKılıç. Her turda bir kez, Lanetinizle lanetlenmiş bir hedefe ka
   <content contentuid="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1">Bigby Sunar: Devlerin Zaferi</content>
   <content contentuid="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1">Bigby Sunar: Devlerin Zaferi</content>
   <content contentuid="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1">Rune Şekillendirici</content>
-  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="1">Rune Büyüsü. Rune Büyüleri tablosundan seçtiğiniz iki runeyi bilirsiniz. Rune Büyüleri tablosunda gösterildiği gibi, bu runelerle ilişkili 1. seviye büyüler öğrenirsiniz. Yalnızca bu büyüler için kullanılabilen bir adet 1. seviye Büyü Yuvası kazanırsınız. Ayrıca, sahip olduğunuz diğer Büyü Yuvalarını kullanarak runelerinizle ilişkili büyüler de yapabilirsiniz.</content>
+  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="2">Rune Büyüsü. Rune Büyüleri tablosundan seçtiğiniz iki runeyi bilirsiniz. Rune Büyüleri tablosunda gösterildiği gibi, bu runelerle ilişkili 1. seviye büyüler öğrenirsiniz. Bu büyülerin her birini Büyü Yuvası harcamadan kullanabilirsiniz, ancak o büyüyü bu şekilde tekrar kullanabilmek için bir Uzun Dinlenme tamamlamanız gerekir. Bu büyüleri sahip olduğunuz Büyü Yuvalarını kullanarak da yapabilirsiniz.</content>
   <content contentuid="h0312caeage87bg07c0gbc38g2d82406f280f" version="4">Goliath</content>
   <content contentuid="h6d404c53gbba9g0c8fgf4e4g77b082077a84" version="3">Buz elfleri büyük ölçüde izole bir yaşam sürerler ve son derece kendi kendilerine yeten bir topluluktur.</content>
   <content contentuid="hd29558a9g26bcgf48dg297dg572e13e5604e" version="3">Buz elfleri büyük ölçüde izole bir yaşam sürerler ve son derece kendi kendilerine yeten bir halktır.</content>

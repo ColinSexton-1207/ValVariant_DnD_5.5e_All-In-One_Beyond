@@ -592,6 +592,55 @@
                     <attribute id="UUID" type="guid" value="70619d70-46c4-4b4a-a009-5c0785a1cff1"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="MagicInitiateLevel1"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="94625bae-f107-4c28-9748-02338cd07a9d"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="FeyTouchedLevel1"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="73651570-a90c-4ffd-a7c7-1458ced9c7c0"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="FeyTouchedLevel2"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="a6ef933c-2ffd-4cec-b295-b93b8e464847"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ShadowTouchedLevel1"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="f0554885-f5ec-4779-bdf1-00a87c906e79"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ShadowTouchedLevel2"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="4d912c96-8e8e-4d2d-9034-54414a1931a4"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="RuneShaperSpell"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="0885a0be-8741-47d1-8476-dae22ee188b0"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="CharmTwisterSpell"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="ab363490-3d99-40c3-9ae6-2690e3f32b99"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
                     <attribute id="UUID" type="guid" value="929d806a-8db8-40a3-b53c-4cd04337bb1e"/>
                 </node>

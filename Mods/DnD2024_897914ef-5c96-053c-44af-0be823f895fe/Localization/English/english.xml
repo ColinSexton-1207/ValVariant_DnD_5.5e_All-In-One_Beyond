@@ -814,9 +814,9 @@ After selecting two different cantrips, this mode ends.</content>
   <content contentuid="h3522b895gaf8eg23c8ge2a5g19305a3832ce" version="1">Origin Feat: Magic Initiate (Druid)</content>
   <content contentuid="h3be2808fgdf36g2f49g651dgd7072fe1c369" version="1">Magic Initiate (Druid): Cantrip</content>
   <content contentuid="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1">Magic Initiate (Wizard): Cantrip</content>
-  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="1">Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell lists. When you select this feat, choose Intelligence, Wisdom, or Charisma as your spellcasting ability for these spells.
+  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="2">Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell lists. When you select this feat, choose Intelligence, Wisdom, or Charisma as your spellcasting ability for these spells.
 
-Level 1 Spell. Choose one 1st-level spell from the same list you selected for your cantrips. You always have this spell prepared, and you gain one 1st-level spell slot to cast it.</content>
+Level 1 Spell. Choose one 1st-level spell from the same list you selected for your cantrips. You always have that spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
   <content contentuid="hb18213feg1443g46dfg66c8g43152a53cf75" version="3">Cantrip learning mode is active. All Druid cantrips are added to your spell list.
 
 Selecting a cantrip to cast permanently teaches it to you right away — you don't need a valid target or to finish casting it.
@@ -2110,13 +2110,13 @@ Once you use this feature, you can’t use it again until you finish a Short or 
   <content contentuid="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1">The spell ends if you drop to 0 Hit Points. It also ends if the spell is cast again on either of the connected creatures. The spell remains in effect only while you and the target are within [1] of each other.</content>
   <content contentuid="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1">The spell ends if you drop to 0 Hit Points. It also ends if the spell is cast again on either of the connected creatures. The spell remains in effect only while you and the target are within [1] of each other.</content>
   <content contentuid="h90381d36g6a66g678dgc622g940db553e2a2" version="1">Feat: Fey Touched</content>
-  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="1">Choose one 1st-level spell from the Divination or Enchantment school. You always have that spell and Misty Step prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="2">Choose one 1st-level spell from the Divination or Enchantment school. You always have that spell and Misty Step prepared. You can cast each of these spells without expending a spell slot, but you must finish a Long Rest before you can cast that spell in this way again. You can also cast these spells using spell slots you have.</content>
   <content contentuid="h373ea885g4542g96b0g1626g9afe46582637" version="1">Feat: Shadow Touched</content>
-  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="1">Choose one 1st-level spell from the Illusion or Necromancy school. You always have that spell and &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="2">Choose one 1st-level spell from the Illusion or Necromancy school. You always have that spell and &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; prepared. You can cast each of these spells without expending a spell slot, but you must finish a Long Rest before you can cast that spell in this way again. You can also cast these spells using spell slots you have.</content>
   <content contentuid="h3e078741g3071gaa98ga931g651f9cac58d8" version="1">Fey Touched</content>
-  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="1">Choose one 1st-level spell from the Divination or Enchantment school. You always have that spell and Misty Step prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="2">Choose one 1st-level spell from the Divination or Enchantment school. You always have that spell and Misty Step prepared. You can cast each of these spells without expending a spell slot, but you must finish a Long Rest before you can cast that spell in this way again. You can also cast these spells using spell slots you have.</content>
   <content contentuid="h45c39024gdfe0g1fbeg74d2g67115110174b" version="1">Shadow Touched</content>
-  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="1">Choose one 1st-level spell from the Illusion or Necromancy school. You always have that spell and &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; prepared. You also gain one 1st-level spell slot and one 2nd-level spell slot.</content>
+  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="2">Choose one 1st-level spell from the Illusion or Necromancy school. You always have that spell and &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt; prepared. You can cast each of these spells without expending a spell slot, but you must finish a Long Rest before you can cast that spell in this way again. You can also cast these spells using spell slots you have.</content>
   <content contentuid="hc8800178g3eabg44b8g93a8g0d839444e75f" version="1">Fey Touched: Animal Friendship</content>
   <content contentuid="hdc7ba426ge98dg4316g94c9g943ef2f71ef1" version="1">Fey Magic: Animal Friendship</content>
   <content contentuid="hbe627f0bg708bg47b4gba79gf882af49eaca" version="1">Fey Touched: Bane</content>
@@ -3514,15 +3514,15 @@ Magic Is Mine to Command. Cunning is also as powerful as steel. I wield the dark
   <content contentuid="h4272602ag3fa1g398bgb969g13be228622d0" version="1">Deprecated</content>
   <content contentuid="h1fb22109gb584g03f6g66f8g5a967386d305" version="1">Deprecated</content>
   <content contentuid="hd9a3ce8dg39a9gb357gf766g5a7a8e8a2b47" version="1">Magic Initiate: Cleric</content>
-  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the cleric spell list.</content>
+  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="2">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the cleric spell list. You always have that spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
   <content contentuid="hafe8b652g4e6agf0fdg68cdgfa9f15790432" version="1">Magic Initiate: Druid</content>
-  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the druid spell list.</content>
+  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="2">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the druid spell list. You always have that spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
   <content contentuid="hc0b48f30g3f17g3a7fg830dgd6bcb23043d6" version="1">Deprecated</content>
   <content contentuid="h3199ad9dg3293g80a6g74adg1bf55e642821" version="1">Deprecated</content>
   <content contentuid="h14abb3cdgc934g76a7g47aeg2111983c2f7a" version="1">Deprecated</content>
   <content contentuid="hd8bfa253g9a70g0b3dga7f3g8b52b646dc9a" version="1">Deprecated</content>
   <content contentuid="h01e4f65cg7f45g4509g7911g655523dbfc23" version="1">Magic Initiate: Wizard</content>
-  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="1">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list.</content>
+  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="2">You learn 2 &lt;LSTag Tooltip="Cantrip"&gt;cantrips&lt;/LSTag&gt; and a Level 1 spell from the wizard spell list. You always have that spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.</content>
   <content contentuid="hb45ab210g4dfeg44aage273g11ab2c83f7b8" version="1">Warding Seals</content>
   <content contentuid="hd8757627g198cg4659gbdcbgf8c916e4b023" version="1">When you use your bonus action to place an illrigger’s seal on a creature, or when you burn a seal placed on a creature, you gain the effects of &lt;LSTag Type="Spell" Tooltip="Shout_BladeWard"&gt;Blade Ward&lt;/LSTag&gt; for 2 turns.</content>
   <content contentuid="h6fbb1933ge0e0gc26ag9144gcde944d43651" version="1">As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a [2] Emanation originating from yourself. Any magical Darkness—such as that created by the Darkness spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking [1] on a failed save or half as much damage on a successful one.</content>
@@ -3587,9 +3587,9 @@ Natural Weapons. You have claws, fangs, horns, or some other natural weapon that
 
 Night Vision. You have Darkvision with a range of [1]. If you already have Darkvision, its range increases by [2].</content>
   <content contentuid="ha288579eg93c9g19b4gd809gcbf44c5b3b6b" version="1">Feat: Charm Twister</content>
-  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="1">You know hedge remedies and hexes passed down through Old Ways teachings, and you can impart them into small wicker charms you weave. You gain the following benefits.
+  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="2">You know hedge remedies and hexes passed down through Old Ways teachings, and you can impart them into small wicker charms you weave. You gain the following benefits.
 
-You always have the Bless and Hex spells prepared. In addition, you gain one 1st-level spell slot that can be used to cast them.</content>
+You always have the Bless and Hex spells prepared. You can cast one of these spells without expending a spell slot, but you must finish a Long Rest before you can cast either of them in this way again. You can also cast them using spell slots you have.</content>
   <content contentuid="h62e3caedgde0fgd173g13ddg989c09ea72d8" version="1">Feat: Grave Keeper</content>
   <content contentuid="he41177dagaf29g13c8gc756g66414bcb409d" version="1">Studying funeral rites and tending the dead’s rest has made you a conduit between the worlds of the living and the dead. You gain the following benefits.
 
@@ -3632,9 +3632,9 @@ Natural Armor. You have scales, plates, or thick hide that grants you an AC of 1
 Natural Weapons. You have claws, fangs, horns, or some other natural weapon that you can use to make Unarmed Strikes that deal 1d6 damage on a hit.
 
 Night Vision. You have Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 30 feet.</content>
-  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="1">You know hedge remedies and hexes passed down through Old Ways teachings, and you can impart them into small wicker charms you weave. You gain the following benefits.
+  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="2">You know hedge remedies and hexes passed down through Old Ways teachings, and you can impart them into small wicker charms you weave. You gain the following benefits.
 
-You always have the Bless and Hex spells prepared. In addition, you gain one 1st-level spell slot that can be used to cast them.</content>
+You always have the Bless and Hex spells prepared. You can cast one of these spells without expending a spell slot, but you must finish a Long Rest before you can cast either of them in this way again. You can also cast them using spell slots you have.</content>
   <content contentuid="h894a8c5dg5c28g7d23gb198gb51499628687" version="1">Studying funeral rites and tending the dead’s rest has made you a conduit between the worlds of the living and the dead. You gain the following benefits.
 
 Divine Channel. You gain one use of the Channel Divinity feature from the Cleric class, and you can create the Turn Undead effect with it. If you already have Channel Divinity, you add this use to the feature from one class of your choice.</content>
@@ -4467,7 +4467,7 @@ Inevitable Blade. Once per turn, when you make an attack roll against a target c
   <content contentuid="hf03aeb95g5dbbg3147g324cg388502cbfe2e" version="1">When you take damage from a target cursed by your Hex, you can take a Reaction to reduce that damage by 2d8 plus your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier, and you regain all expended uses when you finish a Long Rest.</content>
   <content contentuid="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1">Hungering Hex</content>
   <content contentuid="h10cb65eeg6a98g7720g30f1g78e524e4746c" version="2">Feat: Rune Shaper</content>
-  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="1">Rune Magic. You know two runes of your choice from the Rune Spells table. You learn the 1st-level spells associated with those runes, as shown in the Rune Spells table. You gain one 1st-level spell slot, which can be used only to cast these spells. You can also cast the spells associated with your runes using any other spell slots you have.</content>
+  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="2">Rune Magic. You know two runes of your choice from the Rune Spells table. You learn the 1st-level spells associated with those runes, as shown in the Rune Spells table. You can cast each of these spells without expending a spell slot, but you must finish a Long Rest before you can cast that spell in this way again. You can also cast these spells using spell slots you have.</content>
   <content contentuid="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1">Origin Feat: Strike of the Giants</content>
   <content contentuid="h603f364eg76f2g4896gd3eeg723e7e1e85a7" version="2">You have absorbed primeval magic that gives you an echo of the might of giants. Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose. You can use this feat a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
   <content contentuid="hae3fe0d8g977dg32d2g8d96g1076ec054f12" version="1">Rune Shaper: Cloud</content>
@@ -4499,7 +4499,7 @@ Inevitable Blade. Once per turn, when you make an attack roll against a target c
   <content contentuid="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1">Bigby Presents: Glory of the Giants</content>
   <content contentuid="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1">Bigby Presents: Glory of the Giants</content>
   <content contentuid="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1">Rune Shaper</content>
-  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="1">Rune Magic. You know two runes of your choice from the Rune Spells table. You learn the 1st-level spells associated with those runes, as shown in the Rune Spells table. You gain one 1st-level spell slot, which can be used only to cast these spells. You can also cast the spells associated with your runes using any other spell slots you have.</content>
+  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="2">Rune Magic. You know two runes of your choice from the Rune Spells table. You learn the 1st-level spells associated with those runes, as shown in the Rune Spells table. You can cast each of these spells without expending a spell slot, but you must finish a Long Rest before you can cast that spell in this way again. You can also cast these spells using spell slots you have.</content>
   <content contentuid="h0312caeage87bg07c0gbc38g2d82406f280f" version="4">Goliath</content>
   <content contentuid="h6d404c53gbba9g0c8fgf4e4g77b082077a84" version="3">Ice elves are largely insular and fiercely self-sufficient.</content>
   <content contentuid="hd29558a9g26bcgf48dg297dg572e13e5604e" version="3">Ice elves are largely insular and fiercely self-sufficient.</content>

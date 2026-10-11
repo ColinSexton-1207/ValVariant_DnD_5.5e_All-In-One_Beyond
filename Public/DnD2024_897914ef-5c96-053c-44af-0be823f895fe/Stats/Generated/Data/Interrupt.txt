@@ -2576,3 +2576,13 @@ using "Interrupt_BloodForBlood_1"
 data "DescriptionParams" "DealDamage(1d12,Necrotic)"
 data "Properties" "IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(max(1d12,1d12),Necrotic,Magical);IF(not HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target)):DealDamage(1d12,Necrotic,Magical);"
 data "Cost" "HitPointDice12:1;BloodForBloodTurn:1;"
+
+new entry "Interrupt_AbsorbElements_Spell_MagicInitiate"
+type "InterruptData"
+using "Interrupt_AbsorbElements_Spell"
+data "Cost" "ReactionActionPoint:1;MagicInitiateLevel1:1"
+
+new entry "Interrupt_Shield_Wizard_MagicInitiate"
+type "InterruptData"
+using "Interrupt_Shield_Wizard"
+data "Cost" "ReactionActionPoint:1;MagicInitiateLevel1:1"

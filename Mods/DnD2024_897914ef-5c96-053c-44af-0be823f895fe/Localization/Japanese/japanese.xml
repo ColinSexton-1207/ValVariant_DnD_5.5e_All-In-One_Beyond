@@ -810,9 +810,9 @@
   <content contentuid="h3522b895gaf8eg23c8ge2a5g19305a3832ce" version="1">起源特技：魔法のたしなみ（ドルイド）</content>
   <content contentuid="h3be2808fgdf36g2f49g651dgd7072fe1c369" version="1">魔法のたしなみ（ドルイド）：初級呪文</content>
   <content contentuid="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1">魔法のたしなみ（ウィザード）：初級呪文</content>
-  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="1">2つの初級呪文：クレリック、ドルイド、あるいはウィザードの呪文リストから、任意で2つの初級呪文を習得する。この特技を選択する際、これらの呪文の呪文発動能力として知力、判断力、あるいは魅力のいずれかを選択する。
+  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="2">2つの初級呪文：クレリック、ドルイド、あるいはウィザードの呪文リストから、任意で2つの初級呪文を習得する。この特技を選択する際、これらの呪文の呪文発動能力として知力、判断力、あるいは魅力のいずれかを選択する。
 
-レベル1呪文：初級呪文で選択したものと同じリストから、レベル1呪文を1つ選択する。この呪文は常に準備された状態となり、これを唱えるためのレベル1呪文スロットを1つ得る。</content>
+レベル1呪文：初級呪文で選択したものと同じリストから、レベル1呪文を1つ選択する。この呪文は常に準備された状態になる。さらに、呪文スロットを消費することなく唱えることができるが、この方法で再び唱えるには大休憩を終えなければならない。</content>
   <content contentuid="hb18213feg1443g46dfg66c8g43152a53cf75" version="3">初級呪文習得モードが有効です。すべてのドルイドの初級呪文があなたの呪文リストに追加されます。
 
 発動する初級呪文を選択すると、すぐに永久に習得します。有効な目標を選択したり、発動を完了させたりする必要はありません。
@@ -2095,13 +2095,13 @@
   <content contentuid="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1">自身のヒット・ポイントが0になると、この呪文は終了する。また、接続されているいずれかのクリーチャーにこの呪文が再度唱えられた場合も終了する。この呪文は、自身と目標が互いに18メートル以内にいる間のみ効果が持続する。</content>
   <content contentuid="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1">自身のヒット・ポイントが0になると、この呪文は終了する。また、接続されているいずれかのクリーチャーにこの呪文が再度唱えられた場合も終了する。この呪文は、自身と目標が互いに18メートル以内にいる間のみ効果が持続する。</content>
   <content contentuid="h90381d36g6a66g678dgc622g940db553e2a2" version="1">特技：フェイに触れられし者</content>
-  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="1">占術または心術系統からレベル1呪文を1つ選択する。常にその呪文と「霧渡り」が準備された状態になる。また、レベル1呪ウスロットとレベル2呪文スロットを1つずつ得る。</content>
+  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="2">占術または心術系統からレベル1呪文を1つ選択する。常にその呪文と「霧渡り」が準備された状態になる。これらの呪文はそれぞれ呪文スロットを消費することなく唱えることができるが、その呪文をこの方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h373ea885g4542g96b0g1626g9afe46582637" version="1">特技：影に触れられし者</content>
-  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="1">幻術または死霊術系統からレベル1呪文を1つ選択する。常にその呪文と「不可視化」が準備された状態になる。また、レベル1呪文スロットとレベル2呪文スロットを1つずつ得る。</content>
+  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="2">幻術または死霊術系統からレベル1呪文を1つ選択する。常にその呪文と「不可視化」が準備された状態になる。これらの呪文はそれぞれ呪文スロットを消費することなく唱えることができるが、その呪文をこの方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h3e078741g3071gaa98ga931g651f9cac58d8" version="1">フェイに触れられし者</content>
-  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="1">占術または心術系統からレベル1呪文を1つ選択する。常にその呪文と「霧渡り」が準備された状態になる。また、レベル1呪ウスロットとレベル2呪文スロットを1つずつ得る。</content>
+  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="2">占術または心術系統からレベル1呪文を1つ選択する。常にその呪文と「霧渡り」が準備された状態になる。これらの呪文はそれぞれ呪文スロットを消費することなく唱えることができるが、その呪文をこの方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h45c39024gdfe0g1fbeg74d2g67115110174b" version="1">影に触れられし者</content>
-  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="1">幻術または死霊術系統からレベル1呪文を1つ選択する。常にその呪文と「不可視化」が準備された状態になる。また、レベル1呪文スロットとレベル2呪文スロットを1つずつ得る。</content>
+  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="2">幻術または死霊術系統からレベル1呪文を1つ選択する。常にその呪文と「不可視化」が準備された状態になる。これらの呪文はそれぞれ呪文スロットを消費することなく唱えることができるが、その呪文をこの方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h217127dag7542g9cacg618cg5aa51ecced4b" version="1">特技：激励する指揮官</content>
   <content contentuid="h008b1355g9855gf610g8c06gec5ceab5ab6f" version="1">小休憩または大休憩を終えた際、演説、歌、あるいは踊りによる鼓舞するような振る舞いを見せることができる。この特徴は小休憩ごとに1回使用できる。使用した際、自分から9メートル以内にいる各味方は、自身のキャラクター・レベルに習熟ボーナスを加えた値に等しい一時的ヒット・ポイントを得る。</content>
   <content contentuid="h38de6e70g3483gb2a8gf232gce6933397614" version="1">激励する指揮官</content>
@@ -3456,15 +3456,15 @@
   <content contentuid="h4272602ag3fa1g398bgb969g13be228622d0" version="1">非推奨</content>
   <content contentuid="h1fb22109gb584g03f6g66f8g5a967386d305" version="1">非推奨</content>
   <content contentuid="hd9a3ce8dg39a9gb357gf766g5a7a8e8a2b47" version="1">魔法のたしなみ: クレリック</content>
-  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="1">クレリックの呪文リストから、2つの&lt;LSTag Tooltip="Cantrip"&gt;初級呪文&lt;/LSTag&gt;と1つの1レベル呪文を習得する。</content>
+  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="2">クレリックの呪文リストから、2つの&lt;LSTag Tooltip="Cantrip"&gt;初級呪文&lt;/LSTag&gt;と1つの1レベル呪文を習得する。この呪文は常に準備された状態になる。さらに、呪文スロットを消費することなく唱えることができるが、この方法で再び唱えるには大休憩を終えなければならない。</content>
   <content contentuid="hafe8b652g4e6agf0fdg68cdgfa9f15790432" version="1">魔法のたしなみ: ドルイド</content>
-  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="1">ドルイドの呪文リストから、2つの&lt;LSTag Tooltip="Cantrip"&gt;初級呪文&lt;/LSTag&gt;と1つの1レベル呪文を習得する。</content>
+  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="2">ドルイドの呪文リストから、2つの&lt;LSTag Tooltip="Cantrip"&gt;初級呪文&lt;/LSTag&gt;と1つの1レベル呪文を習得する。この呪文は常に準備された状態になる。さらに、呪文スロットを消費することなく唱えることができるが、この方法で再び唱えるには大休憩を終えなければならない。</content>
   <content contentuid="hc0b48f30g3f17g3a7fg830dgd6bcb23043d6" version="1">非推奨</content>
   <content contentuid="h3199ad9dg3293g80a6g74adg1bf55e642821" version="1">非推奨</content>
   <content contentuid="h14abb3cdgc934g76a7g47aeg2111983c2f7a" version="1">非推奨</content>
   <content contentuid="hd8bfa253g9a70g0b3dga7f3g8b52b646dc9a" version="1">非推奨</content>
   <content contentuid="h01e4f65cg7f45g4509g7911g655523dbfc23" version="1">魔法のたしなみ: ウィザード</content>
-  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="1">ウィザードの呪文リストから、2つの&lt;LSTag Tooltip="Cantrip"&gt;初級呪文&lt;/LSTag&gt;と1つの1レベル呪文を習得する。</content>
+  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="2">ウィザードの呪文リストから、2つの&lt;LSTag Tooltip="Cantrip"&gt;初級呪文&lt;/LSTag&gt;と1つの1レベル呪文を習得する。この呪文は常に準備された状態になる。さらに、呪文スロットを消費することなく唱えることができるが、この方法で再び唱えるには大休憩を終えなければならない。</content>
   <content contentuid="hb45ab210g4dfeg44aage273g11ab2c83f7b8" version="1">守護の刻印</content>
   <content contentuid="hd8757627g198cg4659gbdcbgf8c916e4b023" version="1">ボーナス・アクションを使用してクリーチャーにイルリガーの刻印を付与した際、あるいはクリーチャーに付与された刻印を燃やした際、2ターンの間、防刃の効果を得る。</content>
   <content contentuid="h6fbb1933ge0e0gc26ag9144gcde944d43651" version="1">魔法アクションとして、聖印を掲げ、神性伝導の使用回数を1回消費することで、自身から9メートルの放射状の範囲に光の輝きを放つ。その範囲内にある「暗闇」の呪文などによって作り出された魔法の暗闇はすべて打ち消される。さらに、その範囲内にいて、自身が選択した各クリーチャーは耐久力セーヴィング・スローを行わなければならない。セーヴに失敗すると、[1]を受け、成功すると半分のダメージを受ける。</content>
@@ -3518,9 +3518,9 @@
 
 夜間視：18メートルの射程の暗視を得る。すでに暗視を持っている場合、その射程が9メートル増加する。</content>
   <content contentuid="ha288579eg93c9g19b4gd809gcbf44c5b3b6b" version="1">特技：お守り編み</content>
-  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="1">古き道の教えから伝わる民俗療法や呪術を心得ており、編み上げた小さな柳細工のお守りにそれらを込めることができる。以下の恩恵を得る。
+  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="2">古き道の教えから伝わる民俗療法や呪術を心得ており、編み上げた小さな柳細工のお守りにそれらを込めることができる。以下の恩恵を得る。
 
-常に「祝福」と「呪い」の呪文を準備した状態にする。さらに、それらを唱えるために使用できる1レベル呪文スロットを1つ得る。</content>
+常に「祝福」と「呪い」の呪文を準備した状態にする。これらの呪文のうち1つを呪文スロットを消費することなく唱えることができるが、この方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h62e3caedgde0fgd173g13ddg989c09ea72d8" version="1">特技：墓守</content>
   <content contentuid="he41177dagaf29g13c8gc756g66414bcb409d" version="1">葬儀の儀式を学び、死者の安らぎを守ることで、生者の世界と死者の世界の架け橋となった。以下の恩恵を得る。
 
@@ -3563,9 +3563,9 @@
 天性の武器：爪、牙、角、またはその他の天性の武器を持ち、命中時に1d6ダメージを与える素手攻撃を行える。
 
 夜間視：18メートルの射程の暗視を得る。すでに暗視を持っている場合、その射程が9メートル増加する。</content>
-  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="1">古き道の教えから伝わる民俗療法や呪術を心得ており、編み上げた小さな柳細工のお守りにそれらを込めることができる。以下の恩恵を得る。
+  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="2">古き道の教えから伝わる民俗療法や呪術を心得ており、編み上げた小さな柳細工のお守りにそれらを込めることができる。以下の恩恵を得る。
 
-常に「祝福」と「呪い」の呪文を準備した状態にする。さらに、それらを唱えるために使用できる1レベル呪文スロットを1つ得る。</content>
+常に「祝福」と「呪い」の呪文を準備した状態にする。これらの呪文のうち1つを呪文スロットを消費することなく唱えることができるが、この方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h894a8c5dg5c28g7d23gb198gb51499628687" version="1">葬儀の儀式を学び、死者の安らぎを守ることで、生者の世界と死者の世界の架け橋となった。以下の恩恵を得る。
 
 聖なる繋ぎ：クレリック・クラスの特徴である「神性伝導」の使用回数を1回分得て、それを用いて「アンデッド退散」を発生させることができる。すでに神性伝導を持っている場合、任意のクラスの神性伝導に使用回数を1回追加する。</content>
@@ -4384,7 +4384,7 @@
   <content contentuid="hf03aeb95g5dbbg3147g324cg388502cbfe2e" version="1">あなたの「呪い」によって呪われた目標からダメージを受けた際、リアクションを用いてそのダメージを2d8＋自身の魅力修正値だけ軽減することができる。この特徴は自身の魅力修正値に等しい回数だけ使用でき、大休憩を終えると消費したすべての使用回数を回復する。</content>
   <content contentuid="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1">貪る呪い</content>
   <content contentuid="h10cb65eeg6a98g7720g30f1g78e524e4746c" version="2">特技：ルーンの刻み手</content>
-  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="1">ルーンの魔法：「ルーン呪文」表から任意のルーンを2つ習得する。また、「ルーン呪文」表に示されている通り、それらのルーンに関連付けられたレベル1呪文を習得する。レベル1呪文スロットを1つ獲得し、これはこれらの呪文を唱えるためにのみ使用できる。また、持っている他の任意の呪文スロットを使用して、ルーンに関連付けられた呪文を唱えることもできる。</content>
+  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="2">ルーンの魔法：「ルーン呪文」表から任意のルーンを2つ習得する。また、「ルーン呪文」表に示されている通り、それらのルーンに関連付けられたレベル1呪文を習得する。これらの呪文はそれぞれ呪文スロットを消費することなく唱えることができるが、その呪文をこの方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1">起源特技：巨人の打撃</content>
   <content contentuid="h603f364eg76f2g4896gd3eeg723e7e1e85a7" version="2">巨人の力の残響をもたらす原始の魔法を吸収した。各ターンに一度、近接武器攻撃、または投擲武器を用いた遠隔武器攻撃で目標に攻撃を命中させた際、選択した恩恵に応じた追加効果を攻撃に付与することができる。この特技は自身の習熟ボーナスに等しい回数だけ使用でき、大休憩を終えると消費したすべての使用回数を回復する。</content>
   <content contentuid="hae3fe0d8g977dg32d2g8d96g1076ec054f12" version="1">ルーンの刻み手：クラウド</content>
@@ -4416,7 +4416,7 @@
   <content contentuid="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1">ビグビーの評伝：巨人の栄光</content>
   <content contentuid="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1">ビグビーの評伝：巨人の栄光</content>
   <content contentuid="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1">ルーンの刻み手</content>
-  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="1">ルーンの魔法：「ルーン呪文」表から任意のルーンを2つ習得する。また、「ルーン呪文」表に示されている通り、それらのルーンに関連付けられたレベル1呪文を習得する。レベル1呪文スロットを1つ獲得し、これはこれらの呪文を唱えるためにのみ使用できる。また、持っている他の任意の呪文スロットを使用して、ルーンに関連付けられた呪文を唱えることもできる。</content>
+  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="2">ルーンの魔法：「ルーン呪文」表から任意のルーンを2つ習得する。また、「ルーン呪文」表に示されている通り、それらのルーンに関連付けられたレベル1呪文を習得する。これらの呪文はそれぞれ呪文スロットを消費することなく唱えることができるが、その呪文をこの方法で再び唱えるには大休憩を終えなければならない。また、所持している呪文スロットを使用してこれらの呪文を唱えることもできる。</content>
   <content contentuid="h0312caeage87bg07c0gbc38g2d82406f280f" version="4">ゴライアス</content>
   <content contentuid="h6d404c53gbba9g0c8fgf4e4g77b082077a84" version="3">アイス・エルフは概して排他的であり、猛烈なまでに自給自足の生活を営んでいる。</content>
   <content contentuid="hd29558a9g26bcgf48dg297dg572e13e5604e" version="3">アイス・エルフは概して排他的であり、猛烈なまでに自給自足の生活を営んでいる。</content>

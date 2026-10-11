@@ -811,9 +811,9 @@ Tryb ten wyłącza się po wybraniu dwóch różnych sztuczek.</content>
   <content contentuid="h3522b895gaf8eg23c8ge2a5g19305a3832ce" version="1">Atut pochodzenia: Wtajemniczony (druid)</content>
   <content contentuid="h3be2808fgdf36g2f49g651dgd7072fe1c369" version="1">Wtajemniczony (druid): sztuczka</content>
   <content contentuid="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1">Wtajemniczony (mag): sztuczka</content>
-  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="1">Dwie sztuczki. Uczysz się dwóch wybranych sztuczek z list czarów kleryka, druida albo maga. Gdy wybierasz ten atut, wybierz Inteligencję, Mądrość albo Charyzmę jako cechę bazową rzucania tych czarów.
+  <content contentuid="h7fd3e98dg8cddgd47cg0aeag9f03355feaaa" version="2">Dwie sztuczki. Uczysz się dwóch wybranych sztuczek z list czarów kleryka, druida albo maga. Gdy wybierasz ten atut, wybierz Inteligencję, Mądrość albo Charyzmę jako cechę bazową rzucania tych czarów.
 
-Czar 1. poziomu. Wybierz jeden czar 1. poziomu z tej samej listy co sztuczki. Zawsze masz ten czar przygotowany i zyskujesz jedną komórkę czaru 1. poziomu, którą możesz zużyć, aby go rzucić.</content>
+Czar 1. poziomu. Wybierz jeden czar 1. poziomu z tej samej listy co sztuczki. Zawsze masz ten czar przygotowany. Możesz go również rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim zrobisz to ponownie.</content>
   <content contentuid="hb18213feg1443g46dfg66c8g43152a53cf75" version="3">Tryb nauki sztuczek jest aktywny. Wszystkie sztuczki Druida są dodawane do twojej listy czarów.
 
 Wybranie sztuczki powoduje, że od razu poznajesz ją na stałe – nie potrzebujesz prawidłowego celu ani zakończenia jej rzucania.
@@ -2104,13 +2104,13 @@ Po użyciu tej cechy nie możesz zrobić tego ponownie, dopóki nie ukończysz k
   <content contentuid="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1">Czar kończy się, gdy twoje punkty wytrzymałości spadną do 0. Kończy się również, jeśli zostanie ponownie rzucony na którąkolwiek z połączonych istot. Działa tylko wtedy, gdy ty i cel znajdujecie się nie dalej niż [1] od siebie.</content>
   <content contentuid="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1">Czar kończy się, gdy twoje punkty wytrzymałości spadną do 0. Kończy się również, jeśli zostanie ponownie rzucony na którąkolwiek z połączonych istot. Działa tylko wtedy, gdy ty i cel znajdujecie się nie dalej niż [1] od siebie.</content>
   <content contentuid="h90381d36g6a66g678dgc622g940db553e2a2" version="1">Atut: Dotknięty przez Fey</content>
-  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="1">Wybierz jeden czar 1. kręgu ze szkoły wróżenia lub uroków. Zawsze masz przygotowany ten czar oraz Krok przez mgłę. Otrzymujesz również jedną komórkę czaru 1. kręgu i jedną komórkę 2. kręgu.</content>
+  <content contentuid="hfaef3824g8845gb735gf4dfgd86da7822941" version="2">Wybierz jeden czar 1. kręgu ze szkoły wróżenia lub uroków. Zawsze masz przygotowany ten czar oraz Krok przez mgłę. Każdy z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim ponownie rzucisz ten czar w ten sposób. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h373ea885g4542g96b0g1626g9afe46582637" version="1">Atut: Dotknięty przez Cień</content>
-  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="1">Wybierz jeden czar 1. kręgu ze szkoły iluzji lub nekromancji. Zawsze masz przygotowany ten czar oraz &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Niewidzialność&lt;/LSTag&gt;. Otrzymujesz również jedną komórkę czaru 1. kręgu i jedną komórkę 2. kręgu.</content>
+  <content contentuid="h0c8f8629gcdb5g21d2g6ba3g68301d16a9ea" version="2">Wybierz jeden czar 1. kręgu ze szkoły iluzji lub nekromancji. Zawsze masz przygotowany ten czar oraz &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Niewidzialność&lt;/LSTag&gt;. Każdy z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim ponownie rzucisz ten czar w ten sposób. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h3e078741g3071gaa98ga931g651f9cac58d8" version="1">Dotknięty przez Fey</content>
-  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="1">Wybierz jeden czar 1. kręgu ze szkoły wróżenia lub uroków. Zawsze masz przygotowany ten czar oraz Krok przez mgłę. Otrzymujesz również jedną komórkę czaru 1. kręgu i jedną komórkę 2. kręgu.</content>
+  <content contentuid="h9dd19073g7262gabe8g561dga56e7269712b" version="2">Wybierz jeden czar 1. kręgu ze szkoły wróżenia lub uroków. Zawsze masz przygotowany ten czar oraz Krok przez mgłę. Każdy z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim ponownie rzucisz ten czar w ten sposób. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h45c39024gdfe0g1fbeg74d2g67115110174b" version="1">Dotyk cienia</content>
-  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="1">Wybierz jeden czar 1. kręgu ze szkoły iluzji lub nekromancji. Zawsze masz przygotowany ten czar oraz &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Niewidzialność&lt;/LSTag&gt;. Otrzymujesz również jedną komórkę czaru 1. kręgu i jedną komórkę 2. kręgu.</content>
+  <content contentuid="hbd7f0193ge427g3d75gc0adgfdba8212fb8b" version="2">Wybierz jeden czar 1. kręgu ze szkoły iluzji lub nekromancji. Zawsze masz przygotowany ten czar oraz &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Niewidzialność&lt;/LSTag&gt;. Każdy z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim ponownie rzucisz ten czar w ten sposób. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="hc8800178g3eabg44b8g93a8g0d839444e75f" version="1">Dotknięty przez fey: Przyjaciel zwierząt</content>
   <content contentuid="hdc7ba426ge98dg4316g94c9g943ef2f71ef1" version="1">Magia fey: Przyjaciel zwierząt</content>
   <content contentuid="hbe627f0bg708bg47b4gba79gf882af49eaca" version="1">Dotknięty przez fey: Zguba</content>
@@ -3510,15 +3510,15 @@ Magia podlega mojej woli. Przebiegłość jest równie potężna jak stal. Wład
   <content contentuid="h4272602ag3fa1g398bgb969g13be228622d0" version="1">Przestarzałe</content>
   <content contentuid="h1fb22109gb584g03f6g66f8g5a967386d305" version="1">Przestarzałe</content>
   <content contentuid="hd9a3ce8dg39a9gb357gf766g5a7a8e8a2b47" version="1">Wtajemniczony: Kleryk</content>
-  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="1">Nauczysz się 2 &lt;LSTag Tooltip="Cantrip"&gt;sztuczki&lt;/LSTag&gt; i czaru poziomu 1 z listy czarów kleryka.</content>
+  <content contentuid="h0df39a9dg1cfag178cg75f0g6adabe0323af" version="2">Nauczysz się 2 &lt;LSTag Tooltip="Cantrip"&gt;sztuczki&lt;/LSTag&gt; i czaru poziomu 1 z listy czarów kleryka. Zawsze masz ten czar przygotowany. Możesz go również rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim zrobisz to ponownie.</content>
   <content contentuid="hafe8b652g4e6agf0fdg68cdgfa9f15790432" version="1">Wtajemniczony: Druid</content>
-  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="1">Nauczysz się 2 &lt;LSTag Tooltip="Cantrip"&gt;sztuczki&lt;/LSTag&gt; i czaru poziomu 1 z listy czarów druida.</content>
+  <content contentuid="h65af80fagec9bg5351g2f9agc30e65db33e7" version="2">Nauczysz się 2 &lt;LSTag Tooltip="Cantrip"&gt;sztuczki&lt;/LSTag&gt; i czaru poziomu 1 z listy czarów druida. Zawsze masz ten czar przygotowany. Możesz go również rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim zrobisz to ponownie.</content>
   <content contentuid="hc0b48f30g3f17g3a7fg830dgd6bcb23043d6" version="1">Przestarzałe</content>
   <content contentuid="h3199ad9dg3293g80a6g74adg1bf55e642821" version="1">Przestarzałe</content>
   <content contentuid="h14abb3cdgc934g76a7g47aeg2111983c2f7a" version="1">Przestarzałe</content>
   <content contentuid="hd8bfa253g9a70g0b3dga7f3g8b52b646dc9a" version="1">Przestarzałe</content>
   <content contentuid="h01e4f65cg7f45g4509g7911g655523dbfc23" version="1">Wtajemniczony: Mag</content>
-  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="1">Nauczysz się 2 &lt;LSTag Tooltip="Cantrip"&gt;sztuczki&lt;/LSTag&gt; i czaru poziomu 1 z listy czarów maga.</content>
+  <content contentuid="hf53d0a43g624eg7762g6910g0264f0ae7c73" version="2">Nauczysz się 2 &lt;LSTag Tooltip="Cantrip"&gt;sztuczki&lt;/LSTag&gt; i czaru poziomu 1 z listy czarów maga. Zawsze masz ten czar przygotowany. Możesz go również rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim zrobisz to ponownie.</content>
   <content contentuid="hb45ab210g4dfeg44aage273g11ab2c83f7b8" version="1">Pieczęcie Strażnicze</content>
   <content contentuid="hd8757627g198cg4659gbdcbgf8c916e4b023" version="1">Gdy w ramach akcji dodatkowej nałożysz pieczęć illriggera na istotę albo spalisz nałożoną na nią pieczęć, na 2 tury zyskujesz efekt &lt;LSTag Type="Spell" Tooltip="Shout_BladeWard"&gt;Osłony przed orężem&lt;/LSTag&gt;.</content>
   <content contentuid="h6fbb1933ge0e0gc26ag9144gcde944d43651" version="1">W ramach akcji Magii unosisz święty symbol i zużywasz jedno użycie Aktu wiary, wywołując błysk światła w emanacji o promieniu [2]. Każda magiczna Ciemność na tym obszarze, na przykład stworzona czarem Ciemność, zostaje rozproszona. Ponadto każda wybrana przez ciebie istota na tym obszarze wykonuje rzut obronny na Kondycję. Przy niepowodzeniu otrzymuje [1], a przy powodzeniu połowę tej wartości.</content>
@@ -3572,9 +3572,9 @@ Broń naturalna. Masz pazury, kły, rogi albo inną naturalną broń, której mo
 
 Widzenie nocne. Zyskujesz widzenie w ciemności na odległość [1]. Jeśli już je masz, jego zasięg zwiększa się o [2].</content>
   <content contentuid="ha288579eg93c9g19b4gd809gcbf44c5b3b6b" version="1">Atut: Tkacz amuletów</content>
-  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="1">Znasz ludowe lekarstwa i klątwy przekazywane w naukach Dawnych Dróg oraz potrafisz nasycać nimi wyplatane przez siebie niewielkie wiklinowe amulety. Zyskujesz następujące korzyści.
+  <content contentuid="h02d99bfegfef1g8e2dg60b7g277ac219dbc2" version="2">Znasz ludowe lekarstwa i klątwy przekazywane w naukach Dawnych Dróg oraz potrafisz nasycać nimi wyplatane przez siebie niewielkie wiklinowe amulety. Zyskujesz następujące korzyści.
 
-Zawsze masz przygotowane czary Błogosławieństwo i Urok. Ponadto zyskujesz jedną komórkę czaru 1. poziomu, której możesz użyć do ich rzucenia.</content>
+Zawsze masz przygotowane czary Błogosławieństwo i Urok. Jeden z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim zrobisz to ponownie. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h62e3caedgde0fgd173g13ddg989c09ea72d8" version="1">Atut: Strażnik grobu</content>
   <content contentuid="he41177dagaf29g13c8gc756g66414bcb409d" version="1">Studiowanie obrzędów pogrzebowych i troska o spoczynek zmarłych uczyniły z ciebie pośrednika między światem żywych a światem umarłych. Zyskujesz następujące korzyści.
 
@@ -3617,9 +3617,9 @@ Naturalny pancerz. Łuski, płytki albo gruba skóra zapewniają ci KP równą 1
 Broń naturalna. Masz pazury, kły, rogi albo inną naturalną broń, której możesz używać do ataków bez broni. Przy trafieniu zadają one 1k6 obrażeń.
 
 Widzenie nocne. Zyskujesz widzenie w ciemności na odległość 18 m. Jeśli już je masz, jego zasięg zwiększa się o 9 m.</content>
-  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="1">Znasz ludowe lekarstwa i klątwy przekazywane w naukach Dawnych Dróg oraz potrafisz nasycać nimi wyplatane przez siebie niewielkie wiklinowe amulety. Zyskujesz następujące korzyści.
+  <content contentuid="h83fd0391g6b2fgac96ga1a2gb0b7edabeb3b" version="2">Znasz ludowe lekarstwa i klątwy przekazywane w naukach Dawnych Dróg oraz potrafisz nasycać nimi wyplatane przez siebie niewielkie wiklinowe amulety. Zyskujesz następujące korzyści.
 
-Zawsze masz przygotowane czary Błogosławieństwo i Urok. Ponadto zyskujesz jedną komórkę czaru 1. poziomu, której możesz użyć do ich rzucenia.</content>
+Zawsze masz przygotowane czary Błogosławieństwo i Urok. Jeden z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim zrobisz to ponownie. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h894a8c5dg5c28g7d23gb198gb51499628687" version="1">Studiowanie obrzędów pogrzebowych i troska o spoczynek zmarłych uczyniły z ciebie pośrednika między światem żywych a światem umarłych. Zyskujesz następujące korzyści.
 
 Boski kanał. Zyskujesz jedno użycie zdolności Akt wiary klasy kleryka i możesz za jego pomocą wywołać efekt „Odpędzanie nieumarłych”. Jeśli masz już Akt wiary, dodajesz to użycie do tej zdolności z jednej wybranej klasy.</content>
@@ -4450,7 +4450,7 @@ Nieuniknione ostrze. Raz na turę, gdy chybisz testem ataku przeciwko celowi obj
   <content contentuid="hf03aeb95g5dbbg3147g324cg388502cbfe2e" version="1">Gdy otrzymujesz obrażenia od celu objętego twoim Urokiem, możesz w ramach reakcji zmniejszyć je o 2k8 plus swój modyfikator Charyzmy. Możesz użyć tej zdolności tyle razy, ile wynosi twój modyfikator Charyzmy, a wszystkie użycia odzyskujesz po długim odpoczynku.</content>
   <content contentuid="hca29dcb5g220cg55c3g2c6dgb8a635486d83" version="1">Głodny urok</content>
   <content contentuid="h10cb65eeg6a98g7720g30f1g78e524e4746c" version="2">Atut: Kształtownik Run</content>
-  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="1">Magia Runiczna. Znasz dwie wybrane runy z tabeli Czarów Runicznych. Poznajesz czary pierwszego poziomu powiązane z tymi runami, jak pokazano w tabeli Czarów Runicznych. Otrzymujesz jedną komórkę czaru pierwszego poziomu, której można używać wyłącznie do rzucania tych czarów. Możesz także rzucać czary powiązane z twoimi runami, korzystając z innych posiadanych komórek czarów.</content>
+  <content contentuid="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="2">Magia Runiczna. Znasz dwie wybrane runy z tabeli Czarów Runicznych. Poznajesz czary pierwszego poziomu powiązane z tymi runami, jak pokazano w tabeli Czarów Runicznych. Każdy z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim ponownie rzucisz ten czar w ten sposób. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h7161b496g15eeg82f5gd23agbcddcc7ddb56" version="1">Atut pochodzenia: Uderzenie olbrzymów</content>
   <content contentuid="h603f364eg76f2g4896gd3eeg723e7e1e85a7" version="2">Noszona w tobie pierwotna magia niesie echo potęgi olbrzymów. Raz na turę, gdy trafiasz cel atakiem bronią do walki wręcz albo atakiem dystansowym bronią miotaną, możesz nasycić atak dodatkowym efektem zależnym od wybranej korzyści. Możesz użyć tego atutu tyle razy, ile wynosi twoja premia z biegłości, a wszystkie użycia odzyskujesz po ukończeniu długiego odpoczynku.</content>
   <content contentuid="hae3fe0d8g977dg32d2g8d96g1076ec054f12" version="1">Kształtujący runy: Chmura</content>
@@ -4482,7 +4482,7 @@ Nieuniknione ostrze. Raz na turę, gdy chybisz testem ataku przeciwko celowi obj
   <content contentuid="h34b412e2gf24ag1cfbg4da2g84045d629db7" version="1">Bigby przedstawia: Chwała olbrzymów</content>
   <content contentuid="hb799a08cg25f5g214agbad7g45640c6a03d4" version="1">Bigby przedstawia: Chwała olbrzymów</content>
   <content contentuid="hee3bf9a3g10d7g5e5dgbcf7g322706a2afa1" version="1">Kształtownik Run</content>
-  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="1">Magia Runiczna. Znasz dwie wybrane runy z tabeli Czarów Runicznych. Poznajesz czary pierwszego poziomu powiązane z tymi runami, jak pokazano w tabeli Czarów Runicznych. Otrzymujesz jedną komórkę czaru pierwszego poziomu, której można używać wyłącznie do rzucania tych czarów. Możesz także rzucać czary powiązane z twoimi runami, korzystając z innych posiadanych komórek czarów.</content>
+  <content contentuid="h59358ad8g6cf9g5327ga84dg411f42012881" version="2">Magia Runiczna. Znasz dwie wybrane runy z tabeli Czarów Runicznych. Poznajesz czary pierwszego poziomu powiązane z tymi runami, jak pokazano w tabeli Czarów Runicznych. Każdy z tych czarów możesz rzucić bez zużywania komórki czaru, lecz po takim użyciu musisz ukończyć długi odpoczynek, zanim ponownie rzucisz ten czar w ten sposób. Możesz też rzucać te czary, zużywając posiadane komórki czarów.</content>
   <content contentuid="h0312caeage87bg07c0gbc38g2d82406f280f" version="4">Goliat</content>
   <content contentuid="h6d404c53gbba9g0c8fgf4e4g77b082077a84" version="3">Lodowe elfy zamieszkują głównie wyspy i są bardzo samowystarczalne.</content>
   <content contentuid="hd29558a9g26bcgf48dg297dg572e13e5604e" version="3">Lodowe elfy zamieszkują głównie wyspy i są bardzo samowystarczalne.</content>
