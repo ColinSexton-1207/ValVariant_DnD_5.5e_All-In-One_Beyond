@@ -5291,7 +5291,7 @@ data "Boosts" "IF(IsMeleeAttack()):Advantage(AttackRoll);IF(IsUnarmedAttack()):A
 new entry "INSTINCTIVE_POUNCE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "DisplayName" "h28d4b453gc36cg810egf9e2g1dbff5d018d8;1"
+data "DisplayName" "h28d4b453gc36cg810egf9e2g1dbff5d018d8;2"
 data "Description" "hdb025275gf26dg03dfg7370g4dddf3f0ffb9;1"
 data "Icon" "Action_Barbarian_Rage"
 data "StackId" "INSTINCTIVE_POUNCE"
