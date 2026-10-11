@@ -2455,7 +2455,7 @@
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedAttack() and Self(context.Observer,context.Source) and IsRangedWeaponAttack() and IsHit() and not AnyEntityIsItem() and not InterruptHasDisadvantage();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedAttack() and Self(context.Observer,context.Source) and IsRangedWeaponAttack() and IsInterruptedRollSuccess() and not AnyEntityIsItem() and not InterruptHasDisadvantage();" />
         <field name="Properties" type="StringTableFieldDefinition" value="SetDisadvantage();RestoreResource(SELF,Risk,1,0);" />
         <field name="Cost" type="StringTableFieldDefinition" value="RiskyBusiness:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />

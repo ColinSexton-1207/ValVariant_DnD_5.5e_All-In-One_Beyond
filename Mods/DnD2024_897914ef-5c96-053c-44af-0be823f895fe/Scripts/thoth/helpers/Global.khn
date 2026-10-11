@@ -108,3 +108,10 @@ function SanguinePoppetACBonusAtLeast(value)
     return ConditionResult(bonus >= value)
 end
 
+
+function IsInterruptedRollSuccess()
+    if context.InterruptedRoll.RollCritical == RollCritical.None then
+        return ConditionResult(context.InterruptedRoll.Total >= context.InterruptedRoll.Difficulty)
+    end
+    return ConditionResult(context.InterruptedRoll.RollCritical == RollCritical.Success)
+end
