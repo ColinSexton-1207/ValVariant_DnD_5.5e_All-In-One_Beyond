@@ -10767,6 +10767,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(LIARS_DICE_GOOD,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(LIARS_DICE_BAD,100,1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('LIARS_DICE_GOOD') and not HasStatus('LIARS_DICE_BAD')" />
         <field name="Icon" type="StringTableFieldDefinition" value="HighRoller_3_LiarsDice" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8416536fg8e84gf01eg11c4g49188075bb83" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h463652f9g2026g8164g2cf3g5dcaab1b644f" version="2" />
