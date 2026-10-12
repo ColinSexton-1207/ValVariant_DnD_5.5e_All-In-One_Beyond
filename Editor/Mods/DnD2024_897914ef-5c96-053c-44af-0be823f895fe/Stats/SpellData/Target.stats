@@ -11447,8 +11447,8 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;IsConcentration;IsMelee;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="33302a46-4a12-41dd-8845-6b7314d50022" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcd66fb0-b0bc-41d0-abba-ad443d63dd72" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b090825a-0728-4566-a02b-056a188cc347" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="38776222-db33-4b53-9e23-ca3b47ab58cb" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -11894,9 +11894,9 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b3087bdc-96ad-495a-9199-18846152088d" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0b923965-fccd-41cc-9227-f886c427f65f" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b090825a-0728-4566-a02b-056a188cc347" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="38776222-db33-4b53-9e23-ca3b47ab58cb" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="c6846cf3-6ea3-4551-b867-3554eaa6aeae" />
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="74b43e5d-b38e-48a9-a39a-4167eb32b58d" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
       </fields>
@@ -13424,8 +13424,8 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Ally() and not Dead()" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="4f8e353e-c04e-45c3-880b-d10885fd091f" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b090825a-0728-4566-a02b-056a188cc347" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="38776222-db33-4b53-9e23-ca3b47ab58cb" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68b1219a-ccc2-4b29-bb42-b18996de3b4d" />
       </fields>
     </stat_object>
@@ -14132,8 +14132,8 @@
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="176da553-3284-4f20-b3be-12a578f84ef3" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e337c385-2f32-423c-a5d1-255039b105d6" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="b090825a-0728-4566-a02b-056a188cc347" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="38776222-db33-4b53-9e23-ca3b47ab58cb" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0b1e0e8a-fa78-4125-b027-e132a8d7b2d8" />
       </fields>
     </stat_object>
