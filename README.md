@@ -64,7 +64,7 @@ See the [Wiki](https://github.com/Yoonmoonsik/bg3dnd/wiki) and each class page f
 | [Rogue](https://github.com/Yoonmoonsik/bg3dnd/wiki/Class-Rogue) | Arachnoid Stalker, Arcane Trickster, Assassin, Blade of Radiance, Scion of the Three, Highway Rider, Soulknife, Swashbuckler, Thief |
 | [Sorcerer](https://github.com/Yoonmoonsik/bg3dnd/wiki/Class-Sorcerer) | Aberrant Sorcery, Clockwork Sorcery, Divine Soul, Draconic Sorcery, Frost Sorcery, Heroic Sorcery, Shadow Magic, Spellfire Sorcery, Storm Sorcery, Wild Magic Sorcery |
 | [Warlock](https://github.com/Yoonmoonsik/bg3dnd/wiki/Class-Warlock) | Archfey, Celestial, Fiend, Great Old One, Hexblade, Undead, expanded Invocations |
-| [Wizard](https://github.com/Yoonmoonsik/bg3dnd/wiki/Class-Wizard) | Abjurer, Bladesinger, Conjurer, Diviner, Enchanter, Evoker, Illusionist, Necromancer, Transmuter |
+| [Wizard](https://github.com/Yoonmoonsik/bg3dnd/wiki/Class-Wizard) | Abjurer, Bladesinger, Conjurer, Diviner, Enchanter, Evoker, Illusionist, Necromancer, Sangromancer, Transmuter |
 | Psion | Coming soon |
 
 ## Feats
