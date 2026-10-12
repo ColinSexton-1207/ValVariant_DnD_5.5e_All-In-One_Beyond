@@ -121,5 +121,29 @@
         <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h4afb1fafga72bg4445g9c74geda52c586bb9" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0ecf6a2c-d115-40b5-a4ed-2e7619888d71" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Blood Bond" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h4287ed8eg2eb0g430bg9f9dg9e6b9ce87040" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_29" />
+        <field name="UUID" type="IdTableFieldDefinition" value="74b06f5d-a76d-4c63-820b-3ea3b3e4c344" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Extract Iron" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="hefecbb30g9d22g497bgb4f7g3625a8c257da" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_30" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f8e7904-6fdb-4921-8eef-3eca34a30069" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Sanguine Poppet" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h3787ac08geef3g453cgafd9g9437fc6051be" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

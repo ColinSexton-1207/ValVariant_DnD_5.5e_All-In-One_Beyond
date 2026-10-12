@@ -14131,7 +14131,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
-        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="SpellHitAnimationType" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="176da553-3284-4f20-b3be-12a578f84ef3" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="e337c385-2f32-423c-a5d1-255039b105d6" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="0b1e0e8a-fa78-4125-b027-e132a8d7b2d8" />
@@ -14395,8 +14395,8 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
-        <field name="PrepareEffect" type="StringTableFieldDefinition" value="1162f3ba-ed65-4cd0-9e1f-5882414c0097" />
-        <field name="CastEffect" type="StringTableFieldDefinition" value="ab2e7fd5-7785-41ba-84b0-5d0c0b115757" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="1162f3ba-ed65-4cd0-9e1f-5882414c0097" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ab2e7fd5-7785-41ba-84b0-5d0c0b115757" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
