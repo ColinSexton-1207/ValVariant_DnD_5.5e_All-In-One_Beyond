@@ -6158,7 +6158,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="UndeadPatron"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UndeadPatron_6_GraveTouched"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UndeadPatron_6_GraveTouched;UndeadPatron_6_ArcaneNecrosis"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="35c30532-8f59-4980-b21b-4f729d2cd786"/>
                     <attribute id="UUID" type="guid" value="34924027-6c18-407e-b295-22276890d1bd"/>

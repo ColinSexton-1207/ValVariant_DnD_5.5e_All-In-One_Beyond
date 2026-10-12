@@ -7214,4 +7214,6 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h6d8ebcdcg216bg4c37g8b29g6ab0236a605a" version="1">Githyanki Psionics: Jump</content>
   <content contentuid="h92ffe325g1395g4d1fgad22g9ffb416f4290" version="1">Fiendish Legacy: Darkness</content>
   <content contentuid="h20c40786g068cg49a3ga110g95e370a784e7" version="1">Githyanki Psionics: Misty Step</content>
+  <content contentuid="h65a9148age20ag495dg98b8gc56ce03831cf" version="1">Arcane Necrosis</content>
+  <content contentuid="hb7bc9635gc706g468ag9ecbg5e84616fbf90" version="1">Once per turn when you cast a spell that deals damage, you can change that spell’s damage type to Necrotic.</content>
 </contentList>

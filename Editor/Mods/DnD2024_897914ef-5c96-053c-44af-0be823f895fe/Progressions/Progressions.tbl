@@ -7899,7 +7899,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="UndeadPatron" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UndeadPatron_6_GraveTouched" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UndeadPatron_6_GraveTouched;UndeadPatron_6_ArcaneNecrosis" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

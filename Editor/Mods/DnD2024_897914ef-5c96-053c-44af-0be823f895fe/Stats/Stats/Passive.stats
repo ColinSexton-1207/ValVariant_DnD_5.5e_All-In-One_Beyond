@@ -709,10 +709,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13686278-5581-46b9-890f-8cda1296ae36" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7557c8e5-d44b-4e4d-aa8b-72ef37605906" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,5,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a8ad5680-df26-45d9-9410-31842430fb1e" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ab2f12c6-a479-45bd-a952-46ea9a3a56e9" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b0ef441-db47-4756-85dd-c931b242103e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab2f12c6-a479-45bd-a952-46ea9a3a56e9" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -725,10 +741,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="baf111d4-ba4e-4b3a-9810-1e2da3a8a619" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="218cf2ac-e960-43f7-9bf3-b3a9934ff1ed" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,15, Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d791b9ba-84ba-4856-b9da-c1b931e7123f" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="48803bd1-cd1f-4080-a6db-fa5451b3c6a6" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="80688387-e882-4c21-9967-4fe2ffae0cee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="48803bd1-cd1f-4080-a6db-fa5451b3c6a6" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -741,10 +773,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b5ef4d9-9a66-4b15-8dd6-b6d647c021d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="caefe5a9-4f9e-44d8-ac28-609e6accf7b4" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,25, Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="31368237-0069-4e47-82af-dfb180e1ac4b" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bd2c37d0-fa6a-41b3-be1c-01297f7ceaa6" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2be3e464-1a2c-45d5-9e8e-ab6d26c2c988" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd2c37d0-fa6a-41b3-be1c-01297f7ceaa6" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -988,10 +1036,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ebcfeca-4497-4ead-a17a-dba7c2c65795" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_Movement_Passive_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21caf953-c003-47d5-8fb6-b4e27c2ad4e8" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_NECROTIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="72ee0733-341b-41ae-ad52-c470ca28311a" />
         <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_MovementSpell_Passive_Psychic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a3f07fcf-38cb-4d99-b43b-0abafedaa4ce" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_PSYCHIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="270aee9b-81df-4f7f-a4b8-c96f53ac78cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_MovementSpell_Passive_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a3f07fcf-38cb-4d99-b43b-0abafedaa4ce" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_NECROTIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1004,10 +1068,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74988c35-d6bd-4a80-a2be-f06209dcd772" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_5_Movement_Passive_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="431c1f81-83ff-4ad7-a0d8-b04288225d94" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_5_DAMAGE_NECROTIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7fb2a22c-fc2a-4f7a-ab32-880110717f4d" />
         <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_5_MovementSpell_Passive_Psychic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b0253abe-b666-4897-b763-fbd9a8b0b8a5" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_5_DAMAGE_PSYCHIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7ca9f06-f9b9-48a1-ad39-3d66b49d77dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_5_MovementSpell_Passive_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b0253abe-b666-4897-b763-fbd9a8b0b8a5" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_5_DAMAGE_NECROTIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1020,10 +1100,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6b4d2dc5-e29d-47c0-8d5f-14f23bd5a699" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_11_Movement_Passive_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1eb3ff26-8151-49e4-bb8c-7795c8c4579e" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_11_DAMAGE_NECROTIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="61288fde-b7ae-4d2a-ad45-031efad065a4" />
         <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_11_MovementSpell_Passive_Psychic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c07c9586-09e5-40b1-9356-d3ca4a2caddd" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_11_DAMAGE_PSYCHIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7ad9abc-0d6b-4fbf-98d2-a82c05db300d" />
+        <field name="Name" type="NameTableFieldDefinition" value="BoomingBlade_11_MovementSpell_Passive_Necrotic" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c07c9586-09e5-40b1-9356-d3ca4a2caddd" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, BOOMING_BLADE_11_DAMAGE_NECROTIC,100,0);ApplyStatus(SELF, BOOMING_BLADE_DAMAGE_IMMUNITY, 100, 0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7484,6 +7580,17 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11406" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Sleeping);IF(MainDamageTypeIs(DamageType.Necrotic)):MinimumRollResult(Damage,2);IgnoreResistance(Necrotic,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f40905d5-7e7d-4227-859b-45a565ee85e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadPatron_6_ArcaneNecrosis" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65a9148age20ag495dg98b8gc56ce03831cf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb7bc9635gc706g468ag9ecbg5e84616fbf90" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11406" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;ToggledDefaultOn;ToggledDefaultAddToHotbar;IsToggled" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

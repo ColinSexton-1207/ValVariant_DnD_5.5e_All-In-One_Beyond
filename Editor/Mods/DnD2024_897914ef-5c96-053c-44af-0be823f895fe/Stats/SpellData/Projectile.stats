@@ -294,7 +294,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="RangedMainWeaponRange" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedWeaponAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(TrueStrike), Radiant);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(TrueStrike),Psychic);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);IF(HasPassive('AgonizingBlastPlayer',context.Source) and not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_CHA_RADIANT,100,0);IF(HasPassive('AgonizingBlastPlayer',context.Source) and HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_CHA_PSYCHIC,100,0);IF(HasPassive('Unbroken_3_Spells',context.Source) and HasPassive('Druid_7_ElementalFury_PotentSpellcasting',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_WIS_RADIANT,100,0);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon, MainRangedWeaponDamageType);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(LevelMapValue(TrueStrike), Radiant);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(TrueStrike),Psychic);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(LevelMapValue(TrueStrike),Necrotic);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);IF(HasPassive('AgonizingBlastPlayer',context.Source) and not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_CHA_RADIANT,100,0);IF(HasPassive('AgonizingBlastPlayer',context.Source) and HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_CHA_PSYCHIC,100,0);IF(HasPassive('AgonizingBlastPlayer',context.Source) and HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_CHA_NECROTIC,100,0);IF(HasPassive('Unbroken_3_Spells',context.Source) and HasPassive('Druid_7_ElementalFury_PotentSpellcasting',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_WIS_RADIANT,100,0);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="IF(HasStatus('YSRSLIDFWWADNIWHWIHLY')):SpawnExtraProjectiles(Projectile_MainHandAttack);ApplyStatus(YSRSLIDFWWADNIWHWIHLY_YWNK,100,1)" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="8646984b-91d6-47b8-afd5-0a3eebe3d447" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Physical_Ranged" />
@@ -318,7 +318,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e3b2fa74-ab21-49c9-8a0a-a1400c5a6716" />
         <field name="Name" type="NameTableFieldDefinition" value="TrueStrike_Radiant" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b96113c3-6efe-4d75-b34a-9e827b59c4e7" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike), Radiant);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike),Psychic);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);IF(HasPassive('Unbroken_3_Spells',context.Source) and HasPassive('Druid_7_ElementalFury_PotentSpellcasting',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_WIS_RADIANT,100,0);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike), Radiant);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike),Psychic);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(MainRangedWeapon+LevelMapValue(TrueStrike),Necrotic);ExecuteWeaponFunctors(MainHand);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);IF(HasPassive('Unbroken_3_Spells',context.Source) and HasPassive('Druid_7_ElementalFury_PotentSpellcasting',context.Source)):ApplyStatus(TRUE_STRIKE_BONUSDAMAGE_WIS_RADIANT,100,0);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Ranged" />
       </fields>
     </stat_object>
@@ -345,7 +345,7 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10,Force,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10,Psychic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d10,Force,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d10,Necrotic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="3eaf2c46-46a9-4b52-8e05-fae7dc4e548b" />
@@ -372,7 +372,7 @@
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3_Loop" />
         <field name="CastTargetHitDelay" type="IntegerTableFieldDefinition" value="100" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10/2,Force,Magical);IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10/2,Psychic,Magical);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d10/2,Force,Magical);IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10/2,Psychic,Magical);IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d10/2,Necrotic,Magical);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -422,7 +422,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c53d5de8-93f5-4033-8536-e3270eec61bd" />
         <field name="Name" type="NameTableFieldDefinition" value="GreenFlameBlade" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Psychic);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Psychic);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Necrotic);" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and Enemy();" />
@@ -858,8 +858,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="50633762-134d-43c0-8ffc-8a5dc56b022f" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ea4ff8c0-3eff-46d5-b188-5e7cb9534411" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d12,Psychic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);GROUND:IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Necrotic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(2d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d12,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(2d12,Necrotic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d12,Lightning)" />
       </fields>
     </stat_object>
@@ -868,8 +868,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b72ab07f-ba49-4f9a-98b4-7f0d982cd093" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2d697c17-2983-44ee-83f2-db3f0a5ec4d8" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(3d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(3d12,Psychic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);GROUND:IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Necrotic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(3d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(3d12,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(3d12,Necrotic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d12,Lightning)" />
       </fields>
     </stat_object>
@@ -878,8 +878,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e88831be-390f-435f-b097-650a387dc90f" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ac78698c-14e4-47e1-807a-0e8f7175180c" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(4d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(4d12,Psychic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);GROUND:IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Necrotic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(4d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(4d12,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(4d12,Necrotic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12,Lightning)" />
       </fields>
     </stat_object>
@@ -888,8 +888,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4e7f202a-519c-406c-9c64-47e8e57c8e84" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e405d05c-29f2-47b8-a963-aa315c2f42de" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d12,Psychic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);GROUND:IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Necrotic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d12,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d12,Necrotic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d12,Lightning)" />
       </fields>
     </stat_object>
@@ -898,8 +898,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c287467c-0e1d-4ac4-adb4-7f46b44dec4b" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6363ef2e-3f6a-4e33-95ba-4d073d7d094c" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d12,Psychic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);GROUND:IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Necrotic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d12,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d12,Necrotic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d12,Lightning)" />
       </fields>
     </stat_object>
@@ -908,8 +908,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5e830e65-02d0-4607-9414-73d653ff8de2" />
         <field name="Name" type="NameTableFieldDefinition" value="WitchBolt_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="36c9faed-04e1-472f-822b-90aa96b40301" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(7d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(7d12,Psychic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Lightning);GROUND:IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d12,Psychic);GROUND:IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d12,Necrotic);ApplyStatus(SELF,WITCH_BOLT_FIRST_TURN,100,1);ApplyStatus(WITCH_BOLT,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(7d12,Lightning,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(7d12,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(7d12,Necrotic,Magical);ApplyStatus(AI_HELPER_WITCHBOLT,100,2);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d12,Lightning)" />
       </fields>
     </stat_object>
@@ -2288,8 +2288,8 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution , SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d6,Force,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d6,Psychic,Magical);ApplyStatus(STUN_DAZING_BLAST,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d6,Force,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d6,Psychic,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(2d6,Force,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d6,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(2d6,Necrotic,Magical);ApplyStatus(STUN_DAZING_BLAST,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(2d6,Force,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(2d6,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(2d6,Necrotic,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="b6a44217-dbd6-443a-8c04-b2796820fe79" />
@@ -2375,7 +2375,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="3" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10,Cold,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10,Psychic,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(DARKBOLT,100,2);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d10,Cold,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(1d10,Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(1d10,Necrotic,Magical);IF(not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(DARKBOLT,100,2);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="47ac1e9a-3b62-4010-bde9-0dc602edd114" />
@@ -3088,8 +3088,8 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(D12Cantrip),Poison,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(D12Cantrip),Psychic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage((LevelMapValue(D12Cantrip))/2,Poison,Magical);IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage((LevelMapValue(D12Cantrip))/2,Psychic,Magical);IF(not HasPassive('PotentCantripPlayer',context.Source)):ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(LevelMapValue(D12Cantrip),Poison,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(LevelMapValue(D12Cantrip),Psychic,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(LevelMapValue(D12Cantrip),Necrotic,Magical);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and not HasPassive('GreatOldOne_3_PsychicSpells',context.Source) and not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage((LevelMapValue(D12Cantrip))/2,Poison,Magical);IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage((LevelMapValue(D12Cantrip))/2,Psychic,Magical);IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source) and HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage((LevelMapValue(D12Cantrip))/2,Necrotic,Magical);IF(not HasPassive('PotentCantripPlayer',context.Source)):ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -3142,7 +3142,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0e5fe3f3-bb15-4d10-a342-cada9dca7a3e" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b76f3dee-cf0a-45b2-aeab-fcf1356db21d" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(3d8,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(3d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(3d8,Necrotic,Magical);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62840b59g871cgdf70gec31g5bda4b8858d2" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Poison)" />
       </fields>
@@ -3152,7 +3152,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5cab6231-79da-4fe2-98e4-181004c168df" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d1d56223-3ad8-4b40-aae9-a3dc7d8b04c6" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(4d8,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(4d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(4d8,Necrotic,Magical);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0a0c0a89gc109g1dfega8b7g644a8b3a0f9d" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison)" />
       </fields>
@@ -3162,7 +3162,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="54e00683-6122-4f9d-95fc-37904e2f10b8" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8700833c-e038-4bae-9cfb-dce3c9f8b3d6" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(5d8,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d8,Necrotic,Magical);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19695d2bgc8ebgf448g68a8g09235680c4c8" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison)" />
       </fields>
@@ -3172,7 +3172,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5b8847ca-9450-4064-8dc2-0366424c221c" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4cd827e5-5ae1-43f6-a2f2-3e2e22a24409" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(6d8,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d8,Necrotic,Magical);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b2eb0a2g64b2g7bfcg2744g6270c1f1e167" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison)" />
       </fields>
@@ -3182,7 +3182,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="29bce934-151e-4159-973b-0ab35e182801" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="df766977-9d5f-4f67-b5f6-1b81e2ead84c" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(7d8,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(7d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(7d8,Necrotic,Magical);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29d2b04dgf6cdgaa4cge9cegcd50e2f94044" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison)" />
       </fields>
@@ -3192,7 +3192,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c059d712-d932-4e10-a87c-f4088d624d4c" />
         <field name="Name" type="NameTableFieldDefinition" value="RayOfSickness_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d5fa2c2a-84bf-4a3c-ad73-6ec8801d89bb" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);DealDamage(8d8,Poison,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(POISONED,100,2);IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(8d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(8d8,Necrotic,Magical);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72480687g9aedg63f6g71a9gf54e11ec105f" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison)" />
       </fields>

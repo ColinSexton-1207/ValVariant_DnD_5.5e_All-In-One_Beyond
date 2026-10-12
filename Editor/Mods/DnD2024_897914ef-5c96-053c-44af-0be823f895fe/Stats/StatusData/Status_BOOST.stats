@@ -1264,10 +1264,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa80fb8c-4cd7-46c5-b2c3-630d86de9552" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ac7d9f0-81e2-4e24-aa7d-9163240813f4" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Necrotic;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7b74fd87-4f20-47d5-95a3-215950985fd3" />
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_PSYCHIC_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d9057615-b0fc-401e-a24d-70681d0c6643" />
         <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Psychic_2;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c642beaf-623e-4b29-8f29-9febf2741e4e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_NECROTIC_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9057615-b0fc-401e-a24d-70681d0c6643" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Necrotic_2;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1280,10 +1296,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="549412d8-702f-411b-8dbe-9728b1899b56" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_NECROTIC_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a2c46f75-14ec-48df-b18b-717439d7c271" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Necrotic_3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2b9e157e-8810-4f0d-b326-6b4793819d90" />
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_PSYCHIC_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7a20e175-1621-4e66-8785-ee9d08cd3244" />
         <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Psychic_4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="47941ebd-571b-4ca2-87fb-e52600aac990" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_NECROTIC_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7a20e175-1621-4e66-8785-ee9d08cd3244" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Necrotic_4;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1296,10 +1328,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b38d9104-2d59-449a-a5f7-c9d9ede6a5bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_NECROTIC_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4433ff08-cd98-4daa-92e0-e9291099d7fa" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Necrotic_5;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8d9c9a99-0dd4-43a1-98d6-aca2a77b7091" />
         <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_PSYCHIC_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2f00f1e2-04ce-422a-9ba6-21ff000f37d7" />
         <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Psychic_6;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1258859d-c6b3-4fef-be75-6877a18f74e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARMOR_OF_AGATHYS_NECROTIC_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f00f1e2-04ce-422a-9ba6-21ff000f37d7" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ArmorOfAgathys_Necrotic_6;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1515,6 +1563,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f0a1925b-1449-4813-99b0-5c42845ee2da" />
         <field name="Name" type="NameTableFieldDefinition" value="TRUE_STRIKE_BONUSDAMAGE_CHA_PSYCHIC" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed8300de-cbee-4a09-9bfe-d7512179420e" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRUE_STRIKE_BONUSDAMAGE_CHA_NECROTIC" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1735,11 +1790,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0965f38d-1cc5-4c1f-88c5-b3e04996e2b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca782226-b4d6-4b35-85ba-dca18de28ce4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4,Necrotic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d4,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d4,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b2c2fc4c-ada8-4da1-8072-3ca3b5845bb0" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="646c3b4e-4ff8-4b2f-8102-0f0c0518e158" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4,Psychic)" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_PSYCHIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4aaec6bb-3eae-4ec8-9835-17eed3509634" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="646c3b4e-4ff8-4b2f-8102-0f0c0518e158" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4,Necrotic)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_NECROTIC,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1754,11 +1828,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2097c987-f720-47cd-98d3-701726151f29" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_3_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d963c9d-af21-4fd2-b3c7-44cb35e3dc01" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4,Necrotic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d4,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(6d4,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="92b91701-b50f-4eb1-a784-13314db4fb5d" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_3_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4fd136f9-fae1-4d0e-bce2-14d0abc78c72" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4,Psychic)" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_3_PSYCHIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26f7b850-98dd-40dc-94cd-dd0fa424f7d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_3_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4fd136f9-fae1-4d0e-bce2-14d0abc78c72" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4,Necrotic)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_3_NECROTIC,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1773,11 +1866,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0762ea30-c6bb-41c5-a031-825927527346" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_4_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ba1434cf-eaee-405d-93db-3448527e2867" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d4,Necrotic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d4,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(8d4,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="99331e2f-cfc0-446e-b17f-67bca0839856" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_4_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a605d01c-32b8-4f46-94fe-d095e5003d68" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d4,Psychic)" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_4_PSYCHIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93ff2734-603f-4090-be19-cd7765ab39f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_4_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a605d01c-32b8-4f46-94fe-d095e5003d68" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d4,Necrotic)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_4_NECROTIC,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1792,11 +1904,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36f503e7-0250-445a-ae39-b1e9ed21b520" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_5_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bc9c348-76f2-4e87-ac4e-568e5f0555b7" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(10d4,Necrotic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(10d4,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(10d4,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9702eaaf-cd5e-48c8-8d54-c527102f91b6" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_5_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="349e3713-6e60-4032-9396-0e5e814e9796" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(10d4,Psychic)" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_5_PSYCHIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb5eb862-16d1-450c-96f2-8a1d4efc817b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_5_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="349e3713-6e60-4032-9396-0e5e814e9796" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(10d4,Necrotic)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_5_NECROTIC,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1811,11 +1942,30 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4da2fb44-a005-4ce3-8cb7-7c4deb94112b" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_6_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b30a3a23-814a-4bab-8644-2abe91a5809e" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(12d4,Necrotic)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(12d4,Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(12d4,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7dfea6b3-f3f2-4365-bccb-a80eef2aeac7" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_6_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c31a5dbb-c7ed-4c9c-a252-179ed32af921" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(12d4,Psychic)" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_6_PSYCHIC,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e058b841-3f2a-4696-a4f9-edecb9e552b8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CLOUD_OF_DAGGERS_AURA_6_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c31a5dbb-c7ed-4c9c-a252-179ed32af921" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(12d4,Necrotic)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(not Tagged('INVISIBLE_HELPER')):ApplyStatus(CLOUD_OF_DAGGERS_6_NECROTIC,100,1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1939,6 +2089,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97b2e3e9-8b85-4671-9102-9ebee7f44539" />
+        <field name="Name" type="NameTableFieldDefinition" value="VOID_AURA_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f48a04a-55fd-464d-89c4-8123c8e18f63" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Character()):ApplyStatus(VOID_START_NECROTIC,100,-1);TARGET:IF(Character()):ApplyStatus(VOID_END_NECROTIC,100,-1);TARGET:IF(Character()):ApplyStatus(DIFFICULT_TERRAIN,100,-1);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="645baa93-b1e4-4da6-9f1c-366496a9e6df" />
         <field name="Name" type="NameTableFieldDefinition" value="VOID_START" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c3908dda-1cd0-4a4b-9bb2-baa0b17018a6" />
@@ -1951,6 +2109,14 @@
         <field name="Name" type="NameTableFieldDefinition" value="VOID_START_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="645baa93-b1e4-4da6-9f1c-366496a9e6df" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Psychic,Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c1b54930-2fb3-45e7-8326-02c437bda3da" />
+        <field name="Name" type="NameTableFieldDefinition" value="VOID_START_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="645baa93-b1e4-4da6-9f1c-366496a9e6df" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Necrotic,Magical);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1970,6 +2136,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93e3e4ba-5bdc-429c-8cf7-6bf88958f93f" />
+        <field name="Name" type="NameTableFieldDefinition" value="VOID_END_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9858569c-dc53-45cb-bce2-65782fcb319f" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(VOID_END_DAMAGE_NECROTIC,100,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5edd590d-f0e6-4496-bf83-19076e70e0e9" />
         <field name="Name" type="NameTableFieldDefinition" value="VOID_END_DAMAGE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c431c715-bac7-43b0-aef1-609024892d39" />
@@ -1982,6 +2156,14 @@
         <field name="Name" type="NameTableFieldDefinition" value="VOID_END_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5edd590d-f0e6-4496-bf83-19076e70e0e9" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Psychic,Magical);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="84f813ee-ab65-4a6f-92c3-2a928b94858f" />
+        <field name="Name" type="NameTableFieldDefinition" value="VOID_END_DAMAGE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5edd590d-f0e6-4496-bf83-19076e70e0e9" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6,Necrotic,Magical);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2641,6 +2823,8 @@
         <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d8,Necrotic,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d8/2,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(5d8/2,Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2652,6 +2836,8 @@
         <field name="OnApplyRoll" type="RollConditionsTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d8,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d8,Necrotic,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="IF(not HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d8/2,Poison,Magical);IF(HasPassive('UndeadPatron_6_ArcaneNecrosis',context.Source)):DealDamage(6d8/2,Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3039,11 +3225,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e2a88e1-4d36-4e0a-9f46-780d44139b6b" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="62202cd4-ddec-4e72-b9d9-2f81dade7bdc" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade_Walk),Necrotic)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BoomingBlade_Movement_Passive_Necrotic;BoomingBlade_MovementSpell_Passive_Necrotic;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="848a569d-be8e-4460-9527-bb8b20d731fc" />
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_5_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ecab4329-8be3-4bb6-b683-d0017b1817dc" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Psychic)" />
         <field name="Passives" type="StringTableFieldDefinition" value="BoomingBlade_5_Movement_Passive_Psychic;BoomingBlade_5_MovementSpell_Passive_Psychic;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b6c5b24-8701-4cc5-bf17-429f0b54d589" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_5_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecab4329-8be3-4bb6-b683-d0017b1817dc" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Necrotic)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BoomingBlade_5_Movement_Passive_Necrotic;BoomingBlade_5_MovementSpell_Passive_Necrotic;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3057,11 +3261,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c728ea4f-ea82-4ac0-97a7-2e634e976fb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_11_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d8c6408-1491-4024-900f-6ef3bbc62619" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Necrotic)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="BoomingBlade_11_Movement_Passive_Necrotic;BoomingBlade_11_MovementSpell_Passive_Necrotic;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="34e7de93-fa1b-436b-8e47-61022ea50fce" />
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="55b041e4-02ac-4b86-b34a-30b937058c14" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Psychic)" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Psychic,Magical);RemoveStatus(SELF, BOOMING_BLADE_PSYCHIC)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54b6379c-d60d-49c1-a3e0-c03782a74245" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_DAMAGE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="55b041e4-02ac-4b86-b34a-30b937058c14" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Necrotic)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Necrotic,Magical);RemoveStatus(SELF, BOOMING_BLADE_NECROTIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3075,11 +3297,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb89e209-556a-4e6e-bf69-768403525498" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_5_DAMAGE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4f7de6b-7165-41b5-9178-7ae9650485a9" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Necrotic)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical);RemoveStatus(SELF, BOOMING_BLADE_5_NECROTIC)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f51b3334-aab4-4156-a27e-a201a53bf676" />
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_11_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eed8e877-a7c3-4cdd-a689-1fd3ce9e2db7" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Psychic)" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Psychic,Magical);RemoveStatus(SELF, BOOMING_BLADE_11_PSYCHIC)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a2721dc-124e-4e7e-8668-b95732b02959" />
+        <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_11_DAMAGE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eed8e877-a7c3-4cdd-a689-1fd3ce9e2db7" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Necrotic)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Necrotic,Magical);RemoveStatus(SELF, BOOMING_BLADE_11_NECROTIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3336,11 +3576,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75065a89-1d16-4fc2-9e8c-32782f9c5a59" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54b88032-b3a1-47e1-90a1-29d578fa67fd" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4, Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d4, Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a4b6f14c-48b2-46c7-956a-9f93b42f60cb" />
         <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_2_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7786aca5-fa22-460b-9e78-42d091567b63" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Psychic)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d4, Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5755673e-8473-471a-9f60-5a5a50d6692b" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_2_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7786aca5-fa22-460b-9e78-42d091567b63" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d4, Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d4, Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3354,11 +3612,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2563199-bb5e-4fdb-a150-bd8946f37553" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_3_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5382b27-c3a2-4f21-961f-e33eb711c5d0" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4, Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d4, Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f31c4c23-3290-4b32-8cef-c427c0efd4b4" />
         <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_4_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="37508860-4ecf-4faf-909c-45b9b68bc028" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d4, Psychic)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5d4, Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d8f13ca-df6d-479b-ada7-437a576c14ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_4_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37508860-4ecf-4faf-909c-45b9b68bc028" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d4, Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5d4, Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3372,11 +3648,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="636deb7a-a937-4efd-a4b6-e43845561cfb" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_5_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2e1a4550-dc11-4db4-a7ba-ebf4bc1aae3f" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4, Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(6d4, Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="11e6c394-1b95-48d7-b89d-8ceb5b233fd7" />
         <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_6_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d03b64e3-b9e9-47c1-bb67-6a634042b971" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d4, Psychic)" />
         <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(7d4, Psychic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44264e6b-fbb1-42c7-90de-690201818c16" />
+        <field name="Name" type="NameTableFieldDefinition" value="HELLS_LASH_6_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d03b64e3-b9e9-47c1-bb67-6a634042b971" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d4, Necrotic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(7d4, Necrotic,Magical)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4232,6 +4526,60 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Disadvantage(AllAbilities);Disadvantage(AttackRoll);" />
         <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8933e173gb36agbf40ge97fg7e76f31c0d5c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a65897a2-324e-4fac-b569-c0cdb4974052" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_DAMAGE_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0c306667-a35c-4a20-9a64-9b99edd181b1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(4d10,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a7ee9c4-d195-41ae-86c7-5a35249cb299" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_DAMAGE_5_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74ad7417-514f-4720-9cb9-01475509b65d" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(5d10,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39eacaee-b65c-4ce8-899d-dbd7eae08cc3" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_DAMAGE_6_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="15311d62-9f75-4f82-b59b-268e44e4a8d2" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(6d10,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="260196e1-daae-45f2-bb65-95676c441602" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bb5ae1fb-e5e1-4c88-8d3f-d384ca2493af" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d10,Necrotic)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(PHANTASMAL_KILLER_DAMAGE_NECROTIC,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="RemoveStatus(PHANTASMAL_KILLER_NECROTIC)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba93f88f-2a4a-46a3-a43b-76192eb71798" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_5_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fe2179ba-52b7-4b50-b106-8d6344c330d1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d10,Necrotic)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(PHANTASMAL_KILLER_DAMAGE_5_NECROTIC,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="RemoveStatus(PHANTASMAL_KILLER_5_NECROTIC)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c54aa9f-7856-4970-b29e-e9aa00ddfd0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PHANTASMAL_KILLER_6_NECROTIC" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8d9e86f-7e40-477a-a120-c3e4baaeeebb" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d10,Necrotic)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="ApplyStatus(PHANTASMAL_KILLER_DAMAGE_6_NECROTIC,100,1)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="RemoveStatus(PHANTASMAL_KILLER_6_NECROTIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
