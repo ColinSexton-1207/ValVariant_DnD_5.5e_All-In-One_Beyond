@@ -14808,10 +14808,10 @@
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f2cc8572-ef49-414a-bc5d-0002e9f9fae3" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcdbef29-f309-4d72-b12b-aa264e676786" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="02511b69-2ccd-4fa6-a251-b4ee3437bcf0" />
-        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="5e97b8fc-680a-4155-b105-948be46f0f26" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ec80b3cd-29fd-40d2-a41a-b703db1b6f8e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="d97c5b65-eccd-4b54-a665-64539e7924bf" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="204e8d29-f363-4781-b117-ab3944ce5139" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="6580e872-1798-4b24-8bb0-95c744068f76" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
