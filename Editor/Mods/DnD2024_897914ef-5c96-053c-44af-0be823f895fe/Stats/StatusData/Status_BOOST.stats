@@ -6915,6 +6915,60 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a9f5a1f7-8621-4772-9716-fab4e9de715b" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="09beecb6-e2e0-4c83-9abc-f79b56a10d47" />
+        <field name="Name" type="NameTableFieldDefinition" value="CIRCLE_OF_SCARLET_TEMPHP_4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5d8b6e7g183eg42f9gab96g762a82ef1c88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c1f7e2ag9b3dg4e81ga6f2g3d5b8c9e0a17" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="20" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_SCARLET_TEMPHP" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(20);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efd9652a-9dc0-4127-b1c1-58d02c8a66eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="CIRCLE_OF_SCARLET_TEMPHP_5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5d8b6e7g183eg42f9gab96g762a82ef1c88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c1f7e2ag9b3dg4e81ga6f2g3d5b8c9e0a17" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="25" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_SCARLET_TEMPHP" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(25);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="805ba3fa-65e6-46ea-804e-e48831950dbc" />
+        <field name="Name" type="NameTableFieldDefinition" value="CIRCLE_OF_SCARLET_TEMPHP_6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5d8b6e7g183eg42f9gab96g762a82ef1c88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4c1f7e2ag9b3dg4e81ga6f2g3d5b8c9e0a17" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="30" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_SCARLET_TEMPHP" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(30);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+        <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="6435c10a-c67d-4f79-8813-b84b0762f92b" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />

@@ -14773,6 +14773,251 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CircleOfScarlet6;Target_CircleOfScarlet8;Target_CircleOfScarlet10;Target_CircleOfScarlet12;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_4,100,-1)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((4d6+SpellCastingAbilityModifier)/2,Necrotic,Magical)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CircleOfScarlet" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5d8b6e7g183eg42f9gab96g762a82ef1c88" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1550f898g229ag44eega221g0f7b4056110a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+SpellCastingAbilityModifier,Necrotic);20;Distance(6);Distance(30)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_4,100,-1)" />
+        <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="56de7c14-e2e3-4b4a-afd1-3212040c26fe" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_FlameStrike_L4to5" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_FlameStrike_L4to5" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_FlameStrike_L4to5" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_FlameStrike_L4to5" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;CanAreaDamageEvade;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f2cc8572-ef49-414a-bc5d-0002e9f9fae3" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bcdbef29-f309-4d72-b12b-aa264e676786" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="02511b69-2ccd-4fa6-a251-b4ee3437bcf0" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="5e97b8fc-680a-4155-b105-948be46f0f26" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10d8603b-e14c-4ce4-b959-3fc8a05ba0a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CircleOfScarlet6_5;Target_CircleOfScarlet8_5;Target_CircleOfScarlet10_5;Target_CircleOfScarlet12_5;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+SpellCastingAbilityModifier,Necrotic);25;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6edd2361-b133-4e44-aba7-28b69fcf8709" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CircleOfScarlet6_6;Target_CircleOfScarlet8_6;Target_CircleOfScarlet10_6;Target_CircleOfScarlet12_6;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+SpellCastingAbilityModifier,Necrotic);30;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d5305152-7fec-4b49-be99-85bfd35aad61" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_4,100,-1)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((4d6+SpellCastingAbilityModifier)/2,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0ad4ac6g15cdg4403g8ef4g6dd88af97f34" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+SpellCastingAbilityModifier,Necrotic);20;Distance(6);Distance(30)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice06:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5e58a24e-0ed1-47bb-8e35-a28d684936cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet6_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5305152-7fec-4b49-be99-85bfd35aad61" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+SpellCastingAbilityModifier,Necrotic);25;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice06:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c81eb02-ac3d-4116-951d-ace7b20d3c11" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet6_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5305152-7fec-4b49-be99-85bfd35aad61" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+SpellCastingAbilityModifier,Necrotic);30;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice06:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d981a7d-3827-49ec-958f-215321f51aa8" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_4,100,-1)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((4d8+SpellCastingAbilityModifier)/2,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea7e4d57gaedeg4e18g8bc1geb98ac9d69fa" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d8+SpellCastingAbilityModifier,Necrotic);20;Distance(6);Distance(30)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice08:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20755934-2d18-4ae3-a42e-7606853eb5ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet8_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d981a7d-3827-49ec-958f-215321f51aa8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d8+SpellCastingAbilityModifier,Necrotic);25;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice08:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet8" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f6659ae3-b125-44a2-9697-d1da6fe1ebd2" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet8_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0d981a7d-3827-49ec-958f-215321f51aa8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d8+SpellCastingAbilityModifier,Necrotic);30;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice08:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet8" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7f7b1c2d-1bf6-46bc-a9bc-180a5b6b794e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_4,100,-1)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((4d10+SpellCastingAbilityModifier)/2,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd9bbd41fg2defg40cdg8628gc4c96a783f9a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d10+SpellCastingAbilityModifier,Necrotic);20;Distance(6);Distance(30)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10+SpellCastingAbilityModifier,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice10:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="718b752c-83df-4b06-bba6-b8a8da6b3856" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet10_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f7b1c2d-1bf6-46bc-a9bc-180a5b6b794e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d10+SpellCastingAbilityModifier,Necrotic);25;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice10:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet10" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b974dff3-f151-4fcb-b370-d7a6cd8dc6ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet10_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7f7b1c2d-1bf6-46bc-a9bc-180a5b6b794e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d10+SpellCastingAbilityModifier,Necrotic);30;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice10:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet10" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77199da2-26bc-405d-9d26-49abd18d9251" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="07595fd5-afae-4ca4-b6ff-d3f38f6285be" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_4,100,-1)" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((4d12+SpellCastingAbilityModifier)/2,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h27da5ce8gde61g4edbg88cbg849df72d50cb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d12+SpellCastingAbilityModifier,Necrotic);20;Distance(6);Distance(30)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12+SpellCastingAbilityModifier,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice12:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsHarmful;CanAreaDamageEvade" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="359f3cdc-7e85-4985-9028-07a1e593c122" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet12_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77199da2-26bc-405d-9d26-49abd18d9251" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d12+SpellCastingAbilityModifier,Necrotic);25;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_5,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice12:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet12" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="953d8ec3-655d-4b9a-9862-90d8045da394" />
+        <field name="Name" type="NameTableFieldDefinition" value="CircleOfScarlet12_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77199da2-26bc-405d-9d26-49abd18d9251" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12+SpellCastingAbilityModifier,Necrotic,Magical);ApplyStatus(SELF,CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d12+SpellCastingAbilityModifier,Necrotic);30;Distance(6);Distance(30)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CIRCLE_OF_SCARLET_TEMPHP_6,100,-1)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice12:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CircleOfScarlet12" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d1095f08-ab53-4789-8336-04d066559346" />

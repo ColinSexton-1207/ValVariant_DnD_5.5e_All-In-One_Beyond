@@ -1109,19 +1109,19 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 4 List"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_Polymorph;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_CircleOfScarlet;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_Polymorph;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="5fe40622-1d3e-4cc1-8d89-e66fe51d8c5c"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="1270a6db-980b-4e3b-bf26-2924da61dfd5"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 4 List to 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_Polymorph;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_CircleOfScarlet;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_Polymorph;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="d9f4685d-4c1a-408e-9735-2810782982cb"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="3276fcfe-e143-4559-b6e0-7d7aa0ffcb53"/>
                     <attribute id="Name" type="FixedString" value="5.5 Sorcerer SLevel 4 List to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_Polymorph;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_CircleOfScarlet;Target_Confusion;Teleportation_DimensionDoor;Target_DominateBeast;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_Polymorph;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="844f1a75-8764-4544-af06-5762f57b745c"/>
                 </node>
                 <node id="SpellList">
@@ -1408,13 +1408,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows;Target_SummonAberration"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_CircleOfScarlet;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows;Target_SummonAberration"/>
                     <attribute id="UUID" type="guid" value="94fb74d6-c832-40f1-9e08-159ce46091a1"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 4 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows;Target_SummonAberration"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Target_CircleOfScarlet;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows;Target_SummonAberration"/>
                     <attribute id="UUID" type="guid" value="e5594691-469f-4559-a42b-55010df99eb1"/>
                 </node>
                 <node id="SpellList">
@@ -2061,7 +2061,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Wizard Savant Sangromancy"/>
-                    <attribute id="Spells" type="LSString" value="Target_BloodBond;Shout_ExtractIron;Target_Reanimate;Target_SanguinePoppet;Shout_BloodWisp;Shout_SanguineShield;Shout_SenseLifeblood;Shout_TheftOfVitae;Target_WiltingSmite;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Consumption;Shout_CrimsonLash;Target_ShroudBlood;Target_Somnolence;Target_VibratingHumors"/>
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfScarlet;Target_BloodBond;Shout_ExtractIron;Target_Reanimate;Target_SanguinePoppet;Shout_BloodWisp;Shout_SanguineShield;Shout_SenseLifeblood;Shout_TheftOfVitae;Target_WiltingSmite;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Consumption;Shout_CrimsonLash;Target_ShroudBlood;Target_Somnolence;Target_VibratingHumors"/>
                     <attribute id="UUID" type="guid" value="398d9fdb-0101-4226-b2eb-08a2dae9accb"/>
                 </node>
             </children>

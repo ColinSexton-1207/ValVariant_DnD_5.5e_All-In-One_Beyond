@@ -7216,4 +7216,12 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h20c40786g068cg49a3ga110g95e370a784e7" version="1">Githyanki Psionics: Misty Step</content>
   <content contentuid="h65a9148age20ag495dg98b8gc56ce03831cf" version="1">Arcane Necrosis</content>
   <content contentuid="hb7bc9635gc706g468ag9ecbg5e84616fbf90" version="1">Once per turn when you cast a spell that deals damage, you can change that spell’s damage type to Necrotic.</content>
+  <content contentuid="hb5d8b6e7g183eg42f9gab96g762a82ef1c88" version="1">Circle of Scarlet</content>
+  <content contentuid="h1550f898g229ag44eega221g0f7b4056110a" version="1">As part of casting this spell, you expend [1] of your Hit Point Dice. A crimson pillar erupts from the ground in a [4] radius, [5] high Cylinder centered on a point within range. Each creature within the Cylinder must make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;On a failed save, the creature takes [2]. On a successful save, it takes half as much damage. To determine this damage, roll the Hit Point Dice expended to cast this spell.&lt;br&gt;&lt;br&gt;If any creature fails the save, you gain [3] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="ha0ad4ac6g15cdg4403g8ef4g6dd88af97f34" version="1">Circle of Scarlet: D6</content>
+  <content contentuid="hea7e4d57gaedeg4e18g8bc1geb98ac9d69fa" version="1">Circle of Scarlet: D8</content>
+  <content contentuid="hd9bbd41fg2defg40cdg8628gc4c96a783f9a" version="1">Circle of Scarlet: D10</content>
+  <content contentuid="h27da5ce8gde61g4edbg88cbg849df72d50cb" version="1">Circle of Scarlet: D12</content>
+  <content contentuid="h3d8fe28fgbfccg4168gb0a5g9c5682284f24" version="1">The temporary hit points increase by 5 for each spell slot level above 4.</content>
+  <content contentuid="h4c1f7e2ag9b3dg4e81ga6f2g3d5b8c9e0a17" version="1">Has [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
 </contentList>
