@@ -8132,7 +8132,7 @@ data "StatusType" "BOOST"
 using "RESTRAINED"
 data "Icon" "BladeOfRadiance_9_ChainsOfJudgement"
 data "StatusPropertyFlags" "InitiateCombat"
-data "OnApplyFunctors" "DealDamage(Cause.WisdomModifier,Radiant,Magical)"
+data "OnApplyFunctors" "DealDamage(Cause.WisdomModifier,Radiant,Magical,,0,,true,true)"
 
 new entry "__SORCERER__"
 type "StatusData"
