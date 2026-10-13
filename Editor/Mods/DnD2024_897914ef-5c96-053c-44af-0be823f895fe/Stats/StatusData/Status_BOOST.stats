@@ -1562,28 +1562,28 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f0a1925b-1449-4813-99b0-5c42845ee2da" />
         <field name="Name" type="NameTableFieldDefinition" value="TRUE_STRIKE_BONUSDAMAGE_CHA_PSYCHIC" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Psychic,Magical)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ed8300de-cbee-4a09-9bfe-d7512179420e" />
         <field name="Name" type="NameTableFieldDefinition" value="TRUE_STRIKE_BONUSDAMAGE_CHA_NECROTIC" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Necrotic,Magical)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d23268ae-693e-4ff9-8d2a-1aa75ae0b1a9" />
         <field name="Name" type="NameTableFieldDefinition" value="TRUE_STRIKE_BONUSDAMAGE_CHA_RADIANT" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant,Magical)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f1e9381b-578b-4552-8544-af358f449497" />
         <field name="Name" type="NameTableFieldDefinition" value="TRUE_STRIKE_BONUSDAMAGE_WIS_RADIANT" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.WisdomModifier,Radiant,Magical)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.WisdomModifier,Radiant,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3274,7 +3274,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="55b041e4-02ac-4b86-b34a-30b937058c14" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Psychic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Psychic,Magical);RemoveStatus(SELF, BOOMING_BLADE_PSYCHIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Psychic,Magical,,0,,true,true);RemoveStatus(SELF, BOOMING_BLADE_PSYCHIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3283,7 +3283,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_DAMAGE_NECROTIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="55b041e4-02ac-4b86-b34a-30b937058c14" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Necrotic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Necrotic,Magical);RemoveStatus(SELF, BOOMING_BLADE_NECROTIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Necrotic,Magical,,0,,true,true);RemoveStatus(SELF, BOOMING_BLADE_NECROTIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3292,7 +3292,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_5_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e4f7de6b-7165-41b5-9178-7ae9650485a9" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Psychic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Psychic,Magical);RemoveStatus(SELF, BOOMING_BLADE_5_PSYCHIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Psychic,Magical,,0,,true,true);RemoveStatus(SELF, BOOMING_BLADE_5_PSYCHIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3301,7 +3301,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_5_DAMAGE_NECROTIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e4f7de6b-7165-41b5-9178-7ae9650485a9" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Necrotic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical);RemoveStatus(SELF, BOOMING_BLADE_5_NECROTIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical,,0,,true,true);RemoveStatus(SELF, BOOMING_BLADE_5_NECROTIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3310,7 +3310,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_11_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eed8e877-a7c3-4cdd-a689-1fd3ce9e2db7" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Psychic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Psychic,Magical);RemoveStatus(SELF, BOOMING_BLADE_11_PSYCHIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Psychic,Magical,,0,,true,true);RemoveStatus(SELF, BOOMING_BLADE_11_PSYCHIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3319,7 +3319,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BOOMING_BLADE_11_DAMAGE_NECROTIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eed8e877-a7c3-4cdd-a689-1fd3ce9e2db7" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Necrotic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Necrotic,Magical);RemoveStatus(SELF, BOOMING_BLADE_11_NECROTIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Necrotic,Magical,,0,,true,true);RemoveStatus(SELF, BOOMING_BLADE_11_NECROTIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3398,7 +3398,7 @@
         <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
         <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Necrotic,Magical,,0,,true,true);RemoveStatus(SELF, VENGEFUL_BLADE)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
       </fields>
     </stat_object>
@@ -3413,7 +3413,7 @@
         <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
         <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_5)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Necrotic,Magical,,0,,true,true);RemoveStatus(SELF, VENGEFUL_BLADE_5)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
       </fields>
     </stat_object>
@@ -3428,7 +3428,7 @@
         <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_Hex_Enter" />
         <field name="StackId" type="StringTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Necrotic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_10)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Necrotic,Magical,,0,,true,true);RemoveStatus(SELF, VENGEFUL_BLADE_10)" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="54d3e1a2-7513-4f46-bb46-53dec4e83b8d" />
       </fields>
     </stat_object>
@@ -3465,7 +3465,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="09a91cc9-e36e-4340-a422-371f09b84e09" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Psychic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Psychic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_PSYCHIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8, Psychic,Magical,,0,,true,true);RemoveStatus(SELF, VENGEFUL_BLADE_PSYCHIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3474,7 +3474,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_5_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e441db13-0c7f-409e-a3f2-1864413b0b77" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Psychic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Psychic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_5_PSYCHIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d8, Psychic,Magical,,0,,true,true);RemoveStatus(SELF, VENGEFUL_BLADE_5_PSYCHIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3483,7 +3483,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="VENGEFUL_BLADE_10_DAMAGE_PSYCHIC" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e2144321-d414-4c79-8578-2e8b74517639" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8, Psychic)" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Psychic,Magical);RemoveStatus(SELF, VENGEFUL_BLADE_10_PSYCHIC)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d8, Psychic,Magical,,0,,true,true);RemoveStatus(SELF, VENGEFUL_BLADE_10_PSYCHIC)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

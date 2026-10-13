@@ -2134,6 +2134,36 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2607c7a5-b297-412b-b7b7-ee2a85f6a07b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NPC__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0b9748cf-c4c6-4e58-85eb-0cd98caff97a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RangedSwipe_Myrmidon_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c598894a-7268-449f-9fa1-17524c9d1807" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasEvasion()):DealDamage(2d6,Fire,Magical,,0,,true,true);DealDamage(MainMeleeWeapon, MainWeaponDamageType);IF(HasEvasion()):DealDamage((2d6)/2, Fire,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7c06c822-4344-409a-ba04-d3c3e595153a" />
+        <field name="Name" type="NameTableFieldDefinition" value="RangedSwipe_Wildshape_Myrmidon_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a601cbfd-11ed-41ab-a057-2a906351ab6f" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasEvasion()):DealDamage(1d6, Fire,Magical,,0,,true,true);DealDamage(MainMeleeWeapon, MainWeaponDamageType);IF(HasEvasion()):DealDamage((1d6)/2, Fire,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="172cf1d5-17dd-4dba-ab9b-c5699c2918fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Automaton_Human_Steelwatcher_HellfireCleave" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4167f40f-f426-48bb-97f9-4b1cfca72429" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(2d6, Fire,Magical,,0,,true,true);IF(not HasStatus('BURNING_HELLFIRE')):ApplyStatus(BURNING_HELLFIRE,100,1);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="030e8c4b-8b46-49c0-9647-0f31a3ba093e" />
         <field name="Name" type="NameTableFieldDefinition" value="__SCROLL__" />
       </fields>

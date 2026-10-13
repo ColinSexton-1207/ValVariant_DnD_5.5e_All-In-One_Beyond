@@ -1857,6 +1857,28 @@ data "BeamEffect" "6a1dbffa-77da-4362-bcad-a035db12aeec"
 data "DamageType" "Lightning"
 data "Sheathing" "Melee"
 
+new entry "Zone___NPC__"
+type "SpellData"
+data "SpellType" "Zone"
+
+new entry "Zone_RangedSwipe_Myrmidon_Fire"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_RangedSwipe_Myrmidon_Fire"
+data "SpellSuccess" "IF(not HasEvasion()):DealDamage(2d6,Fire,Magical,,0,,true,true);DealDamage(MainMeleeWeapon, MainWeaponDamageType);IF(HasEvasion()):DealDamage((2d6)/2, Fire,Magical,,0,,true,true)"
+
+new entry "Zone_RangedSwipe_Wildshape_Myrmidon_Fire"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_RangedSwipe_Wildshape_Myrmidon_Fire"
+data "SpellSuccess" "IF(not HasEvasion()):DealDamage(1d6, Fire,Magical,,0,,true,true);DealDamage(MainMeleeWeapon, MainWeaponDamageType);IF(HasEvasion()):DealDamage((1d6)/2, Fire,Magical,,0,,true,true)"
+
+new entry "Zone_MAG_Automaton_Human_Steelwatcher_HellfireCleave"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_MAG_Automaton_Human_Steelwatcher_HellfireCleave"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(2d6, Fire,Magical,,0,,true,true);IF(not HasStatus('BURNING_HELLFIRE')):ApplyStatus(BURNING_HELLFIRE,100,1);"
+
 new entry "Zone___SCROLL__"
 type "SpellData"
 data "SpellType" "Zone"
@@ -1956,4 +1978,3 @@ type "SpellData"
 data "SpellType" "Zone"
 using "Zone_RimesBindingIce"
 data "UseCosts" "ActionPoint:1"
-

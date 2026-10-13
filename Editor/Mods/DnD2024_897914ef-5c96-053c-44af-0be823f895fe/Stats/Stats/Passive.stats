@@ -1213,7 +1213,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="not IsMiss() and (IsWeaponAttack() or IsUnarmedAttack());" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1);DealDamage(SpellCastingAbilityModifier,Necrotic)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1);DealDamage(SpellCastingAbilityModifier,Necrotic,,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
