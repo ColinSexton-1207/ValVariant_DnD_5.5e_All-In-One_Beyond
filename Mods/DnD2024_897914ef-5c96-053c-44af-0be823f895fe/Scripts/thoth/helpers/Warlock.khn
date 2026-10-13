@@ -12,6 +12,11 @@ function IsWarlockCantrip()
     | SpellId('Projectile_BloodBolt')
     | SpellId('Target_Frostbite')
     | SpellId('Shout_SwordBurst')
+    | SpellId('Target_BoomingBlade_ClassSpell')
+    | SpellId('Target_GreenFlameBlade')
+    | SpellId('Target_VengefulBlade')
+    | SpellId('Target_TrueStrike_Melee')
+    | SpellId('Projectile_TrueStrike_Ranged')
 end
 
 function IsEldritchSpearCantrip()
