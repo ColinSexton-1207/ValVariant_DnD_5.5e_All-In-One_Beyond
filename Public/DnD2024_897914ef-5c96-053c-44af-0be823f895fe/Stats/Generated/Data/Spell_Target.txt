@@ -17699,7 +17699,7 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_MAG_WeaponAction_SearingBlood"
 data "Cooldown" "OncePerTurn"
-data "SpellSuccess" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BURNING,100,2);IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BLEEDING,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(SELF, 1d6, Slashing,,0,,true,true);DealDamage(1d6+ProficiencyBonus, Fire,,,0,,true,true);ExecuteWeaponFunctors(MainHand);"
+data "SpellSuccess" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BURNING,100,2);IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BLEEDING,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(SELF, 1d6, Slashing);DealDamage(1d6+ProficiencyBonus, Fire,,,0,,true,true);ExecuteWeaponFunctors(MainHand);"
 
 new entry "Target_MAG_WeaponAction_RevitalizingStrike"
 type "SpellData"

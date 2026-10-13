@@ -20911,7 +20911,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_WeaponAction_SearingBlood" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e8b0af83-69fa-4e70-9672-dedc5469ce2f" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BURNING,100,2);IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BLEEDING,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(SELF, 1d6, Slashing,,0,,true,true);DealDamage(1d6+ProficiencyBonus, Fire,,,0,,true,true);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BURNING,100,2);IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(BLEEDING,100,2);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(SELF, 1d6, Slashing);DealDamage(1d6+ProficiencyBonus, Fire,,,0,,true,true);ExecuteWeaponFunctors(MainHand);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
