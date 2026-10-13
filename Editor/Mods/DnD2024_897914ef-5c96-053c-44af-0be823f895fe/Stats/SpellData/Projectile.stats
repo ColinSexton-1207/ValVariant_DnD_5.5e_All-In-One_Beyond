@@ -3158,7 +3158,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="55d895f2-7570-4be4-b0d9-5a7a3a10f36e" />
         <field name="Name" type="NameTableFieldDefinition" value="HailOfThorns_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="896334f0-1ad0-4738-a0aa-ae01a149f7b4" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(Attack(AttackType.RangedWeaponAttack)):DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);TARGET:AOE:IF(not HasStatus('SHIELD_MASTER')or not HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(5d10,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER')and HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(5d10/2,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER')and HasActionResource('ReactionActionPoint',1,0,false)):RemoveStatus(SHIELD_MASTER)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(Attack(AttackType.RangedWeaponAttack)):DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);TARGET:AOE:IF(not HasStatus('SHIELD_MASTER') or not HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(5d10,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER') and HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(5d10/2,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER') and HasActionResource('ReactionActionPoint',1,0,false)):RemoveStatus(SHIELD_MASTER)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -3166,7 +3166,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fb07a3f4-e739-41bb-95fb-cfbe0107c756" />
         <field name="Name" type="NameTableFieldDefinition" value="HailOfThorns_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="064e5ba3-aaeb-4132-84b4-42643272b75e" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(Attack(AttackType.RangedWeaponAttack)):DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);TARGET:AOE:IF(not HasStatus('SHIELD_MASTER')or not HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(6d10,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER')and HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(6d10/2,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER')and HasActionResource('ReactionActionPoint',1,0,false)):RemoveStatus(SHIELD_MASTER)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:IF(Attack(AttackType.RangedWeaponAttack)):DealDamage(MainRangedWeapon,MainRangedWeaponDamageType);TARGET:AOE:IF(not HasStatus('SHIELD_MASTER') or not HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(6d10,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER') and HasActionResource('ReactionActionPoint',1,0,false)):DealDamage(6d10/2,Piercing,Magical,,0,,true,true);TARGET:AOE:IF(HasStatus('SHIELD_MASTER') and HasActionResource('ReactionActionPoint',1,0,false)):RemoveStatus(SHIELD_MASTER)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
