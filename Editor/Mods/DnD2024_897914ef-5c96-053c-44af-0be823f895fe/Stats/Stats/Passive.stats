@@ -701,10 +701,58 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24d51ff2-8ef5-4720-8ffb-0e697509fc2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7557c8e5-d44b-4e4d-aa8b-72ef37605906" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,5,Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69f2664a-b313-4c28-aaf6-03579ed1f077" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab2f12c6-a479-45bd-a952-46ea9a3a56e9" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ee86c1a-db3d-417a-b74e-5dd5590df79f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="218cf2ac-e960-43f7-9bf3-b3a9934ff1ed" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,15, Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="51d3a4be-388c-46e7-9946-bd5f75df63c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="48803bd1-cd1f-4080-a6db-fa5451b3c6a6" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a81f822-4fa3-48fb-a9bb-a04f3f209888" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="caefe5a9-4f9e-44d8-ac28-609e6accf7b4" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,25, Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4232719a-2378-4ee0-9c36-47576307e1ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd2c37d0-fa6a-41b3-be1c-01297f7ceaa6" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="aa2b26c1-2544-4106-8a0f-4f27d4b33629" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7557c8e5-d44b-4e4d-aa8b-72ef37605906" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,5,Psychic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,5,Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -712,7 +760,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="13686278-5581-46b9-890f-8cda1296ae36" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7557c8e5-d44b-4e4d-aa8b-72ef37605906" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,5,Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,5,Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -720,7 +768,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a8ad5680-df26-45d9-9410-31842430fb1e" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ab2f12c6-a479-45bd-a952-46ea9a3a56e9" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Psychic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -728,7 +776,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2b0ef441-db47-4756-85dd-c931b242103e" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ab2f12c6-a479-45bd-a952-46ea9a3a56e9" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,10, Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -736,7 +784,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fb9ff97f-aebd-4049-8bad-81c1cbc89d7b" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="218cf2ac-e960-43f7-9bf3-b3a9934ff1ed" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,15, Psychic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,15, Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -744,7 +792,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="baf111d4-ba4e-4b3a-9810-1e2da3a8a619" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="218cf2ac-e960-43f7-9bf3-b3a9934ff1ed" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,15, Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,15, Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -752,7 +800,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d791b9ba-84ba-4856-b9da-c1b931e7123f" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="48803bd1-cd1f-4080-a6db-fa5451b3c6a6" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Psychic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -760,7 +808,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="80688387-e882-4c21-9967-4fe2ffae0cee" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="48803bd1-cd1f-4080-a6db-fa5451b3c6a6" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,20, Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -768,7 +816,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1eb14d78-b531-4664-972c-9da7ecdbd2c9" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="caefe5a9-4f9e-44d8-ac28-609e6accf7b4" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,25, Psychic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,25, Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -776,7 +824,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9b5ef4d9-9a66-4b15-8dd6-b6d647c021d4" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="caefe5a9-4f9e-44d8-ac28-609e6accf7b4" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,25, Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,25, Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -784,7 +832,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="31368237-0069-4e47-82af-dfb180e1ac4b" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Psychic_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bd2c37d0-fa6a-41b3-be1c-01297f7ceaa6" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Psychic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -792,7 +840,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2be3e464-1a2c-45d5-9e8e-ab6d26c2c988" />
         <field name="Name" type="NameTableFieldDefinition" value="ArmorOfAgathys_Necrotic_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bd2c37d0-fa6a-41b3-be1c-01297f7ceaa6" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_ARMOR_OF_AGATHYS,100,0);ApplyStatus(SELF,PASSIVE_ARMOR_OF_AGATHYS_ATTACKER,100,0);DealDamage(SWAP,30, Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -852,7 +900,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,DamageDone,Piercing,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,DamageDone,Piercing,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -1197,6 +1245,22 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75e83d22-6e30-4d5c-bed3-c4b0758d98f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="FireShield_Chill" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5230ed2c-7514-4bd4-be19-f6dfb80717b7" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_FIRE_SHIELD_CHILL,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_CHILL_ATTACKER,100,0);DealDamage(SWAP,2d8, Cold,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd7d2575-72ae-416a-8c75-4764f5364b0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FireShield_Warm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce77245e-853e-43a8-bcf2-453bde75df8a" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,2d8, Fire,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
