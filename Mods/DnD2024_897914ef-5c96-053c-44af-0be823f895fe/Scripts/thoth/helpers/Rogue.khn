@@ -7,3 +7,8 @@ function SanctifiedChampion(entity, mainHand)
     end
     return ConditionResult(false, {ConditionError("HasNotPactWeapon")}, {ConditionError("HasPactWeapon")})
 end
+
+function DexterityGreaterThanStrength(entity)
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Dexterity) > GetModifier(entity.Strength))
+end

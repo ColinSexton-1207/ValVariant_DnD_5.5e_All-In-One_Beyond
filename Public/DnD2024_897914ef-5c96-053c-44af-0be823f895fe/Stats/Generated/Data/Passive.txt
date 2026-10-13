@@ -111,7 +111,7 @@ type "PassiveData"
 data "PriorityOrder" "9003"
 data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCombatStarted"
-data "StatsFunctors" "ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)"
+data "StatsFunctors" "IF(DexterityGreaterThanStrength()):ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)"
 
 new entry "Firearm"
 type "PassiveData"
