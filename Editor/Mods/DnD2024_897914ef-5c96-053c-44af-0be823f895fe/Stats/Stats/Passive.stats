@@ -1291,7 +1291,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d4,Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d4,Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -2322,7 +2322,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h85cb392fg0a2fg3859g7db8g8b0c9e7dfe2e" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,1d8,Force,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,1d8,Force,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FFEE82EE" is_substat="false">
@@ -5144,6 +5144,14 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_ElementalAffinity_Resistance" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7507" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a211f8e6-72d1-427f-88c4-8ffa8507cf5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="HolyRebuke" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34d87608-985d-4d3a-bd52-3031c0b8b501" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,1d4, Radiant,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FFFFA500" is_substat="false">
@@ -8998,7 +9006,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,11,Necrotic,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,11,Necrotic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FFDC143C" is_substat="false">
@@ -9737,7 +9745,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AcidBlood" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6,Acid,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,2d6,Acid,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FFCD5C5C" is_substat="false">
@@ -10729,7 +10737,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit)" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,1d4, Fire,Magical)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,1d4, Fire,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12853,6 +12861,30 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Bound_ProficiencyToDamage_Technical_Passive" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b9bdd8a2-9eef-4496-8749-a2701e2a0a5b" />
         <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('WEAPON_BOND') or StatusId('WEAPON_BOND_2') or StatusId('PACT_BLADE') or StatusId('HEXBLADE_BIND');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="810bdd07-6402-40bc-ac26-bb8df153f2dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Barbarian_Armor_BoneSpike_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0dc568e3-2561-446d-b420-1ef4e6c0d406" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP, max(1, ConstitutionModifier), Piercing,,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="676cc0e7-72a8-47af-bfb6-6e7390a16c79" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_FlamingFist_BlazingRetaliation_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbb5cdeb-cea4-47a2-9d5d-bfd2f20e00d8" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SWAP, MAG_BLAZING_RETALIATION_BLAST_TECHNICAL, 100, 0);DealDamage(SWAP, 1d6, Fire,Magical,,0,,true,true)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e21a13c5-5f32-48c0-8412-5d4b81ed196f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Lesser_Infernal_Plate_Armor_FireDamage_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cadba712-4e5a-4886-92e4-a680544e90b8" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Dexterity, 13, false, false, context.Source)):DealDamage(SWAP, 1d4, Fire,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
