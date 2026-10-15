@@ -2210,6 +2210,13 @@
                     <attribute id="V2" type="float" value="0.04675293"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_DarkSacrament"/>
+                    <attribute id="U1" type="float" value="0.37512207"/>
+                    <attribute id="U2" type="float" value="0.39050293"/>
+                    <attribute id="V1" type="float" value="0.09387207"/>
+                    <attribute id="V2" type="float" value="0.10925293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Dawn"/>
                     <attribute id="U1" type="float" value="0.70324707"/>
                     <attribute id="U2" type="float" value="0.71862793"/>

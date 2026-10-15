@@ -5126,6 +5126,66 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9827d01-d064-4d21-88fa-1cfbacfe7900" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkBlessing" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_DarkBlessing_Unassailable;Shout_DarkBlessing_Unbreakable;Shout_DarkBlessing_Unerring;" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_DarkSacrament" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5bfd48b7g1b23g4adbgbd9dgcf85312e0bdd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb52df406g5fcag4191gb9e1g5f82d7e0cf55" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3960a15-de6a-4c08-9a33-a7532cb756e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkBlessing_Unassailable" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9827d01-d064-4d21-88fa-1cfbacfe7900" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DarkBlessing" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DARK_BLESSING_UNASSAILABLE,100,100);RemoveStatus(DARK_SACRAMENT_CHOICE)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b933804gb33eg4f2cg9ee7gc288c1d2ebdf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6364227g9c47g4648gb4cfged3cbf993ce7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DARK_BLESSING_UNASSAILABLE,100,100)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8ec1de10-46bf-4b35-bc5d-1a9de9bef627" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkBlessing_Unbreakable" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9827d01-d064-4d21-88fa-1cfbacfe7900" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DarkBlessing" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DARK_BLESSING_UNBREAKABLE,100,100);RemoveStatus(DARK_SACRAMENT_CHOICE)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfcef3a8aga735g4a13ga82eg99c5127c35b9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58cda901g3c80g4e47gbd7fga61e48063d65" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DARK_BLESSING_UNBREAKABLE,100,100)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="171c0b4f-9c0e-4239-980d-beec2efcc7f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkBlessing_Unerring" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9827d01-d064-4d21-88fa-1cfbacfe7900" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_DarkBlessing" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DARK_BLESSING_UNERRING,100,100);RemoveStatus(DARK_SACRAMENT_CHOICE)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h699990a0g205ag4a95g922ag4f9107de7f83" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53b99135g4353g4d09g9fc3g0b8017b5f49f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d4" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DARK_BLESSING_UNERRING,100,100)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a5e29322-3614-406e-bea4-dee88ed3a502" />
         <field name="Name" type="NameTableFieldDefinition" value="BloodRush" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />

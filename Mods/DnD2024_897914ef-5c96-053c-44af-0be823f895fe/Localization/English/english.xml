@@ -7225,4 +7225,18 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h27da5ce8gde61g4edbg88cbg849df72d50cb" version="1">Circle of Scarlet: D12</content>
   <content contentuid="h3d8fe28fgbfccg4168gb0a5g9c5682284f24" version="1">The temporary hit points increase by 5 for each spell slot level above 4.</content>
   <content contentuid="h4c1f7e2ag9b3dg4e81ga6f2g3d5b8c9e0a17" version="1">Has [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h4e6ded99g4271g461bg931ega0e6a557b668" version="1">Dark Sacrament</content>
+  <content contentuid="h22b5ce11g1062g471cg8e4dg758b87ae40f1" version="1">As part of casting this spell, you expend [1] of your Hit Point Dice. Make a melee spell attack against a creature within range. On a hit, the target takes [2]. To determine this damage, roll the Hit Point Dice expended to cast this spell.&lt;br&gt;&lt;br&gt;If this damage reduces the creature to 0 hit points, you gain a dark blessing of your choice: Unassailable, Unbreakable or Unerring. When you take Radiant damage while you have a dark blessing, you take an extra 1d4 Radiant damage.&lt;br&gt;&lt;br&gt;Your dark blessing ends after 10 minutes or when you are reduced to 0 hit points.</content>
+  <content contentuid="h078d7110g530ag4233g937cg674d50bf24c7" version="1">Dark Sacrament: D6</content>
+  <content contentuid="hbdb9c4b4g6507g4463g8614g5b31c91ffd18" version="1">Dark Sacrament: D8</content>
+  <content contentuid="hf95dd678g4edfg4a78gb0bfg316c9e204ca7" version="1">Dark Sacrament: D10</content>
+  <content contentuid="ha25763b5g9179g410ag8ff7gcdc76053debe" version="1">Dark Sacrament: D12</content>
+  <content contentuid="h5bfd48b7g1b23g4adbgbd9dgcf85312e0bdd" version="1">Dark Blessing</content>
+  <content contentuid="hb52df406g5fcag4191gb9e1g5f82d7e0cf55" version="1">Choose a dark blessing to gain for 10 minutes: Unassailable, Unbreakable or Unerring.</content>
+  <content contentuid="h4b933804gb33eg4f2cg9ee7gc288c1d2ebdf" version="1">Dark Blessing: Unassailable</content>
+  <content contentuid="hf6364227g9c47g4648gb4cfged3cbf993ce7" version="1">You have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on all &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;While you have a dark blessing, you take an extra [1] Radiant damage whenever you take Radiant damage.</content>
+  <content contentuid="hfcef3a8aga735g4a13ga82eg99c5127c35b9" version="1">Dark Blessing: Unbreakable</content>
+  <content contentuid="h58cda901g3c80g4e47gbd7fga61e48063d65" version="1">Your size increases by one category, you gain a number of &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt; equal to your Constitution modifier (minimum 1) at the start of each of your turns, and your weapon attacks deal an extra [1] damage.&lt;br&gt;&lt;br&gt;While you have a dark blessing, you take an extra [1] Radiant damage whenever you take Radiant damage.</content>
+  <content contentuid="h699990a0g205ag4a95g922ag4f9107de7f83" version="1">Dark Blessing: Unerring</content>
+  <content contentuid="h53b99135g4353g4d09g9fc3g0b8017b5f49f" version="1">Your Proficiency Bonus increases by 2.&lt;br&gt;&lt;br&gt;While you have a dark blessing, you take an extra [1] Radiant damage whenever you take Radiant damage.</content>
 </contentList>

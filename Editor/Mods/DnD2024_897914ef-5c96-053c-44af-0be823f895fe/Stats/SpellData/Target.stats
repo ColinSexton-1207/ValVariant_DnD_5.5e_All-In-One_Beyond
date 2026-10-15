@@ -15105,6 +15105,244 @@
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DarkSacrament6;Target_DarkSacrament8;Target_DarkSacrament10;Target_DarkSacrament12;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+4d8,Necrotic,Magical)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self() and not Dead()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_DarkSacrament" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e6ded99g4271g461bg931ega0e6a557b668" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22b5ce11g1062g471cg8e4dg758b87ae40f1" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+4d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+4d8,Necrotic)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DARK_SACRAMENT_CHOICE,100,1)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Necrotic_InflictWounds_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Necrotic_InflictWounds_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;477bdade-9c91-4373-9fad-113c6c3b0bbf,67ceaa8c-c0e3-409c-8cd7-1f7e089bfad2,c8efc85f-7718-4bcd-b35a-8739b436f1dc;06c28cf4-0e9b-4dad-8ed4-84780e7df33c,f36c1287-2de6-443c-aca5-a44966348e88,e9004fde-1183-45eb-8459-c33e2cd29078;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;IsSpell;IsHarmful;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ec80b3cd-29fd-40d2-a41a-b703db1b6f8e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7bce304f-a409-495e-a092-012b727b0914" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="1d00a392-5444-4533-b125-d4cafc7e496a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69b50063-bf7e-4b4f-949c-6a4636253929" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DarkSacrament6_5;Target_DarkSacrament8_5;Target_DarkSacrament10_5;Target_DarkSacrament12_5;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+5d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+5d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+5d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4b39b47-320b-4e64-bbda-cdfac6733fdd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DarkSacrament6_6;Target_DarkSacrament8_6;Target_DarkSacrament10_6;Target_DarkSacrament12_6;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+6d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+6d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+6d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b2ef38f-be0b-4bf5-b7c4-d97c90279454" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+4d8,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h078d7110g530ag4233g937cg674d50bf24c7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+4d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+4d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice06:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8e6a8f1f-7a96-4092-9d48-48227febb1a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament6_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b2ef38f-be0b-4bf5-b7c4-d97c90279454" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+5d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+5d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+5d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice06:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9985b546-dd3b-48f8-9bea-2033c52caa42" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament6_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b2ef38f-be0b-4bf5-b7c4-d97c90279454" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d6+6d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d6+6d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6+6d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice06:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10268012-f17e-4fe0-9cf7-3ac5a68f1222" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8+4d8,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdb9c4b4g6507g4463g8614g5b31c91ffd18" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d8+4d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+4d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice08:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3afe51c4-237d-4591-906c-28d4147372cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament8_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10268012-f17e-4fe0-9cf7-3ac5a68f1222" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8+5d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d8+5d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+5d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice08:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament8" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6135e588-cc96-4ec2-98dd-18e9479abbec" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament8_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10268012-f17e-4fe0-9cf7-3ac5a68f1222" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8+6d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d8+6d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+6d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice08:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament8" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="690bcdfe-872b-45e2-bbf9-484c599206a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10+4d8,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf95dd678g4edfg4a78gb0bfg316c9e204ca7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d10+4d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10+4d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice10:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b4ccdf9-5b92-44aa-b5d6-e6c7ed5c7633" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament10_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="690bcdfe-872b-45e2-bbf9-484c599206a4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10+5d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d10+5d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10+5d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice10:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament10" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f6740ca-cda1-40a4-a282-f8f38a0ff174" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament10_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="690bcdfe-872b-45e2-bbf9-484c599206a4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10+6d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d10+6d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10+6d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice10:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament10" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="068772d0-9bd2-428e-bfae-2b0e29af7642" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a72f3429-9b00-4ce4-8946-0eac3ad0412e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12+4d8,Necrotic,Magical)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha25763b5g9179g410ag8ff7gcdc76053debe" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d12+4d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12+4d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice12:4;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;IsSpell;IsHarmful" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd1851e7-caf5-44e6-87af-9ff9deaa093c" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament12_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="068772d0-9bd2-428e-bfae-2b0e29af7642" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12+5d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d12+5d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12+5d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice12:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament12" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7d41839-fa06-480a-8310-a4253d1b647f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DarkSacrament12_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="068772d0-9bd2-428e-bfae-2b0e29af7642" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DarkSacrament_6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12+6d8,Necrotic,Magical)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4;DealDamage(4d12+6d8,Necrotic)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12+6d8,Necrotic)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice12:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DarkSacrament12" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d1095f08-ab53-4789-8336-04d066559346" />

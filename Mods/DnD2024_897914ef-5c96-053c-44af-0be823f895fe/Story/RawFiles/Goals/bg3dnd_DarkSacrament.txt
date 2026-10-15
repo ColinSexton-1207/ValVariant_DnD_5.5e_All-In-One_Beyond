@@ -1,0 +1,114 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+// Dark Sacrament: preparing the spell grants the kill passive until respec
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament_5",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament_6",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament6",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament6_5",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament6_6",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament8",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament8_5",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament8_6",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament10",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament10_5",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament10_6",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament12",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament12_5",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_DarkSacrament12_6",_,_)
+AND
+NOT HasActiveStatus(_Player,"DARK_SACRAMENT_PASSIVE",1)
+THEN
+ApplyStatus(_Player,"DARK_SACRAMENT_PASSIVE",-1.0,1,_Player);
+
+EXITSECTION
+
+ENDEXITSECTION
