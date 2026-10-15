@@ -1040,9 +1040,9 @@
   <content contentuid="h48bb1d7fga4e5g9f8fga414g0fe42c7616ac" version="1">원거리 공격으로 크리처를 적중시키면, 그 크리처가 &lt;LSTag Type="Status" Tooltip="GAPING_WOUND"&gt;깊은 상처&lt;/LSTag&gt; 상태를 얻을 확률이 생깁니다.</content>
   <content contentuid="h9dde7fdcgac74g74cag98d7g044c58ef3023" version="1">재주: 쇠뇌 전문가(근접 사격)</content>
   <content contentuid="h32eff9e8g416dgc4dagd8e6g74260b215e68" version="1">방어적인 결투가</content>
-  <content contentuid="hd032f660g8a39g73eagc4bdgd4038c7dc8de" version="2">받아넘기기. 정밀 무기를 들고 있을 때 다른 크리처가 근접 공격으로 자신을 적중시키면, 대응을 사용해 숙련 보너스를 방어도에 더해 그 공격을 빗나가게 할 수 있습니다. 이 방어도 보너스는 다음 자신의 턴이 시작될 때까지 근접 공격에 대해 유지됩니다.</content>
+  <content contentuid="hd032f660g8a39g73eagc4bdgd4038c7dc8de" version="2">받아넘기기. 기교 무기를 들고 있을 때 다른 크리처가 근접 공격으로 자신을 적중시키면, 대응을 사용해 숙련 보너스를 방어도에 더해 그 공격을 빗나가게 할 수 있습니다. 이 방어도 보너스는 다음 자신의 턴이 시작될 때까지 근접 공격에 대해 유지됩니다.</content>
   <content contentuid="h208b7de3g5f3cge001gfe82gdd2940dee59c" version="1">재주: 방어적인 결투가</content>
-  <content contentuid="hfd0b3091g52f6g2cd7ga7cbg9c61332d3252" version="1">정밀 무기를 들고 있을 때 다른 크리처가 근접 공격으로 자신을 적중시키면, 대응을 사용해 숙련 보너스를 방어도에 더해 그 공격을 빗나가게 할 수 있습니다. 이 방어도 보너스는 다음 자신의 턴이 시작될 때까지 근접 공격에 대해 유지됩니다.</content>
+  <content contentuid="hfd0b3091g52f6g2cd7ga7cbg9c61332d3252" version="1">기교 무기를 들고 있을 때 다른 크리처가 근접 공격으로 자신을 적중시키면, 대응을 사용해 숙련 보너스를 방어도에 더해 그 공격을 빗나가게 할 수 있습니다. 이 방어도 보너스는 다음 자신의 턴이 시작될 때까지 근접 공격에 대해 유지됩니다.</content>
   <content contentuid="hfa2c5254ge5fag62b7gffb6g392787c61974" version="1">쌍수 전문가</content>
   <content contentuid="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="7">무기가 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 특성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="h720a62a8g5de9g9909gb1cagf61131cf2df9" version="1">재주: 쌍수 전문가(보조 공격)</content>
