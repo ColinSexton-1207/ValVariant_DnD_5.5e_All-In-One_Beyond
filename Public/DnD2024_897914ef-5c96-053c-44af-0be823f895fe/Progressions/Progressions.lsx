@@ -472,6 +472,7 @@
                     <attribute id="Name" type="LSString" value="Bard"/>
                     <attribute id="PassivesAdded" type="LSString" value="Bard_7_Countercharm"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
                     <attribute id="UUID" type="guid" value="9aa0f1f1-8074-4fe7-919e-804dc0030406"/>
                 </node>
@@ -481,6 +482,7 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
                     <attribute id="UUID" type="guid" value="b08fd01b-47e9-455c-83fc-075323142456"/>
                 </node>
@@ -489,7 +491,7 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkillsExpertise(f974ebd6-3725-4b90-bb5c-2b647d41615d,2);SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
                     <attribute id="UUID" type="guid" value="b1f811c8-4831-488a-bd1d-47e9883d2823"/>
                 </node>
@@ -499,7 +501,7 @@
                     <attribute id="Name" type="LSString" value="Bard"/>
                     <attribute id="PassivesAdded" type="LSString" value="BardicInspiration_d10;Bard_10_MagicalSecrets"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,1,0,BardCantrip,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(61f79a30-2cac-4a7a-b5fe-50c89d307dd6,1,0,BardCantrip,,,AlwaysPrepared);SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
                     <attribute id="UUID" type="guid" value="b898b2bd-7cd3-480c-877c-4ccd391f2b2c"/>
                 </node>
@@ -508,6 +510,7 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
                     <attribute id="UUID" type="guid" value="4f9b2f00-fd70-487c-9038-83412eb5abc0"/>
                 </node>
@@ -517,6 +520,7 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="Bard"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="229c98da-2cd1-4a5e-8051-9d90ec7931e7"/>
                     <attribute id="UUID" type="guid" value="36301759-1445-4cc4-a3c2-f186b8da0309"/>
                 </node>
@@ -541,7 +545,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="df9d08c3-60e4-4646-a364-1702581622d7"/>
                 </node>
@@ -549,7 +552,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="8ff25436-cf99-442f-aefc-1921d849854c"/>
                 </node>
@@ -557,7 +559,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="d6f6b1cd-2287-4ed9-8a40-1e829047859c"/>
                 </node>
@@ -565,7 +566,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="e854fe69-741e-459b-a74a-2ef7a481298f"/>
                 </node>
@@ -573,7 +573,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="4d38a325-32ad-44b5-9d86-5a205601bacb"/>
                 </node>
@@ -581,7 +580,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="GlamourCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="376220ae-e871-4ca5-8521-ec46fa2cd117"/>
                     <attribute id="UUID" type="guid" value="6d31e065-8f40-4512-a588-1dfd48c9c5d5"/>
                 </node>
@@ -606,7 +604,7 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="LoreCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,0,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="36e6ea13-317e-4e6e-ac63-fe6d50e9f014"/>
                     <attribute id="UUID" type="guid" value="1fd0a528-65ce-4018-a2dd-21bc5e096dad"/>
                 </node>
@@ -614,7 +612,7 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="LoreCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,0,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="36e6ea13-317e-4e6e-ac63-fe6d50e9f014"/>
                     <attribute id="UUID" type="guid" value="a41a4003-b290-4c42-bd74-7b519ed629ed"/>
                 </node>
@@ -622,7 +620,7 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="LoreCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,2,1,BardMagicalSecrets)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,0,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="36e6ea13-317e-4e6e-ac63-fe6d50e9f014"/>
                     <attribute id="UUID" type="guid" value="26a2c9f0-071c-4cff-945e-b2cf3404be1f"/>
                 </node>
@@ -630,7 +628,7 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="LoreCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,0,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="36e6ea13-317e-4e6e-ac63-fe6d50e9f014"/>
                     <attribute id="UUID" type="guid" value="c8239bcb-e29c-4cf7-806d-584aa66fe163"/>
                 </node>
@@ -638,7 +636,7 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="LoreCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,0,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="36e6ea13-317e-4e6e-ac63-fe6d50e9f014"/>
                     <attribute id="UUID" type="guid" value="7820f4a7-6212-4cbe-90a0-c15af45728e2"/>
                 </node>
@@ -646,7 +644,7 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="LoreCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,0,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="36e6ea13-317e-4e6e-ac63-fe6d50e9f014"/>
                     <attribute id="UUID" type="guid" value="2af0bc71-ad0d-40ed-98f9-37ce27838534"/>
                 </node>
@@ -673,7 +671,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="ValorCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
                     <attribute id="UUID" type="guid" value="f32f85bf-ccb5-48e0-a375-fbc1034cbd35"/>
                 </node>
@@ -681,7 +678,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="ValorCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
                     <attribute id="UUID" type="guid" value="3e2a2b31-b2e9-41f1-acf3-266935caa415"/>
                 </node>
@@ -689,7 +685,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="ValorCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
                     <attribute id="UUID" type="guid" value="4f325711-e99e-4b45-baa6-6f986f2a0c8b"/>
                 </node>
@@ -697,7 +692,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="ValorCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
                     <attribute id="UUID" type="guid" value="55cce580-c70c-414f-a54b-d40ba3c9a05e"/>
                 </node>
@@ -705,7 +699,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="ValorCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
                     <attribute id="UUID" type="guid" value="8c7903ca-12c9-4a42-865a-8590f63ea5d6"/>
                 </node>
@@ -713,7 +706,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="ValorCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="d58a305f-3ccf-440c-b069-2abd9235ac03"/>
                     <attribute id="UUID" type="guid" value="b94b28c8-d99c-44e4-8e93-d1a6ca3be40c"/>
                 </node>
@@ -739,7 +731,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="SwordsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7"/>
                     <attribute id="UUID" type="guid" value="02bcbee6-c6ba-48be-916d-bc933bc649b9"/>
                 </node>
@@ -747,7 +738,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="SwordsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7"/>
                     <attribute id="UUID" type="guid" value="8e9f5960-98fd-41d7-83d9-8518cd2256e0"/>
                 </node>
@@ -755,7 +745,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="SwordsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7"/>
                     <attribute id="UUID" type="guid" value="ce4b8a7d-c40b-4042-9b98-0a9bf3c1221b"/>
                 </node>
@@ -763,7 +752,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="SwordsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7"/>
                     <attribute id="UUID" type="guid" value="c8fa0c1b-3bbe-4a8f-9181-2cafd3b009fb"/>
                 </node>
@@ -771,7 +759,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="SwordsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7"/>
                     <attribute id="UUID" type="guid" value="57e333e8-3736-4bbe-abb1-f8972dd2de74"/>
                 </node>
@@ -779,7 +766,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="SwordsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="68f61c89-be48-41aa-acb6-2f3bd15303c7"/>
                     <attribute id="UUID" type="guid" value="21977aaf-8287-4e04-b16b-86697555d0fb"/>
                 </node>
@@ -804,7 +790,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="5ab20879-c450-4e9d-87f7-35092f25eca8"/>
                 </node>
@@ -812,7 +797,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="cc508b51-36ca-49c2-b46e-aba1faacaa62"/>
                 </node>
@@ -820,7 +804,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="63d07b65-a60d-4468-b4f6-5011d1bd4c8c"/>
                 </node>
@@ -828,7 +811,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="93c899bd-1667-4d8b-930c-d541ac0c7d27"/>
                 </node>
@@ -836,7 +818,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="d149dd46-910b-4671-94c8-3ee1947904e9"/>
                 </node>
@@ -844,7 +825,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="DanceCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="300669be-c07a-42cc-85a7-f1f956e79059"/>
                     <attribute id="UUID" type="guid" value="3fdb602b-bb6e-45a5-95c9-ca73b618e63a"/>
                 </node>
@@ -870,7 +850,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="MoonCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
                     <attribute id="UUID" type="guid" value="9c05cb56-b4ef-44ee-9cd6-f9db2c386e12"/>
                 </node>
@@ -878,7 +857,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="MoonCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
                     <attribute id="UUID" type="guid" value="431f0685-5368-40dc-aef1-a6b08f5f969f"/>
                 </node>
@@ -886,7 +864,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="MoonCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
                     <attribute id="UUID" type="guid" value="6449c84e-2961-4ab7-a5ed-72fe350a27c2"/>
                 </node>
@@ -894,7 +871,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="MoonCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
                     <attribute id="UUID" type="guid" value="201cc35e-adfd-4afb-8e13-958dccb70648"/>
                 </node>
@@ -902,7 +878,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="MoonCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
                     <attribute id="UUID" type="guid" value="d0d674a8-d3c2-4e89-a5ec-5ce769c6c21e"/>
                 </node>
@@ -910,7 +885,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="MoonCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="6f0b7e21-2421-4aeb-b572-49d794693a90"/>
                     <attribute id="UUID" type="guid" value="90329a28-e7fe-4e10-b13a-de19bfc62717"/>
                 </node>
@@ -935,7 +909,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="SpiritsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
                     <attribute id="UUID" type="guid" value="981d3ab4-e100-4203-9b5d-522680bfd9d2"/>
                 </node>
@@ -943,7 +916,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="SpiritsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
                     <attribute id="UUID" type="guid" value="17cfd3cc-bc87-4c9a-9043-b48ef486e079"/>
                 </node>
@@ -951,7 +923,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="SpiritsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
                     <attribute id="UUID" type="guid" value="3e457311-fa8e-4454-b447-7808fc05e7d1"/>
                 </node>
@@ -959,7 +930,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="SpiritsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
                     <attribute id="UUID" type="guid" value="d3e2060b-5904-4bb8-8f1b-d1fe0d0ce028"/>
                 </node>
@@ -967,7 +937,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="SpiritsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
                     <attribute id="UUID" type="guid" value="f6684dfb-7d3a-4f2b-8c1b-a06062d9ccdb"/>
                 </node>
@@ -975,7 +944,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="SpiritsCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="3669d6ce-d951-4491-8c23-fe2fa922357c"/>
                     <attribute id="UUID" type="guid" value="0970439c-93e1-490c-b334-baa75ccb2008"/>
                 </node>
@@ -1000,7 +968,6 @@
                     <attribute id="Level" type="uint8" value="7"/>
                     <attribute id="Name" type="LSString" value="ChoreographyCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
                     <attribute id="UUID" type="guid" value="47c16ae8-45d2-4185-96a0-5220151e55eb"/>
                 </node>
@@ -1008,7 +975,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="ChoreographyCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(75e04c40-be8f-40a5-9acc-0b5d59d5f3a6,1,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
                     <attribute id="UUID" type="guid" value="eec85a7a-923f-406a-9b6d-56058512158e"/>
                 </node>
@@ -1016,7 +982,6 @@
                     <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="Name" type="LSString" value="ChoreographyCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(bd71fffb-e4d2-4233-9a31-13d43fba36e3,2,1,BardSpells)"/>
                     <attribute id="TableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
                     <attribute id="UUID" type="guid" value="3225fae5-00bd-4435-a551-dd31f1a06b26"/>
                 </node>
@@ -1024,7 +989,6 @@
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="ChoreographyCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
                     <attribute id="UUID" type="guid" value="85dfac7b-fbcc-45d0-bdba-64a2374ef53e"/>
                 </node>
@@ -1032,7 +996,6 @@
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="ChoreographyCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
                     <attribute id="UUID" type="guid" value="abca0c64-0f31-4280-92fd-8c6cb5724b8a"/>
                 </node>
@@ -1040,7 +1003,6 @@
                     <attribute id="Level" type="uint8" value="12"/>
                     <attribute id="Name" type="LSString" value="ChoreographyCollege"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(858d4322-9e9f-4aa4-aada-9c68835dc6fe,1,1,BardMagicalSecrets)"/>
                     <attribute id="TableUUID" type="guid" value="6ecf4e50-6458-4f11-b525-644171eeb5b7"/>
                     <attribute id="UUID" type="guid" value="8daf559e-3dea-429a-a4db-4828a4d821d1"/>
                 </node>
