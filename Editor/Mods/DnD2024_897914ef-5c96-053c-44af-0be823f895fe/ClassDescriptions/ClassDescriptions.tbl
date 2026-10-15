@@ -1564,5 +1564,23 @@
         <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.34" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_91" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6a59c66-01a0-4ed1-9dae-f0e5e11681a0" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="SanguineThief" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had568b5dgb89bg45e1g8bf4g0339f9e749da" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h820edb6agec80g4205g8503g7b9d625ee615" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Rogue" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SpellList" type="GuidObjectTableFieldDefinition" value="c3a861a2-6bbc-4ff6-96e4-a4accf10d957" />
+        <field name="MulticlassSpellcasterModifier" type="FloatTableFieldDefinition" value="0.34" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

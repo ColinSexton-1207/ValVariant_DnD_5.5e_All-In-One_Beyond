@@ -16021,5 +16021,18 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b75285e-f0fa-4488-8a1a-e0bad723c281" />
+        <field name="Name" type="NameTableFieldDefinition" value="STEAL_BLOOD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdabc148bg5d98g401fg8800g10a80074789e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d66bde8ge699g4921gb4ffg94363cdaf03e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STEAL_BLOOD" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_StealBlood_RestoreDie);UnlockSpell(Shout_StealBlood_Mend);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

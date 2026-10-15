@@ -239,6 +239,38 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfd126b4-7687-40b4-9c80-b4794b9b00c4" />
+        <field name="Name" type="NameTableFieldDefinition" value="StealBlood_RestoreDie" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2f82bce-6f88-4bbf-b23c-707049e32bbc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h88125aa1g4bd5g4065gbfb4g13b70da27a39" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08823cd5g4b7bg43eag9e25g87494b96a4bc" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="HitPointDice08" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(HitPointDice08,1,0);RemoveStatus(STEAL_BLOOD);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="StealBlood:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3a12fb67-1364-4db4-ac46-9477644e8c36" />
+        <field name="Name" type="NameTableFieldDefinition" value="StealBlood_Mend" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e2f82bce-6f88-4bbf-b23c-707049e32bbc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hca4ee385g4997g48dbgb486g08312e60e5e5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1d8+ConstitutionModifier)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BloodRush" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1d8+ConstitutionModifier);RemoveStatus(STEAL_BLOOD);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d8+ConstitutionModifier);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="StealBlood:1;" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50,context.Source)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5ab18610-7a45-42eb-b301-9aa3aab92b76" />
         <field name="Name" type="NameTableFieldDefinition" value="HasteActions" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_MainHandAttack_Haste;Target_UnarmedAttack_Haste;Projectile_MainHandAttack_Haste;Throw_Throw_Haste;Shout_Dash_Haste;Shout_Disengage_Haste;Shout_Hide_Haste;" />

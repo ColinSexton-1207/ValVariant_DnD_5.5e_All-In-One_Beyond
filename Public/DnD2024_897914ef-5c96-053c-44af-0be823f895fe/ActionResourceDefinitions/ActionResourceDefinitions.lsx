@@ -1023,6 +1023,14 @@
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="e75eb4e2-03bb-417a-b92f-258830888549"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="StealBlood"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="77fd4b90-31ed-4ada-95ff-2ba739aab878"/>
+                </node>
             </children>
         </node>
     </region>

@@ -692,6 +692,21 @@
                 </node>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="h820edb6agec80g4205g8503g7b9d625ee615" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="had568b5dgb89bg45e1g8bf4g0339f9e749da" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.34000000000000002"/>
+                    <attribute id="Name" type="FixedString" value="SanguineThief"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="SpellList" type="guid" value="c3a861a2-6bbc-4ff6-96e4-a4accf10d957"/>
+                    <attribute id="UUID" type="guid" value="f6a59c66-01a0-4ed1-9dae-f0e5e11681a0"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
                     <attribute id="Description" type="TranslatedString" handle="hb5daba8dgda0agdf43g3675gc6035aefebbd" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h48078124g7f94gbb02g1bbeg8729dfed349b" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>

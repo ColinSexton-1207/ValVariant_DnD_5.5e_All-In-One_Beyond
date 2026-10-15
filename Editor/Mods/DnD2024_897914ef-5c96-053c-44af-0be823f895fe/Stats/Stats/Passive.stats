@@ -6148,6 +6148,50 @@
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0db599e-bbc4-44a3-aae7-b0345be5067d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__SANGUINE THIEF__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0770dbc-772c-48d9-a899-84d086adbf63" />
+        <field name="Name" type="NameTableFieldDefinition" value="SanguineThief_3_StolenPower" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h919f6b19g9ec9g4b73g8d7fgedbb2ee7a88d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90c571a5gdc90g4a6ag9047g73e2eef6de28" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_BloodRush" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9650" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df6d731e-21d8-4521-bdfe-f1c4ec6db1ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="SanguineThief_3_StealBlood" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd1c43ebbgbefcg4997ga424g5cc65fb79952" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb37bea5dgf765g4731g8180g5b1bffa92050" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9651" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(StealBlood,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(StealBlood,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(StealBlood,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(StealBlood,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(StealBlood,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(StealBlood,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(StealBlood,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="485c8ef2-d3e4-4bd8-9278-793eeabf0722" />
+        <field name="Name" type="NameTableFieldDefinition" value="SanguineThief_9_BloodyBlades" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h42a7d87bgfbb2g4eb2gb99egcefea469366b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h063e6d24gfc8dg48eeg8a22gecfb5e138f8b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9659" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerAttack" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsCritical() and IsMeleeWeaponAttack()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Necrotic,Magical)" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF483D8B" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fac0a9f3-6717-43ca-80e3-e174a5ff4b1f" />
         <field name="Name" type="NameTableFieldDefinition" value="__BLADE OF RADIANCE__" />
       </fields>

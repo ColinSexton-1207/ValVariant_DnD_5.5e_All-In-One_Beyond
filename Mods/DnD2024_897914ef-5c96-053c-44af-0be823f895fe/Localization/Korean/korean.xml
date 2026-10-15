@@ -7247,4 +7247,19 @@
   <content contentuid="h19a53d2dgf15fg48f3g8401g1a951621f9af" version="1">이 주문을 시전하는 일부로 생명력 주사위 [1]개를 소모합니다. 몸이 엉긴 피로 뒤덮입니다. 자신으로부터 [2] 이내에 있는 크리처가 근접 명중 굴림으로 자신을 적중하면, 공격자는 소모한 생명력 주사위로 굴린 [3] + 주문 시전 능력 보정치만큼 피해를 입습니다.&lt;br&gt;&lt;br&gt;크리처가 근접 무기로 자신을 적중하면, 대응을 사용해 그 무기 주위에 핏덩이를 엉겨 붙게 할 수 있습니다. 공격자는 근력 내성 굴림에 실패하면 무기를 떨어뜨립니다.</content>
   <content contentuid="h24070d63g56a9g46eega474ge6ebd0dfbeb5" version="1">자신으로부터 [1] 이내에 있는 크리처가 근접 명중 굴림으로 자신을 적중하면, 공격자는 [2] + 주문 시전 능력 보정치만큼 피해를 입습니다.&lt;br&gt;&lt;br&gt;크리처가 근접 무기로 자신을 적중하면, 대응을 사용해 그 크리처에게 근력 내성 굴림을 강제할 수 있습니다. 내성 굴림에 실패하면 그 크리처는 무기를 떨어뜨립니다.</content>
   <content contentuid="h6da839dbg6804g4d99ga49bg00025246286d" version="1">크리처가 근접 무기로 자신을 적중하면, 대응을 사용해 그 무기 주위에 핏덩이를 엉겨 붙게 하고 공격자에게 근력 내성 굴림을 강제할 수 있습니다. 내성 굴림에 실패하면 공격자는 무기를 떨어뜨립니다.</content>
+  <content contentuid="had568b5dgb89bg45e1g8bf4g0339f9e749da" version="1">핏빛 도둑</content>
+  <content contentuid="h820edb6agec80g4205g8503g7b9d625ee615" version="1">핏빛 도둑은 혈마법의 힘으로 능력을 끌어내는 암살자입니다. 희생자의 피를 빨아들여 자신의 활력이 허락하는 한계를 넘어 혈마법을 다룹니다.</content>
+  <content contentuid="h919f6b19g9ec9g4b73g8d7fgedbb2ee7a88d" version="1">훔친 힘</content>
+  <content contentuid="h90c571a5gdc90g4a6ag9047g73e2eef6de28" version="1">피에서 마법을 끌어냅니다. 암습 주사위 수만큼 d8 생명력 주사위를 추가로 얻습니다. 3레벨에 2개, 5·7·9·11레벨에 1개씩 더 얻습니다. 혈마법 주문을 위저드 주문처럼 배울 수 있으며, 혈마법 주문을 시전할 때 d8 생명력 주사위를 소모합니다.</content>
+  <content contentuid="hd1c43ebbgbefcg4997ga424g5cc65fb79952" version="1">피 훔치기</content>
+  <content contentuid="hb37bea5dgf765g4731g8180g5b1bffa92050" version="1">암습 피해를 주면 자신의 턴이 끝날 때까지 피를 훔칩니다. 피를 훔치는 동안 소모한 d8 생명력 주사위를 1개 회복하거나, 피투성이 상태라면 1d8 + 건강 수정치만큼 생명력을 회복할 수 있습니다.&lt;br&gt;&lt;br&gt;이 기능은 지능 수정치만큼(최소 1회) 사용할 수 있으며, 긴 휴식을 마치면 모두 회복합니다.</content>
+  <content contentuid="h42a7d87bgfbb2g4eb2gb99egcefea469366b" version="1">피 묻은 칼날</content>
+  <content contentuid="h063e6d24gfc8dg48eeg8a22gecfb5e138f8b" version="1">근접 무기 공격으로 치명타를 내면 대상이 추가로 [1]를 받습니다.</content>
+  <content contentuid="hdabc148bg5d98g401fg8800g10a80074789e" version="1">피 훔치기</content>
+  <content contentuid="h7d66bde8ge699g4921gb4ffg94363cdaf03e" version="1">생명력 주사위를 회복하거나, 피투성이 상태라면 생명력을 회복할 수 있습니다. 턴이 끝나거나 둘 중 하나를 사용하면 사라집니다.</content>
+  <content contentuid="h88125aa1g4bd5g4065gbfb4g13b70da27a39" version="1">피 훔치기: 생명력 주사위 회복</content>
+  <content contentuid="h08823cd5g4b7bg43eag9e25g87494b96a4bc" version="1">소모한 d8 생명력 주사위를 1개 회복합니다.</content>
+  <content contentuid="hca4ee385g4997g48dbgb486g08312e60e5e5" version="1">피 훔치기: 생명력 흡수</content>
+  <content contentuid="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1">[1]를 회복합니다. 피투성이 상태일 때만 사용할 수 있습니다.</content>
+  <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">피 훔치기</content>
 </contentList>

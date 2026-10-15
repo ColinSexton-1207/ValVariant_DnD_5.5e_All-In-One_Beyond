@@ -7247,4 +7247,19 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h19a53d2dgf15fg48f3g8401g1a951621f9af" version="1">As part of casting this spell, you expend [1] of your Hit Point Dice. Your body is wrapped in clotted blood. Whenever a creature within [2] of you hits you with a melee attack roll, the attacker takes [3] + your spellcasting ability modifier, rolled with the expended Hit Point Dice.&lt;br&gt;&lt;br&gt;If a creature hits you with a Melee weapon, you can take a Reaction to have clots form around the weapon. The attacker must succeed on a Strength saving throw or drop the weapon.</content>
   <content contentuid="h24070d63g56a9g46eega474ge6ebd0dfbeb5" version="1">Whenever a creature within [1] of you hits you with a melee attack roll, the attacker takes [2] + your spellcasting ability modifier.&lt;br&gt;&lt;br&gt;If a creature hits you with a Melee weapon, you can take a Reaction to force it to make a Strength saving throw. On a failed save, it drops the weapon.</content>
   <content contentuid="h6da839dbg6804g4d99ga49bg00025246286d" version="1">When a creature hits you with a Melee weapon, you can take a Reaction to have clots form around the weapon, forcing the attacker to make a Strength saving throw. On a failed save, it drops the weapon.</content>
+  <content contentuid="had568b5dgb89bg45e1g8bf4g0339f9e749da" version="1">Sanguine Thief</content>
+  <content contentuid="h820edb6agec80g4205g8503g7b9d625ee615" version="1">Sanguine Thieves are assassins who harness the power of Sangromancy to fuel their abilities, drawing upon the vita of their victims to extend their blood magic beyond the limits of their own vitality.</content>
+  <content contentuid="h919f6b19g9ec9g4b73g8d7fgedbb2ee7a88d" version="1">Stolen Power</content>
+  <content contentuid="h90c571a5gdc90g4a6ag9047g73e2eef6de28" version="1">You draw magic from blood. You gain additional d8 Hit Point Dice equal to the number of Sneak Attack dice: 2 at level 3, and 1 more at levels 5, 7, 9, and 11. You can learn Sangromancy spells as Wizard spells, and you expend your d8 Hit Point Dice when you cast them.</content>
+  <content contentuid="hd1c43ebbgbefcg4997ga424g5cc65fb79952" version="1">Steal Blood</content>
+  <content contentuid="hb37bea5dgf765g4731g8180g5b1bffa92050" version="1">When you deal Sneak Attack damage, you steal blood until the end of your turn. While stealing blood, you can restore 1 expended d8 Hit Point Die, or, if you are Bloodied, regain Hit Points equal to 1d8 plus your Constitution modifier.&lt;br&gt;&lt;br&gt;You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</content>
+  <content contentuid="h42a7d87bgfbb2g4eb2gb99egcefea469366b" version="1">Bloody Blades</content>
+  <content contentuid="h063e6d24gfc8dg48eeg8a22gecfb5e138f8b" version="1">When you score a Critical Hit with a melee weapon attack, the target takes an additional [1].</content>
+  <content contentuid="hdabc148bg5d98g401fg8800g10a80074789e" version="1">Steal Blood</content>
+  <content contentuid="h7d66bde8ge699g4921gb4ffg94363cdaf03e" version="1">Can restore a Hit Point Die, or heal while Bloodied. Ends at the end of the turn or when either is used.</content>
+  <content contentuid="h88125aa1g4bd5g4065gbfb4g13b70da27a39" version="1">Steal Blood: Restore Hit Point Dice</content>
+  <content contentuid="h08823cd5g4b7bg43eag9e25g87494b96a4bc" version="1">Restore 1 expended d8 Hit Point Die.</content>
+  <content contentuid="hca4ee385g4997g48dbgb486g08312e60e5e5" version="1">Steal Blood: Drain Vitality</content>
+  <content contentuid="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1">Regain [1]. You can use this only while Bloodied.</content>
+  <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">Steal Blood</content>
 </contentList>
