@@ -255,6 +255,23 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25d91969-0f1d-4387-8652-c1def8f996c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ViscousSheath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6da839dbg6804g4d99ga49bg00025246286d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and IsMeleeWeaponAttack() and IsHit() and not AnyEntityIsItem() and HasLastAttackTriggered();" />
+        <field name="Roll" type="StringTableFieldDefinition" value="ViscousSheathSavingThrow()" />
+        <field name="Success" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_SOURCE,DISARM,100,1);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="41499540-4ec6-49fd-bd0b-27c3602966e6" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_TheftOfVitae6" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65c4c661g90d7g443cg8d59g901c9e2cccd5" version="1" />

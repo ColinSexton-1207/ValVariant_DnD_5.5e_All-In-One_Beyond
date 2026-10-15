@@ -13532,5 +13532,63 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,DARK_SACRAMENT_CHOICE,100,1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d562e0c-233e-4312-a0ba-e6f5143111e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_D6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,7d6+SpellCastingAbilityModifier,Necrotic,Magical,,0,,true,true)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9f9e7d64-1ba7-4559-a1e8-abe65f6a5a42" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_D8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,7d8+SpellCastingAbilityModifier,Necrotic,Magical,,0,,true,true)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcc99af8-e2ec-44c7-aee7-f7edf68e3d1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_D10" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,7d10+SpellCastingAbilityModifier,Necrotic,Magical,,0,,true,true)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ee2c841-0c82-44f8-a704-d21852bc0ffd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_D12" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellTypeIs(SpellType.Throw)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(SWAP,7d12+SpellCastingAbilityModifier,Necrotic,Magical,,0,,true,true)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="69388545-416a-4067-849f-ec40e1b3f511" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_Disarm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6da839dbg6804g4d99ga49bg00025246286d" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ViscousSheath);" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

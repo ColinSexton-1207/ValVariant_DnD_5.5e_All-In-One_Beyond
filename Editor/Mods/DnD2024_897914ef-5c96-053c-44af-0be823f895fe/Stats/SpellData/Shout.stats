@@ -7665,6 +7665,205 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Cleric_DeathDomain_BurstingSinew" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ViscousSheath6;Shout_ViscousSheath8;Shout_ViscousSheath10;Shout_ViscousSheath12;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,VISCOUS_SHEATH_D6,100,100);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19a53d2dgf15fg48f3g8401g1a951621f9af" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7;Distance(1.5);DealDamage(7d6,Necrotic)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISCOUS_SHEATH_D6,100,100)" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_MindSpike" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;62e74220-ba87-4fe7-aa99-9d12cab9d654,,;b1f3f86a-a1fc-43f6-8a2b-0110a9f99ead,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ec80b3cd-29fd-40d2-a41a-b703db1b6f8e" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="87311d04-9aff-482b-aa47-d53cf7965ce8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ViscousSheath6_5;Shout_ViscousSheath8_5;Shout_ViscousSheath10_5;Shout_ViscousSheath12_5;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92e55715-7b25-468f-8359-d8b67984c3db" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_ViscousSheath6_6;Shout_ViscousSheath8_6;Shout_ViscousSheath10_6;Shout_ViscousSheath12_6;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="321a5204-69e9-41f3-b85d-33ebc622f007" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,VISCOUS_SHEATH_D6,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha11f30e7g5db0g4884gb2f9g61352d1b2db6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7;Distance(1.5);DealDamage(7d6,Necrotic)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISCOUS_SHEATH_D6,100,100)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice06:7;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="64c948f0-5ce5-46db-859d-3fa94836b57e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath6_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="321a5204-69e9-41f3-b85d-33ebc622f007" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice06:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a5966018-d474-4754-b290-2fce1333b719" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath6_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="321a5204-69e9-41f3-b85d-33ebc622f007" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice06:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b04370a6-0c04-4da4-9a50-4ed1edee5b26" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,VISCOUS_SHEATH_D8,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9140986bg8994g49ccg8175gd53d1bf1f9e8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7;Distance(1.5);DealDamage(7d8,Necrotic)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISCOUS_SHEATH_D8,100,100)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice08:7;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c847504b-c7d3-4ffb-b6b3-ed49d698075a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath8_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b04370a6-0c04-4da4-9a50-4ed1edee5b26" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice08:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath8" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10e6c087-6c85-4c18-a114-bcb230041e02" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath8_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b04370a6-0c04-4da4-9a50-4ed1edee5b26" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice08:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath8" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14a56904-a24c-4a94-9188-559d9a0899b5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,VISCOUS_SHEATH_D10,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha4dc0835g1dbeg4aa6gba26gd98acfd1a052" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7;Distance(1.5);DealDamage(7d10,Necrotic)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISCOUS_SHEATH_D10,100,100)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice10:7;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfaa2384-331f-41d5-90b3-12cf85d51c58" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath10_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="14a56904-a24c-4a94-9188-559d9a0899b5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice10:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath10" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3cffee8-a0bf-44fe-ac07-98f74e8714c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath10_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="14a56904-a24c-4a94-9188-559d9a0899b5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice10:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath10" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aebe9d0c-22cb-4571-9680-bb9411511467" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath12" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86d75937-e14d-47a8-aaa7-987cd0b6d381" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SELF,VISCOUS_SHEATH_D12,100,100);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h118f18f1g2d02g443cg90c9gb30664dc0693" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7;Distance(1.5);DealDamage(7d12,Necrotic)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISCOUS_SHEATH_D12,100,100)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;HitPointDice12:7;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5cdbc6ba-a0ed-432e-bbbf-94d2b9a1558a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath12_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aebe9d0c-22cb-4571-9680-bb9411511467" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;HitPointDice12:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath12" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0af22329-f1b4-4246-bb13-b77d37c33034" />
+        <field name="Name" type="NameTableFieldDefinition" value="ViscousSheath12_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="aebe9d0c-22cb-4571-9680-bb9411511467" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_ViscousSheath_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;HitPointDice12:7;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_ViscousSheath12" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c58d5984-d9d7-4f8c-97a7-449158f95b36" />

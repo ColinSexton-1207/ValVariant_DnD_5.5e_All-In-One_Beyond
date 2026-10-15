@@ -6416,6 +6416,58 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35caaaa2-d615-4d2d-8f31-ac04a7922844" />
+        <field name="Name" type="NameTableFieldDefinition" value="VISCOUS_SHEATH_D6" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24070d63g56a9g46eega474ge6ebd0dfbeb5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(7d6,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VISCOUS_SHEATH" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ViscousSheath_D6;ViscousSheath_Disarm;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee1fac51-b7d6-4f2f-a589-37136ef4c951" />
+        <field name="Name" type="NameTableFieldDefinition" value="VISCOUS_SHEATH_D8" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24070d63g56a9g46eega474ge6ebd0dfbeb5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(7d8,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VISCOUS_SHEATH" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ViscousSheath_D8;ViscousSheath_Disarm;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92fafc21-5045-4098-b11f-4a9b39e7ae73" />
+        <field name="Name" type="NameTableFieldDefinition" value="VISCOUS_SHEATH_D10" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24070d63g56a9g46eega474ge6ebd0dfbeb5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(7d10,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VISCOUS_SHEATH" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ViscousSheath_D10;ViscousSheath_Disarm;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="915beb0b-c6be-4138-af21-be8d89cc2b46" />
+        <field name="Name" type="NameTableFieldDefinition" value="VISCOUS_SHEATH_D12" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0ef0e247g8614g4f05g8eefg9081b81a6300" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h24070d63g56a9g46eega474ge6ebd0dfbeb5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(7d12,Necrotic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_ViscousSheath" />
+        <field name="StackId" type="StringTableFieldDefinition" value="VISCOUS_SHEATH" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ViscousSheath_D12;ViscousSheath_Disarm;" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9fcd96a1-8398-413b-bf6d-7860da2ba8b4" />
         <field name="Name" type="NameTableFieldDefinition" value="BLOOD_BOND_D6" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha956a77ag00a5g4260g825cgc732af36d57b" version="1" />

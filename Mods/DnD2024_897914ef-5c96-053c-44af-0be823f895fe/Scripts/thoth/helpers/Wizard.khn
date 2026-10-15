@@ -633,6 +633,21 @@ function IsSangromancySpell()
     | SpellId('Target_DarkSacrament12')
     | SpellId('Target_DarkSacrament12_5')
     | SpellId('Target_DarkSacrament12_6')
+    | SpellId('Shout_ViscousSheath')
+    | SpellId('Shout_ViscousSheath_5')
+    | SpellId('Shout_ViscousSheath_6')
+    | SpellId('Shout_ViscousSheath6')
+    | SpellId('Shout_ViscousSheath6_5')
+    | SpellId('Shout_ViscousSheath6_6')
+    | SpellId('Shout_ViscousSheath8')
+    | SpellId('Shout_ViscousSheath8_5')
+    | SpellId('Shout_ViscousSheath8_6')
+    | SpellId('Shout_ViscousSheath10')
+    | SpellId('Shout_ViscousSheath10_5')
+    | SpellId('Shout_ViscousSheath10_6')
+    | SpellId('Shout_ViscousSheath12')
+    | SpellId('Shout_ViscousSheath12_5')
+    | SpellId('Shout_ViscousSheath12_6')
 end
 
 function DarkSacrament()
@@ -651,4 +666,13 @@ function DarkSacrament()
     | SpellId('Target_DarkSacrament12')
     | SpellId('Target_DarkSacrament12_5')
     | SpellId('Target_DarkSacrament12_6')
+end
+
+function ViscousSheathSavingThrow()
+    local viscousSheathDC = math.max(
+        SourceSpellDC(10, context.Observer, Ability.Intelligence),
+        SourceSpellDC(10, context.Observer, Ability.Wisdom),
+        SourceSpellDC(10, context.Observer, Ability.Charisma))
+    local st = ~SavingThrow(Ability.Strength, viscousSheathDC, false, false, context.Source)
+    return ConditionResult(st.Result,{},{},st.Chance)
 end
