@@ -129,17 +129,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ba5fe787-f3d0-4bb1-af50-7eed04273264" />
-        <field name="Name" type="NameTableFieldDefinition" value="Jump_Down_AI" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7ab9b9d8-fdbc-4912-8f03-a20fe555ca07" />
-        <field name="TargetRadius" type="StringTableFieldDefinition" value="4.5" />
-        <field name="AddRangeFromAbility" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="TargetConditions" type="StringTableFieldDefinition" value="YDistanceToTargetGreaterOrEqual(2);" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="67d6419d-a823-417d-94b5-1bf9bfc5cb9c" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Mobility_JumpOnDash_Action" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="da71ebda-72cc-460c-a1b3-254520d00371" />

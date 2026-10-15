@@ -269,7 +269,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c6324994-eac3-4fa6-bba5-d248d8c52975" />
         <field name="Name" type="NameTableFieldDefinition" value="HEALTHBOOST_HARDCORE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="da9ed3c5-4b2f-4100-807c-95768f002c9c" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(30%);RollBonus(Attack,2);SpellSaveDC(2);UnlockSpell(Projectile_Jump_Down_AI);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(30%);RollBonus(Attack,2);SpellSaveDC(2);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
