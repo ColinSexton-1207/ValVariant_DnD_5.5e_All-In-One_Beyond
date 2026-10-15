@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="24%" r="80%">
+      <stop offset="0%" stop-color="#241c3f"/>
+      <stop offset="55%" stop-color="#14101f"/>
+      <stop offset="100%" stop-color="#09070f"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7dd97"/>
+      <stop offset="50%" stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#c98f2c"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b84b" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#e8b84b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8b84b" stop-opacity="0.55"/>
+    </linearGradient>
+</defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgGlow)"/>
+
+  <g fill="#f7dd97" opacity="0.28">
+    <circle cx="110" cy="70" r="1.5"/>
+    <circle cx="1180" cy="80" r="1.5"/>
+    <circle cx="60" cy="360" r="1.2"/>
+    <circle cx="1225" cy="360" r="1.2"/>
+    <circle cx="110" cy="655" r="1.4"/>
+    <circle cx="1180" cy="650" r="1.4"/>
+  </g>
+
+  <rect x="18" y="18" width="1244" height="684" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+  <rect x="30" y="30" width="1220" height="660" rx="12" fill="none" stroke="#e8b84b" stroke-opacity="0.16" stroke-width="1"/>
+
+  <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
+  <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">13 / 14</text>
+  <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Level 5</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">14</text>
+  <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">level 5 spells</text>
+<text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Awaken through Synaptic Static — new spells alongside 5.5e-revised classics.</text>
+  <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
+<text x="70" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Awaken</tspan><tspan fill="#cdc4e0"> — Intelligence save; on a failed save, a creature with Intelligence</tspan></text>
+<text x="70" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">3 or lower…</text>
+<text x="70" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Circle of Power</tspan><tspan fill="#cdc4e0"> — Self 9m-radius aura, Concentration; you and allies</tspan></text>
+<text x="70" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">inside gain Advantage on…</text>
+<text x="70" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cone of Cold</tspan><tspan fill="#cdc4e0"> — Revised to 8d8 Cold damage in an 18m cone</tspan></text>
+<text x="70" y="333" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Conjure Elemental</tspan><tspan fill="#cdc4e0"> — 3m spirit aura; Dexterity save or 8d8 and Restrained</tspan></text>
+<text x="70" y="358" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Danse Macabre</tspan><tspan fill="#cdc4e0"> — Concentration; raise up to five Skeletons or Zombies</tspan></text>
+<text x="70" y="383" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dawn</tspan><tspan fill="#cdc4e0"> — Concentration; conjures a 9m-radius cylinder of sunlight;</tspan></text>
+<text x="70" y="401" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Constitution save or 4d10…</text>
+<text x="70" y="426" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dispel Evil and Good</tspan><tspan fill="#cdc4e0"> — Now grants Dismissal; either function ends the spell</tspan></text>
+<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dream</tspan><tspan fill="#cdc4e0"> — Wisdom save; on a failed save, the target gains no benefit from</tspan></text>
+<text x="670" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">its rest and…</text>
+<text x="670" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Enervation</tspan><tspan fill="#cdc4e0"> — Dexterity save; 4d8 Necrotic on a failed save (2d8 and the</tspan></text>
+<text x="670" y="283" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">spell ends on…</text>
+<text x="670" y="308" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Holy Weapon</tspan><tspan fill="#cdc4e0"> — Concentration; imbued weapon deals +2d8 Radiant on hit</tspan></text>
+<text x="670" y="326" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">and becomes magical; Bonus…</text>
+<text x="670" y="351" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Steel Wind Strike</tspan><tspan fill="#cdc4e0"> — Vanish and make melee spell attacks (6d10 Force each)</tspan></text>
+<text x="670" y="369" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">against up to 5 creatures</text>
+<text x="670" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Celestial</tspan><tspan fill="#cdc4e0"> — Conjure a Celestial Spirit ally that can bolster</tspan></text>
+<text x="670" y="412" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">allies with Temporary HP…</text>
+<text x="670" y="437" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Dragon</tspan><tspan fill="#cdc4e0"> — Conjure a Draconic Spirit ally that rends and breathes fire</tspan></text>
+<text x="670" y="462" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Synaptic Static</tspan><tspan fill="#cdc4e0"> — Intelligence save; 8d6 Psychic damage in a 6m sphere</tspan></text>
+</svg>
