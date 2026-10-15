@@ -1769,7 +1769,7 @@
   <content contentuid="h25af72e1gf482g34a9g529cg6374b4fb3326" version="1">영광의 맹세</content>
   <content contentuid="haa96615cga522gdeb1ga810g8bef49c9c9e6" version="1">영광의 맹세를 받아들인 팔라딘은 자신과 동료들이 영웅적 행위를 통해 영광을 이룰 운명이라고 믿습니다. 이들은 부지런히 훈련하고 동료들을 격려하여, 운명이 부를 때 모두가 준비되어 있도록 합니다.</content>
   <content contentuid="h7448ea4fg8ab9g8b26gf04dg6a7767cae2dd" version="1">요정 방랑자</content>
-  <content contentuid="h60b4a6b6g2c59g4b4cgb657g5872fb1a68d4" version="1">대마법사의 은총이나 자신을 변화시킨 요정계의 한 장소 덕분에, 요정의 신비로운 기운이 당신을 감싸고 있습니다. 어떻게 요정 마법을 얻었든 간에, 당신은 이제 요정 방랑자입니다. 당신의 즐거운 웃음소리는 짓밟힌 이들의 마음을 밝히고, 당신의 무예는 적에게 공포를 안깁니다. 요정의 흥은 위대하고 그 분노는 무시무시하기 때문입니다.</content>
+  <content contentuid="h60b4a6b6g2c59g4b4cgb657g5872fb1a68d4" version="1">대요정의 은총이나 자신을 변화시킨 요정계의 한 장소 덕분에, 요정의 신비로운 기운이 당신을 감싸고 있습니다. 어떻게 요정 마법을 얻었든 간에, 당신은 이제 요정 방랑자입니다. 당신의 즐거운 웃음소리는 짓밟힌 이들의 마음을 밝히고, 당신의 무예는 적에게 공포를 안깁니다. 요정의 흥은 위대하고 그 분노는 무시무시하기 때문입니다.</content>
   <content contentuid="h2c7c5414g15dagaf08gfc1fg11fb9d066b49" version="2">영혼칼날</content>
   <content contentuid="h9d72f0d7g2c0egb1bbgde11g3864f11ceed2" version="2">영혼칼날은 정신으로 타격하여, 물리적 장벽과 정신적 장벽을 모두 가릅니다. 이 로그들은 자신 안에서 사이오닉의 힘을 발견하고, 이를 이끌어내어 도적의 일을 수행합니다. 영혼칼날로서, 당신의 사이오닉 능력은 어린 시절부터 당신을 괴롭혀 왔을 수도 있으며, 모험의 스트레스를 경험하고 나서야 그 온전한 잠재력을 드러냈을지도 모릅니다. 혹은 정신 능력자들의 결사를 찾아내어, 자신의 힘을 발현하는 법을 배우는 데 여러 해를 보냈을 수도 있습니다.</content>
   <content contentuid="hba0867adg6296gbd1cg160cg13de0e01f398" version="2">염동력</content>
@@ -1954,8 +1954,8 @@
   <content contentuid="h7e8a436fg7af5g1f7eg57f2g2e9aeaf85bd9" version="2">원소 친화력(피해)</content>
   <content contentuid="hd62b7853g8592g9285gb42bgac6b36b210fb" version="2">원소 친화력(저항)</content>
   <content contentuid="h2adc185egdb92gc42cgef83gd94b5364f467" version="1">팔라딘의 강타</content>
-  <content contentuid="hb352a2d9g2b29g035bgcae6ge065a7ef8fe8" version="2">대마법사 주문</content>
-  <content contentuid="hd7701b33g6b2fg2417gbd20g2eb61af61f00" version="1">후원자의 마법 덕분에 항상 특정 주문이 준비되어 있습니다. 특정 워락 레벨에 도달하면 대마법사 주문 표에 나온 대로 추가 주문을 얻으며, 그 이후로 그 주문들이 항상 준비된 상태가 됩니다.
+  <content contentuid="hb352a2d9g2b29g035bgcae6ge065a7ef8fe8" version="2">대요정 주문</content>
+  <content contentuid="hd7701b33g6b2fg2417gbd20g2eb61af61f00" version="1">후원자의 마법 덕분에 항상 특정 주문이 준비되어 있습니다. 특정 워락 레벨에 도달하면 대요정 주문 표에 나온 대로 추가 주문을 얻으며, 그 이후로 그 주문들이 항상 준비된 상태가 됩니다.
 
 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_CalmEmotions"&gt;평정심&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_FaerieFire"&gt;요정불&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;안개 걸음&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalForce"&gt;환영력&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Sleep"&gt;수면&lt;/LSTag&gt;을 얻습니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_Blink"&gt;점멸&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_PlantGrowth"&gt;식물 성장&lt;/LSTag&gt;을 얻습니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_DominateBeast"&gt;야수 지배&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;상급 투명&lt;/LSTag&gt;을 얻습니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_DominatePerson"&gt;인간형 지배&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_Seeming"&gt;외견&lt;/LSTag&gt;을 얻습니다.</content>
   <content contentuid="h46177747g5549g5775gad78g65fbcd1fc3a6" version="2">요정의 발걸음</content>
