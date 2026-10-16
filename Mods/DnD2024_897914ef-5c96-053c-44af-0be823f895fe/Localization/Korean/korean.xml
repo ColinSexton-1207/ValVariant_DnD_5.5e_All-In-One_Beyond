@@ -7263,4 +7263,5 @@
   <content contentuid="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1">[1]를 회복합니다. 피투성이 상태일 때만 사용할 수 있습니다.</content>
   <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">피 훔치기</content>
   <content contentuid="ha3d883a2gef2dg4f35gad4cg5b57f75a23d3" version="6">험지 - &lt;LSTag Tooltip="MovementSpeed"&gt;이동 속도&lt;/LSTag&gt;가 반으로 감소하며 크리처가 일정 확률로 넘어집니다. 마법으로 생성된 불연성 기름입니다.</content>
+  <content contentuid="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1">[2] 이내의 한 지점을 중심으로 [1] 반경 원형 범위의 땅을 불연성 기름이 뒤덮어, 지속시간 동안 그곳을 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;로 만듭니다.&lt;br&gt;&lt;br&gt;기름이 나타날 때 범위 안에 서 있는 각 크리처는 민첩 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어짐&lt;/LSTag&gt; 상태가 됩니다. 범위에 들어오거나 그곳에서 턴을 마치는 크리처도 같은 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어집니다&lt;/LSTag&gt;.</content>
 </contentList>

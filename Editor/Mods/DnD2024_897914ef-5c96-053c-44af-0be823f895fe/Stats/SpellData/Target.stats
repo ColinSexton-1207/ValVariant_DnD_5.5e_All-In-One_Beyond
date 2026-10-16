@@ -1334,6 +1334,60 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ff25811-77ed-4b1f-a7e8-fb1fe67c0575" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54ad03cd-561c-4a54-917f-d5293a5d63d9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4);Distance(18)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d70445d3-3ca7-40c4-bf30-15b72f76f608" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a30c861e-a754-4c0c-9410-8837f8a30e2b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4);Distance(18)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d29e3cd-e88d-4833-9da5-4449756578c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="76389e01-3142-4817-9aa7-b9d7d91626d7" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4);Distance(18)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff9525b6-b846-45b3-b3b8-2b7516c7a005" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4c5a20-bff3-415c-957a-5dad711ce858" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4);Distance(18)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78e16152-a137-4c9d-b601-cdd8a6201fb1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e662ca6d-f6e4-4b3f-b395-ac64a7835fa2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4);Distance(18)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21330382-b716-45d0-95e9-4d6abfc61aed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Grease_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eac69068-12fd-4abc-b940-3a8603be657d" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4);Distance(18)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dba0e501-b1cd-40af-8989-620473a485f1" />
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Dummy" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b873d36a-2910-4dd8-b276-6db0517daab1" />

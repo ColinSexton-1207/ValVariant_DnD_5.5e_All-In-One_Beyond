@@ -34,7 +34,7 @@
   <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
   <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">09 / 14</text>
   <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Level 1</text>
-  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">35</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">36</text>
   <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">level 1 spells</text>
 <text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Absorb Elements through Wrathful Smite — new spells alongside 5.5e-revised classics.</text>
   <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
@@ -67,29 +67,30 @@
 <text x="70" y="644" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">above 1st)</text>
 <text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Armor of Agathys</tspan><tspan fill="#cdc4e0"> — Now cast as a Bonus Action; surrounds with icy armor</tspan></text>
 <text x="670" y="237" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">granting temporary HP and…</text>
-<text x="670" y="254" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Bloodbane Rune</tspan><tspan fill="#cdc4e0"> — Blood rune weapon; extra Radiant damage vs Undead</tspan></text>
-<text x="670" y="271" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Body Warping of Gorgoroth</tspan><tspan fill="#cdc4e0"> — Concentration; choose a Humanoid of your size</tspan></text>
-<text x="670" y="286" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">that you can see</text>
-<text x="670" y="303" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Chromatic Orb</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; choose from Acid, Cold, Fire,</tspan></text>
-<text x="670" y="318" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Lightning, Poison, or Thunder</text>
-<text x="670" y="335" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Color Spray</tspan><tspan fill="#cdc4e0"> — Constitution save in a 15 ft cone; Blinded until end of next</tspan></text>
-<text x="670" y="350" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">turn on a failed…</text>
-<text x="670" y="367" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cure Wounds</tspan><tspan fill="#cdc4e0"> — Now restores 2d8 + spellcasting modifier HP (up from 1d8)</tspan></text>
-<text x="670" y="384" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Fog Cloud</tspan><tspan fill="#cdc4e0"> — 20 ft radius (up from 15 ft), +20 ft per slot level; 120 ft range</tspan></text>
-<text x="670" y="401" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Healing Word</tspan><tspan fill="#cdc4e0"> — Now restores 2d4 + spellcasting modifier HP (up from 1d4)</tspan></text>
-<text x="670" y="418" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hideous Laughter</tspan><tspan fill="#cdc4e0"> — No longer requires the target to have an Intelligence</tspan></text>
-<text x="670" y="433" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">score above 4</text>
-<text x="670" y="450" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hungering Blade</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your weapon or Unarmed Strikes with</tspan></text>
-<text x="670" y="465" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">negative energy for 10…</text>
-<text x="670" y="482" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Shroud Blood</tspan><tspan fill="#cdc4e0"> — Concentration; turn a creature Invisible</tspan></text>
-<text x="670" y="499" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Somnolence</tspan><tspan fill="#cdc4e0"> — Put a creature to magical sleep with Hit Point Dice</tspan></text>
-<text x="670" y="516" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spellfire Flare</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 2d10 Radiant damage</tspan></text>
-<text x="670" y="533" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Thunderous Smite</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your next melee weapon attack with</tspan></text>
-<text x="670" y="548" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">2d6 Thunder damage</text>
-<text x="670" y="565" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Umbral Tendril</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 2d8 Necrotic damage on a hit, then</tspan></text>
-<text x="670" y="580" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">roll the damage dice…</text>
-<text x="670" y="597" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Vibrating Humors</tspan><tspan fill="#cdc4e0"> — Con save; Thunder damage, Stealth Disadvantage</tspan></text>
+<text x="670" y="253" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Bloodbane Rune</tspan><tspan fill="#cdc4e0"> — Blood rune weapon; extra Radiant damage vs Undead</tspan></text>
+<text x="670" y="269" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Body Warping of Gorgoroth</tspan><tspan fill="#cdc4e0"> — Concentration; choose a Humanoid of your size</tspan></text>
+<text x="670" y="284" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">that you can see</text>
+<text x="670" y="300" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Chromatic Orb</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; choose from Acid, Cold, Fire,</tspan></text>
+<text x="670" y="315" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Lightning, Poison, or Thunder</text>
+<text x="670" y="331" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Color Spray</tspan><tspan fill="#cdc4e0"> — Constitution save in a 15 ft cone; Blinded until end of next</tspan></text>
+<text x="670" y="346" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">turn on a failed…</text>
+<text x="670" y="362" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cure Wounds</tspan><tspan fill="#cdc4e0"> — Now restores 2d8 + spellcasting modifier HP (up from 1d8)</tspan></text>
+<text x="670" y="378" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Fog Cloud</tspan><tspan fill="#cdc4e0"> — 20 ft radius (up from 15 ft), +20 ft per slot level; 120 ft range</tspan></text>
+<text x="670" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Grease</tspan><tspan fill="#cdc4e0"> — Now nonflammable; Prone save also when ending a turn in it</tspan></text>
+<text x="670" y="410" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Healing Word</tspan><tspan fill="#cdc4e0"> — Now restores 2d4 + spellcasting modifier HP (up from 1d4)</tspan></text>
+<text x="670" y="426" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hideous Laughter</tspan><tspan fill="#cdc4e0"> — No longer requires the target to have an Intelligence</tspan></text>
+<text x="670" y="441" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">score above 4</text>
+<text x="670" y="457" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Hungering Blade</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your weapon or Unarmed Strikes with</tspan></text>
+<text x="670" y="472" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">negative energy for 10…</text>
+<text x="670" y="488" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Shroud Blood</tspan><tspan fill="#cdc4e0"> — Concentration; turn a creature Invisible</tspan></text>
+<text x="670" y="504" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Somnolence</tspan><tspan fill="#cdc4e0"> — Put a creature to magical sleep with Hit Point Dice</tspan></text>
+<text x="670" y="520" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spellfire Flare</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 2d10 Radiant damage</tspan></text>
+<text x="670" y="536" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Thunderous Smite</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your next melee weapon attack with</tspan></text>
+<text x="670" y="551" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">2d6 Thunder damage</text>
+<text x="670" y="567" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Umbral Tendril</tspan><tspan fill="#cdc4e0"> — Ranged spell attack; 2d8 Necrotic damage on a hit, then</tspan></text>
+<text x="670" y="582" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">roll the damage dice…</text>
+<text x="670" y="598" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Vibrating Humors</tspan><tspan fill="#cdc4e0"> — Con save; Thunder damage, Stealth Disadvantage</tspan></text>
 <text x="670" y="614" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Witch Bolt</tspan><tspan fill="#cdc4e0"> — Initial hit now deals 2d12 Lightning damage</tspan></text>
-<text x="670" y="631" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Wrathful Smite</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your next melee weapon attack with</tspan></text>
-<text x="670" y="646" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">1d6 Necrotic damage</text>
+<text x="670" y="630" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Wrathful Smite</tspan><tspan fill="#cdc4e0"> — Bonus Action; imbue your next melee weapon attack with</tspan></text>
+<text x="670" y="645" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">1d6 Necrotic damage</text>
 </svg>
