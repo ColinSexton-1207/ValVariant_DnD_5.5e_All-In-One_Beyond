@@ -1145,11 +1145,11 @@ Atirar em combate corpo a corpo. Estar a até 5 metros de um inimigo não impõe
 
 Tiros de longa distância. Atacar com uma arma de longo alcance de duas mãos aumenta seu alcance normal para 90 metros.</content>
 	<content contentuid="ha55fe95cgd504gfcc1gb585g1162cb7cffcc" version="1">Talento: Atirador de Precisão</content>
-	<content contentuid="hb219036fg4365gffedg71d5g938331069179" version="2">Ignorar Cobertura. Seus &lt;LSTag Tooltip=&quot;RangedWeaponAttack&quot;&gt;ataques com armas de longo alcance&lt;/LSTag&gt; não sofrem penalidades das &lt;LSTag Tooltip=&quot;HighGroundRules&quot;&gt;Regras de Terreno Elevado&lt;/LSTag&gt;.
+	<content contentuid="hb219036fg4365gffedg71d5g938331069179" version="3">Ignorar Cobertura. Seus &lt;LSTag Tooltip=&quot;RangedWeaponAttack&quot;&gt;ataques com armas de longo alcance&lt;/LSTag&gt; não sofrem penalidades das &lt;LSTag Tooltip=&quot;HighGroundRules&quot;&gt;Regras de Terreno Elevado&lt;/LSTag&gt;.
 
 Atirar em combate corpo a corpo. Estar a menos de 1,5 metro de um inimigo não impõe Desvantagem aos seus testes de ataque com armas de longo alcance.
 
-Tiros de longa distância. Atacar com uma arma de longo alcance de duas mãos aumenta seu alcance normal para 27 metros.</content>
+Tiros de longa distância. O alcance normal dos seus ataques com armas de longo alcance aumenta em 50%.</content>
 	<content contentuid="hcf7e607eg1421g2fc9g4205gd10b92961b19" version="1">Maestria em Escudos</content>
 	<content contentuid="he75553c3gd15ag322eg1dcega59ac6593319" version="4">Golpe com o Escudo. Se você atacar uma criatura a até 5 metros de distância como parte da ação de Ataque e acertar com uma arma corpo a corpo, poderá imediatamente golpear o alvo com seu escudo, caso esteja equipado, forçando-o a fazer um teste de resistência de Força (CD 8 mais seu modificador de Força e bônus de proficiência). Se o teste de resistência falhar, você empurra o alvo 5 metros para longe de você ou faz com que ele fique na condição Prono (à sua escolha). Você pode usar esse benefício apenas uma vez em cada um dos seus turnos.
 
