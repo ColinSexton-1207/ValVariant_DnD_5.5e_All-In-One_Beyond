@@ -1882,7 +1882,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ShadowSmoke);StatusImmunity(SG_Blinded);DarkvisionRangeMin(12);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1907,7 +1906,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_UnrelentingFerocity" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1310" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ConsumeDarkness);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ConsumeDarkness);ActionResource(ConsumeDarkness,1,0);IF(AbilityGreaterThan('Constitution',13,context.Source)):ActionResource(ConsumeDarkness,1,0);IF(AbilityGreaterThan('Constitution',15,context.Source)):ActionResource(ConsumeDarkness,1,0);IF(AbilityGreaterThan('Constitution',17,context.Source)):ActionResource(ConsumeDarkness,1,0);IF(AbilityGreaterThan('Constitution',19,context.Source)):ActionResource(ConsumeDarkness,1,0);IF(AbilityGreaterThan('Constitution',21,context.Source)):ActionResource(ConsumeDarkness,1,0);IF(AbilityGreaterThan('Constitution',23,context.Source)):ActionResource(ConsumeDarkness,1,0);" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">

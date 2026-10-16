@@ -3822,17 +3822,15 @@
 
 이 길을 걷는 많은 바바리안은 다른 이들을 그 영향으로부터 보호하기 위해 해로운 그림자 마법을 스스로 흡수합니다. 더 적은 수는 단순히 그 끊임없는 유혹을 뿌리칠 수 없어서 그림자를 섭취합니다.</content>
   <content contentuid="h69753443g4b64g24dfg671fg01f0a6c73022" version="2">그림자 연기</content>
-  <content contentuid="h214e9d1dg45fcg6388gdc9cg6130d7c87cf2" version="2">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중일 때, 자신의 턴마다 한 번 그림자 연기의 덩굴손을 내뿜을 수 있습니다. 이 연기는 사방으로 자신으로부터 [1]까지 퍼집니다. 그 연기 안에 있는 자신 외의 모든 크리처는 &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;실명&lt;/LSTag&gt; 상태가 됩니다.</content>
-  <content contentuid="h491afa5eg7b34g23f1g71d1gd3a73f1a0484" version="1">그림자 연기</content>
-  <content contentuid="hc17eba4eg936fg2851g0508gb73011778121" version="1">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중일 때, 자신의 턴마다 한 번 그림자 연기의 덩굴손을 내뿜을 수 있습니다. 이 연기는 사방으로 자신으로부터 [1]까지 퍼집니다. 그 연기 안에 있는 자신 외의 모든 크리처는 &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;실명&lt;/LSTag&gt; 상태가 됩니다.</content>
+  <content contentuid="h214e9d1dg45fcg6388gdc9cg6130d7c87cf2" version="2">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중일 때, 자신으로부터 사방 [1]까지 퍼지는 그림자 연기의 덩굴손을 발산합니다. 연기 안에서 턴을 시작한 적은 다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="h99712a6fge628ga06eg47b4ga89071e28928" version="1">기어오는 안개</content>
-  <content contentuid="hba39350fgd122gc25bgbeaegca4f83c67943" version="1">가려진 빈 공간으로 순간이동합니다. 순간이동 전이나 후에 공격을 한 번 가할 수 있습니다.</content>
+  <content contentuid="hba39350fgd122gc25bgbeaegca4f83c67943" version="1">빈 공간으로 순간이동합니다. 순간이동 전이나 후에 공격을 한 번 가할 수 있습니다.</content>
   <content contentuid="h941c15f0g2e60g0e9fg218dge166bea3e8ed" version="1">어둠 섭취</content>
-  <content contentuid="h1a71759egf1c8g9a25g2327g7210d3bcea88" version="1">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중일 때, 주변의 그림자를 먹어치워 활력을 회복할 수 있습니다. 약한 빛이나 어둠 속에 있는 동안, 보조 행동으로 1d12에 건강 보정치를 더한 만큼 생명력을 회복할 수 있습니다.</content>
+  <content contentuid="h1a71759egf1c8g9a25g2327g7210d3bcea88" version="1">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중이며 약한 빛이나 어둠 속에 있을 때, 보조 행동으로 주변의 그림자를 먹어치워 1d12에 건강 보정치를 더한 만큼 생명력을 회복할 수 있습니다. 격노가 끝날 때까지(최대 1분) 자신의 턴이 시작될 때마다 생명력을 1 회복합니다.&lt;br&gt;&lt;br&gt;이 능력은 건강 보정치만큼 사용할 수 있습니다(최소 1회). 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다.</content>
   <content contentuid="h69bf67ebgf486g254dg8139gcbbd39d66230" version="3">기어오는 안개</content>
-  <content contentuid="h158135d1g6fa7g983eg619eg5cb15bc27602" version="1">원초적 그림자의 안개로 흩어졌다가 다른 곳에서 다시 형체를 갖출 수 있습니다. 행동으로, 착용하거나 소지한 모든 장비와 함께 보이는 가려진 빈 공간까지 [1] 마법적으로 순간이동합니다. 순간이동 전이나 후에 공격을 한 번 가할 수 있습니다.</content>
+  <content contentuid="h158135d1g6fa7g983eg619eg5cb15bc27602" version="1">원초적 그림자의 안개로 흩어졌다가 다른 곳에서 다시 형체를 갖출 수 있습니다. 행동으로, 착용하거나 소지한 모든 장비와 함께 보이는 빈 공간까지 [1] 마법적으로 순간이동합니다. 순간이동 전이나 후에 공격을 한 번 가할 수 있습니다.</content>
   <content contentuid="he97e3b0fg6f9cg22aag0fc7gb7945f9ceb17" version="2">어둠 섭취</content>
-  <content contentuid="h4d7a4652g2bf4gcf0dg7e2bg038ddc3b14d4" version="1">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중일 때, 주변의 그림자를 먹어치워 활력을 회복할 수 있습니다. 약한 빛이나 어둠 속에 있는 동안, 보조 행동으로 1d12에 건강 보정치를 더한 만큼 생명력을 회복할 수 있습니다.</content>
+  <content contentuid="h4d7a4652g2bf4gcf0dg7e2bg038ddc3b14d4" version="1">&lt;LSTag Type="Status" Tooltip="RAGE"&gt;격노&lt;/LSTag&gt; 중이며 약한 빛이나 어둠 속에 있을 때, 보조 행동으로 주변의 그림자를 먹어치워 1d12에 건강 보정치를 더한 만큼 생명력을 회복할 수 있습니다. 격노가 끝날 때까지(최대 1분) 자신의 턴이 시작될 때마다 생명력을 1 회복합니다.&lt;br&gt;&lt;br&gt;이 능력은 건강 보정치만큼 사용할 수 있습니다(최소 1회). 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다.</content>
   <content contentuid="hf54abe92g0c59g3206g795cg205f29ea03b8" version="1">들고 있는 무기 하나에 자연의 힘이 깃듭니다. 지속시간 동안, 그 무기를 사용한 근접 공격의 명중 굴림과 피해 굴림에 근력 대신 자신의 주문 시전 능력치를 사용할 수 있으며, 무기의 피해 주사위는 d8이 됩니다. 공격이 피해를 입히면 그 피해는 역장 피해입니다.
 
 이 주문을 다시 시전하거나 무기를 놓으면 조기에 종료됩니다.
@@ -7264,4 +7262,7 @@
   <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">피 훔치기</content>
   <content contentuid="ha3d883a2gef2dg4f35gad4cg5b57f75a23d3" version="6">험지 - &lt;LSTag Tooltip="MovementSpeed"&gt;이동 속도&lt;/LSTag&gt;가 반으로 감소하며 크리처가 일정 확률로 넘어집니다. 마법으로 생성된 불연성 기름입니다.</content>
   <content contentuid="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1">[2] 이내의 한 지점을 중심으로 [1] 반경 원형 범위의 땅을 불연성 기름이 뒤덮어, 지속시간 동안 그곳을 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;로 만듭니다.&lt;br&gt;&lt;br&gt;기름이 나타날 때 범위 안에 서 있는 각 크리처는 민첩 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어짐&lt;/LSTag&gt; 상태가 됩니다. 범위에 들어오거나 그곳에서 턴을 마치는 크리처도 같은 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어집니다&lt;/LSTag&gt;.</content>
+  <content contentuid="ha5617601gf549g47b7g9d02g6ea3458b6d73" version="1">다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
+  <content contentuid="hc25971eeg611bg4e20g90cag61ce83375009" version="1">연기 안에서 다음 턴을 시작하면 &lt;LSTag Type="Status" Tooltip="SHADOW_SMOKE_AURA_DEBUFF"&gt;그림자 연기&lt;/LSTag&gt; 상태가 되어, 그다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
+  <content contentuid="hfc9da1adg03cdg4403g8b03g8b054edd2b40" version="1">자신의 턴이 시작될 때마다 생명력을 1 회복합니다. 격노가 끝나면 사라집니다.</content>
 </contentList>

@@ -1031,6 +1031,14 @@
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="77fd4b90-31ed-4ada-95ff-2ba739aab878"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he97e3b0fg6f9cg22aag0fc7gb7945f9ceb17" version="2"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ConsumeDarkness"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="a7d66caf-12c0-4173-9562-b97f9ff96830"/>
+                </node>
             </children>
         </node>
     </region>

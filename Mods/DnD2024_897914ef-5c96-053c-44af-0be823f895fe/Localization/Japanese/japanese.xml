@@ -3751,17 +3751,15 @@
 
 この道を歩むバーバリアンの多くは、他者をその影響から守るために、有害な影の魔法を自らに吸収することを目的としている。より少数の集団は、常に存在する影の誘惑に抗うことができず、ただ影を貪っている。</content>
   <content contentuid="h69753443g4b64g24dfg671fg01f0a6c73022" version="2">影の煙</content>
-  <content contentuid="h214e9d1dg45fcg6388gdc9cg6130d7c87cf2" version="2">激怒している間、各ターンに一度、影の煙の触手を放出できる。煙は自身から全方向に3メートル広がる。煙の中にいる自身以外のクリーチャーは盲目状態になる。</content>
-  <content contentuid="h491afa5eg7b34g23f1g71d1gd3a73f1a0484" version="1">影の煙</content>
-  <content contentuid="hc17eba4eg936fg2851g0508gb73011778121" version="1">激怒している間、各ターンに一度、影の煙の触手を放出できる。煙は自身から全方向に3メートル広がる。煙の中にいる自身以外のクリーチャーは盲目状態になる。</content>
+  <content contentuid="h214e9d1dg45fcg6388gdc9cg6130d7c87cf2" version="2">激怒している間、自身から全方向に[1]広がる影の煙の触手を放つ。煙の中でターンを開始した敵は、次の自身のターンの開始前に行う次の攻撃ロールに不利を受ける。</content>
   <content contentuid="h99712a6fge628ga06eg47b4ga89071e28928" version="1">忍び寄る霧</content>
-  <content contentuid="hba39350fgd122gc25bgbeaegca4f83c67943" version="1">何もない、隠蔽された場所へ瞬間移動する。瞬間移動の前または後に、1回攻撃を行うことができる。</content>
+  <content contentuid="hba39350fgd122gc25bgbeaegca4f83c67943" version="1">何もない場所へ瞬間移動する。瞬間移動の前または後に、1回攻撃を行うことができる。</content>
   <content contentuid="h941c15f0g2e60g0e9fg218dge166bea3e8ed" version="1">闇の捕食</content>
-  <content contentuid="h1a71759egf1c8g9a25g2327g7210d3bcea88" version="1">激怒している間、周囲の影を喰らって活力を回復できる。薄暗い光の中、あるいは暗闇の中にいる間、ボーナス・アクションを使用して、1d12＋耐久力修正値に等しいヒット・ポイントを回復できる。</content>
+  <content contentuid="h1a71759egf1c8g9a25g2327g7210d3bcea88" version="1">激怒している間、薄暗い光の中か暗闇の中にいるなら、ボーナス・アクションを使用して周囲の影を喰らい、1d12＋耐久力修正値に等しいヒット・ポイントを回復できる。激怒が終わるまで（最大1分）、自身の各ターンの開始時にさらに1ヒット・ポイントを回復する。&lt;br&gt;&lt;br&gt;この能力は耐久力修正値に等しい回数（最低1回）使用でき、大休憩を終えると消費した使用回数をすべて回復する。</content>
   <content contentuid="h69bf67ebgf486g254dg8139gcbbd39d66230" version="3">忍び寄る霧</content>
-  <content contentuid="h158135d1g6fa7g983eg619eg5cb15bc27602" version="1">生の影の霧となって弾け、別の場所で再構成することができる。アクションとして、装備しているか運んでいる装備品と共に、30フィート（9メートル）以内の見える、何もない隠蔽された場所へ魔法のように瞬間移動する。瞬間移動の前または後に、1回攻撃を行うことができる。</content>
+  <content contentuid="h158135d1g6fa7g983eg619eg5cb15bc27602" version="1">生の影の霧となって弾け、別の場所で再構成することができる。アクションとして、装備しているか運んでいる装備品と共に、30フィート（9メートル）以内の見える、何もない場所へ魔法のように瞬間移動する。瞬間移動の前または後に、1回攻撃を行うことができる。</content>
   <content contentuid="he97e3b0fg6f9cg22aag0fc7gb7945f9ceb17" version="2">闇の捕食</content>
-  <content contentuid="h4d7a4652g2bf4gcf0dg7e2bg038ddc3b14d4" version="1">激怒している間、周囲の影を喰らって活力を回復できる。薄暗い光の中、あるいは暗闇の中にいる間、ボーナス・アクションを使用して、1d12＋耐久力修正値に等しいヒット・ポイントを回復できる。</content>
+  <content contentuid="h4d7a4652g2bf4gcf0dg7e2bg038ddc3b14d4" version="1">激怒している間、薄暗い光の中か暗闇の中にいるなら、ボーナス・アクションを使用して周囲の影を喰らい、1d12＋耐久力修正値に等しいヒット・ポイントを回復できる。激怒が終わるまで（最大1分）、自身の各ターンの開始時にさらに1ヒット・ポイントを回復する。&lt;br&gt;&lt;br&gt;この能力は耐久力修正値に等しい回数（最低1回）使用でき、大休憩を終えると消費した使用回数をすべて回復する。</content>
   <content contentuid="hf54abe92g0c59g3206g795cg205f29ea03b8" version="1">保持している武器に自然の力が宿る。持続時間中、その武器を使用した近接攻撃の攻撃ロールとダメージ・ロールに、筋力の代わりに自身の呪文発動能力を使用でき、武器のダメージ・ダイスはd8になる。攻撃が命中してダメージを与える場合、それは力場ダメージになる。
 
 この呪文を再度唱えるか、武器を手放すと呪文は途中で終了する。
