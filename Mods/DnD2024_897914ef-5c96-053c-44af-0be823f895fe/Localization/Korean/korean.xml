@@ -7262,4 +7262,5 @@
   <content contentuid="hca4ee385g4997g48dbgb486g08312e60e5e5" version="1">피 훔치기: 생명력 흡수</content>
   <content contentuid="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1">[1]를 회복합니다. 피투성이 상태일 때만 사용할 수 있습니다.</content>
   <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">피 훔치기</content>
+  <content contentuid="ha3d883a2gef2dg4f35gad4cg5b57f75a23d3" version="6">험지 - &lt;LSTag Tooltip="MovementSpeed"&gt;이동 속도&lt;/LSTag&gt;가 반으로 감소하며 크리처가 일정 확률로 넘어집니다. 마법으로 생성된 불연성 기름입니다.</content>
 </contentList>

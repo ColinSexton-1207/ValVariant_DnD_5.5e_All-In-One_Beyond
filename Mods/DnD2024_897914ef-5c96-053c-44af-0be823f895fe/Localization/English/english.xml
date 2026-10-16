@@ -7262,4 +7262,5 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="hca4ee385g4997g48dbgb486g08312e60e5e5" version="1">Steal Blood: Drain Vitality</content>
   <content contentuid="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1">Regain [1]. You can use this only while Bloodied.</content>
   <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">Steal Blood</content>
+  <content contentuid="ha3d883a2gef2dg4f35gad4cg5b57f75a23d3" version="6">Difficult terrain - &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt; is halved and creatures may fall Prone. Nonflammable grease created by magic.</content>
 </contentList>
