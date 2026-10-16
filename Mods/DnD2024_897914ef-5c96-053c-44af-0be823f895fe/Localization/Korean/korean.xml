@@ -7260,7 +7260,7 @@
   <content contentuid="hca4ee385g4997g48dbgb486g08312e60e5e5" version="1">피 훔치기: 생명력 흡수</content>
   <content contentuid="hf4b6b5e7g21bfg455fg9aa7g17978e8a6a53" version="1">[1]를 회복합니다. 피투성이 상태일 때만 사용할 수 있습니다.</content>
   <content contentuid="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1">피 훔치기</content>
-  <content contentuid="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1">[2] 이내의 한 지점을 중심으로 [1] 반경 원형 범위의 땅을 불연성 기름이 뒤덮어, 지속시간 동안 그곳을 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;로 만듭니다.&lt;br&gt;&lt;br&gt;기름이 나타날 때 범위 안에 서 있는 각 크리처는 민첩 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어짐&lt;/LSTag&gt; 상태가 됩니다. 범위에 들어오거나 그곳에서 턴을 마치는 크리처도 같은 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어집니다&lt;/LSTag&gt;.</content>
+  <content contentuid="hf00f4641g7feeg4a98g9ae9g35d4ec26620d" version="1">[2] 이내의 한 지점을 중심으로 [1] 반경 원형 범위의 땅을 기름이 뒤덮어, 지속시간 동안 그곳을 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;로 만듭니다.&lt;br&gt;&lt;br&gt;기름이 나타날 때 범위 안에 서 있는 각 크리처는 민첩 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어짐&lt;/LSTag&gt; 상태가 됩니다. 범위에 들어오거나 그곳에서 턴을 마치는 크리처도 같은 내성 굴림에 성공하지 못하면 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어집니다&lt;/LSTag&gt;.</content>
   <content contentuid="ha5617601gf549g47b7g9d02g6ea3458b6d73" version="1">다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="hc25971eeg611bg4e20g90cag61ce83375009" version="1">연기 안에서 다음 턴을 시작하면 &lt;LSTag Type="Status" Tooltip="SHADOW_SMOKE_AURA_DEBUFF"&gt;그림자 연기&lt;/LSTag&gt; 상태가 되어, 그다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="hfc9da1adg03cdg4403g8b03g8b054edd2b40" version="1">자신의 턴이 시작될 때마다 생명력을 1 회복합니다. 격노가 끝나면 사라집니다.</content>
