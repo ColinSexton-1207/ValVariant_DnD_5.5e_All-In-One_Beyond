@@ -43,14 +43,6 @@ data "SpellFlags" "IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThres
 data "RequirementConditions" "not HasStatus('WEAPONMASTERY_NICK_BLOCK_OFFHANDATTACK');"
 data "CastEffect" "ef285efc-0551-4929-b591-40fcfaac8369"
 
-new entry "Projectile_MainHandAttack_Sharpshooter"
-type "SpellData"
-data "SpellType" "Projectile"
-using "Projectile_MainHandAttack"
-data "TargetRadius" "27"
-data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack);CastOffhand[Attack(AttackType.MeleeOffHandWeaponAttack)]"
-data "SpellFlags" "IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CanDualWield;AddFallDamageOnLand"
-
 new entry "Projectile_Jump"
 type "SpellData"
 data "SpellType" "Projectile"
