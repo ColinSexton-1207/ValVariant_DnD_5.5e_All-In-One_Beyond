@@ -19,7 +19,7 @@
   <content contentuid="h240aa2f4g6571ge23eg8142g83ee7b985b8d" version="2">스치기</content>
   <content contentuid="h0fbee9aag6abeg6294g3fd8gbeb26ffd19f6" version="1">이 무기로 한 명중 굴림이 크리처를 빗맞히면, 명중 굴림에 사용한 능력 보정치만큼 해당 크리처에게 피해를 입힐 수 있습니다. 이 피해는 무기와 동일한 유형이며, 능력 보정치를 늘려야만 피해량을 늘릴 수 있습니다.</content>
   <content contentuid="hdbe460a9gf800gdb75g15bbg2b81a80fe8ab" version="2">흠집내기</content>
-  <content contentuid="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="2">경량 특성의 추가 공격을 가할 때, 보조 행동 대신 공격 행동의 일부로 가할 수 있습니다. 이 추가 공격은 턴당 한 번만 가할 수 있습니다.</content>
+  <content contentuid="h84f8977cg06ecg1e31gebd6g21e4b7346121" version="2">경량 속성의 추가 공격을 가할 때, 보조 행동 대신 공격 행동의 일부로 가할 수 있습니다. 이 추가 공격은 턴당 한 번만 가할 수 있습니다.</content>
   <content contentuid="h64e7021cg8b69g3f60gde38gd59f3cdc5846" version="2">밀기</content>
   <content contentuid="h694f6a66g0531g98f0ga23eg525e146eb4d7" version="1">이 무기로 크리처를 적중시키면, 대상이 대형 이하일 경우 자신으로부터 [1]만큼 직선으로 밀어낼 수 있습니다.</content>
   <content contentuid="haf74199bg92cbg93dega0fbgebb535603f83" version="2">흐트러뜨리기</content>
@@ -1044,7 +1044,7 @@
   <content contentuid="h208b7de3g5f3cge001gfe82gdd2940dee59c" version="1">재주: 방어적인 결투가</content>
   <content contentuid="hfd0b3091g52f6g2cd7ga7cbg9c61332d3252" version="1">기교 무기를 들고 있을 때 다른 크리처가 근접 공격으로 자신을 적중시키면, 대응을 사용해 숙련 보너스를 방어도에 더해 그 공격을 빗나가게 할 수 있습니다. 이 방어도 보너스는 다음 자신의 턴이 시작될 때까지 근접 공격에 대해 유지됩니다.</content>
   <content contentuid="hfa2c5254ge5fag62b7gffb6g392787c61974" version="1">쌍수 전문가</content>
-  <content contentuid="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="7">무기가 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 특성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
+  <content contentuid="h2d809685g28ffge26ag3e6ag5fa20f63c9e3" version="7">무기가 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 속성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="h720a62a8g5de9g9909gb1cagf61131cf2df9" version="1">재주: 쌍수 전문가(보조 공격)</content>
   <content contentuid="h5cc813aagcb96gf7f3g42e4g17b7234b86eb" version="1">행동이나 보조 행동을 소모하지 않고 보조 무기 공격을 한 번 가할 수 있습니다. 이 이점은 턴당 한 번만 사용할 수 있습니다.</content>
   <content contentuid="h7ed3574cg898aga3cage4bcg72bfa5e60a5c" version="1">재주: 쌍수 전문가</content>
@@ -4653,7 +4653,7 @@
   <content contentuid="h93fe573fg6b32g5d47gfaaagd6a9823a5153" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 [1]를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h8d4b8353g4cf2g9edcg051fg3eebf6d08956" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 [1]를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h1498d59bg1126gb9c5gd9b1ga55c4cbb3816" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 [1]를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
-  <content contentuid="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1">무기가 &lt;LSTag Tooltip="Light"&gt;가벼움&lt;/LSTag&gt; 속성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
+  <content contentuid="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1">무기가 &lt;LSTag Tooltip="Light"&gt;경량&lt;/LSTag&gt; 속성이 아니어도 쌍수 전투를 사용할 수 있습니다. &lt;LSTag Tooltip="TwoHanded"&gt;양손&lt;/LSTag&gt; 무기는 이도류로 사용할 수 없습니다.&lt;br&gt;&lt;br&gt;자신의 턴에 공격 행동을 취해 근접 무기로 공격할 때, 같은 턴의 이후에 보조 행동으로 보조 무기 공격을 한 번 가할 수 있습니다. 흠집내기 무기 숙련술을 익혔고 보조 무기로 흠집내기 무기를 장착하고 있다면, 턴당 최대 두 번의 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="h7f4aa580ga87dg16dcgfbe8g89f017ded271" version="2">그림자 주문</content>
   <content contentuid="h822a72b8g17f5g73a6gd5f7g245ac996eb94" version="1">그림자 주문 표에 명시된 소서러 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 그림자 마법 소서러는 특정 레벨에서 추가 주문을 얻습니다: 3레벨에 &lt;LSTag Type="Spell" Tooltip="Target_Bane"&gt;액운&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;어둠&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_InflictWounds"&gt;상처 유발&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_PassWithoutTrace"&gt;신출귀몰&lt;/LSTag&gt;; 5레벨에 &lt;LSTag Type="Spell" Tooltip="Target_HungerOfHadar"&gt;하다르의 굶주림&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Zone_Fear"&gt;공포&lt;/LSTag&gt;; 7레벨에 &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;상급 투명&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalKiller"&gt;환영 살해자&lt;/LSTag&gt;; 9레벨에 &lt;LSTag Type="Spell" Tooltip="Target_Contagion"&gt;감염&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_Cloudkill"&gt;죽음 구름&lt;/LSTag&gt;.</content>
   <content contentuid="hce90f19eg2ee2g0ff4g4c21g7ebf85d46c9d" version="1">그림자 마법 소서러는 특정 레벨에서 추가 주문을 얻습니다: 3레벨에 액운, 어둠, 상처 유발, 신출귀몰; 5레벨에 하다르의 굶주림과 공포; 7레벨에 &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;상급 투명&lt;/LSTag&gt;과 환영 살해자; 9레벨에 감염과 죽음 구름.</content>
@@ -4922,11 +4922,11 @@
   <content contentuid="h964e4272gf52dgfcbcgc84eg674db33423b6" version="2">거룩한 투사</content>
   <content contentuid="h1449cbcfg1e78g7153g5e0dg53362829c1a3" version="1">격렬한 훈련이 결실을 맺습니다. 군용 무기에 숙련을 얻고 중갑 훈련을 받습니다.
 
-짧은 휴식을 마칠 때마다, 자신이 숙련된 관통 또는 참격 피해를 입히는 근접 무기 하나에 의식을 행하여 그것을 거룩하게 만들 수 있습니다. 그 무기는 자신의 거룩한 검이 되며, 한 번에 하나만 가질 수 있습니다. 그 검은 자신에게 정교함 속성을 얻으며, 그것으로 이형체, 마족, 언데드에게 가하는 공격은 피해 저항을 무시합니다.</content>
+짧은 휴식을 마칠 때마다, 자신이 숙련된 관통 또는 참격 피해를 입히는 근접 무기 하나에 의식을 행하여 그것을 거룩하게 만들 수 있습니다. 그 무기는 자신의 거룩한 검이 되며, 한 번에 하나만 가질 수 있습니다. 그 검은 자신에게 기교 속성을 얻으며, 그것으로 이형체, 마족, 언데드에게 가하는 공격은 피해 저항을 무시합니다.</content>
   <content contentuid="hd4c5ce4dgcb1bg633fg9549gc049d53401cf" version="1">거룩한 검</content>
-  <content contentuid="hb8fdcfc4ga498g2b1cg07dfg1712e7560d44" version="1">짧은 휴식을 마칠 때마다, 자신이 숙련된 관통 또는 참격 피해를 입히는 근접 무기 하나에 의식을 행하여 그것을 거룩하게 만들 수 있습니다. 그 무기는 자신의 거룩한 검이 되며, 한 번에 하나만 가질 수 있습니다. 그 검은 자신에게 정교함 속성을 얻으며, 그것으로 이형체, 마족, 언데드에게 가하는 공격은 피해 저항을 무시합니다.</content>
+  <content contentuid="hb8fdcfc4ga498g2b1cg07dfg1712e7560d44" version="1">짧은 휴식을 마칠 때마다, 자신이 숙련된 관통 또는 참격 피해를 입히는 근접 무기 하나에 의식을 행하여 그것을 거룩하게 만들 수 있습니다. 그 무기는 자신의 거룩한 검이 되며, 한 번에 하나만 가질 수 있습니다. 그 검은 자신에게 기교 속성을 얻으며, 그것으로 이형체, 마족, 언데드에게 가하는 공격은 피해 저항을 무시합니다.</content>
   <content contentuid="h690e847bge185g8948g88e3g81fa0004b7a4" version="1">거룩한 검</content>
-  <content contentuid="h76a22005g0fd5g7e8bgedc0g71ee16b02cd7" version="1">그 검은 자신에게 정교함 속성을 얻으며, 그것으로 이형체, 마족, 언데드에게 가하는 공격은 피해 저항을 무시합니다.</content>
+  <content contentuid="h76a22005g0fd5g7e8bgedc0g71ee16b02cd7" version="1">그 검은 자신에게 기교 속성을 얻으며, 그것으로 이형체, 마족, 언데드에게 가하는 공격은 피해 저항을 무시합니다.</content>
   <content contentuid="h7a334947g9694gb548gb4e4g4bfde199cc8d" version="2">신성한 축복</content>
   <content contentuid="h0f7b9f58g4722gc431g724fgbbd26f346b33" version="1">자신의 신앙심이 정의로운 힘으로 발현됩니다. 자신은 1에 지혜 보정치를 더한 만큼(최소 1)의 신성 포인트 더미를 가집니다. 짧은 휴식이나 긴 휴식을 마치면 소모한 모든 신성 포인트를 회복합니다.
 
@@ -7078,7 +7078,7 @@
   <content contentuid="h6d1146a5ga872g4467g9560g6d1a87287e50" version="1">요정의 손길: 졸음</content>
   <content contentuid="h1b46bca9g422dg4230gaa48g020b1860afe0" version="1">요정 마법: 졸음</content>
   <content contentuid="he60ceef6g1e5ag4107gaf3dgac1d58815e58" version="1">진홍 채찍</content>
-  <content contentuid="hb473b980ga8eag4c12gbb39gbe0c078c4dd1" version="1">이 주문을 시전하는 일부로 생명력 주사위 1개를 소모합니다. 1분 동안 응고된 피로 이루어진 꿈틀거리는 채찍이 손에서 뻗어 나옵니다. 이 채찍은 숙련된 단순 무기로 취급하며, 경량, 교묘함, 간격 속성을 가집니다. 이 무기의 명중 굴림과 피해 굴림에는 주문 시전 능력 보정치를 사용합니다. 소모한 생명력 주사위와 같은 주사위로 [1]를 입힙니다.</content>
+  <content contentuid="hb473b980ga8eag4c12gbb39gbe0c078c4dd1" version="1">이 주문을 시전하는 일부로 생명력 주사위 1개를 소모합니다. 1분 동안 응고된 피로 이루어진 꿈틀거리는 채찍이 손에서 뻗어 나옵니다. 이 채찍은 숙련된 단순 무기로 취급하며, 경량, 기교, 장병기 속성을 가집니다. 이 무기의 명중 굴림과 피해 굴림에는 주문 시전 능력 보정치를 사용합니다. 소모한 생명력 주사위와 같은 주사위로 [1]를 입힙니다.</content>
   <content contentuid="hdcbe902age12fg4992ga380g528d61d3db9b" version="1">3~4레벨 주문 슬롯으로 시전하면 공격 행동을 할 때 이 무기로 두 번 공격할 수 있습니다. 5레벨 이상 슬롯이면 세 번 공격할 수 있습니다.</content>
   <content contentuid="h1bb63f4fg9c65g40b8gbabdg3a42f19911d3" version="1">진홍 채찍: D6</content>
   <content contentuid="h19cc1044g6cbfg4234g9ddage152861f56b7" version="1">진홍 채찍: D8</content>
