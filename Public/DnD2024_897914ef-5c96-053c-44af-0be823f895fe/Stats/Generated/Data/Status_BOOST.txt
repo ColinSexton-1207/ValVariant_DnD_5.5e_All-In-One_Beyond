@@ -496,6 +496,7 @@ data "Description" "h112fb3e9g734ag7e2dg4366g1a44c9038a26;1"
 data "Icon" "Target_OffHandAttack"
 data "StackId" "WEAPONMASTERY_NICK_BLOCK_OFFHANDATTACK"
 data "StackType" "Overwrite"
+data "StatusPropertyFlags" "DisableOverhead"
 
 new entry "DUAL_WIELDER_NICK"
 type "StatusData"
