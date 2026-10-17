@@ -5542,10 +5542,10 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('DREADFULSTRIKE_DAMAGE_TAKEN',context.Target)):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Psychic);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and IsHit();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DREADFULSTRIKE_DAMAGE_TAKEN,100,1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(IsWeaponAttack() or FingerGuns()) and IsHit() and not HasStatus('DREADFULSTRIKE_DAMAGE_TAKEN',context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DREADFULSTRIKE_DAMAGE_TAKEN,100,1);DealDamage(LevelMapValue(FeyWanderer),Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5621,10 +5621,10 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_NaturalExplorer_WastelandWanderer_Cold" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('POLARSTRIKE_DAMAGE_TAKEN',context.Target)):CharacterWeaponDamage(LevelMapValue(FeyWanderer),Cold);IgnoreResistance(Cold,Resistant);Resistance(Cold,Resistant);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Cold,Resistant);Resistance(Cold,Resistant);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and IsHit();" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(POLARSTRIKE_DAMAGE_TAKEN,100,1)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="(IsWeaponAttack() or FingerGuns()) and IsHit() and not HasStatus('POLARSTRIKE_DAMAGE_TAKEN',context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(POLARSTRIKE_DAMAGE_TAKEN,100,1);DealDamage(LevelMapValue(FeyWanderer),Cold,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9677,7 +9677,10 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedStrike" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(IntelligenceModifier);IF(IsWeaponAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsWeaponAttack()):CharacterWeaponDamage(IntelligenceModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(IntelligenceModifier);IF(IsWeaponAttack() or FingerGuns()):RollBonus(Attack, IntelligenceModifier);IF(IsWeaponAttack()):CharacterWeaponDamage(IntelligenceModifier);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="FingerGuns() and IsHit()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(IntelligenceModifier,Force,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
