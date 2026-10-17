@@ -7268,4 +7268,5 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="hb5a6b60eg032fg4a8ag9c51g0d8acf62def5" version="1">Your hand counts as a gun. You can fire Finger Guns, dealing [1] on a hit.</content>
   <content contentuid="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1">Fire Finger Guns</content>
   <content contentuid="hbf18c5f4g3952g4e08gaeb6ga9785601dd2c" version="4">Mark a creature as your quarry to deal an additional [1] whenever you hit it with an attack roll. </content>
+  <content contentuid="h9c035a0dga908g41c0g8f99g2b7184a971a9" version="6">Gain an extra action, a +2 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and double your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. That action can be used to take only the Attack (one attack only), Dash, Disengage, or Hide action.</content>
 </contentList>

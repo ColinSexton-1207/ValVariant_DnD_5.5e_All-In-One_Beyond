@@ -5253,6 +5253,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="POTION_OF_SPEED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0f2fbc6d-591d-4403-afdc-6e349926839b" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26978512g7629g48e9g92fcg8333030f500c" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

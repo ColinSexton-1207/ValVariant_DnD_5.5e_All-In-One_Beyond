@@ -4240,6 +4240,7 @@ new entry "POTION_OF_SPEED"
 type "StatusData"
 data "StatusType" "BOOST"
 using "POTION_OF_SPEED"
+data "Description" "h26978512g7629g48e9g92fcg8333030f500c;1"
 data "Boosts" "ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);"
 
 new entry "CONS_DRUG_STIMULANT"
