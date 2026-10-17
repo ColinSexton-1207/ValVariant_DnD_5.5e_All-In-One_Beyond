@@ -1037,7 +1037,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
-        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(MartialArts), MainMeleeWeaponDamageType);IF(IsRangedAttack()):DealDamage(LevelMapValue(MartialArts), MainRangedWeaponDamageType);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):DealDamage(LevelMapValue(MartialArts), MainMeleeWeaponDamageType);IF(IsRangedAttack() and not FingerGuns()):DealDamage(LevelMapValue(MartialArts), MainRangedWeaponDamageType);IF(FingerGuns()):DealDamage(LevelMapValue(MartialArts), Force);" />
         <field name="Cost" type="StringTableFieldDefinition" value="KiPoint:1;DeftStrike:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
@@ -2429,7 +2429,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and (IsCriticalMiss() or IsMiss()) and IsRangedWeaponAttack() and not AnyEntityIsItem();" />
-        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(Risk)+DexterityModifier, MainRangedWeaponDamageType);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(not FingerGuns()):DealDamage(LevelMapValue(Risk)+DexterityModifier, MainRangedWeaponDamageType);IF(FingerGuns()):DealDamage(LevelMapValue(Risk)+DexterityModifier, Force);" />
         <field name="Cost" type="StringTableFieldDefinition" value="Risk:1;GrazingShot:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="EnableCondition" type="StringTableFieldDefinition" value="not HasStatus('SG_Polymorph') or HasAnyStatus({'SG_Disguise','WILDSHAPE_STARRY_ARCHER_PLAYER','WILDSHAPE_STARRY_CHALICE_PLAYER','WILDSHAPE_STARRY_DRAGON_PLAYER'});" />
@@ -3020,7 +3020,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and IsRangedAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
-        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(1d4,MainRangedWeaponDamageType,Magical);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="IF(not FingerGuns()):DealDamage(1d4,MainRangedWeaponDamageType,Magical);IF(FingerGuns()):DealDamage(1d4,Force,Magical);" />
         <field name="Cost" type="StringTableFieldDefinition" value="BonusActionPoint:1;Movement:5;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
