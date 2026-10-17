@@ -1,0 +1,44 @@
+function IsWeaponAttack()
+    result = context.HitDescription.AttackType == AttackType.RangedWeaponAttack
+    or context.HitDescription.AttackType == AttackType.MeleeWeaponAttack
+    or context.HitDescription.AttackType == AttackType.RangedOffHandWeaponAttack
+    or context.HitDescription.AttackType == AttackType.MeleeOffHandWeaponAttack
+    or FingerGuns().Result
+	return ConditionResult(result)
+end
+
+function IsWeaponAttackAttackDescription()
+    result = context.AttackDescription.AttackType == AttackType.RangedWeaponAttack
+    or context.AttackDescription.AttackType == AttackType.MeleeWeaponAttack
+    or context.AttackDescription.AttackType == AttackType.RangedOffHandWeaponAttack
+    or context.AttackDescription.AttackType == AttackType.MeleeOffHandWeaponAttack
+	return ConditionResult(result)
+end
+
+function IsMeleeWeaponAttack()
+    result = context.HitDescription.AttackType == AttackType.MeleeWeaponAttack
+    or context.HitDescription.AttackType == AttackType.MeleeOffHandWeaponAttack
+    return ConditionResult(result)
+end
+
+function IsRangedWeaponAttack()
+    result = context.HitDescription.AttackType == AttackType.RangedWeaponAttack
+    or context.HitDescription.AttackType == AttackType.RangedOffHandWeaponAttack
+    or FingerGuns().Result
+    return ConditionResult(result)
+end
+
+function IsMeleeSpellAttack()
+    result = context.HitDescription.AttackType == AttackType.MeleeSpellAttack
+    return ConditionResult(result)
+end
+
+function IsRangedSpellAttack()
+    result = context.HitDescription.AttackType == AttackType.RangedSpellAttack
+    and not FingerGuns().Result
+    return ConditionResult(result)
+end
+
+function IsSpellAttack()
+    return IsMeleeSpellAttack() | IsRangedSpellAttack()
+end

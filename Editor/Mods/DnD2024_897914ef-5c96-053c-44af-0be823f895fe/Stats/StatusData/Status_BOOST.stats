@@ -3005,8 +3005,8 @@
         <field name="SoundStop" type="StringTableFieldDefinition" value="Misc_Status_Frost_MO_Stop" />
         <field name="StackId" type="StringTableFieldDefinition" value="CANTRIP_FROSTBITE" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack() or FingerGuns()):Disadvantage(AttackRoll);" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsWeaponAttack() or FingerGuns()" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsWeaponAttack()):Disadvantage(AttackRoll);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsWeaponAttack()" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatusEvent" version="1" />
       </fields>
     </stat_object>
@@ -9569,7 +9569,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,MainRangedWeaponDamageType)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Steady_Ranged" />
         <field name="StackId" type="StringTableFieldDefinition" value="KENSEIS_SHOT" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):CharacterWeaponDamage(1d4);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack() and not FingerGuns()):CharacterWeaponDamage(1d4);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -15183,7 +15183,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8bfddb10g014ag1ffagebccgfc7f04dceadc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76568432gfb37gc67cgcb8egf3cebfdfa094" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="STEADY_AIM_RANGED" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack() or FingerGuns()):Advantage(AttackRoll);ActionResourceBlock(Movement);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):Advantage(AttackRoll);ActionResourceBlock(Movement);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

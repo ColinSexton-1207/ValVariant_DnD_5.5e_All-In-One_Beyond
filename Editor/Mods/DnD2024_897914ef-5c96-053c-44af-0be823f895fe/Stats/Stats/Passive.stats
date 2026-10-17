@@ -258,7 +258,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="81604d00-d15e-45b7-97c6-ea49cfb00218" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73497683g65cdged9eg85abge93a8ba9aede" version="1" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h07e8d8cdgee47gf8bdge26eg6ddb468803f3" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Dexterity',12,context.Source) and IsRangedWeaponAttack()):Disadvantage(AttackRoll);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not AbilityGreaterThan('Dexterity',12,context.Source) and IsRangedWeaponAttack() and not FingerGuns()):Disadvantage(AttackRoll);" />
         <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
@@ -1075,7 +1075,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b8883a82-e79f-40ae-ae2e-8f91462450d3" />
         <field name="Name" type="NameTableFieldDefinition" value="ColossusSlayer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="57ff851b-479a-4fa8-a3a3-7fbe4d1ba272" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(IsWeaponAttack() or FingerGuns()) and HasDamageEffectFlag(DamageFlags.Hit) and not HasMaxHP()" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not HasMaxHP()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(IsAttackType(AttackType.MeleeWeaponAttack)):DealDamage(1d8, MainMeleeWeaponDamageType,,,0,,true,true);IF(IsAttackType(AttackType.RangedWeaponAttack)):DealDamage(1d8, MainRangedWeaponDamageType,,,0,,true,true);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):DealDamage(1d8, OffhandMeleeWeaponDamageType,,,0,,true,true);IF(IsAttackType(AttackType.RangedOffHandWeaponAttack)):DealDamage(1d8, OffhandRangedWeaponDamageType,,,0,,true,true);IF(FingerGuns()):DealDamage(1d8,Force,,,0,,true,true)" />
       </fields>
     </stat_object>
@@ -1287,7 +1287,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h700ed84bg957fg2a5dg1d50g4d69487d7001" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not IsMiss() and (IsWeaponAttack() or IsUnarmedAttack() or FingerGuns());" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not IsMiss() and (IsWeaponAttack() or IsUnarmedAttack());" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,HUNGERING_BLADE_TEMPHP,100,-1);DealDamage(SpellCastingAbilityModifier,Necrotic,,,0,,true,true)" />
       </fields>
     </stat_object>
@@ -2545,7 +2545,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(IsWeaponAttack() or FingerGuns()) and not IsMiss();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and not IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8,Radiant,,,0,,true,true)" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
       </fields>
@@ -5522,7 +5522,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8311" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HUNTERS_MARK',context.Target,context.Source) and (IsWeaponAttack() or FingerGuns()) and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit) and TotalAttackDamageDoneGreaterThan(0)" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasPassive('Hunter_11_SuperiorHuntersPrey',context.Source)):SpawnExtraProjectiles(Projectile_SuperiorHuntersPrey)" />
       </fields>
     </stat_object>
@@ -5544,7 +5544,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(IsWeaponAttack() or FingerGuns()) and IsHit() and not HasStatus('DREADFULSTRIKE_DAMAGE_TAKEN',context.Target);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and IsHit() and not HasStatus('DREADFULSTRIKE_DAMAGE_TAKEN',context.Target);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DREADFULSTRIKE_DAMAGE_TAKEN,100,1);DealDamage(LevelMapValue(FeyWanderer),Psychic,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
@@ -5623,7 +5623,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Cold,Resistant);Resistance(Cold,Resistant);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(IsWeaponAttack() or FingerGuns()) and IsHit() and not HasStatus('POLARSTRIKE_DAMAGE_TAKEN',context.Target);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and IsHit() and not HasStatus('POLARSTRIKE_DAMAGE_TAKEN',context.Target);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(POLARSTRIKE_DAMAGE_TAKEN,100,1);DealDamage(LevelMapValue(FeyWanderer),Cold,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
@@ -8543,7 +8543,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_LiarsDice);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not FingerGuns();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('LIARS_DICE_GOOD',context.Source) and not IsMiss()):DealDamage(MainRangedWeapon, MainRangedWeaponDamageType,Magical,,0,,true,true,false,true);RemoveStatus(SELF,LIARS_DICE_GOOD)" />
       </fields>
     </stat_object>
@@ -8655,7 +8655,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13110" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="(IsRangedWeaponAttack() or FingerGuns()) and not IsMiss();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Strength, ManeuverSaveDC())):ApplyStatus(RESTRAINED,100,2)" />
       </fields>
     </stat_object>
@@ -8675,7 +8675,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;ToggledDefaultAddToHotbar;ToggledDefaultOn;IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="HasActionResource('Seal', 1, 0, false, false, context.Source) and (IsWeaponAttack() or FingerGuns()) and not IsMiss() and Enemy() and Character();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasActionResource('Seal', 1, 0, false, false, context.Source) and IsWeaponAttack() and not IsMiss() and Enemy() and Character();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="UseActionResource(SELF,Seal,1,0);ApplyStatus(INTERDICTED,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and not CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD,100,-1);IF(HasPassive('SanguineKnight_7_BloodForBlood',context.Source) and CharacterLevelGreaterThan(8)):ApplyStatus(BLOOD_FOR_BLOOD_4,100,-1);IF(HasPassive('HellSpeaker_11_Incontrovertible',context.Source)):ApplyStatus(INCONTROVERTIBLE,100,2);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
       </fields>
@@ -9106,7 +9106,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="HellSpeaker_3_HoneySweetBlades" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Charmed',context.Target) and (IsWeaponAttack() or FingerGuns())):Advantage(AttackRoll);ActionResource(HoneySweetBlades,1,0);UnlockInterrupt(Interrupt_HoneySweetBlades);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Charmed',context.Target) and IsWeaponAttack()):Advantage(AttackRoll);ActionResource(HoneySweetBlades,1,0);UnlockInterrupt(Interrupt_HoneySweetBlades);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9235,7 +9235,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target) and (IsWeaponAttack() or FingerGuns())):Advantage(AttackRoll);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('INTERDICTED',context.Target) and IsWeaponAttack()):Advantage(AttackRoll);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9529,7 +9529,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Infiltrator" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and IsHit();" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not FingerGuns() and IsHit();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d6,Lightning,,,0,,true,true)" />
       </fields>
     </stat_object>
@@ -9677,7 +9677,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_FrenziedStrike" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16005" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(IntelligenceModifier);IF(IsWeaponAttack() or FingerGuns()):RollBonus(Attack, IntelligenceModifier);IF(IsWeaponAttack()):CharacterWeaponDamage(IntelligenceModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeUnarmedAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsMeleeUnarmedAttack()):CharacterUnarmedDamage(IntelligenceModifier);IF(IsWeaponAttack()):RollBonus(Attack, IntelligenceModifier);IF(IsWeaponAttack()):CharacterWeaponDamage(IntelligenceModifier);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="FingerGuns() and IsHit()" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(IntelligenceModifier,Force,Magical,,0,,true,true)" />
@@ -12717,7 +12717,15 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11fe74dd-04ec-46ac-be6c-a776b9173005" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_StrengthBonusToWeaponDamage_Passive" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5e9d3abb-795d-44fd-842f-32e049e7c752" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack()):CharacterWeaponDamage(StrengthModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsRangedWeaponAttack() and not FingerGuns()):CharacterWeaponDamage(StrengthModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bf776d2-acfa-42d4-8e9d-b0da999928da" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_WeaponAction_UndeadTurning_Ammunition_Passive" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9cd1659d-fecf-47c5-8a37-3aeeb4cdf686" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsRangedWeaponAttack() and not FingerGuns() and Tagged('UNDEAD', context.Target)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

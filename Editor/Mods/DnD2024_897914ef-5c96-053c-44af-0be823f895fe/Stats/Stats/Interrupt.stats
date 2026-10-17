@@ -2078,7 +2078,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e122e021-1ef1-435b-b22e-8c75b2fe1ba5" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed54d08eg254egab54g634egc5696f632258" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite_Ranged" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not FingerGuns() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2088,7 +2088,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d79c205f-a219-4f7a-bf29-a36cf24dfd79" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11a41e9fgad2fg3cbfg28b3gcc04b63b160f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite_Ranged" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not FingerGuns() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2098,7 +2098,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="b6de02fe-a5be-4408-b4f3-24ada3394d8b" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3dadabd2gf927g0c0eg86c7gef99a7a4e7ad" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite_Ranged" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not FingerGuns() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and not IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2108,7 +2108,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="af282d39-22e5-435c-84a7-96139dbed88c" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f7262a7gbdd0g1911g5132g67fcc1eacb9e" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite_Ranged" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not FingerGuns() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2118,7 +2118,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4ce0d72-a589-4db7-a529-18a882a64b3c" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h300d9c12g274eg82c1g8ba1g1bcef5722390" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite_Ranged" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not FingerGuns() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2128,7 +2128,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="292d29c2-35b4-4f1a-8ba0-8b86e6260461" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6a2383deg87c5g61b6g137cgf2184d150d39" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite_Ranged" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self() and not Item() and IsRangedAttack() and not FingerGuns() and not IsDivineSmite() and Self(context.Source,context.Observer) and HasDamageEffectFlag(DamageFlags.Hit) and not IsSpellAttack() and IsCritical() and not IsKillingBlow() and not AnyEntityIsItem() and HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.RangedMainHand, context.Source));" />
       </fields>
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
