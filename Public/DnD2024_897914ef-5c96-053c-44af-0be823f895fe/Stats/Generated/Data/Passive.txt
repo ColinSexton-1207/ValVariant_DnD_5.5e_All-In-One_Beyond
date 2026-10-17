@@ -7239,6 +7239,7 @@ type "PassiveData"
 using "FightingStyle_Archery"
 data "DisplayName" "ha6d01a56gfaf0g86a4g2382g2a35c4b61006;1"
 data "PriorityOrder" "500"
+data "Boosts" "RollBonus(RangedWeaponAttack, 2);RollBonus(RangedOffHandWeaponAttack, 2);IF(FingerGuns()):RollBonus(Attack, 2)"
 
 new entry "FightingStyle_BlindFighting"
 type "PassiveData"

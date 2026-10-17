@@ -9867,6 +9867,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="32d107e3-b069-45b0-8fd2-8e55e22bf531" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6d01a56gfaf0g86a4g2382g2a35c4b61006" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(RangedWeaponAttack, 2);RollBonus(RangedOffHandWeaponAttack, 2);IF(FingerGuns()):RollBonus(Attack, 2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
