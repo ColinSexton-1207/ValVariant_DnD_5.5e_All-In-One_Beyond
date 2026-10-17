@@ -90,7 +90,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2dc581b0-965b-4cd5-afdf-5ec4f778afe8" />
         <field name="Name" type="NameTableFieldDefinition" value="Help" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e38549b5-0d0b-40c1-a46d-7a4cdb92e490" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Sleeping);RemoveStatus(SG_Helpable_Condition);RemoveStatus(BURNING);RemoveStatus(SG_Prone);RemoveStatus(SG_Restrained);RemoveStatus(PRONE);RemoveStatus(SLEEPING);RemoveStatus(SLEEP);RemoveStatus(ENSNARING_STRIKE);RemoveStatus(WEB);IF(IsDowned() and SkillCheck(Skill.Medicine,10)):RegainHitPoints(1);RemoveStatus(HYPNOTIC_PATTERN);IF(HasPassive('EmeraldEnclaveFledgling',context.Source)):SwapPlaces();" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Sleeping);RemoveStatus(SG_Helpable_Condition);RemoveStatus(BURNING);RemoveStatus(SG_Prone);RemoveStatus(SG_Restrained);RemoveStatus(PRONE);RemoveStatus(SLEEPING);RemoveStatus(SLEEP);RemoveStatus(ENSNARING_STRIKE);RemoveStatus(WEB);RemoveStatus(WEB_ARACHNOID_STALKER);IF(IsDowned() and SkillCheck(Skill.Medicine,10)):RegainHitPoints(1);RemoveStatus(HYPNOTIC_PATTERN);IF(HasPassive('EmeraldEnclaveFledgling',context.Source)):SwapPlaces();" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1107,7 +1107,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPECTRAL_SLASH_TARGET_2,100,1);ApplyStatus(SELF,SPECTRAL_SLASH,100,1);GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SPECTRAL_SLASH_TARGET_2,100,1);ApplyStatus(SELF,SPECTRAL_SLASH,100,1);GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8,MainMeleeWeaponDamageType,Magical);" />
@@ -1519,10 +1519,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="16dbe9e9-1069-4347-ba73-098cad143970" />
         <field name="Name" type="NameTableFieldDefinition" value="Web" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="61290327-ad72-462a-80af-e1e76dabddb1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(WEB,100,10);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
       </fields>
     </stat_object>
@@ -1531,10 +1529,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="86f0a2c3-a9ac-41c8-94b9-cfa6393c572a" />
         <field name="Name" type="NameTableFieldDefinition" value="Web_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cc38d0da-62a2-4373-94cd-5fed2160aefe" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(WEB,100,10);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
       </fields>
     </stat_object>
@@ -1543,10 +1539,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2cceb420-e3eb-4880-8d6d-837155773ce3" />
         <field name="Name" type="NameTableFieldDefinition" value="Web_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="229710a0-dca2-4ff8-ae35-ef91d045aaed" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(WEB,100,10);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
       </fields>
     </stat_object>
@@ -1555,10 +1549,8 @@
         <field name="UUID" type="IdTableFieldDefinition" value="85d84f85-676e-4501-b866-0f643755cea6" />
         <field name="Name" type="NameTableFieldDefinition" value="Web_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6156cada-4752-45f7-b385-031d9b7db155" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(WEB,100,10);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
       </fields>
     </stat_object>
@@ -1567,11 +1559,63 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fc953948-598a-4878-a115-7101776c3de5" />
         <field name="Name" type="NameTableFieldDefinition" value="Web_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="816a1de8-aaa9-428a-8c42-6bdb9b9006fc" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
-        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(WEB,100,10);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7d3f110-013f-4ac5-b114-397dd804bdb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_Spider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0d61a59-e274-4ea8-bd0f-85d3ef3f74ea" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,10,Web)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3044b1ef-84b4-414a-a318-07c2f3dd14ad" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_Spider_WildShape" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e34c312-846e-4a1e-994f-212a92f61888" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(4.5,10,Web)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="00aefb52-1057-47fd-a685-a5ef5d6ad70f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_Ettercap" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f87f0f22-f0da-4724-abee-dc6f7d1c6211" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,10,Web)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebcf4503-4211-44df-95b8-4d7d009e2858" />
+        <field name="Name" type="NameTableFieldDefinition" value="Web_Spider_Summon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b78c3922-3c8a-46b0-805c-a84f8cffe2e2" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(3,10,Web)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="68c37f45-2c33-4c7c-9c46-16b08cf39233" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_Drow_Web" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6993f999-f8f3-4e84-b4ae-8bde278d77aa" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7d3a866-2362-4a15-9508-8f93d0f3cd33" />
+        <field name="Name" type="NameTableFieldDefinition" value="DesignateTarget_ShadowMound" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b13c8516-44b7-4dc2-9c33-38ae25012dbc" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,10,Web,true);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1771,7 +1815,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
         <field name="Name" type="NameTableFieldDefinition" value="MistyStep" />
         <field name="Level" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
@@ -1854,7 +1898,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="04acd1a7-f95f-404c-91f4-caa94112f693" />
         <field name="Name" type="NameTableFieldDefinition" value="MistyStep_Free" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,MISTY_ESCAPE_INVISIBLE);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,MISTY_ESCAPE_INVISIBLE);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -1881,7 +1925,7 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Item_HellCrawler" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7efd7809-4a4a-4689-9ecb-65e49518a79d" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="aa6f85bc-d251-47fa-9ea1-154857d6820e" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateExplosion(Projectile_MAG_Infernal_MistyStep_Fireball);GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateExplosion(Projectile_MAG_Infernal_MistyStep_Fireball);GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8, Fire);Distance(3)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Item_HellCrawler" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Item_HellCrawler" />
@@ -1898,7 +1942,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Invisible" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerShortRestPerItem" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -1938,7 +1982,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ShadowTeleport_Meenlock" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not HasObscuredStateAtPosition(ObscuredState.Clear)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_ShadowStep" />
@@ -1990,7 +2034,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fc59ce34-fc8d-4ae9-b267-3a905bf48c02" />
         <field name="Name" type="NameTableFieldDefinition" value="EtherealJaunt" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="22" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreVisionBlock;RangeIgnoreVerticalThreshold;HasHighGroundRangeExtension;IsEnemySpell" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1785347fg2b9egdb19g2afdg3bc79075ff41" version="1" />
@@ -16125,7 +16169,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="00de6a3b-ea9f-41ea-96ba-05440de4f1da" />
         <field name="Name" type="NameTableFieldDefinition" value="InspiredEclipse" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,INVISIBILITY,100,2);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,INVISIBILITY,100,2);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('INSPIRED_ECLIPSE');" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnAttack" enumeration_type_name="StatusEvent" version="1" />
@@ -16529,7 +16573,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ab9d8adc-d8a3-4a3f-b8d0-5922c72058af" />
         <field name="Name" type="NameTableFieldDefinition" value="Spirit_Renegade" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
@@ -17489,7 +17533,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasPassive('Moon_10_MoonlightStep',context.Source);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
@@ -18634,7 +18678,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;HasHighGroundRangeExtension;Temporary" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,DJINNIS_ESCAPE_COOLDOWN,100,2);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,DJINNIS_ESCAPE_COOLDOWN,100,2);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('DJINNIS_ESCAPE_COOLDOWN', context.Source);" />
         <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
@@ -19252,7 +19296,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b1035304-0932-49f2-b072-a8d34abbe32a" />
         <field name="Name" type="NameTableFieldDefinition" value="ArachnoidStalker_WebSwing" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="ArachnoidStalker_WebSwing" />
@@ -19683,7 +19727,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ff1deee8-698a-477c-b4bb-d1609f546b31" />
         <field name="Name" type="NameTableFieldDefinition" value="RefreshingStep" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();ApplyStatus(REFRESHING_STEP,100,-1);GROUND:ApplyStatus(SELF,REFRESHING_STEP,100,-1);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();ApplyStatus(REFRESHING_STEP,100,-1);GROUND:ApplyStatus(SELF,REFRESHING_STEP,100,-1);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="Ally();" />
@@ -19712,7 +19756,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="47ac300d-75f6-42ba-88bf-54587b4e6d2a" />
         <field name="Name" type="NameTableFieldDefinition" value="DisappearingStep" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff1deee8-698a-477c-b4bb-d1609f546b31" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,INVISIBILITY,100,2);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:ApplyStatus(SELF,INVISIBILITY,100,2);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="AoEConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
@@ -21245,7 +21289,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="92649e3b-cd36-4a66-85a0-a5b26f94eab3" />
         <field name="Name" type="NameTableFieldDefinition" value="CloudyEscape" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,CLOUDY_ESCAPE);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,CLOUDY_ESCAPE);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
@@ -21565,7 +21609,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="084d6182-d8de-4758-b858-915b0a4a7d43" />
         <field name="Name" type="NameTableFieldDefinition" value="BlessingOfTheRavenQueen" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);GROUND:IF(CharacterLevelGreaterThan(2)):ApplyStatus(SELF,SHADARKAI_ALL_RESISTANCE,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:IF(CharacterLevelGreaterThan(2)):ApplyStatus(SELF,SHADARKAI_ALL_RESISTANCE,100,1);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
@@ -21711,7 +21755,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="35c6720d-bc12-462a-8192-9c4eff629b1a" />
         <field name="Name" type="NameTableFieldDefinition" value="FeyStep_Eladrin" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_FeyStep_Eladrin_General;" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not Character() and not Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
@@ -21766,7 +21810,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9aebcc08g580fg3628g9378gf3b3f0400749" version="1" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();DealDamage(ProficiencyBonus,Fire);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);GROUND:RemoveStatus(SELF,WEB);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource();DealDamage(ProficiencyBonus,Fire);GROUND:RemoveStatus(SELF,ENSNARED_VINES);GROUND:RemoveStatus(SELF,SHADOW_CURSED_VINES);" />
         <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4a8a3d05ged7ag55e3g1276g814259823391" version="1" />
