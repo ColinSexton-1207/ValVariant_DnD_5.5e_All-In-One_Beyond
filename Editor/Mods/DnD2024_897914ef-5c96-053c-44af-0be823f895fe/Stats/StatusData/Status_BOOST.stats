@@ -3943,6 +3943,46 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57afbaa5-fdb7-46e3-8860-9e5579346a1d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_OWNER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3eb5c0aa-94dc-4607-b4b0-51b715d496f8" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move);IF(HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_MoonDruid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="413b9d83-6713-4c69-882a-cb99bad38887" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_OWNER_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="34f5f2bf-eb3b-4324-9232-2870a73e0d71" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_3);IF(HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_3_MoonDruid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a60d989d-98e6-46e2-bbd1-670b51a2453a" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_OWNER_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="856746e0-f2d0-4328-830e-43eccf10904b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_4);IF(HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_4_MoonDruid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="917e0368-7ae2-42a8-86a0-d0dd72f12ba7" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_OWNER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c23b7004-d858-4c02-965e-d46647346f0a" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_5);IF(HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_5_MoonDruid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="546dc5c3-1208-42b3-9785-ffd5560cfd92" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOONBEAM_OWNER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0324b5d-accf-44d8-9ffa-a58f5bbf0750" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_6);IF(HasStatus('SG_Polymorph_BeastShape',context.Source)):UnlockSpell(Target_Moonbeam_Move_6_MoonDruid);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3f8cee0-7998-4a40-a12b-50787c88862d" />
         <field name="Name" type="NameTableFieldDefinition" value="SPIRITUAL_WEAPON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0cf3667d-eced-4d6b-8e24-92d477abc6f3" />

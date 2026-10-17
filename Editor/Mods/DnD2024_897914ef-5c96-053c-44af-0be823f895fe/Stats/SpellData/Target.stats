@@ -363,6 +363,59 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71efd4bd-0616-4588-ae34-97656bc9d9c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ff9c4870-30c5-4edd-bad8-7a1a1cf69b88" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="72968312-4c03-4459-87cc-37acf7252ed9" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_2_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="10aad117-b20a-44cb-a4cc-6e00891ef4de" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88b75ca4-5075-4f63-a529-f977c4dc2f37" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_3_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d3a59ff2-d8f1-43cf-bbfe-b378e58e37e1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d22e2cb6-de0b-4ff3-8a00-feda0857c640" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_4_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dd611a36-b8f1-4b2a-9e1a-27ea669d916c" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d60723a9-4190-4c0e-982d-918c88698d67" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_5_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="46ed1bc1-c91e-462d-85f8-68a7bde716a5" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="988cb146-05e4-4571-b462-3d1bfbc13017" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_6_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="59319ac4-8e9c-4866-bed0-76acb5ef41bc" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="15e518ae-3525-4977-818c-0510b1b7d78c" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7e3f94b-b631-4ed8-a464-2cee8f69e1f0" />
@@ -883,6 +936,23 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6d8+SpellCastingAbilityModifier)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="188a1ce5-dd31-4731-b2f3-fcb9f7d0f60d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_Mass_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="562828c4-944f-45da-ad52-ab7f9e7779dd" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f38155fb-2704-40ae-9251-0e9f89163863" />
+        <field name="Name" type="NameTableFieldDefinition" value="CureWounds_Mass_6_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b28849a0-4e38-4e6c-befb-d5d9c6b98576" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CureWounds_Mass_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -6741,6 +6811,50 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="879668bc-0c0b-488b-8437-ab0d651838dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9183e261-2169-47f1-b0fc-20c7500e6ced" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc450ede-71df-4ecd-8208-6f5f0c7952cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_3_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ac3a97e-0359-4686-8bef-5f1cf07fa20d" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="324842a2-f282-4c56-bde2-20269ca51e8e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_4_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="17fcc0a1-8068-4b48-b0e2-58f5e537305e" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55588fa9-4607-4393-a06c-7ed26a6cf55e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_5_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d92e1bc-43ec-46a3-a0b0-dc47ec19d5a1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0fb17a6b-f7bb-4cfc-b7c0-a9d25e7a8d73" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_6_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="164c3727-f8ac-45bf-85a8-8ccb8bec86b1" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0013eb8f-6854-4cea-9176-23ab0e803904" />
         <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="255ad93d-754c-49cc-b45f-5d760b11cde9" />
@@ -6793,6 +6907,50 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8816ef8fg0960g42a5g2260g3c275dbbd0f6" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82800808-27a3-4055-8d17-a4ef3ef7cc99" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0013eb8f-6854-4cea-9176-23ab0e803904" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="383155b0-6a9f-472e-9ed8-0ef51abe4c51" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_3_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b7f627a1-8422-40ea-8c85-7610ae4d667b" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_Move_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="218ba3a2-9f35-4a7e-be5c-e22d10c0933c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_4_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd73512f-6f31-42de-890b-a68efc4d4fe9" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_Move_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be978e5e-15ee-46ed-8787-d96b1f81cca3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_5_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3fdaedfe-fbd7-49c3-b75b-85ef3747371b" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_Move_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a3ac4f0-d1a0-4e0a-a0e6-5a8c6aa9be4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move_6_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b44704b3-c8ec-477e-a6da-e83dfd394a6a" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Moonbeam_Move_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -11421,6 +11579,41 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d12,Piercing,Magical);ApplyStatus(POISONED,100,10);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(4d12,Piercing)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d12,Piercing)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f8be5b6-a62e-4994-9839-13a9ff96d266" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlantGrowth_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cd07e548-ad04-40fe-8db3-fb125f469a8d" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35bb0150-88dc-4ec9-a3ac-a408eb312d60" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlantGrowth_4_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ce99555c-d703-43cd-8937-1df4121dc221" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_PlantGrowth_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1a02cd93-98fe-4737-b8a0-aa0d5a9cc7c2" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlantGrowth_5_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="063daaec-8b6d-45d6-866b-af71fe906ab3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_PlantGrowth_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fccf25d5-da43-44d7-9b43-4e2e9a696ae7" />
+        <field name="Name" type="NameTableFieldDefinition" value="PlantGrowth_6_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7d109130-a221-4b40-8862-66e4b4ba3c45" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_PlantGrowth_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -17307,7 +17500,7 @@
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Moonbeam_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;MoonlightStep:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
@@ -17321,20 +17514,11 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
-        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_2" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d30dd94a-ece1-41df-86a3-7d9430206285" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_3" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
@@ -17342,7 +17526,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e86fa011-8330-454d-8e95-326405f122fe" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_4" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d30dd94a-ece1-41df-86a3-7d9430206285" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
       </fields>
@@ -17351,7 +17535,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d73517cd-3c5a-4841-a849-1e883fc840e7" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_5" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d30dd94a-ece1-41df-86a3-7d9430206285" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
@@ -17360,58 +17544,53 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0963058c-10b9-4998-87d5-18715c0b19df" />
         <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d30dd94a-ece1-41df-86a3-7d9430206285" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="234f2d15-81c7-42c9-b47c-e8ef2dae55b2" />
-        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="c209eedd-eb24-4683-aa3a-127b35b4c4c5" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aadacd51-a1a6-49d9-92f8-998c1bc2f872" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08968b96-ddf4-4587-a8ca-ae32dc8ba498" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
-        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_3" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="234f2d15-81c7-42c9-b47c-e8ef2dae55b2" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
-        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep_Spell" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bbf1a1e1-e0f1-4baa-9b7f-84d98c23522d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_3_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d30dd94a-ece1-41df-86a3-7d9430206285" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="80ecd816-3718-4896-b327-d772cd820afc" />
-        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_4" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2f9a3348-b904-49cc-881a-1adacc7965eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_4_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e86fa011-8330-454d-8e95-326405f122fe" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="6e44ce09-d414-4d99-b100-dc421c44cfbf" />
-        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_5" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9d3c4f99-bf36-4965-87fa-9521d7789b08" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_5_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d73517cd-3c5a-4841-a849-1e883fc840e7" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="7060d465-738b-40b4-8eb0-178f0e2367e7" />
-        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_Spell_6" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="a12a47e5-b463-4037-9532-50508cb87eb2" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3bd01654-8242-4745-aa22-1db4a65d1357" />
+        <field name="Name" type="NameTableFieldDefinition" value="MoonlightStep_6_MoonDruid" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0963058c-10b9-4998-87d5-18715c0b19df" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MoonlightStep_MoonDruid" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

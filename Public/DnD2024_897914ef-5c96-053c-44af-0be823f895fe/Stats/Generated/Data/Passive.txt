@@ -2571,7 +2571,7 @@ data "Icon" "Druid_MoonlightStep"
 data "PriorityOrder" "4210"
 data "Properties" "Highlighted;ForceShowInCC"
 data "BoostContext" "OnCreate;OnLongRest;OnShortRest"
-data "Boosts" "ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MoonlightStep,1,0);"
+data "Boosts" "ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',13,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',15,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',17,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',19,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',21,context.Source)):ActionResource(MoonlightStep,1,0);IF(AbilityGreaterThan('Wisdom',23,context.Source)):ActionResource(MoonlightStep,1,0);IF(HasActionResource('MoonlightStep',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Target_MoonlightStep') or SpellId('Target_MoonlightStep_MoonDruid'),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,MoonlightStep,1,0));"
 
 new entry "__CIRCLE OF THE LAND 4300__"
 type "PassiveData"
