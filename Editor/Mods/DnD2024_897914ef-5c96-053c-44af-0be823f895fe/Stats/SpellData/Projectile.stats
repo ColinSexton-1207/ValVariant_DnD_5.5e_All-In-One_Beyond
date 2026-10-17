@@ -2738,7 +2738,6 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Necrotic,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="b698791a-4cd0-4469-b207-1022bca279e1" />
@@ -2774,7 +2773,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="VoidStrike_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a473ad2a-2291-4a5c-8628-7ab3fe044787" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -2790,7 +2788,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="VoidStrike_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="70c50e44-0483-47e0-bd35-273c83bc41a9" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d8/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
@@ -2805,7 +2802,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="VoidStrike_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="70c50e44-0483-47e0-bd35-273c83bc41a9" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d8/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
@@ -2822,7 +2818,6 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Necrotic,Magical);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2dd14b4gba6bgdc59gf8f1g789a1ebe6b74" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VOID_STRIKE,100,1)" />
@@ -2837,7 +2832,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="VoidStrike_Recast_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01a49049-9652-4df5-ad1a-b120af439ede" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic);" />
       </fields>
@@ -2848,7 +2842,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="VoidStrike_Recast_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01a49049-9652-4df5-ad1a-b120af439ede" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d8/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic);" />
       </fields>
@@ -2859,7 +2852,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="VoidStrike_Recast_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01a49049-9652-4df5-ad1a-b120af439ede" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d8/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic);" />
       </fields>
