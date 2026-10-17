@@ -6992,7 +6992,7 @@
 
 주문이 끝날 때까지, 크리처나 물체에 불을 던져 [2]를 줄 수 있습니다. 이 주문을 다시 시전하면 종료됩니다.</content>
   <content contentuid="h84fdaae4gf5f2g4d7dg9fd2gb5a952add89b" version="1">크리처나 물체에 불을 던집니다. 원거리 주문 공격을 가합니다.</content>
-  <content contentuid="h1cc53e1bg08eag444bgb3e3g72f3e0bd1b42" version="1">사거리 내 한 지점에 끈적한 거미줄 덩어리를 만들어 냅니다. 지속시간 동안 거미줄이 그곳의 [1] 반경 범위를 채웁니다. 거미줄이 덮은 곳은 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;가 됩니다.
+  <content contentuid="h1cc53e1bg08eag444bgb3e3g72f3e0bd1b42" version="1">사거리 내 한 지점에 끈적한 거미줄 덩어리를 만들어 냅니다. 지속시간 동안 거미줄이 그곳의 [1] 반경 범위를 채웁니다. 거미줄이 덮은 곳은 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;가 되며, 그 안은 약간 가려진 영역입니다.
 
 한 턴에 처음 거미줄에 들어가거나 거미줄 안에서 턴을 시작한 크리처는 민첩 내성 굴림에 성공하지 못하면 거미줄 안에 있는 동안 또는 풀려날 때까지 &lt;LSTag Type="Status" Tooltip="WEB"&gt;구속&lt;/LSTag&gt; 상태가 됩니다.
 

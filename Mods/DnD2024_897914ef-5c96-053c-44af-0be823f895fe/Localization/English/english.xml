@@ -6992,7 +6992,7 @@ At the start of each of its turns, the Restrained target repeats the save. On a 
 
 Until the spell ends, you can hurl fire at a creature or an object to deal [2]. The spell ends if you cast it again.</content>
   <content contentuid="h84fdaae4gf5f2g4d7dg9fd2gb5a952add89b" version="1">Hurl fire at a creature or an object. Make a ranged spell attack.</content>
-  <content contentuid="h1cc53e1bg08eag444bgb3e3g72f3e0bd1b42" version="1">You conjure a mass of sticky webbing at a point within range. The webs fill a [1] radius there for the duration. The webs are &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.
+  <content contentuid="h1cc53e1bg08eag444bgb3e3g72f3e0bd1b42" version="1">You conjure a mass of sticky webbing at a point within range. The webs fill a [1] radius there for the duration. The webs are &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;, and the area within them is Lightly Obscured.
 
 The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &lt;LSTag Type="Status" Tooltip="WEB"&gt;Restrained&lt;/LSTag&gt; condition while in the webs or until it breaks free.
 
