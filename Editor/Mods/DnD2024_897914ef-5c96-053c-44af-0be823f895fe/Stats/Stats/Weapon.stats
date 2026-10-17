@@ -564,7 +564,7 @@
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Rare" enumeration_type_name="Rarity" version="1" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus, Acid);CreateSurface(1.5, 3, Acid);" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus, Acid,,,0,,true,true);CreateSurface(1.5, 3, Acid);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_Corrosive_Flail_Passive;" />
       </fields>
     </stat_object>
@@ -938,7 +938,7 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fddc251b-22d8-4036-a9fb-85fba8635cf0" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus, Poison);CreateSurface(1.5, 3, PoisonCloud);" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus, Poison,,,0,,true,true);CreateSurface(1.5, 3, PoisonCloud);" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(1);WeaponProperty(Magical)" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasteryPush;MAG_Poison_Greatclub_Passive;" />
       </fields>
@@ -953,7 +953,7 @@
         <field name="PassivesMainHand" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PassivesOffHand" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="DealDamage(1d6,Piercing)" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="DealDamage(1d6,Piercing,,,0,,true,true)" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="9b6a4ab2-323b-4030-89ab-030252bb6214" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7ee0b513-403b-4fe3-a445-b599defa9331" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(1);WeaponProperty(Magical)" />
@@ -1892,7 +1892,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f5ad219b-e851-4b09-9787-05cbde47ee6b" />
         <field name="Name" type="NameTableFieldDefinition" value="MOO_WulbrenHammer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b828576a-9449-4c89-a690-f62c1689fafe" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(Item()):DealDamage(2d4,Force)" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(Item()):DealDamage(2d4,Force,,,0,,true,true)" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="86e7e503-a225-4b48-819e-2e24de1f904a" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="WeaponEnchantment(1);WeaponProperty(Magical)" />
@@ -4959,7 +4959,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;HolyAvenger:1" />
         <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="d24c441f-7ebe-4229-8522-cf34c257ff20" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(Tagged('FIEND') or Tagged('UNDEAD')):DealDamage(1d10,Radiant);" />
+        <field name="WeaponFunctors" type="StringTableFieldDefinition" value="IF(Tagged('FIEND') or Tagged('UNDEAD')):DealDamage(1d10,Radiant,,,0,,true,true);" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="WeaponMasterySap;MAG_HolyAvenger_Passive;" />
         <field name="StatusOnEquip" type="StringTableFieldDefinition" value="HOLY_AVENGER_AURA;" />
       </fields>
