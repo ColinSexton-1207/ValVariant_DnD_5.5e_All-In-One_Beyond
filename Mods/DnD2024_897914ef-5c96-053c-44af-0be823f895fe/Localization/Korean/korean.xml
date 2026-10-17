@@ -7267,4 +7267,5 @@
   <content contentuid="h1865b043g7767g45d5ga931g8e954b442527" version="1">손가락 총을 쏩니다. 명중하면 [1]를 입히고 늦추기 숙련술 효과를 적용합니다.</content>
   <content contentuid="hb5a6b60eg032fg4a8ag9c51g0d8acf62def5" version="1">손이 총으로 간주됩니다. 손가락 총을 쏠 수 있으며, 명중하면 [1]를 입힙니다.</content>
   <content contentuid="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1">손가락 총 발사</content>
+  <content contentuid="hbf18c5f4g3952g4e08gaeb6ga9785601dd2c" version="4">크리처를 사냥감으로 표시해, 명중 굴림으로 적중시킬 때마다 추가로 [1]를 줍니다. </content>
 </contentList>

@@ -1065,7 +1065,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="HuntersMark" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="57c81a71-acd5-4238-b1d5-632a7497de77" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsWeaponAttack() and HasDamageEffectFlag(DamageFlags.Hit)):CharacterWeaponDamage(1d6,Force);" />
+        <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('HUNTERS_MARK',context.Target,context.Source) and IsAttack() and HasDamageEffectFlag(DamageFlags.Hit)" />
+        <field name="StatsFunctors" type="StringTableFieldDefinition" value="ApplyStatus(PASSIVE_HUNTERS_MARK,100,0);DealDamage(1d6,Force,Magical,,0,,true,true)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
