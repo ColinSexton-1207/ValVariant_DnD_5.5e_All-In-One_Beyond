@@ -427,6 +427,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARED_VINES" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5270043e-c7e3-4a53-bdf9-84c80deb8f15" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="RestrainedAthleticsCheck()" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not InSurface('SurfaceVines')):RemoveStatus(ENSNARED_VINES)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TooltipSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h372cfd49gd35fg439bgba78g704339ce057b" version="1" />
@@ -1704,6 +1705,14 @@
         <field name="Name" type="NameTableFieldDefinition" value="DIFFICULT_TERRAIN_WEB" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e470d660-5aff-4589-b05d-83561c2e44f0" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WEB);RemoveStatus(WEB_ARACHNOID_STALKER)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="494d328c-b9f1-4cb2-9fc1-73b2ba139592" />
+        <field name="Name" type="NameTableFieldDefinition" value="DIFFICULT_TERRAIN_VINES" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ff6b55c-78b0-483d-a32d-62a987dfe683" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(ENSNARED_VINES)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

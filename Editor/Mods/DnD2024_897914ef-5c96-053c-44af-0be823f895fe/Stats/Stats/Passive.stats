@@ -13549,6 +13549,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acca528e-22b9-456d-83da-acc80e8dfb62" />
+        <field name="Name" type="NameTableFieldDefinition" value="Entangle_Dryad" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9fb5192e-bfe2-4495-bbed-d2f8e7c55c98" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not SavingThrow(Ability.Dexterity, 10)):ApplyStatus(ENSNARING_STRIKE,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e2e05fe6-9ebb-49a8-a86e-972b91664f51" />
         <field name="Name" type="NameTableFieldDefinition" value="Sangromancer_3_FullBlooded" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha97aba35g50a8g4f8cga12dg8a6e1f58648b" version="2" />
