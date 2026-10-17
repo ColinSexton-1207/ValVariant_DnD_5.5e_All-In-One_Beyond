@@ -1569,6 +1569,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="61290327-ad72-462a-80af-e1e76dabddb1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1cc53e1bg08eag444bgb3e3g72f3e0bd1b42" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
       </fields>
     </stat_object>

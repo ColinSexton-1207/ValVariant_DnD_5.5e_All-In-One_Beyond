@@ -1273,6 +1273,8 @@ data "SpellType" "Target"
 using "Target_Web"
 data "SpellProperties" "RemoveStatus(BURNING);GROUND:CreateSurface(6,100,Web,true);"
 data "AreaRadius" "6"
+data "Description" "h1cc53e1bg08eag444bgb3e3g72f3e0bd1b42;1"
+data "DescriptionParams" "Distance(6)"
 data "ExtraDescription" "he02336d4gdd7eg4829gb4d7ge797695759a8;1"
 
 new entry "Target_Web_3"
