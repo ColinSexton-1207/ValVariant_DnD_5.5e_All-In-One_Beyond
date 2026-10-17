@@ -12521,6 +12521,34 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9739ff45-a395-44a6-a7f8-14a0a95f33fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="FINGER_GUNS_1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5a6b60eg032fg4a8ag9c51g0d8acf62def5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="StackId" type="StringTableFieldDefinition" value="FINGER_GUNS" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fb48479-0f82-4ffa-bd08-761be60c27a1" />
+        <field name="Name" type="NameTableFieldDefinition" value="FINGER_GUNS_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9739ff45-a395-44a6-a7f8-14a0a95f33fb" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns_2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6cb33d3e-9bbe-4e40-badf-ed5481d20a5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FINGER_GUNS_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9739ff45-a395-44a6-a7f8-14a0a95f33fb" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns_3);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="44dcee15-3591-4302-ac9e-402e198cb7fb" />
         <field name="Name" type="NameTableFieldDefinition" value="LAY_DOWN_THE_LAW" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d2c9167c-240c-48ae-a25f-67901533a587" />
@@ -13914,7 +13942,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_FINGERGUNS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_FINGERGUNS" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_FingerGuns);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1fff8b11ge8b9g4012gbe61gd0f4391ba557" version="1" />
       </fields>
     </stat_object>

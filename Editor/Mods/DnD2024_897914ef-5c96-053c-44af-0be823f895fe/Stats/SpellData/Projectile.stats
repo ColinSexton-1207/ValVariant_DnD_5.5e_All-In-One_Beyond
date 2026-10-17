@@ -371,15 +371,16 @@
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6+LevelMapValue(D6Cantrip),Force,Magical);ApplyStatus(WEAPONMASTERY_SLOW,100,1);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source)):DealDamage((1d6+LevelMapValue(D6Cantrip))/2,Force,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6,Force,Magical);ApplyStatus(WEAPONMASTERY_SLOW,100,1);IF(TargetSizeEqualOrSmaller(Size.Large) and HasPassive('RepellingBlastPlayer',context.Source)):Force(3);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source)):DealDamage(2d6/2,Force,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="3eaf2c46-46a9-4b52-8e05-fae7dc4e548b" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3367c648g51fdgae6fg0235gb1564088689f" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+LevelMapValue(D6Cantrip),Force)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1865b043g7767g45d5ga931g8e954b442527" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WEAPONMASTERY_SLOW,100,1);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3" />
@@ -390,11 +391,27 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="209b5952-1675-4518-b592-fde33b287d2d,,;,,;b3993300-3efa-412f-926f-7cc67f63840d,,;ad1da0b4-02b3-44e1-b7f5-266f8c7da081,,;8076d48c-f392-4941-8f4b-355b74731430,,;,,;7a842eef-284c-4b25-bf5e-119e0725aafb,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand;Temporary" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb1c210a-6674-4184-a61c-fcc172b3667e" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8c57a806-472f-4d78-8226-0bba510103bd" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eaa6d53e-0fb6-4f32-807c-32865db5a4d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f5519aa-d2b9-443d-9c4b-4e537c5a8155" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d606e16-9222-4f33-be0c-c9f632b5348c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f5519aa-d2b9-443d-9c4b-4e537c5a8155" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5447,13 +5464,6 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a9072fb6-3f99-4f58-a8dd-5c616fac48d7" />
         <field name="Name" type="NameTableFieldDefinition" value="EldritchBlast_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ddcb7911-c2a6-4a6d-a3a6-e6456611feef" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="01fb438e-8e04-4b37-9f4d-cd9062c0a115" />
-        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8f5519aa-d2b9-443d-9c4b-4e537c5a8155" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -7563,7 +7563,7 @@ data "DisplayName" "ha55fe95cgd504gfcc1gb585g1162cb7cffcc;1"
 data "Description" "hb219036fg4365gffedg71d5g938331069179;3"
 data "DescriptionParams" "Distance(1.5)"
 data "PriorityOrder" "700"
-data "Boosts" "IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(15) and HasWeaponProperty(WeaponProperties.Light, GetAttackWeapon())):Advantage(AttackRoll);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(18) and not HasWeaponProperty(WeaponProperties.Light, GetAttackWeapon())):Advantage(AttackRoll);UnlockSpellVariant(HasStringInSpellRoll('AttackType.RangedWeaponAttack') or HasStringInSpellRoll('AttackType.RangedOffHandWeaponAttack'),ModifyTargetRadius(Multiplicative, 1.5));"
+data "Boosts" "IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(15) and HasWeaponProperty(WeaponProperties.Light, GetAttackWeapon())):Advantage(AttackRoll);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(18) and not HasWeaponProperty(WeaponProperties.Light, GetAttackWeapon())):Advantage(AttackRoll);UnlockSpellVariant(HasStringInSpellRoll('AttackType.RangedWeaponAttack') or HasStringInSpellRoll('AttackType.RangedOffHandWeaponAttack'),ModifyTargetRadius(Multiplicative, 1.5));UnlockSpellVariant(FingerGuns(),ModifyTargetRadius(Multiplicative, 1.5));"
 
 new entry "ShieldMaster"
 type "PassiveData"

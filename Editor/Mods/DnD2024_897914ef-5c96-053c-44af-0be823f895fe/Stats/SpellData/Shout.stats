@@ -1834,6 +1834,29 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="daa82311-a1e1-4fee-b0db-fb6d2073f52c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="0" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not CharacterLevelGreaterThan(4)):ApplyStatus(SELF,FINGER_GUNS_1,100,10);IF(CharacterLevelGreaterThan(4) and not CharacterLevelGreaterThan(9)):ApplyStatus(SELF,FINGER_GUNS_2,100,10);IF(CharacterLevelGreaterThan(9)):ApplyStatus(SELF,FINGER_GUNS_3,100,10);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3367c648g51fdgae6fg0235gb1564088689f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force);Distance(18);Distance(27);Distance(36)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FINGER_GUNS_1,100,10)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3_Loop" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;35b644cf-5c13-4407-9dc1-23bf4309216e,,;823e3ddf-c670-41ef-b7b4-9f4a4e38300b,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb1c210a-6674-4184-a61c-fcc172b3667e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ee1afee2-62cb-4817-b66c-338eeceb32ff" />
         <field name="Name" type="NameTableFieldDefinition" value="Thunderclap" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />
@@ -11692,7 +11715,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5fa7a877-3096-40a2-9d25-3f37c0fa4db6" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_Cantrip" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Projectile_BloodBolt;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_FireBolt;Target_Friends;Target_FrightfulStart;Target_Frostbite;Target_GreenFlameBlade;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation_Dummy;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike_Dummy;Target_VengefulBlade;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Projectile_BloodBolt;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Shout_FingerGuns;Projectile_FireBolt;Target_Friends;Target_FrightfulStart;Target_Frostbite;Target_GreenFlameBlade;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation_Dummy;Projectile_RayOfFrost;Target_ShockingGrasp;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike_Dummy;Target_VengefulBlade;" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf7beb3cg8662gd7d0ga3aag9f047d9b8897" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd31cacc2g7f81g20c3gc487gec7d06e97e53" version="3" />
       </fields>
@@ -11702,7 +11725,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e862e573-d3c0-4630-9349-5404644c76a7" />
         <field name="Name" type="NameTableFieldDefinition" value="PactOfTheTome_Cantrip" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Projectile_BloodBolt;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_EldritchBlast;Projectile_FingerGuns;Projectile_FireBolt;Target_Friends;Target_FrightfulStart;Target_Frostbite;Target_GreenFlameBlade;Target_Guidance;Target_Hellfire;Target_HolyWord;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation_Dummy;Target_PrimalSavagery;Shout_ProduceFlame;Projectile_RayOfFrost;Target_Resistance;Target_SacredFlame;Shout_Shillelagh;Target_ShockingGrasp;Projectile_SorcerousBurst_Dummy;Target_SpareTheDying;Projectile_StarryWisp;Shout_SwordBurst;Shout_Thaumaturgy;Target_ThornWhip;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike_Dummy;Target_VengefulBlade;Target_ViciousMockery;Shout_WordOfRadiance;" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_AcidSplash;Shout_BladeWard;Projectile_BloodBolt;Target_BoomingBlade_ClassSpell;Target_BurstingSinew;Target_ChillTouch;Target_DancingLights;Projectile_EldritchBlast;Shout_FingerGuns;Projectile_FireBolt;Target_Friends;Target_FrightfulStart;Target_Frostbite;Target_GreenFlameBlade;Target_Guidance;Target_Hellfire;Target_HolyWord;Target_Light;Target_MageHand;Target_MindSliver;Target_MinorIllusion;Projectile_PoisonSpray;Shout_Prestidigitation_Dummy;Target_PrimalSavagery;Shout_ProduceFlame;Projectile_RayOfFrost;Target_Resistance;Target_SacredFlame;Shout_Shillelagh;Target_ShockingGrasp;Projectile_SorcerousBurst_Dummy;Target_SpareTheDying;Projectile_StarryWisp;Shout_SwordBurst;Shout_Thaumaturgy;Target_ThornWhip;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike_Dummy;Target_VengefulBlade;Target_ViciousMockery;Shout_WordOfRadiance;" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PactOfTheTome" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h225d0df4g32ceg4fe8g9eccgc7d718c849fb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7c130582g00ecg4530gb10cgc2b455501996" version="1" />
@@ -12954,6 +12977,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="dfffe9aa-fba5-477d-9b5e-6bbd7330d03d" />
         <field name="Name" type="NameTableFieldDefinition" value="Thaumaturgy_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e557c52b-a468-4a6e-87c3-cc981f5605e6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01fb438e-8e04-4b37-9f4d-cd9062c0a115" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="daa82311-a1e1-4fee-b0db-fb6d2073f52c" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

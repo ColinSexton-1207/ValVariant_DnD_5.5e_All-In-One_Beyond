@@ -14,8 +14,12 @@ function NaturalWeapon()
     return SpellId('Target_NaturalWeapon_Slashing') | SpellId('Target_NaturalWeapon_Piercing') | SpellId('Target_NaturalWeapon_Bludgeoning') | SpellId('Target_NaturalWeapon_Slashing_WondrousAlteration') | SpellId('Target_NaturalWeapon_Piercing_WondrousAlteration') | SpellId('Target_NaturalWeapon_Bludgeoning_WondrousAlteration')
 end
 
+function FingerGuns()
+    return SpellId('Projectile_FingerGuns') | SpellId('Projectile_FingerGuns_2') | SpellId('Projectile_FingerGuns_3')
+end
+
 function ExtraAttackSpellCheck()
-    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpectralSlashCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain') | SpellId('Target_CreepingFog') |SpellId('Shout_SearingIgnition') | NaturalWeapon()
+    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpectralSlashCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain') | SpellId('Target_CreepingFog') |SpellId('Shout_SearingIgnition') | NaturalWeapon() | FingerGuns()
 end
 
 function ExtraAttackCheck()

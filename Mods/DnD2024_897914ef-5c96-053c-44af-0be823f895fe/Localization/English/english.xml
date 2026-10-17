@@ -2941,7 +2941,7 @@ As you gain levels, both the number of dice and their size increase. From level 
 
 At Gunslinger level 9, your attack rolls with Ranged weapons score a Critical Hit on a roll of 18–20</content>
   <content contentuid="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1">Finger Guns</content>
-  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">You extend your forefinger and thumb, a dangerous gesture mimicking a gun.</content>
+  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">You extend your forefinger and thumb, a dangerous gesture mimicking a gun. For the duration, you can make ranged spell attacks with your hand at a range of [2]. On a hit, it deals [1] and applies the Slow mastery property.&lt;br&gt;&lt;br&gt;The range increases to [3] at level 5 and [4] at level 10.</content>
   <content contentuid="hc7fb5801ga410g0b94g4884g81b249ee370c" version="1">Giant Ancestry</content>
   <content contentuid="h3f95591ag3b57ge6b7g67dag6b78011d07e5" version="1">You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</content>
   <content contentuid="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="2">Large Form</content>
@@ -7264,4 +7264,7 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="ha5617601gf549g47b7g9d02g6ea3458b6d73" version="1">Has Disadvantage on the next attack roll before the start of its next turn.</content>
   <content contentuid="hc25971eeg611bg4e20g90cag61ce83375009" version="1">If it starts its next turn in the smoke, it becomes &lt;LSTag Type="Status" Tooltip="SHADOW_SMOKE_AURA_DEBUFF"&gt;Shadow Smoke&lt;/LSTag&gt; and has Disadvantage on its next attack roll before the start of its following turn.</content>
   <content contentuid="hfc9da1adg03cdg4403g8b03g8b054edd2b40" version="1">Regains 1 hit point at the start of each of its turns. Ends when its rage ends.</content>
+  <content contentuid="h1865b043g7767g45d5ga931g8e954b442527" version="1">Fire your finger gun. On a hit, it deals [1] and applies the Slow mastery property.</content>
+  <content contentuid="hb5a6b60eg032fg4a8ag9c51g0d8acf62def5" version="1">Your hand counts as a gun. You can fire Finger Guns, dealing [1] on a hit.</content>
+  <content contentuid="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1">Fire Finger Guns</content>
 </contentList>

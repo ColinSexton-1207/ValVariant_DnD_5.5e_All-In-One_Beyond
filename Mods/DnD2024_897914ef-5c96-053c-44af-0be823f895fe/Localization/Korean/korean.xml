@@ -2941,7 +2941,7 @@
 
 건슬링어 레벨 9에 도달하면, 원거리 무기 명중 굴림은 18~20에서 치명타가 됩니다</content>
   <content contentuid="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1">손가락 총</content>
-  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">집게손가락과 엄지손가락을 뻗어, 총을 흉내 내는 위험한 몸짓을 취합니다.</content>
+  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">집게손가락과 엄지손가락을 뻗어, 총을 흉내 내는 위험한 몸짓을 취합니다. 지속 시간 동안 손으로 [2] 거리까지 원거리 주문 공격을 할 수 있습니다. 명중하면 [1]를 입히고 늦추기 숙련술 효과를 적용합니다.&lt;br&gt;&lt;br&gt;사거리는 5레벨에 [3], 10레벨에 [4]로 늘어납니다.</content>
   <content contentuid="hc7fb5801ga410g0b94g4884g81b249ee370c" version="1">거인의 혈통</content>
   <content contentuid="h3f95591ag3b57ge6b7g67dag6b78011d07e5" version="1">당신은 거인의 후손입니다. 다음 이점 중 하나를 선택하십시오 — 당신의 혈통에서 비롯된 초자연적인 은총입니다. 선택한 이점은 숙련 보너스와 같은 횟수만큼 사용할 수 있으며, 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다:</content>
   <content contentuid="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="2">대형 형상</content>
@@ -7264,4 +7264,7 @@
   <content contentuid="ha5617601gf549g47b7g9d02g6ea3458b6d73" version="1">다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="hc25971eeg611bg4e20g90cag61ce83375009" version="1">연기 안에서 다음 턴을 시작하면 &lt;LSTag Type="Status" Tooltip="SHADOW_SMOKE_AURA_DEBUFF"&gt;그림자 연기&lt;/LSTag&gt; 상태가 되어, 그다음 자신의 턴이 시작되기 전까지 하는 다음 명중 굴림에 불리 보정을 받습니다.</content>
   <content contentuid="hfc9da1adg03cdg4403g8b03g8b054edd2b40" version="1">자신의 턴이 시작될 때마다 생명력을 1 회복합니다. 격노가 끝나면 사라집니다.</content>
+  <content contentuid="h1865b043g7767g45d5ga931g8e954b442527" version="1">손가락 총을 쏩니다. 명중하면 [1]를 입히고 늦추기 숙련술 효과를 적용합니다.</content>
+  <content contentuid="hb5a6b60eg032fg4a8ag9c51g0d8acf62def5" version="1">손이 총으로 간주됩니다. 손가락 총을 쏠 수 있으며, 명중하면 [1]를 입힙니다.</content>
+  <content contentuid="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1">손가락 총 발사</content>
 </contentList>
