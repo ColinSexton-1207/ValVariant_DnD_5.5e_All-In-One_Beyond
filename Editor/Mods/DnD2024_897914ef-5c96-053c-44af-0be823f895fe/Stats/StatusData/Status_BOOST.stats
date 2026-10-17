@@ -2166,7 +2166,7 @@
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="0ea9ef0c-adf9-478a-9a2d-69f606eda842" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f02f26b3-ea1b-4165-ba79-775aa9498800" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
