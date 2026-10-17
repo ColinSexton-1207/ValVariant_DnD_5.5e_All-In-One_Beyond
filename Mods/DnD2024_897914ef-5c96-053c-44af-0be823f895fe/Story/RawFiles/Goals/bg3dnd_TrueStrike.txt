@@ -42,6 +42,28 @@ GetEquippedWeapon(_Player, _Item)
 THEN
 ApplyStatus(_Player, "YMS_TRUE_STRIKE_OWNER", 6.0, 1, _Player);
 ApplyStatus(_Item, "YMS_TRUE_STRIKE_ON_RADIANT", 6.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player, _Spell, _, _)
+AND
+_Spell != "Target_TrueStrike_Melee"
+AND
+_Spell != "Projectile_TrueStrike_Ranged"
+AND
+_Spell != "Target_TrueStrike_Radiant"
+AND
+_Spell != "Projectile_TrueStrike_Radiant"
+AND
+_Spell != "Target_TrueStrike_CompassSpear"
+AND
+HasActiveStatus(_Player, "YMS_TRUE_STRIKE_OWNER", 1)
+AND
+GetEquippedWeapon(_Player, _Item)
+THEN
+RemoveStatus(_Player, "YMS_TRUE_STRIKE_OWNER", NULL_00000000-0000-0000-0000-000000000000);
+RemoveStatus(_Item, "YMS_TRUE_STRIKE_ON_WEAPON", NULL_00000000-0000-0000-0000-000000000000);
+RemoveStatus(_Item, "YMS_TRUE_STRIKE_ON_RADIANT", NULL_00000000-0000-0000-0000-000000000000);
+
 IF
 StatusApplied(_Item, "YMS_TRUE_STRIKE_OFF", _, _)
 THEN
