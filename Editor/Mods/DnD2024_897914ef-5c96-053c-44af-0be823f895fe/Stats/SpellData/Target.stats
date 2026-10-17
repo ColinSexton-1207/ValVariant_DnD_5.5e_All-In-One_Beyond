@@ -3019,6 +3019,8 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(BLACK_TENTACLES,100,10);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLACK_TENTACLES,100,10);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb84becc9g108bg4f37g8cb6g71a416bf97b2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6);DealDamage(3d6,Bludgeoning)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he02336d4gdd7eg4829gb4d7ge797695759a8" version="1" />
       </fields>
     </stat_object>

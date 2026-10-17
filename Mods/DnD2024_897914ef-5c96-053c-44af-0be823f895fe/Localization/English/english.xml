@@ -7272,4 +7272,7 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1">Fire Finger Guns</content>
   <content contentuid="hbf18c5f4g3952g4e08gaeb6ga9785601dd2c" version="4">Mark a creature as your quarry to deal an additional [1] whenever you hit it with an attack roll. </content>
   <content contentuid="h9c035a0dga908g41c0g8f99g2b7184a971a9" version="6">Gain an extra action, a +2 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;, and double your &lt;LSTag Tooltip="MovementSpeed"&gt;movement speed&lt;/LSTag&gt;. That action can be used to take only the Attack (one attack only), Dash, Disengage, or Hide action.</content>
+  <content contentuid="hb84becc9g108bg4f37g8cb6g71a416bf97b2" version="1">Squirming, ebony tentacles fill a [1] radius on the ground within range. For the duration, these tentacles turn the ground in that area into &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.
+
+Each creature in that area makes a Strength saving throw. On a failed save, it takes [2] and has the &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;Restrained&lt;/LSTag&gt; condition until the spell ends. A creature also makes that save if it enters the area or ends its turn there. A creature makes that save only once per turn.</content>
 </contentList>

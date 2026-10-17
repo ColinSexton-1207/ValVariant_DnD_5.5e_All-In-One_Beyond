@@ -2512,6 +2512,8 @@ using "Target_BlackTentacles"
 data "TargetRadius" "27"
 data "SpellRoll" "not SavingThrow(Ability.Strength, SourceSpellDC())"
 data "SpellSuccess" "ApplyStatus(BLACK_TENTACLES,100,10);"
+data "Description" "hb84becc9g108bg4f37g8cb6g71a416bf97b2;1"
+data "DescriptionParams" "Distance(6);DealDamage(3d6,Bludgeoning)"
 data "ExtraDescription" "he02336d4gdd7eg4829gb4d7ge797695759a8;1"
 data "TooltipStatusApply" "ApplyStatus(BLACK_TENTACLES,100,10);"
 
