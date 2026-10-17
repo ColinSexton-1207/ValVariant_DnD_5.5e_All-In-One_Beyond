@@ -6683,6 +6683,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9183e261-2169-47f1-b0fc-20c7500e6ced" />
         <field name="Name" type="NameTableFieldDefinition" value="Moonbeam" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2692dea5-6368-42a6-a6c1-4f77140d6e00" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasAnyStatus({'MOONBEAM_OWNER','MOONBEAM_OWNER_3','MOONBEAM_OWNER_4','MOONBEAM_OWNER_5','MOONBEAM_OWNER_6'})" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
@@ -6743,6 +6744,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0013eb8f-6854-4cea-9176-23ab0e803904" />
         <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_Move" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="255ad93d-754c-49cc-b45f-5d760b11cde9" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
