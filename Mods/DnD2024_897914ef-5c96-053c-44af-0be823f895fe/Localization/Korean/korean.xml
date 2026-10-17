@@ -2941,7 +2941,7 @@
 
 건슬링어 레벨 9에 도달하면, 원거리 무기 명중 굴림은 18~20에서 치명타가 됩니다</content>
   <content contentuid="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1">손가락 총</content>
-  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">집게손가락과 엄지손가락을 뻗어, 총을 흉내 내는 위험한 몸짓을 취합니다. 지속 시간 동안 손으로 [2] 거리까지 원거리 주문 공격을 할 수 있습니다. 명중하면 [1]를 입히고 늦추기 숙련술 효과를 적용합니다.&lt;br&gt;&lt;br&gt;사거리는 5레벨에 [3], 10레벨에 [4]로 늘어납니다.</content>
+  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">집게손가락과 엄지손가락을 뻗어, 총을 흉내 내는 위험한 몸짓을 취합니다. 지속 시간 동안 손이 사거리 [2]의 단순 원거리 무기가 되며, 늦추기 숙련술 속성을 가집니다. 이 무기의 명중 굴림에는 주문시전 능력치를 사용합니다. 명중하면 [1]를 입히며, 피해에 능력치 수정치를 더하지 않습니다.&lt;br&gt;&lt;br&gt;사거리는 5레벨에 [3], 10레벨에 [4]로 늘어납니다.</content>
   <content contentuid="hc7fb5801ga410g0b94g4884g81b249ee370c" version="1">거인의 혈통</content>
   <content contentuid="h3f95591ag3b57ge6b7g67dag6b78011d07e5" version="1">당신은 거인의 후손입니다. 다음 이점 중 하나를 선택하십시오 — 당신의 혈통에서 비롯된 초자연적인 은총입니다. 선택한 이점은 숙련 보너스와 같은 횟수만큼 사용할 수 있으며, 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다:</content>
   <content contentuid="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="2">대형 형상</content>

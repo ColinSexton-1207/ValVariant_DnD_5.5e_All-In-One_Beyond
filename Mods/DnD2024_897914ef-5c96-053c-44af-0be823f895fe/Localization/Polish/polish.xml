@@ -2935,7 +2935,7 @@ W miarę zdobywania poziomów zwiększa się zarówno liczba kości, jak i ich r
 
 Na 9. poziomie rewolwerowca ataki bronią dystansową kończą się trafieniem krytycznym przy wyniku 18–20.</content>
   <content contentuid="h4fb0f4d8g4a69gae26g0f0fg98c78bd0a838" version="1">Pistolety z palców</content>
-  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">Wyciągasz palec wskazujący i kciuk, co jest niebezpiecznym gestem naśladującym pistolet. Przez czas trwania możesz wykonywać dłonią dystansowe ataki zaklęciem o zasięgu [2]. Przy trafieniu zadajesz [1] i nakładasz właściwość mistrzostwa Spowolnienie.&lt;br&gt;&lt;br&gt;Zasięg wzrasta do [3] na 5. poziomie i do [4] na 10. poziomie.</content>
+  <content contentuid="h3367c648g51fdgae6fg0235gb1564088689f" version="1">Wyciągasz palec wskazujący i kciuk, co jest niebezpiecznym gestem naśladującym pistolet. Przez czas trwania twoja dłoń liczy się jako prosta broń dystansowa o zasięgu [2] z właściwością mistrzostwa Spowolnienie. Jej rzuty na trafienie używają twojej cechy rzucania zaklęć. Przy trafieniu zadaje [1] i nie dodaje modyfikatora cechy do obrażeń.&lt;br&gt;&lt;br&gt;Zasięg wzrasta do [3] na 5. poziomie i do [4] na 10. poziomie.</content>
   <content contentuid="hc7fb5801ga410g0b94g4884g81b249ee370c" version="1">Rodowód olbrzymów</content>
   <content contentuid="h3f95591ag3b57ge6b7g67dag6b78011d07e5" version="1">Wywodzisz się od olbrzymów. Wybierz jedną z poniższych korzyści — nadprzyrodzony dar wynikający z twojego dziedzictwa. Możesz użyć wybranej korzyści tyle razy, ile wynosi twoja premia z biegłości, a wszystkie użycia odzyskujesz po ukończeniu długiego odpoczynku:</content>
   <content contentuid="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="2">Duża postać</content>
