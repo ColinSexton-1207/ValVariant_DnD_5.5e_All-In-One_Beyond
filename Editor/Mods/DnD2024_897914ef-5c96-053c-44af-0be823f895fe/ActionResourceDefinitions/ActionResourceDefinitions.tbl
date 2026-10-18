@@ -813,6 +813,98 @@
         <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_137" />
+        <field name="UUID" type="IdTableFieldDefinition" value="543d2d85-b858-40d4-a0b9-a5b0b57edbb9" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RaceSpellLevel1" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_138" />
+        <field name="UUID" type="IdTableFieldDefinition" value="70619d70-46c4-4b4a-a009-5c0785a1cff1" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RaceSpellLevel2" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_139" />
+        <field name="UUID" type="IdTableFieldDefinition" value="94625bae-f107-4c28-9748-02338cd07a9d" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="MagicInitiateLevel1" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_140" />
+        <field name="UUID" type="IdTableFieldDefinition" value="73651570-a90c-4ffd-a7c7-1458ced9c7c0" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FeyTouchedLevel1" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_141" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6ef933c-2ffd-4cec-b295-b93b8e464847" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="FeyTouchedLevel2" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_142" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f0554885-f5ec-4779-bdf1-00a87c906e79" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ShadowTouchedLevel1" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_143" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4d912c96-8e8e-4d2d-9034-54414a1931a4" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ShadowTouchedLevel2" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_144" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0885a0be-8741-47d1-8476-dae22ee188b0" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="RuneShaperSpell" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_145" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ab363490-3d99-40c3-9ae6-2690e3f32b99" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="CharmTwisterSpell" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_61" />
@@ -1369,6 +1461,17 @@
         <field name="UUID" type="IdTableFieldDefinition" value="77fd4b90-31ed-4ada-95ff-2ba739aab878" />
         <field name="NameFS" type="FixedStringTableFieldDefinition" value="StealBlood" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb0187b94g38b7g4bf6g9320gde97c5b1b6c3" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_146" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a7d66caf-12c0-4173-9562-b97f9ff96830" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ConsumeDarkness" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he97e3b0fg6f9cg22aag0fc7gb7945f9ceb17" version="2" />
         <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
         <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
         <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
