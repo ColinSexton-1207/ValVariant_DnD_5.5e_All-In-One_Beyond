@@ -4619,6 +4619,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0);"/>
                     <attribute id="Level" type="uint8" value="11"/>
                     <attribute id="Name" type="LSString" value="Rogue"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Rogue_11_ImprovedCunningStrike;ImprovedCunningStrike_Poison;ImprovedCunningStrike_Trip;ImprovedCunningStrike_Withdraw"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="9a44e828-92db-4d6c-acbc-a4f8ef340415"/>
                     <attribute id="UUID" type="guid" value="9cf65c52-0df9-4433-9059-f7ae29fb1f18"/>
@@ -9386,6 +9387,14 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
                     <attribute id="UUID" type="guid" value="8b39d11c-d839-46ef-8eaf-5996c58c6edf"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="DeadThree"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ImprovedCunningStrike_Terrify"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
+                    <attribute id="UUID" type="guid" value="a8f3d75a-4ccc-4bb7-95c3-748d6ebc1bea"/>
                 </node>
             </children>
         </node>

@@ -5542,7 +5542,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_FeyPresence" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack() and IsHit() and not HasStatus('DREADFULSTRIKE_DAMAGE_TAKEN',context.Target);" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(DREADFULSTRIKE_DAMAGE_TAKEN,100,1);DealDamage(LevelMapValue(FeyWanderer),Psychic,Magical,,0,,true,true)" />
@@ -5804,6 +5803,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Poison_Ranged" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_5_CunningStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9003" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5848,14 +5848,42 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c24eb39d-4c2d-4265-afe3-48d0584ab261" />
-        <field name="Name" type="NameTableFieldDefinition" value="Rogue_11_ImprovedSneakAttack" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0523c40bg9f42g36bcg9e1cg6081c59ba79a" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd984038eg2324g666bg83degd9c1722e9df2" version="3" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Action_SneakAttack_Melee" />
+        <field name="UUID" type="IdTableFieldDefinition" value="13b61425-c0d7-4caa-91d4-412fd4044313" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rogue_11_ImprovedCunningStrike" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f59c7185-d362-4ca0-97ff-093a836fdca4" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b9a4ea2gf076g7c99g2610gc3ac7183fa18" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1567b8d0g0173g6bd4g55cag87f68dcb6ba7" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9011" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ba717b8-1f51-40f9-972f-9f63c89a877f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedCunningStrike_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="720130f6-53da-4770-86e7-2e30c9415e4b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdce46d71ga685g97bag29b1g52e317e29a71" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9011" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_11_ImprovedCunningStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="af0b1fab-f534-4809-af8e-7afd89d9b1ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedCunningStrike_Trip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e65349de-dbd2-4795-8b26-9bcfee0b6530" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63999ae6g45f5g0040gf131g809ecd72ee33" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9011" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_11_ImprovedCunningStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb66be5e-ef5e-449f-92d3-0e37ebead91b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedCunningStrike_Withdraw" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e15a3e8c-72f7-4561-90bf-8b4d2e51b368" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h71dc3d03gabaag851dg85cbg8c163a9116ec" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9011" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_11_ImprovedCunningStrike" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6096,6 +6124,17 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_5_CunningStrike" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9503" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f28ff1c5-0770-45af-86b6-986d9d2ae4fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ImprovedCunningStrike_Terrify" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="31462a28-95a6-4596-a214-646be222622c" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb7f61658gf898g8730g1b0cg85c98fbff120" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9511" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="Rogue_11_ImprovedCunningStrike" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">
@@ -10957,7 +10996,6 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39e6f66dgb9c7g82d9ge759gc88241418c54" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="RuneKnight_3_RuneCarver" />
       </fields>
     </stat_object>

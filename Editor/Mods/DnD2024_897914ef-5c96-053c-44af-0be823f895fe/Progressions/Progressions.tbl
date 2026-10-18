@@ -5890,6 +5890,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="11" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice08,1,0);" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Rogue_11_ImprovedCunningStrike;ImprovedCunningStrike_Poison;ImprovedCunningStrike_Trip;ImprovedCunningStrike_Withdraw" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6187,6 +6188,17 @@
         <field name="Level" type="ByteTableFieldDefinition" value="9" />
         <field name="PassivesAdded" type="StringTableFieldDefinition" value="DeadThree_9_StrikeFear;CunningStrike_Terrify" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1072" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a8f3d75a-4ccc-4bb7-95c3-748d6ebc1bea" />
+        <field name="TableUUID" type="GuidTableFieldDefinition" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8" />
+        <field name="FSName" type="StringTableFieldDefinition" value="DeadThree" />
+        <field name="Level" type="ByteTableFieldDefinition" value="11" />
+        <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ImprovedCunningStrike_Terrify" />
       </fields>
     </stat_object>
     <stat_object color="#FF483D8B" is_substat="false">

@@ -79,7 +79,7 @@
                 </node>
                 <node id="LevelMapSeries">
                     <attribute id="Level1" type="LSString" value="1d6"/>
-                    <attribute id="Level11" type="LSString" value="7d6"/>
+                    <attribute id="Level11" type="LSString" value="6d6"/>
                     <attribute id="Level3" type="LSString" value="2d6"/>
                     <attribute id="Level5" type="LSString" value="3d6"/>
                     <attribute id="Level7" type="LSString" value="4d6"/>

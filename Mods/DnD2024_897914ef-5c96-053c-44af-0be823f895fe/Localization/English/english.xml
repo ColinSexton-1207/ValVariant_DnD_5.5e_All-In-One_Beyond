@@ -7277,4 +7277,10 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
 Each creature in that area makes a Strength saving throw. On a failed save, it takes [2] and has the &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;Restrained&lt;/LSTag&gt; condition until the spell ends. A creature also makes that save if it enters the area or ends its turn there. A creature makes that save only once per turn.</content>
   <content contentuid="h1059faf4gd11fg0008gb771g3025f6c3973d" version="1">Heroic Resurgence</content>
   <content contentuid="h08f284c8gc228g439fg91d7g15f48ceac64c" version="1">At the edge of death, a spark of defiance flares. You draw a ragged breath, regain 1 hit point, and rise to your feet.</content>
+  <content contentuid="hb7f61658gf898g8730g1b0cg85c98fbff120" version="1">Improved Cunning Strike: Terrify</content>
+  <content contentuid="hdce46d71ga685g97bag29b1g52e317e29a71" version="1">Improved Cunning Strike: Poison</content>
+  <content contentuid="h63999ae6g45f5g0040gf131g809ecd72ee33" version="1">Improved Cunning Strike: Trip</content>
+  <content contentuid="h71dc3d03gabaag851dg85cbg8c163a9116ec" version="1">Improved Cunning Strike: Withdraw</content>
+  <content contentuid="h4b9a4ea2gf076g7c99g2610gc3ac7183fa18" version="1">Improved Cunning Strike</content>
+  <content contentuid="h1567b8d0g0173g6bd4g55cag87f68dcb6ba7" version="1">You can use up to two Cunning Strike effects when you deal Sneak Attack damage.</content>
 </contentList>

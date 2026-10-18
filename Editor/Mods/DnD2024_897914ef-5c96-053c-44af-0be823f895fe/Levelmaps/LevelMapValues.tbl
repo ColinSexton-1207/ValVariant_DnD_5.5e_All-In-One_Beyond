@@ -94,7 +94,7 @@
         <field name="Level7" type="StringTableFieldDefinition" value="4d6" />
         <field name="Level9" type="StringTableFieldDefinition" value="5d6" />
         <field name="PreferredClass" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
-        <field name="Level11" type="StringTableFieldDefinition" value="7d6" />
+        <field name="Level11" type="StringTableFieldDefinition" value="6d6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
