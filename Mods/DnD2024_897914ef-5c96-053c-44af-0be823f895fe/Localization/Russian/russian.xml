@@ -736,7 +736,7 @@
   <content contentuid="h170d4635g2a45gd51dg6f7cg0cc6d58ae805" version="1">Ты можешь сотворить &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;Оживление мёртвых&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;Ускорение&lt;/LSTag&gt; и &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;Вызов молнии&lt;/LSTag&gt; один раз каждое за Долгий отдых.</content>
   <content contentuid="h1b185049g69f6gd479g03c1g85c564525648" version="1">Колдовской удар</content>
   <content contentuid="h3793d1a6gc4b8g72a7geb63gdab6620030e7" version="1">Колдовской удар</content>
-  <content contentuid="h39dbb752g7bd1g7b6fgad55gb007b398ba91" version="1">Один раз за ход при попадании по существу твоим оружием договора ты можешь потратить ячейку заклинания Договорной магии, чтобы нанести цели дополнительно [1], плюс ещё 1d8 за каждый уровень ячейки заклинания, и ты можешь перевести цель в состояние Распростёрт, если она Огромного размера или меньше.</content>
+  <content contentuid="h39dbb752g7bd1g7b6fgad55gb007b398ba91" version="1">Один раз за ход при попадании по существу твоим оружием договора в слоте основной руки для ближнего боя ты можешь потратить ячейку заклинания Договорной магии, чтобы нанести цели дополнительно [1], плюс ещё 1d8 за каждый уровень ячейки заклинания, и ты можешь перевести цель в состояние Распростёрт, если она Огромного размера или меньше.</content>
   <content contentuid="h96af7feag9483ge79egf274ga41eefe9ae04" version="1">Колдовской удар</content>
   <content contentuid="h94488385g3579gb95bga59ag7e9114cbe4d1" version="1">Колдовской удар: Реакция</content>
   <content contentuid="hecfe0232g690bg7d4cg4846gf2a7cf8ec8c8" version="1">Колдовской удар: Реакция</content>

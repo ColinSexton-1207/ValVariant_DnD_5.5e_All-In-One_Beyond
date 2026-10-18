@@ -740,7 +740,7 @@
   <content contentuid="h170d4635g2a45gd51dg6f7cg0cc6d58ae805" version="1">Ви можете по одному разу за довгий відпочинок проказати &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;«Пробудження мерця»&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;«Поспіх»&lt;/LSTag&gt; і &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;«Заклик блискавки»&lt;/LSTag&gt;.</content>
   <content contentuid="h1b185049g69f6gd479g03c1g85c564525648" version="1">Потойбічна кара</content>
   <content contentuid="h3793d1a6gc4b8g72a7geb63gdab6620030e7" version="1">Потойбічна кара</content>
-  <content contentuid="h39dbb752g7bd1g7b6fgad55gb007b398ba91" version="1">Раз за хід, коли ви влучаєте в істоту прикутою зброєю, можете витратити чарунку Магії договору, щоб завдати цілі додатково [1] та ще 1d8 за кожен рівень чарунки. Якщо ціль величезного або меншого розміру, ви також можете надати їй стан повалення.</content>
+  <content contentuid="h39dbb752g7bd1g7b6fgad55gb007b398ba91" version="1">Раз за хід, коли ви влучаєте в істоту прикутою зброєю в слоті основної руки для ближнього бою, можете витратити чарунку Магії договору, щоб завдати цілі додатково [1] та ще 1d8 за кожен рівень чарунки. Якщо ціль величезного або меншого розміру, ви також можете надати їй стан повалення.</content>
   <content contentuid="h96af7feag9483ge79egf274ga41eefe9ae04" version="1">Потойбічна кара</content>
   <content contentuid="h94488385g3579gb95bga59ag7e9114cbe4d1" version="1">Потойбічна кара: реагування</content>
   <content contentuid="hecfe0232g690bg7d4cg4846gf2a7cf8ec8c8" version="1">Потойбічна кара: реагування</content>

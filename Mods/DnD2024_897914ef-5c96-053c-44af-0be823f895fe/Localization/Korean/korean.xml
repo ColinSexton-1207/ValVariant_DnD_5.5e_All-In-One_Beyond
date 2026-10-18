@@ -740,7 +740,7 @@
   <content contentuid="h170d4635g2a45gd51dg6f7cg0cc6d58ae805" version="1">&lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;망자 조종&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Haste"&gt;가속&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_CallLightning"&gt;낙뢰 소환&lt;/LSTag&gt;을 긴 휴식당 한 번씩 시전할 수 있습니다.</content>
   <content contentuid="h1b185049g69f6gd479g03c1g85c564525648" version="1">섬뜩한 강타</content>
   <content contentuid="h3793d1a6gc4b8g72a7geb63gdab6620030e7" version="1">섬뜩한 강타</content>
-  <content contentuid="h39dbb752g7bd1g7b6fgad55gb007b398ba91" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 대상에게 추가로 [1]를 입히고, 주문 슬롯 레벨당 1d8을 추가로 입힐 수 있습니다. 대상이 거대형 이하라면 넘어짐 상태로 만들 수도 있습니다.</content>
+  <content contentuid="h39dbb752g7bd1g7b6fgad55gb007b398ba91" version="1">자신의 턴마다 한 번, 근접 주 무기 슬롯에 장착한 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 대상에게 추가로 [1]를 입히고, 주문 슬롯 레벨당 1d8을 추가로 입힐 수 있습니다. 대상이 거대형 이하라면 넘어짐 상태로 만들 수도 있습니다.</content>
   <content contentuid="h96af7feag9483ge79egf274ga41eefe9ae04" version="1">섬뜩한 강타</content>
   <content contentuid="h94488385g3579gb95bga59ag7e9114cbe4d1" version="1">섬뜩한 강타: 대응</content>
   <content contentuid="hecfe0232g690bg7d4cg4846gf2a7cf8ec8c8" version="1">섬뜩한 강타: 대응</content>

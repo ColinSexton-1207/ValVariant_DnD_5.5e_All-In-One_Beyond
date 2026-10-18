@@ -19715,14 +19715,13 @@
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;b590e52e-a453-470a-882a-13e13b6d1937,,;76578635-47f2-47d3-ab8f-5bd9bca88bf7,,;6748a2ec-fe1e-4aa4-ac27-570aedaba922,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;c609adf0-7a55-4094-b395-97e3d53f14cd,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="DualWieldingSpellAnimation" type="CastAnimationsTableFieldDefinition" value="71369b20-18f1-4d33-89ad-a99b10f0444c,,;b590e52e-a453-470a-882a-13e13b6d1937,,;76578635-47f2-47d3-ab8f-5bd9bca88bf7,,;6748a2ec-fe1e-4aa4-ac27-570aedaba922,,;3b9da8d4-3eff-43bd-9eaa-1c13fba0045e,,;c609adf0-7a55-4094-b395-97e3d53f14cd,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
         <field name="RootSpellID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="PowerLevel" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="3561c48f-d28e-40a4-8b63-aa4565cc03a8" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a5ca92c-005d-4d53-97a1-49391977c947" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="52bd8281-f970-4e5f-a313-d57945d2608a" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Smite_Eldritch_3;Target_Smite_Eldritch_4;Target_Smite_Eldritch_5;" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('PACT_BLADE', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source));" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack;Constitution" />
       </fields>
@@ -19732,8 +19731,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f982ab08-89d8-494d-bb6b-e55e3adcaedc" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Eldritch_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d425e714-2b8b-455f-9405-520ac4f469df" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -19748,8 +19746,7 @@
         <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -19765,8 +19762,7 @@
         <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:5;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Smite_Eldritch" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsSpell;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;HasVerbalComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF8A2BE2" is_substat="false">
