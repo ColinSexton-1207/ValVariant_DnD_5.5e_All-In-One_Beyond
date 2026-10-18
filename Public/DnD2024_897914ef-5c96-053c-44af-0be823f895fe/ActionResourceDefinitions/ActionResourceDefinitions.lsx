@@ -56,6 +56,13 @@
                     <attribute id="UUID" type="guid" value="afcc4c04-bf4b-4bb7-832b-d629129ec696"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h188a058cgcea3g60b0g633fg27cdd4e0978e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h44dbb66dgd470g6c38gca18gf0222f0eedba" version="1"/>
+                    <attribute id="Name" type="FixedString" value="HasteActionPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="2034b8d1-ebf6-40c2-a521-fee466a63acd"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__BARBARIAN__"/>
                     <attribute id="UUID" type="guid" value="dec23621-7b1f-446c-96ce-36c8cae3210f"/>
                 </node>
@@ -993,13 +1000,6 @@
                     <attribute id="Name" type="FixedString" value="MoonSickle"/>
                     <attribute id="ReplenishType" type="FixedString" value="Turn"/>
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
-                </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="Description" type="TranslatedString" handle="h188a058cgcea3g60b0g633fg27cdd4e0978e" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h44dbb66dgd470g6c38gca18gf0222f0eedba" version="1"/>
-                    <attribute id="Name" type="FixedString" value="HasteActionPoint"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="2034b8d1-ebf6-40c2-a521-fee466a63acd"/>
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="DisplayName" type="TranslatedString" handle="h6cfafd49g4db7g407ag83e5g60a9a685bef1" version="1"/>

@@ -2060,11 +2060,6 @@
                     <attribute id="UUID" type="guid" value="930f973e-08c9-4873-8cb0-fe27b958d80e"/>
                 </node>
                 <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Wizard Savant Sangromancy"/>
-                    <attribute id="Spells" type="LSString" value="Target_CircleOfScarlet;Target_DarkSacrament;Shout_ViscousSheath;Target_BloodBond;Shout_ExtractIron;Target_Reanimate;Target_SanguinePoppet;Shout_BloodWisp;Shout_SanguineShield;Shout_SenseLifeblood;Shout_TheftOfVitae;Target_WiltingSmite;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Consumption;Shout_CrimsonLash;Target_ShroudBlood;Target_Somnolence;Target_VibratingHumors"/>
-                    <attribute id="UUID" type="guid" value="398d9fdb-0101-4226-b2eb-08a2dae9accb"/>
-                </node>
-                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Sanguine Thief SLevel 1"/>
                     <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_BodyWarpingOfGorgoroth;Zone_BurningHands;Projectile_Catapult;Target_CharmPerson;Projectile_ChromaticOrb;Shout_CloakOfShadow;Zone_ColorSpray;Target_Consumption;Shout_CrimsonLash;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_HellsLash;Target_HideousLaughter;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_ShroudBlood;Target_Sleep;Projectile_SpellfireFlare;Zone_Thunderwave;Shout_TideOfDarkness;Target_UmbralTendril;Target_VibratingHumors;Projectile_Wardaway;Projectile_WitchBolt;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Somnolence"/>
                     <attribute id="UUID" type="guid" value="22a5a7dd-b869-4b58-812c-74344a0df44e"/>
@@ -2079,6 +2074,11 @@
                     <attribute id="Name" type="FixedString" value="Sanguine Thief SLevel 1 to 2"/>
                     <attribute id="Spells" type="LSString" value="Shout_AbsorbElements;Target_BodyWarpingOfGorgoroth;Zone_BurningHands;Projectile_Catapult;Target_CharmPerson;Projectile_ChromaticOrb;Shout_CloakOfShadow;Zone_ColorSpray;Target_Consumption;Shout_CrimsonLash;Shout_DisguiseSelf;Shout_EarthTremor;Shout_ExpeditiousRetreat;Shout_FalseLife;Shout_FeatherFall;Target_FindFamiliar;Target_FogCloud;Target_Grease;Target_HellsLash;Target_HideousLaughter;Projectile_IceKnife;Target_Jump;Target_Longstrider;Target_MageArmor;Projectile_MagicMissile;Target_ProtectionFromEvilAndGood;Projectile_RayOfSickness;Shout_Shield_Wizard;Target_ShroudBlood;Target_Sleep;Projectile_SpellfireFlare;Zone_Thunderwave;Shout_TideOfDarkness;Target_UmbralTendril;Target_VibratingHumors;Projectile_Wardaway;Projectile_WitchBolt;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Somnolence"/>
                     <attribute id="UUID" type="guid" value="46477c4a-832f-4de8-b624-817d4439e06f"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Wizard Savant Sangromancy"/>
+                    <attribute id="Spells" type="LSString" value="Target_CircleOfScarlet;Target_DarkSacrament;Shout_ViscousSheath;Target_BloodBond;Shout_ExtractIron;Target_Reanimate;Target_SanguinePoppet;Shout_BloodWisp;Shout_SanguineShield;Shout_SenseLifeblood;Shout_TheftOfVitae;Target_WiltingSmite;Target_BloodbaneRune;Shout_BloodRush;Target_BoilBlood;Target_Consumption;Shout_CrimsonLash;Target_ShroudBlood;Target_Somnolence;Target_VibratingHumors"/>
+                    <attribute id="UUID" type="guid" value="398d9fdb-0101-4226-b2eb-08a2dae9accb"/>
                 </node>
             </children>
         </node>

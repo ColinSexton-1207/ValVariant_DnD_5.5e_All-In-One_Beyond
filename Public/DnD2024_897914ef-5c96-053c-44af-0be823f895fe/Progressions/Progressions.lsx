@@ -4844,6 +4844,14 @@
                     <attribute id="UUID" type="guid" value="aaa370df-434f-41d5-8088-638572f023b9"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="DeadThree"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ImprovedCunningStrike_Terrify"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
+                    <attribute id="UUID" type="guid" value="a8f3d75a-4ccc-4bb7-95c3-748d6ebc1bea"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="HighwayRider"/>
                     <attribute id="PassivesAdded" type="LSString" value="HighwayRider_3_HairTrigger;HighwayRider_3_TrustyMount;HighwayRider_3_RideThemDown;FirearmExpert"/>
@@ -4858,96 +4866,6 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="8e20bc2e-8a65-472d-8e14-66d91edfcdd3"/>
                     <attribute id="UUID" type="guid" value="a5e66f96-2387-44f5-825f-046ea5197f46"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);Tag(WIZARD_PROXY);ActionResource(HitPointDice08,2,0)"/>
-                    <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1;SanguineThief_3_StolenPower;SanguineThief_3_StealBlood"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,3,0,,,,AlwaysPrepared);SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,3,0,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="1b22cc54-905c-4184-abed-da550bd14f79"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
-                    <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,1,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="16e35d1d-6eca-4cbd-9ec6-bb705224a397"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0)"/>
-                    <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,0,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="b92d912c-8f54-4f40-8a01-fa1af467f801"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,0,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="3a428a9e-5f89-4aac-8697-866a027c3f1c"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(HitPointDice08,1,0)"/>
-                    <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="420da5e4-0d24-465e-b4e0-eeca48cd67f0"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="c0006a90-62e7-4436-b07e-3f69cc1c0ec1"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0)"/>
-                    <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="PassivesAdded" type="LSString" value="SanguineThief_9_BloodyBlades"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,0,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="c750d360-a706-49c5-a064-4093d6032c70"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
-                    <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="c45a5a02-6389-4ba5-8dba-a4befbbe5ab5"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0)"/>
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="27f78c71-fb8c-4382-a08a-c6dc33b477e8"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="SanguineThief"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,0,1,SanguineThiefSpells)"/>
-                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
-                    <attribute id="UUID" type="guid" value="852a9218-b8d3-49ed-8929-6d7ae1dfbccd"/>
                 </node>
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
@@ -7179,6 +7097,94 @@
                     <attribute id="UUID" type="guid" value="a536b75f-727b-40f7-9873-524233c34e64"/>
                 </node>
                 <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,4,0)"/>
+                    <attribute id="Level" type="uint8" value="3"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sangromancer_3_FullBlooded"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,2,0,Wizard_3_Savant);"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="234566b5-9ed6-43d5-b48c-5f3cf594db02"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="3616323d-7c63-4cf3-be33-1f096fbeabda"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="dedc8fff-5ecd-4348-9b9c-2d7af6d13530"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sangromancer_6_SanguineVigor"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="6f5bd422-9886-442c-bc57-734a40fad7f3"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="ff563e2b-029c-4733-90e4-edd8e8f0093a"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="f13300fd-a301-41cc-b9a8-2fc3551a2f68"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="67757b93-726c-4259-813b-e88f95cfae2b"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sangromancer_10_BloodForBlood"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="d5135dfb-0dd6-49e9-a9eb-241d73c49559"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="92ec03ac-5f88-43f4-855b-563df7bcd6df"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
+                    <attribute id="UUID" type="guid" value="8b39d11c-d839-46ef-8eaf-5996c58c6edf"/>
+                </node>
+                <node id="Progression">
                     <attribute id="Name" type="LSString" value="__ARTIFICER__"/>
                     <attribute id="UUID" type="guid" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23"/>
                 </node>
@@ -9301,100 +9307,94 @@
                     <attribute id="UUID" type="guid" value="fd2c526b-6d1b-48c2-8aa7-0d347bc4bb6a"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,4,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,1);Tag(WIZARD_PROXY);ActionResource(HitPointDice08,2,0)"/>
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sangromancer_3_FullBlooded"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel1;SanguineThief_3_StolenPower;SanguineThief_3_StealBlood"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,2,0,Wizard_3_Savant);"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="234566b5-9ed6-43d5-b48c-5f3cf594db02"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,3,0,,,,AlwaysPrepared);SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,3,0,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="1b22cc54-905c-4184-abed-da550bd14f79"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="3616323d-7c63-4cf3-be33-1f096fbeabda"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,1,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="16e35d1d-6eca-4cbd-9ec6-bb705224a397"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0)"/>
                     <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="dedc8fff-5ecd-4348-9b9c-2d7af6d13530"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,0,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="b92d912c-8f54-4f40-8a01-fa1af467f801"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
                     <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sangromancer_6_SanguineVigor"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="6f5bd422-9886-442c-bc57-734a40fad7f3"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(22a5a7dd-b869-4b58-812c-74344a0df44e,0,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="3a428a9e-5f89-4aac-8697-866a027c3f1c"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2);ActionResource(HitPointDice08,1,0)"/>
                     <attribute id="Level" type="uint8" value="7"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="ff563e2b-029c-4733-90e4-edd8e8f0093a"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="420da5e4-0d24-465e-b4e0-eeca48cd67f0"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
                     <attribute id="Level" type="uint8" value="8"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="f13300fd-a301-41cc-b9a8-2fc3551a2f68"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="c0006a90-62e7-4436-b07e-3f69cc1c0ec1"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0)"/>
                     <attribute id="Level" type="uint8" value="9"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
+                    <attribute id="PassivesAdded" type="LSString" value="SanguineThief_9_BloodyBlades"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="67757b93-726c-4259-813b-e88f95cfae2b"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,0,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="c750d360-a706-49c5-a064-4093d6032c70"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
                     <attribute id="Level" type="uint8" value="10"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sangromancer_10_BloodForBlood"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="d5135dfb-0dd6-49e9-a9eb-241d73c49559"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells);SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0,,,,AlwaysPrepared)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="c45a5a02-6389-4ba5-8dba-a4befbbe5ab5"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice08,1,0)"/>
                     <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(398d9fdb-0101-4226-b2eb-08a2dae9accb,1,0,Wizard_3_Savant);"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="92ec03ac-5f88-43f4-855b-563df7bcd6df"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,1,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="27f78c71-fb8c-4382-a08a-c6dc33b477e8"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0)"/>
                     <attribute id="Level" type="uint8" value="12"/>
-                    <attribute id="Name" type="LSString" value="Sangromancer"/>
+                    <attribute id="Name" type="LSString" value="SanguineThief"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="bd5f7880-233d-4ce5-8833-636988444183"/>
-                    <attribute id="UUID" type="guid" value="8b39d11c-d839-46ef-8eaf-5996c58c6edf"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Level" type="uint8" value="11"/>
-                    <attribute id="Name" type="LSString" value="DeadThree"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ImprovedCunningStrike_Terrify"/>
-                    <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="TableUUID" type="guid" value="60cd0d4d-532d-4a1c-bc6e-1bc2ca458db8"/>
-                    <attribute id="UUID" type="guid" value="a8f3d75a-4ccc-4bb7-95c3-748d6ebc1bea"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(6fa0def5-0a99-4c43-bea1-215d54a21558,0,1,SanguineThiefSpells)"/>
+                    <attribute id="TableUUID" type="guid" value="0d7fc95e-bc63-4f54-b839-307f5266a5b9"/>
+                    <attribute id="UUID" type="guid" value="852a9218-b8d3-49ed-8929-6d7ae1dfbccd"/>
                 </node>
             </children>
         </node>
