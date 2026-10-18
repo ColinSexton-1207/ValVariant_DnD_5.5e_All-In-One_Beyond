@@ -3,15 +3,197 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dfba0a23-c56b-4d15-a929-f24e2e9f9d7b" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Barbarian" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_7" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1f7caedc-8851-462d-a805-5b146a20998a" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="92cd50b6-eb1b-4824-8adb-853e90c34c90" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Bard" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c72a1c8f-89b0-45ee-b91c-2969cd13e492" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_8" />
+        <field name="UUID" type="IdTableFieldDefinition" value="795c0941-55b4-453a-b98a-3bfbc5ab837f" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="457d0a6e-9da8-4f95-a225-18382f0e94b5" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Druid" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8d9d04ce-1847-42f3-a8e3-31679b9b9c9f" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="721dfac3-92d4-41f5-b773-b7072a86232f" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Fighter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_10" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4b341852-ea9d-4c28-9587-5f1a56f0474c" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="c4598bdb-fc07-40dd-a62c-90cc138bd76f" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Monk" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_11" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ee77d561-939a-4dc7-a795-21657cbcf380" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="ff4d9497-023c-434a-bd14-82fc367e991c" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Paladin" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_12" />
+        <field name="UUID" type="IdTableFieldDefinition" value="567de48e-b40a-4e6f-9d21-4404f8e3ee4e" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="36be18ba-23db-4dff-bfa6-ae105ce43144" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Ranger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c16f4816-9ea0-46c8-9997-55a753d398ec" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Rogue" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_14" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8c994482-8f4b-4bd5-b6d6-0dd3a2ccd2f2" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="784001e2-c96d-4153-beb6-2adbef5abc92" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Sorcerer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_15" />
+        <field name="UUID" type="IdTableFieldDefinition" value="702ee6ba-929c-4591-977f-f7d7bf990e8b" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Warlock" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_16" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b6a1028b-8b45-4f5a-82c2-a60cf35b3160" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wizard" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="90d06311-077c-4c52-9aad-5d2d8ddc443f" />
+        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Artificer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
         <field name="UUID" type="IdTableFieldDefinition" value="76d61b0b-ff4b-44cc-afe6-e3e5a6fc9a83" />
         <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="b6cd23fa-ec1a-44a6-86c5-693201654dba" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
         <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Wisdom" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
         <field name="Comment" type="CommentTableFieldDefinition" value="Gunslinger" />
       </fields>
     </stat_object>
@@ -21,26 +203,12 @@
         <field name="UUID" type="IdTableFieldDefinition" value="285d4e43-2c2d-4666-bea9-a6856744e788" />
         <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="33bd368d-2ff4-4add-8692-66d87372053a" />
         <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
         <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Illrigger" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
-        <field name="UUID" type="IdTableFieldDefinition" value="90d06311-077c-4c52-9aad-5d2d8ddc443f" />
-        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="8aa2cf37-7739-4978-ab86-b1190b881620" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="15" />
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Artificer" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Illrigger" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -48,27 +216,13 @@
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
         <field name="UUID" type="IdTableFieldDefinition" value="5a507c9c-028e-4caa-8442-4fcd4e81c1dd" />
         <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="e137179a-0c6f-4608-837a-322c13403943" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="15" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="14" />
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
         <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
         <field name="Comment" type="CommentTableFieldDefinition" value="MonsterHunter" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
-        <field name="UUID" type="IdTableFieldDefinition" value="c72a1c8f-89b0-45ee-b91c-2969cd13e492" />
-        <field name="ClassUUID" type="GuidObjectTableFieldDefinition" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
-        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
-        <field name="Dexterity" type="IntegerTableFieldDefinition" value="13" />
-        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
-        <field name="Wisdom" type="IntegerTableFieldDefinition" value="15" />
-        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Cleric" />
       </fields>
     </stat_object>
   </stat_objects>
