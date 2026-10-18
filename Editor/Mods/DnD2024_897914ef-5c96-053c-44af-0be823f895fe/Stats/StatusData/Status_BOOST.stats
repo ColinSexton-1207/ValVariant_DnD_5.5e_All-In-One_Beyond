@@ -1730,7 +1730,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4f6fc3f0-3c3f-4072-b5ef-ba76fd60e04c" />
         <field name="Name" type="NameTableFieldDefinition" value="DIFFICULT_TERRAIN_WEB" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e470d660-5aff-4589-b05d-83561c2e44f0" />
-        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WEB);RemoveStatus(WEB_ARACHNOID_STALKER)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(WEB)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1739,19 +1739,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="DIFFICULT_TERRAIN_VINES" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9ff6b55c-78b0-483d-a32d-62a987dfe683" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(ENSNARED_VINES)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="c2a0c342-3bc3-453b-8fd7-e54559028c2f" />
-        <field name="Name" type="NameTableFieldDefinition" value="WEB_ARACHNOID_STALKER" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="eba64f4e-d599-4331-9cab-14cddd78f50e" />
-        <field name="StackId" type="StringTableFieldDefinition" value="WEB" />
-        <field name="StackPriority" type="IntegerTableFieldDefinition" value="9" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
-        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="RestrainedAthleticsCheckDex()" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not InSurface('SurfaceWeb')):RemoveStatus(WEB_ARACHNOID_STALKER)" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf30d582fg341eg451bgb278g1c024892f548" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
