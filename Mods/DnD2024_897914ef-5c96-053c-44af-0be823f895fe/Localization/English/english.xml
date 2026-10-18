@@ -7275,4 +7275,6 @@ At the start of each of its turns, a Restrained creature makes a Strength (&lt;L
   <content contentuid="hb84becc9g108bg4f37g8cb6g71a416bf97b2" version="1">Squirming, ebony tentacles fill a [1] radius on the ground within range. For the duration, these tentacles turn the ground in that area into &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.
 
 Each creature in that area makes a Strength saving throw. On a failed save, it takes [2] and has the &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;Restrained&lt;/LSTag&gt; condition until the spell ends. A creature also makes that save if it enters the area or ends its turn there. A creature makes that save only once per turn.</content>
+  <content contentuid="h1059faf4gd11fg0008gb771g3025f6c3973d" version="1">Heroic Resurgence</content>
+  <content contentuid="h08f284c8gc228g439fg91d7g15f48ceac64c" version="1">At the edge of death, a spark of defiance flares. You draw a ragged breath, regain 1 hit point, and rise to your feet.</content>
 </contentList>

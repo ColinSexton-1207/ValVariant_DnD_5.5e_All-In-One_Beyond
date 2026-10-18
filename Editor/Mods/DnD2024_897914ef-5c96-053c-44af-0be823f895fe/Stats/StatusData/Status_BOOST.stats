@@ -315,6 +315,18 @@
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1d12+ConstitutionModifier);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b266ab1a-112d-4c60-9534-f03922ae7958" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEATH_SAVINGTHROW_20" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1059faf4gd11fg0008gb771g3025f6c3973d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08f284c8gc228g439fg91d7g15f48ceac64c" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineIntervention_Heal" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(PRONE_RECOVERED_FROM_DOWN);" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(1);" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5f874fdf-33ad-4a19-a9ed-33abb8e675c7" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1da8b350-7c10-475b-9375-c0b1a2ea017c" />

@@ -7275,4 +7275,6 @@
   <content contentuid="hb84becc9g108bg4f37g8cb6g71a416bf97b2" version="1">사거리 내 지면의 [1] 반경 범위에 꿈틀거리는 검은 촉수가 가득 찹니다. 지속시간 동안 이 촉수는 범위 안의 지면을 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;로 만듭니다.
 
 범위 안의 각 크리처는 근력 내성 굴림을 합니다. 실패하면 [2]를 받고 주문이 끝날 때까지 &lt;LSTag Type="Status" Tooltip="BLACK_TENTACLES"&gt;구속&lt;/LSTag&gt; 상태가 됩니다. 크리처는 범위에 들어오거나 범위 안에서 턴을 끝낼 때도 이 내성 굴림을 합니다. 이 내성 굴림은 한 턴에 한 번만 합니다.</content>
+  <content contentuid="h1059faf4gd11fg0008gb771g3025f6c3973d" version="1">영웅의 재기</content>
+  <content contentuid="h08f284c8gc228g439fg91d7g15f48ceac64c" version="1">죽음의 문턱에서 꺾이지 않는 의지가 타오릅니다. 거친 숨을 들이쉬며 생명력을 1 회복하고, 다시 일어섭니다.</content>
 </contentList>
