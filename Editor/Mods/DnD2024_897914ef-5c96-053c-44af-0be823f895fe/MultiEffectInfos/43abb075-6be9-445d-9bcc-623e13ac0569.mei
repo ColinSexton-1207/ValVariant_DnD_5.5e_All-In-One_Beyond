@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="43abb075-6be9-445d-9bcc-623e13ac0569" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="FireFingerGuns_CastEffect">
+  <EffectInfo UUID="74b4e8a5-a1b2-466d-bdf3-455d68d574e6" EffectResourceGuid="34e1e07d-4545-d5a5-b8d2-1703f26f3965" DetachSource="true" DetachTarget="true" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="true" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" StartTextKey="Cast" DamageType="None" VerbalIntent="None" TargetBone="Dummy_CastFX" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

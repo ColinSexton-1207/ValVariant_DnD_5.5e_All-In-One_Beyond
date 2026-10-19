@@ -1853,7 +1853,9 @@
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="SpellSheathing" version="1" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Buff" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb1c210a-6674-4184-a61c-fcc172b3667e" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f9785481-e126-4499-b00e-f36fa02cd196" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Force_MagicMissile_L1to3" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="655f8b6b-f392-4c5d-8d74-d2a9df5f8f9d" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

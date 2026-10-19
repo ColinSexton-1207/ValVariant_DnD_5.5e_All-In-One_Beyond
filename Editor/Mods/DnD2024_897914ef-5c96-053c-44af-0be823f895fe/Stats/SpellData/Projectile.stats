@@ -372,7 +372,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6,Force,Magical);IF(HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+SpellCastingAbilityModifier,Force,Magical);ApplyStatus(WEAPONMASTERY_SLOW,100,1);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead()" />
         <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
-        <field name="Trajectories" type="StringTableFieldDefinition" value="3eaf2c46-46a9-4b52-8e05-fae7dc4e548b" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="8af0b5fd-23a4-4e2f-952f-d6615ae999e7" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ec5edaeg6725g46ffg9e2cg7039367dba58" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1865b043g7767g45d5ga931g8e954b442527" version="1" />
@@ -382,7 +382,7 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WEAPONMASTERY_SLOW,100,1);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Force_Gen_L1to3_Loop" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Force_EldritchBlast_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Force_MagicMissile_L1to3" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
@@ -390,8 +390,8 @@
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;AddFallDamageOnLand;Temporary" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
-        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="cb1c210a-6674-4184-a61c-fcc172b3667e" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="8c57a806-472f-4d78-8226-0bba510103bd" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="f9785481-e126-4499-b00e-f36fa02cd196" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="43abb075-6be9-445d-9bcc-623e13ac0569" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
