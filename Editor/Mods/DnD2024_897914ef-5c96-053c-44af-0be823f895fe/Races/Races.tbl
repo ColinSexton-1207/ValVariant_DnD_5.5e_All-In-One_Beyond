@@ -45,6 +45,7 @@
         <field name="Tags" type="GuidObjectListTableFieldDefinition" value="9642f738-a0b4-4bde-b3b8-87524c122695;5a5031bc-bd8c-4a93-a7f4-927f3e3fb965" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="ec2603e5-cf91-47da-b02b-0df881a55c23" />
         <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Elf" />
+        <field name="SkinColors" type="GuidObjectListTableFieldDefinition" value="23faa956-9197-4d64-b881-cd012cd2c796;ad6a4975-e510-4385-ae6b-76484ffe8fdf;c4d95733-8b62-48da-bd50-2a3d884442f0;8d4db542-f81f-4395-918a-2643be2653a3;ce39b231-a69e-4fcc-8b6b-83ee1e7ba811;2fd1fdd9-07f3-41ad-b8dc-223b80b163a5;723696b2-dafa-492a-b51b-d124c373b931;8a2c3f32-18c2-4a99-8882-0ab9f8c21599" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
