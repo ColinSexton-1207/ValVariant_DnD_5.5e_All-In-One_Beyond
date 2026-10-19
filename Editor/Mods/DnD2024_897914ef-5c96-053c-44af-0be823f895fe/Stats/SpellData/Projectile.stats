@@ -3217,7 +3217,6 @@
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="ec80b3cd-29fd-40d2-a41a-b703db1b6f8e" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7bce304f-a409-495e-a092-012b727b0914" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="1d00a392-5444-4533-b125-d4cafc7e496a" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
@@ -5550,7 +5549,6 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Necrotic)" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="74c3d8de-5937-4a60-84b4-ef5005c039f2" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Cleric_DeathDomain_BurstingSinew" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
