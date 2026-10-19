@@ -16,7 +16,7 @@ new entry "Projectile_MainHandAttack_Firearm_Musket"
 type "SpellData"
 data "SpellType" "Projectile"
 using "Projectile_MainHandAttack_Firearm"
-data "CastEffect" "36ab28cf-2fc9-4ea3-9cd7-f5a95c6c9893"
+data "CastEffect" "ef285efc-0551-4929-b591-40fcfaac8369"
 
 new entry "Projectile_MainHandAttack_Haste"
 type "SpellData"
