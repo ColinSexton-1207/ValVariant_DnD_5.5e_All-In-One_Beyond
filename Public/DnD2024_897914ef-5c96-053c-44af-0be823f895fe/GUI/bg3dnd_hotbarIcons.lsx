@@ -1951,6 +1951,13 @@
                     <attribute id="V2" type="float" value="0.09362793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="SpellSlinger_3_BangYoureDead"/>
+                    <attribute id="U1" type="float" value="0.34387207"/>
+                    <attribute id="U2" type="float" value="0.35925293"/>
+                    <attribute id="V1" type="float" value="0.09387207"/>
+                    <attribute id="V2" type="float" value="0.10925293"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Abjuration_ArcaneVigor"/>
                     <attribute id="U1" type="float" value="0.92199707"/>
                     <attribute id="U2" type="float" value="0.93737793"/>
@@ -2203,18 +2210,18 @@
                     <attribute id="V2" type="float" value="0.10925293"/>
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Spell_Darkbolt"/>
-                    <attribute id="U1" type="float" value="0.53137207"/>
-                    <attribute id="U2" type="float" value="0.54675293"/>
-                    <attribute id="V1" type="float" value="0.03137207"/>
-                    <attribute id="V2" type="float" value="0.04675293"/>
-                </node>
-                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_DarkSacrament"/>
                     <attribute id="U1" type="float" value="0.37512207"/>
                     <attribute id="U2" type="float" value="0.39050293"/>
                     <attribute id="V1" type="float" value="0.09387207"/>
                     <attribute id="V2" type="float" value="0.10925293"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Darkbolt"/>
+                    <attribute id="U1" type="float" value="0.53137207"/>
+                    <attribute id="U2" type="float" value="0.54675293"/>
+                    <attribute id="V1" type="float" value="0.03137207"/>
+                    <attribute id="V2" type="float" value="0.04675293"/>
                 </node>
                 <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_Dawn"/>

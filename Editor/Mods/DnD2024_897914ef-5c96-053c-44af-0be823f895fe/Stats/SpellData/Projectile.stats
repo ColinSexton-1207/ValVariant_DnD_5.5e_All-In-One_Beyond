@@ -366,7 +366,6 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8f5519aa-d2b9-443d-9c4b-4e537c5a8155" />
         <field name="Name" type="NameTableFieldDefinition" value="FingerGuns" />
-        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Evocation" enumeration_type_name="SpellSchool" version="1" />
         <field name="TargetFloor" type="StringTableFieldDefinition" value="-1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedSpellAttack)" />
@@ -410,6 +409,42 @@
         <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8f5519aa-d2b9-443d-9c4b-4e537c5a8155" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75a3ae98-c55b-46f0-9f85-97d00db48898" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_ArcaneShot" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8f5519aa-d2b9-443d-9c4b-4e537c5a8155" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+LevelMapValue(Risk),Force,Magical);IF(HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+LevelMapValue(Risk)+SpellCastingAbilityModifier,Force,Magical);ApplyStatus(WEAPONMASTERY_SLOW,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf073e4a5gc4bcg1e42gd465gf4515840a424" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6+LevelMapValue(Risk),Force)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0d5cbb3f-ae5d-43e5-bb8b-53f36b04f493" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_ArcaneShot_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eaa6d53e-0fb6-4f32-807c-32865db5a4d4" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+LevelMapValue(Risk),Force,Magical);IF(HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+LevelMapValue(Risk)+SpellCastingAbilityModifier,Force,Magical);ApplyStatus(WEAPONMASTERY_SLOW,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf073e4a5gc4bcg1e42gd465gf4515840a424" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6+LevelMapValue(Risk),Force)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3c8a1f8c-ae28-41d3-a7ae-864acb62524d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FingerGuns_ArcaneShot_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5d606e16-9222-4f33-be0c-c9f632b5348c" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+LevelMapValue(Risk),Force,Magical);IF(HasPassive('Gunslinger_11_Overkill',context.Source)):DealDamage(2d6+LevelMapValue(Risk)+SpellCastingAbilityModifier,Force,Magical);ApplyStatus(WEAPONMASTERY_SLOW,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf073e4a5gc4bcg1e42gd465gf4515840a424" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6+LevelMapValue(Risk),Force)" />
+        <field name="HitCosts" type="StringTableFieldDefinition" value="Risk:1;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

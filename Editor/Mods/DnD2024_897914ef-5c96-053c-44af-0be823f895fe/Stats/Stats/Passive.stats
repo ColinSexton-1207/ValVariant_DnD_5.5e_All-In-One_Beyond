@@ -8616,7 +8616,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4afbde24g3b4ag6245gdfc5gf40fbb6dd7b9" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf051b82fgb193ga37bg540ege6200dcbd93e" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ArcaneShot);" />
@@ -8628,7 +8628,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpellSlinger_6_Spellshot" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h368dfb6eg54d1g9117gae02g8877cb540a10" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd3836cebg50efg96d2g4884gc1006821d8ef" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13106" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
@@ -8639,7 +8639,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpellSlinger_10_CounterMage" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7014351gc454g307agb356g37500f5752d7" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b3edb5dg700eg11d2gb46eg867808ec1738" version="2" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13110" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_InuredToMagic);" />

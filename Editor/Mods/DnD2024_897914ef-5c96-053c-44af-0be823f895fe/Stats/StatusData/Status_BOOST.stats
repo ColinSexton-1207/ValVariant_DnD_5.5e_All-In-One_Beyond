@@ -12587,7 +12587,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ANTIMAGIC_SHOT" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfee38a66g5042g2c16g753dg9b88aa769f46" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he97ec05ag27f2gdd59g1ebag5d02ea37d3df" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
+        <field name="Icon" type="StringTableFieldDefinition" value="SpellSlinger_3_BangYoureDead" />
         <field name="StackId" type="StringTableFieldDefinition" value="ANTIMAGIC_SHOT" />
         <field name="Boosts" type="StringTableFieldDefinition" value="BlockSpellCast();" />
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnHeal" enumeration_type_name="StatusEvent" version="1" />
@@ -12602,7 +12602,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FingerGuns" />
         <field name="StackId" type="StringTableFieldDefinition" value="FINGER_GUNS" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns);IF(HasPassive('SpellSlinger_3_BangYoureDead',context.Source)):UnlockSpell(Projectile_FingerGuns_ArcaneShot);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12610,7 +12610,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9fb48479-0f82-4ffa-bd08-761be60c27a1" />
         <field name="Name" type="NameTableFieldDefinition" value="FINGER_GUNS_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9739ff45-a395-44a6-a7f8-14a0a95f33fb" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns_2);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns_2);IF(HasPassive('SpellSlinger_3_BangYoureDead',context.Source)):UnlockSpell(Projectile_FingerGuns_ArcaneShot_2);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12618,7 +12618,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6cb33d3e-9bbe-4e40-badf-ed5481d20a5c" />
         <field name="Name" type="NameTableFieldDefinition" value="FINGER_GUNS_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9739ff45-a395-44a6-a7f8-14a0a95f33fb" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns_3);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_FingerGuns_3);IF(HasPassive('SpellSlinger_3_BangYoureDead',context.Source)):UnlockSpell(Projectile_FingerGuns_ArcaneShot_3);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
