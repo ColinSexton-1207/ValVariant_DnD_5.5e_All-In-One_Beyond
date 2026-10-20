@@ -4548,7 +4548,7 @@ data "PriorityOrder" "9603"
 data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "IF(SpellId('Target_RendTheBlasphemous')):RollBonus(Attack,WisdomModifier);"
 data "StatsFunctorContext" "OnCast;OnStatusRemoved;OnStatusApplied"
-data "Conditions" "SanctifiedChampion(context.Target) and HasUseCosts('ActionPoint', true);"
+data "Conditions" "SanctifiedChampion(context.Target) and HasUseCosts('ActionPoint', true) and IsMeleeWeaponAttack();"
 data "StatsFunctors" "ApplyStatus(SELF,REND_THE_BLASPHEMOUS, 100, 1)"
 
 new entry "BladeOfRadiance_9_ChainsOfJudgement"

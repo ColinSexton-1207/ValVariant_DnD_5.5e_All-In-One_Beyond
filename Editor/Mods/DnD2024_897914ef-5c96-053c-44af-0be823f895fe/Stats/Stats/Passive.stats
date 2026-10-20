@@ -6308,7 +6308,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(SpellId('Target_RendTheBlasphemous')):RollBonus(Attack,WisdomModifier);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnStatusRemoved;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="SanctifiedChampion(context.Target) and HasUseCosts('ActionPoint', true);" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="SanctifiedChampion(context.Target) and HasUseCosts('ActionPoint', true) and IsMeleeWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,REND_THE_BLASPHEMOUS, 100, 1)" />
       </fields>
     </stat_object>
