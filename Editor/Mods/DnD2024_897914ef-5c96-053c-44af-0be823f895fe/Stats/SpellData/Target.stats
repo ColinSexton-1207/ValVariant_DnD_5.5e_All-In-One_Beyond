@@ -19253,14 +19253,12 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MageArmor" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f23bbc7ga5a4gcc3dgd44eg45b750c2f618" version="1" />
-        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_CounterSpell_L1to3" />
-        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_CounterSpell_L1to3" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Paladin_Control_ChampionChallenge" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Paladin_Control_ChampionChallenge" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value=",,;,,;b04ce010-286c-4eaf-9b7e-dc42aa6c0b8f,,;,,;,,;,,;,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;62e74220-ba87-4fe7-aa99-9d12cab9d654,,;b1f3f86a-a1fc-43f6-8a2b-0110a9f99ead,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Control" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="2c5a0742-e685-41dc-af87-477ce2d7779b" />
-        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="e1c681ba-b303-4c9e-ab60-8984efac755e" />
-        <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="79f74c1f-dec0-4847-a206-f9289407afe0" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1a4b0423-005b-4577-b376-815a08809675" />
         <field name="SteerSpeedMultipler" type="FloatTableFieldDefinition" value="10.5" />
       </fields>
     </stat_object>
