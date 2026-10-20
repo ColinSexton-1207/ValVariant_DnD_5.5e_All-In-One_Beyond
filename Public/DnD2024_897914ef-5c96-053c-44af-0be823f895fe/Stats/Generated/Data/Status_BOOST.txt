@@ -7692,7 +7692,7 @@ data "DisplayName" "h765b9461g9506gb734gcb45gfb2796d10549;1"
 data "Description" "h2ff7efe3g2f98g2386g3e31g16cac67905a4;1"
 data "Icon" "PassiveFeature_Mobile_CounterAttackOfOpportunity"
 data "StackId" "SAVAGE_CHARGE"
-data "Boosts" "UnlockSpell(Shout_Dash_BonusAction_SavageCharge);"
+data "Boosts" "UnlockSpellVariant(SpellId('Shout_Dash_BonusAction_SavageCharge'),ModifyIconGlow());"
 
 new entry "WEAPON_BOND"
 type "StatusData"

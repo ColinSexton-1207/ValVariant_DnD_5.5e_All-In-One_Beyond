@@ -9372,8 +9372,13 @@
         <field name="UUID" type="IdTableFieldDefinition" value="700888b0-2fd4-423a-82ed-ae72852089e9" />
         <field name="Name" type="NameTableFieldDefinition" value="Dash_BonusAction_SavageCharge" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="021086ec-d402-44b3-803f-3e629ecd0a16" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasStatus('DASH_STACKED')):ApplyStatus(DASH_STACKED_2,100,1);IF(not HasStatus('DASH_STACKED_2') and HasStatus('DASH')):ApplyStatus(DASH_STACKED,100,1);IF(not HasStatus('DASH_STACKED_2') and not HasStatus('DASH_STACKED') and not HasStatus('DASH')):ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasStatus('DASH_STACKED')):ApplyStatus(DASH_STACKED_2,100,1);IF(not HasStatus('DASH_STACKED_2') and HasStatus('DASH')):ApplyStatus(DASH_STACKED,100,1);IF(not HasStatus('DASH_STACKED_2') and not HasStatus('DASH_STACKED') and not HasStatus('DASH')):ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);RemoveStatus(SELF,SAVAGE_CHARGE);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Mobile_DashAcrossDifficultTerrain" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IgnoreSilence;Stealth;Invisible;NoCameraMove" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('SAVAGE_CHARGE')" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fa40dc4g9c70g921bg8267gaeb44665f760" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06128f4dg8b4fg7ee1gbb06gbcef6e2bdfac" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF008B8B" is_substat="false">

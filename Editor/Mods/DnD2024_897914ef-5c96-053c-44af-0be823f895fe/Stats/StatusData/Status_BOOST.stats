@@ -9538,7 +9538,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ff7efe3g2f98g2386g3e31g16cac67905a4" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Mobile_CounterAttackOfOpportunity" />
         <field name="StackId" type="StringTableFieldDefinition" value="SAVAGE_CHARGE" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Dash_BonusAction_SavageCharge);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Shout_Dash_BonusAction_SavageCharge'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
