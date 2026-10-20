@@ -5621,7 +5621,7 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8424b9f7-cddd-465a-b2ac-ddf50cbc6bef" />
         <field name="Name" type="NameTableFieldDefinition" value="__SANGROMANCY__" />
@@ -5638,7 +5638,7 @@
         <field name="StackId" type="StringTableFieldDefinition" value="BLOODBANE_RUNE" />
         <field name="Passives" type="StringTableFieldDefinition" value="BloodbaneRune_D6_1;" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="6994e8dc-14ac-48a5-9c8e-c1925031e852" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="359918c9-0c9a-4714-a032-0deac359d00b" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="4a12d65a-cdb1-434f-ab6b-834af178dcfd" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_MagicWeapon_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_MagicWeapon_MO_Stop" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
