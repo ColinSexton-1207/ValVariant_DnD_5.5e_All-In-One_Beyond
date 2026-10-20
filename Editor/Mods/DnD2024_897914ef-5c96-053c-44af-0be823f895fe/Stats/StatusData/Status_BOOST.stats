@@ -2498,7 +2498,7 @@
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_AIR_5,100,-1)" />
         <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);Attribute(Grounded);DetectDisturbancesBlock(true);Detach();Invulnerable();DialogueBlock();CanShootThrough(true);SightRangeOverride(0);LeaveTriggers();" />
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;LoseControlFriendly" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -2599,8 +2599,8 @@
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5,100,-1)" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
@@ -2611,8 +2611,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Lightning)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Lightning)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2623,8 +2623,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Thunder)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Earth" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2635,8 +2635,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Thunder)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Earth" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Thunder)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2647,8 +2647,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Fire)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Fire" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2659,8 +2659,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Fire)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Fire" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Fire)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2671,8 +2671,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Cold)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Water" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2683,8 +2683,8 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Cold)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Water" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Cold)" />
-        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6,100,-1)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED') and not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
