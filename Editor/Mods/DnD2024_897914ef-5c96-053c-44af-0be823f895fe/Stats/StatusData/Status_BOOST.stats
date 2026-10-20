@@ -10480,7 +10480,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h12a804eegfe14gb540gf10eg7e12569c4945" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_SacredWeapon" />
         <field name="StackId" type="StringTableFieldDefinition" value="REND_THE_BLASPHEMOUS" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RendTheBlasphemous);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_RendTheBlasphemous'),ModifyIconGlow());" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

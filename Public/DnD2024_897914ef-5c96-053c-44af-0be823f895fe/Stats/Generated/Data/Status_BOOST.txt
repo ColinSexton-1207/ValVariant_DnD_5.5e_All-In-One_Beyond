@@ -8460,7 +8460,7 @@ data "DisplayName" "h7aef76d5g0c5egb8cfg0085g9e626ecff011;1"
 data "Description" "h12a804eegfe14gb540gf10eg7e12569c4945;1"
 data "Icon" "Action_Paladin_SacredWeapon"
 data "StackId" "REND_THE_BLASPHEMOUS"
-data "Boosts" "UnlockSpell(Target_RendTheBlasphemous);"
+data "Boosts" "UnlockSpellVariant(SpellId('Target_RendTheBlasphemous'),ModifyIconGlow());"
 
 new entry "CHAINS_OF_JUDGEMENT"
 type "StatusData"
