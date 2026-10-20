@@ -17925,6 +17925,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="329ea251-d90c-439a-9837-6d9ee74f43a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CommanderStrike_Attack_D8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8e4a2dce-458a-4c98-a48e-ec90a5cae533" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);CastOffhand[GROUND:DealDamage(OffhandMeleeWeapon, OffhandMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(OffHand)];IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);RemoveStatus(SELF,COMMANDERS_STRIKE);RemoveStatus(COMMANDERS_STRIKE_TARGET);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9931c7c3-bc2e-40fb-bf2a-05a891d696ac" />
         <field name="Name" type="NameTableFieldDefinition" value="GroupRecovery" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_GroupRecovery_1;Target_GroupRecovery_2;Target_GroupRecovery_3;Target_GroupRecovery_4;Target_GroupRecovery_5;Target_GroupRecovery_6;" />
