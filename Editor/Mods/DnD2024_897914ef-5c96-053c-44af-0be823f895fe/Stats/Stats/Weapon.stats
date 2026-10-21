@@ -4856,7 +4856,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7e762844-5e9e-4653-8006-107b77f5d0f3" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="be9a692a-d41b-4e11-9c15-6b0aabad2462" />
         <field name="Damage" type="DiceTableFieldDefinition" value="2d6" />
-        <field name="PassivesMainHand" type="StringTableFieldDefinition" value="Firearm_MainHand_Musket;" />
+        <field name="PassivesMainHand" type="StringTableFieldDefinition" value="Firearm_MainHand;" />
         <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="HeavyWeapon_Ranged;WeaponMasterySlow;" />
       </fields>
     </stat_object>
