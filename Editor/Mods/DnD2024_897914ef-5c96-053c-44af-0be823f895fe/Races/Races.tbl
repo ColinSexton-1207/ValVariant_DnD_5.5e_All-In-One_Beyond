@@ -263,6 +263,8 @@
         <field name="Tags" type="GuidObjectListTableFieldDefinition" value="aba754c5-2826-4c61-a441-7f1641f43470;2a6258a1-626b-4f14-ae0c-53e4f7b3651e" />
         <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="5a7f3016-7c27-48df-9577-029e3fbed799" />
         <field name="RaceSoundSwitch" type="FixedStringTableFieldDefinition" value="Human" />
+        <field name="SkinColors" type="GuidObjectListTableFieldDefinition" value="2900ecf5-1cbd-4010-8ecb-2e799677184d;96a85bb7-eb50-4a31-92e9-9e43b732bc55;13253fe9-9a8e-4c53-bb4a-3caf0900d865;1c0e882a-f2e3-409c-ad11-c86c73a6ee8a;2fb35277-872d-4582-909d-efd27ac84fca;a8c9bacc-934e-4167-b4fc-d87cd58b1991;51990152-f875-43e7-83a1-06b429de9a57;b05d2e82-6086-4bec-a072-2ab50ed2b064;aa5748e6-cf6f-4d9d-b5fa-d826da457f3c;a965f73f-9fec-458f-a474-5b9494e0c5cd" />
+        <field name="EyeColors" type="GuidObjectListTableFieldDefinition" value="76658eb0-bea1-40ce-98eb-479cfdd2f063;6a0d0958-d421-41d9-bc2b-2c4c96028b3b;2fda7eda-6a29-4f63-98e2-ff09695d2e53" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
