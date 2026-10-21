@@ -9,6 +9,29 @@ Path shorthand used below:
 
 ---
 
+## 2026-10-21: Removed a stale duplicate of the mod's data from `Mods\` and updated the description and thumbnail
+
+### Why
+Commit `d3ae992` added 1,141 files under `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\`. They were an extracted copy of the original mod.io pak (`RootTemplates`, `Stats`, `Feats`, `Progressions`, and so on), which belongs in `Public\`. The copy:
+- was an **older** upstream version than `Public\`. It was missing the Opportunity Attack and Commander's Strike D8 entries that upstream GitHub and `Public\` have.
+- had none of the Val variant edits, and its `SpellSet.txt` still listed the deleted `Shout_HitPointDice`. This second `CommonPlayerActions` set hid Jump, Shove, Topple, Dodge, Distract and the other common actions in-game.
+
+### Changes
+| File | Change |
+|---|---|
+| `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\…` | Removed the 1,141 files added in `d3ae992`. Recoverable with `git checkout d3ae992 -- <path>`. |
+| `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\meta.lsx` | `Description` (set in the Toolkit): now "Custom playthrough edit of bg3dnd by Yoonmoonsik. All original work and rights belong to the original author…". |
+| `Mods\…\mod_publish_logo.png`, `Projects\…\thumbnail.png` | New logo and thumbnail (set in the Toolkit). |
+
+### Deliberately left in place
+- Everything that was in `Mods\` before `d3ae992`: `meta.lsx`, `mod_publish_logo.png`, `Story`, `Localization`, `Scripts`, `Levels`, `GUI\metadata.lsf`, and the `.DDS` icons (ignored by `.gitignore`).
+
+### How to test
+- After repacking, Jump, Shove, Topple, Dodge and Distract show in common actions, and there's no "Use Hit Point Dice" action.
+- After saving settings in the Toolkit, `Mods\DnD2024_…\` should not contain `Stats` or `RootTemplates`. If it does, the duplicate is back.
+
+---
+
 ## 2026-10-21: Fixed infinite loading at the mod verification screen
 
 ### Why
