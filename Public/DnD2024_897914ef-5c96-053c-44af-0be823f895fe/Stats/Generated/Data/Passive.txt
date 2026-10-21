@@ -113,6 +113,11 @@ data "Properties" "IsHidden"
 data "StatsFunctorContext" "OnCombatStarted"
 data "StatsFunctors" "IF(DexterityGreaterThanStrength()):ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)"
 
+new entry "AttackOfOpportunity"
+type "PassiveData"
+using "AttackOfOpportunity"
+data "Boosts" "UnlockInterrupt(Interrupt_AttackOfOpportunity);UnlockInterrupt(Interrupt_AttackOfOpportunityUnarmed);"
+
 new entry "Firearm"
 type "PassiveData"
 
@@ -133,11 +138,6 @@ data "ExtraDescription" "h05daeb7eg0489g5774g293ag23a57911c159;1"
 data "PriorityOrder" "10"
 data "Properties" "IsHidden"
 data "Boosts" "AttackSpellOverride(Projectile_MainHandAttack_Firearm,Projectile_MainHandAttack);"
-
-new entry "Firearm_MainHand_Musket"
-type "PassiveData"
-using "Firearm_MainHand"
-data "Boosts" "AttackSpellOverride(Projectile_MainHandAttack_Firearm_Musket,Projectile_MainHandAttack);"
 
 new entry "Firearm_Offhand"
 type "PassiveData"

@@ -158,6 +158,14 @@
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(DexterityGreaterThanStrength()):ApplyStatus(DEXTERITY_BASED_UNARMED_ATTACK,100,-1)" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8da022da-ae58-490a-8ec4-35efbf9927e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="AttackOfOpportunity" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="41204b86-1ee1-4443-a926-34c5d54f7b45" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_AttackOfOpportunity);UnlockInterrupt(Interrupt_AttackOfOpportunityUnarmed);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1d5ba88e-fb1c-4cc0-8e37-dffa7708a906" />
@@ -186,14 +194,6 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Projectile_MainHandAttack_Firearm,Projectile_MainHandAttack);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="29976872-12cd-4600-9088-50d4fd241c78" />
-        <field name="Name" type="NameTableFieldDefinition" value="Firearm_MainHand_Musket" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="f8aec279-db4c-4d91-8576-992ca4a975ab" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="AttackSpellOverride(Projectile_MainHandAttack_Firearm_Musket,Projectile_MainHandAttack);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
