@@ -1,0 +1,3 @@
+function AttackRollAbility(ability)
+    return IsAttack() & ConditionResult(context.HitDescription.AttackAbility == ability)
+end

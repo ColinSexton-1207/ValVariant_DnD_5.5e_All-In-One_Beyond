@@ -1,0 +1,17 @@
+function HuntersMark()
+    return SpellId('Target_HuntersMark')
+    | SpellId('Target_HuntersMark_2')
+    | SpellId('Target_HuntersMark_3')
+    | SpellId('Target_HuntersMark_4')
+    | SpellId('Target_HuntersMark_5')
+    | SpellId('Target_HuntersMark_6')
+end
+
+function RangersCompanion()
+    return SpellId('Shout_RangersCompanion')
+    | SpellId('Shout_RangersCompanion_2')
+    | SpellId('Shout_RangersCompanion_3')
+    | SpellId('Shout_RangersCompanion_4')
+    | SpellId('Shout_RangersCompanion_5')
+    | SpellId('Shout_RangersCompanion_6')
+end

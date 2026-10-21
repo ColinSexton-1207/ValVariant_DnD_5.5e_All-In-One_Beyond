@@ -1,0 +1,27 @@
+function CountercharmSpells()
+    return SpellId('Projectile_MenacingAttack') | SpellId('Shout_Dreadful_Aspect') | SpellId('Shout_Moan_Cloaker') | SpellId('Shout_TWN_GithyankiWarlock_FormOfDread') | SpellId('Target_AbjureEnemy') | SpellId('Target_DissonantWhispers') | SpellId('Target_DominatePerson_Mindflayer') | SpellId('Target_DominatePerson') | SpellId('Target_Eyebite_Panicked') | SpellId('Target_FearRay_Spectator') | SpellId('Target_FiendishCharm_Cambion') | SpellId('Target_FiendishCharm_Incubus') | SpellId('Target_HypnoticPattern') | SpellId('Target_LOW_HouseOfGrief_ExploitFear_Betrayal') | SpellId('Target_LOW_Raphael_BeguilingRebuke') | SpellId('Target_MAG_Legendary_ImmolatingGaze') | SpellId('Target_MAG_Spectator_FearRay') | SpellId('Target_MenacingAttack') | SpellId('Target_MindMastery_Duergar') | SpellId('Target_PhantasmalKiller') | SpellId('Target_TAD_Charm') | SpellId('Target_UND_Spectator_Ray_Fear') | SpellId('Zone_Fear') | SpellId('Zone_Slayer_DeathGrowl')
+end
+
+function ControlledChanneling()
+    return SpellId('Shout_ControlledChanneling')
+    | SpellId('Shout_ControlledChanneling_Beloved')
+    | SpellId('Shout_ControlledChanneling_Sharpshooter')
+    | SpellId('Shout_ControlledChanneling_Avenger')
+    | SpellId('Shout_ControlledChanneling_Renegade')
+    | SpellId('Shout_ControlledChanneling_FortuneTeller')
+    | SpellId('Shout_ControlledChanneling_Wayfarer')
+    | SpellId('Shout_ControlledChanneling_Trickster')
+    | SpellId('Shout_ControlledChanneling_Shade')
+    | SpellId('Shout_ControlledChanneling_Arsonist')
+    | SpellId('Shout_ControlledChanneling_Coward')
+end
+
+function FontOfInspiration()
+    return SpellId('Shout_FontOfInspiration')
+    | SpellId('Shout_FontOfInspiration_1')
+    | SpellId('Shout_FontOfInspiration_2')
+    | SpellId('Shout_FontOfInspiration_3')
+    | SpellId('Shout_FontOfInspiration_4')
+    | SpellId('Shout_FontOfInspiration_5')
+    | SpellId('Shout_FontOfInspiration_6')
+end

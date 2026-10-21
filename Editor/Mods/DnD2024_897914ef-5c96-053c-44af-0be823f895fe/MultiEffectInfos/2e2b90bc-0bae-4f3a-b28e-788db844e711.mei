@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="2e2b90bc-0bae-4f3a-b28e-788db844e711" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="GreenFlameBlade_PrepareEffect">
+  <EffectInfo UUID="ad0070ed-aa25-4bf5-93cc-c216b7f093e2" EffectResourceGuid="e6d3c539-32aa-cd4f-ec1d-0b1b24e6b819" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="true" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" TargetBone="Dummy_FX" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

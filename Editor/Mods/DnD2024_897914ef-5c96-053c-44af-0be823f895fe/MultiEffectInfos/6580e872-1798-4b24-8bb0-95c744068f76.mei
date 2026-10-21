@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="6580e872-1798-4b24-8bb0-95c744068f76" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="CircleOfScarlet_PositionEffect_Necrotic_Sangromacy_6m">
+  <EffectInfo UUID="730ac468-9f6f-433f-8014-7ea73eb3a094" EffectResourceGuid="3f3ea51a-98df-a551-6bec-ac918e677ca8" DetachSource="false" DetachTarget="false" KeepRotation="true" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="true" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" StartTextKey="Cast" DamageType="None" VerbalIntent="None" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

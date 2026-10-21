@@ -1,0 +1,43 @@
+function HasLightArmor(entity)
+    entity = entity or context.Target
+    local armor = GetActiveArmor(entity)
+    return IsOfProficiencyGroup("LightArmor", armor)
+end
+
+-- Bladework lets you *choose* Intelligence for Bladesong weapon attacks, so the override
+-- must never make the attack worse. The status lives on the weapon, but boost conditions
+-- still resolve context.Source to the wielder (see FierceShot for the same trick).
+function BladeworkIntelligenceIsBetter(entity)
+    entity = entity or context.Source
+    local intMod = GetModifier(entity.Intelligence)
+    return ConditionResult(intMod > GetModifier(entity.Strength) and intMod > GetModifier(entity.Dexterity))
+end
+
+function BladesongAvaliable()
+    local hasbladesong = HasStatus('BLADESONG')
+    if hasbladesong.Result then 
+        return ~hasbladesong
+    end
+    local hasbladesongweapon = IsWeaponOfProficiencyGroup('Battleaxes|Clubs|Daggers|Flails|Handaxes|Javelins|LightHammers|Maces|Morningstars|Quarterstaffs|Spears|Tridents|Warpicks|Warhammers|Sickles|Shortswords|Rapiers|Scimitars|Longswords', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand))
+    local hasarmor = HasHeavyArmor(context.Source) | HasMediumArmor(context.Source) | HasLightArmor(context.Source)
+    local hasshield = HasShieldEquipped(context.Source)
+    
+    local count = 0
+    if not hasbladesongweapon.Result then count = count + 1 end
+    if hasarmor.Result then count = count + 1 end
+    if hasshield.Result then count = count + 1 end
+
+    if count >= 2 then
+        return ConditionResult(false, {ConditionError("HasMultipleBladeSongIssues")})
+    end
+
+    if not hasbladesongweapon.Result then
+        return ConditionResult(false, {ConditionError("HasNotBladesongWeapon")}) 
+    end
+    
+    if hasarmor.Result then 
+        return ConditionResult(false, {ConditionError("HasNotBladesongArmor")})
+    end 
+
+    return ~hasshield
+end

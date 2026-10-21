@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="db45b32f-877a-45bd-afb5-32e7d415d1e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e2b192ea-3a6d-440d-b19b-9f6c0615d0d9" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="8faeda62-04df-403f-a4ca-26c090cb9b8d" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="SleightOfHand;Stealth;Acrobatics;AnimalHandling;Athletics;Deception;Insight;Intimidation;Perception;Persuasion" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Gunslinger" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f4b4885a-b79b-4f0d-b1cf-d306aee9d919" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="e8fd7f3c-a1e3-41b9-80ac-d0cc8a6238f4" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Deception" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="High Roller" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="96ddcdd4-03bc-4981-b640-9ef42491d9bd" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Deception; Intimidation; Arcana; Athletics;Insight;Investigation;Persuasion;Religion;Stealth" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Illrigger" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="bd529197-9010-417b-90dc-e6cbf2568cce" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1b536939-b999-41fe-93bf-ca72a22c5e90" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="1e84493e-aeff-4d0e-b3ae-6c2187245d23" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Arcana;Investigation;Medicine;History;Nature;Perception;SleightOfHand" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Artificer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="40c9355d-ec45-473f-89dd-576952305b43" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="0c093c1c-6b57-4a80-aab5-bb0b552260b8" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Survival;Athletics;Investigation;Nature;Perception;Religion;Survival;Medicine;" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Monster Hunter" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
+        <field name="UUID" type="IdTableFieldDefinition" value="05b6fcdb-c805-457d-ac59-3b2c2e95680f" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="d18eda7e-4b7d-490d-9952-cd33a3c60479" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DefaultValues" type="StringTableFieldDefinition" value="Arcana;History;Investigation;Medicine;Nature;Religion" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Wizard Scholar" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

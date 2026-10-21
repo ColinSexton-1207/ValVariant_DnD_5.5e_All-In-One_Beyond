@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="7b3e5d55-79e7-4c79-a045-65832047778a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28366079-082c-4237-b931-05ec91542ab6" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Wizard Scholar Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana,History,Investigation,Medicine,Nature,Religion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a4f8598-3a17-42d1-beac-d7ced582bafa" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Fighter Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics,AnimalHandling,Athletics,History,Insight,Intimidation,Persuasion,Perception,Survival" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e65a325d-d626-4421-8c76-0f5fc0fde5a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Fey Wanderer Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception,Performance,Persuasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d263c18a-c305-4c25-909c-10ff69e48aee" />
+        <field name="Name" type="NameTableFieldDefinition" value="XGE Squat Nimbleness Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics,Athletics" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6cb5bcdd-7107-49aa-a508-de1f99ecb6ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Bladesinger Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics, Athletics, Performance, Persuasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ae028ad-6390-4504-b22b-a87b9badf348" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Gunslinger Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Acrobatics, AnimalHandling, Athletics, Deception, Insight, Intimidation, Perception, Persuasion, SleightOfHand,Stealth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d4202817-9db9-4377-aa9a-0d0096e556ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 High Roller SKill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception, Insight, Perception" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="863fb9f2-3ecf-44e9-88df-5c9ffa9c9e59" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Cavalier Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="AnimalHandling, History, Insight, Performance, Persuasion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89b4404c-f719-4951-a703-65e8c38f5aa5" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Illrigger Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana, Athletics, Deception, Insight, Intimidation, Investigation, Persuasion, Religion, Stealth" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9752c342-09d0-4804-b909-7c92f1c5a17f" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Architect of Ruin Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana, History, Nature, Religion" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="365fb93e-1e01-431e-b98b-30e8a326f42a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Artificer Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Arcana, History, Investigation, Medicine, Nature, Perception, SleightOfHand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90cbc467-672f-473e-a248-e9d6f2417a93" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Monster Hunter Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Athletics, History, Investigation, Medicine, Nature, Perception, Religion, Survival" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6047b351-8440-4334-b0e6-cdbdb11d225a" />
+        <field name="Name" type="NameTableFieldDefinition" value="5.5 Changeling Skill List" />
+        <field name="Skills" type="StringTableFieldDefinition" value="Deception,Insight,Intimidation,Performance,Persuasion" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bbe0e72e-fa2a-41d2-be9a-c604af561421">
+  <stat_objects>
+    <stat_object color="#FFA52A2A" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="820a94f6-7ded-495d-8394-805df4093c90" />
+        <field name="Name" type="NameTableFieldDefinition" value="__BARBARIAN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a166eebb-8db2-49c2-b4d3-a72382f3f18f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Primal_Stampede" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="18d9b6dd-27cf-4d63-8c4c-b863dfd6bfb3" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('ElementalAttunement_Acid',context.Source) and not HasPassive('ElementalAttunement_Cold',context.Source) and not HasPassive('ElementalAttunement_Fire',context.Source) and not HasPassive('ElementalAttunement_Lightning',context.Source) and not HasPassive('ElementalAttunement_Thunder',context.Source) and not HasPassive('KiEmpoweredStrikes',context.Source) and not HasPassive('Fractured_3_FaceOfRage_Toggle_Force',context.Source)):DealDamage(1d4+StrengthModifier, Bludgeoning);IF(HasPassive('ElementalAttunement_Acid',context.Source)):DealDamage(1d4+StrengthModifier, Acid);IF(HasPassive('ElementalAttunement_Cold',context.Source)):DealDamage(1d4+StrengthModifier, Cold);IF(HasPassive('ElementalAttunement_Fire',context.Source)):DealDamage(1d4+StrengthModifier, Fire);IF(HasPassive('ElementalAttunement_Lightning',context.Source)):DealDamage(1d4+StrengthModifier, Lightning);IF(HasPassive('ElementalAttunement_Thunder',context.Source)):DealDamage(1d4+StrengthModifier, Thunder);IF(HasPassive('KiEmpoweredStrikes',context.Source) or HasPassive('Fractured_3_FaceOfRage_Toggle_Force',context.Source)):DealDamage(1d4+StrengthModifier, Force);TARGET:IF(not SavingThrow(Ability.Strength,10+GetModifier(context.Source.Strength))):ApplyStatus(PRONE,100,2);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage,Bludgeoning)" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;AddFallDamageOnLand;CanAreaDamageEvade;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF6B8E23" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e1327359-94ed-4036-94cf-db41df6b6ba2" />
+        <field name="Name" type="NameTableFieldDefinition" value="__DRUID__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c497a6e-66a4-4070-be5d-63f68dec5baf" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rush_DeepRothe" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7b2ddb35-a5e0-4c90-996f-6e82018ddb89" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('LunarRadiance',context.Source)):DealDamage(1d6+LevelMapValue(WildShapeDamageMedium)+UnarmedMeleeAbilityModifier,Piercing,Magical);IF(HasPassive('LunarRadiance',context.Source)):DealDamage(1d6+LevelMapValue(WildShapeDamageMedium)+UnarmedMeleeAbilityModifier,Radiant,Magical);TARGET:IF(not SavingThrow(Ability.Strength,SourceSpellDC())):ApplyStatus(PRONE,100,2);" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFFFA500" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b821c56a-187e-4550-ba53-363f9b4eec6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PALADIN__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3c4202-43a6-4b39-b31d-4ff171066e90" />
+        <field name="Name" type="NameTableFieldDefinition" value="Attack_Steed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dcd5f62-fadc-4dbc-bdff-025e4f38cb61" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="3" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbilityModifier, Bludgeoning);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hadc251cegfa83ge72dgb40fg8799ee8d6cfe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6abe2717g78bdgfbc5g2d30g1cc22e96ca24" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+SpellCastingAbilityModifier, Bludgeoning);" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SteedActionPoint:1;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="StopAtFirstContact" type="BoolTableFieldDefinition" value="True" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF006400" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="03cced37-08da-4d54-8341-742c6b5c405b" />
+        <field name="Name" type="NameTableFieldDefinition" value="__RANGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bdcac4d8-fa3b-466f-bedf-3bde1736b1e0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rush_Boar_Summon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="91e3fd86-bd1f-4c32-b62c-d11f6c331c79" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+1d6+UnarmedMeleeAbilityModifier,Bludgeoning);TARGET:IF(not SavingThrow(Ability.Strength,SourceSpellDC())):ApplyStatus(PRONE,100,2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b3b4882g56f7g12dag4b9fgcf25e36c625d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6d9021a0gb82bgbcb8ge41bgbb23b222a400" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+1d6+UnarmedMeleeAbilityModifier,Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,2)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Movement:6;" />
+        <field name="StopAtFirstContact" type="BoolTableFieldDefinition" value="True" />
+        <field name="OnlyHit1Target" type="BoolTableFieldDefinition" value="True" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc7927e9-1ee4-43f3-b020-cc0dc378189e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rush_Spider_Summon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bdcac4d8-fa3b-466f-bedf-3bde1736b1e0" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;6606c30b-be1c-4f17-ae6b-1a591c80b18c,366693ee-d97f-4294-a4dd-a2145ddc4e6a,9f2d32b9-529a-4b75-b3df-6e1ae1395280;f4ac302b-1569-404f-bd52-1fe443e265df,479ee5da-2967-41e1-b7d1-a94e864a5f25,79323098-edb3-4993-ba50-9b5f705e9878;e8a5c57f-855b-4227-acaa-11e8ce8d7d64,b5cb923d-0c08-4c20-89a9-44b9bf98c6cb,6282d127-0c06-4365-9d53-6f32ef350127;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;2b81c18b-9698-4262-a623-932c2bb1296d,ecbf9949-3b33-432c-b735-e47aaed0924a,e71a7c08-fdc1-4a0b-9a90-1c793c58553c;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF800000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13316c56-a20c-45f2-a849-2d97e874c88a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GUNSLINGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ce4a5ad9-5500-46a1-833e-77c7cb18227e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DodgeRoll" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="HitRadius" type="FloatTableFieldDefinition" value="1" />
+        <field name="MovementSpeed" type="IntegerTableFieldDefinition" value="40000" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_DodgeRoll" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6aee83f0gafd8gb807g3a1bg78fbd25f3f9b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h811be34fge8e2ga406g6b57gb6eda91fa978" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SprintForMomentum" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="Requirements" type="StringTableFieldDefinition" value="!Immobile" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="Risk:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="eae21eb0-bde7-4c86-a197-12a2a0c3ecac,,;7bfeb9dd-1348-45c7-bff9-ed42f8cd43a1,,;b780092c-cc12-43d5-b60e-acbac3fdceed,,;abbeb7de-2128-4b16-95e5-7b9d7b1af2f9,,;e6a25c4b-816c-41e1-888a-50215d994b23,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_Dash" enumeration_type_name="SpellCategoryFlags" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="36c4b07b-13e2-4009-9f98-4232398deca1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="68ef036a-1578-4e22-bfc4-d45b9c1b6f37" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="9a19e7d0-92e8-4a40-909c-10b657135051" />
+        <field name="PreviewEffect" type="GuidObjectTableFieldDefinition" value="1615a7f7-21d9-4dd0-849b-d3c79a57c5ff" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Ranged" enumeration_type_name="SpellSheathing" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="AIFlags" type="EnumerationListTableFieldDefinition" value="CanNotUse" enumeration_type_name="AIFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab68bea8-c977-4e3a-899d-4128b9396ae9" />
+        <field name="Name" type="NameTableFieldDefinition" value="__GENERAL FEAT__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88fd1b67-d134-4a22-b2fa-929f92538452" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Attack" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bae6edf6-7900-476d-9407-418702fd5d54" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,MainMeleeWeapon+1d8)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon+1d8, MainMeleeWeaponDamageType)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Movement:3;ChargerTurn:1;" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and not Dead()) or Item();" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f858ca70-0c29-4ec2-900b-c1ece09d97ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Push" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5fc6ba07-b41b-4e83-8c2b-408ce704398e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;Movement:3;ChargerTurn:1;" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage((max(1,MainMeleeWeapon)), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(Dead() or SkillCheck(Skill.Athletics,math.max(context.Target.GetPassiveSkill(Skill.Athletics),context.Target.GetPassiveSkill(Skill.Acrobatics)), IsSneakingOrInvisible())):Force(ShoveDistance,OriginToEntity,Aggressive);" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeWeaponAttack)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Character() and not Dead()) or Item() and CanShoveWeight() and IsMovable() and not Grounded();" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Charger_Push" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e9698430-3bdf-465c-bfcd-33f6b003bc6c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Attack_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88fd1b67-d134-4a22-b2fa-929f92538452" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('ElementalAttunement_Acid',context.Source) and not HasPassive('ElementalAttunement_Cold',context.Source) and not HasPassive('ElementalAttunement_Fire',context.Source) and not HasPassive('ElementalAttunement_Lightning',context.Source) and not HasPassive('ElementalAttunement_Thunder',context.Source) and not HasPassive('KiEmpoweredStrikes',context.Source) and not HasPassive('Fractured_3_FaceOfRage_Toggle_Force',context.Source)):DealDamage(UnarmedDamage+1d8, Bludgeoning);IF(HasPassive('ElementalAttunement_Acid',context.Source)):DealDamage(UnarmedDamage+1d8, Acid);IF(HasPassive('ElementalAttunement_Cold',context.Source)):DealDamage(UnarmedDamage+1d8, Cold);IF(HasPassive('ElementalAttunement_Fire',context.Source)):DealDamage(UnarmedDamage+1d8, Fire);IF(HasPassive('ElementalAttunement_Lightning',context.Source)):DealDamage(UnarmedDamage+1d8, Lightning);IF(HasPassive('ElementalAttunement_Thunder',context.Source)):DealDamage(UnarmedDamage+1d8, Thunder);IF(HasPassive('KiEmpoweredStrikes',context.Source) or HasPassive('Fractured_3_FaceOfRage_Toggle_Force',context.Source)):DealDamage(UnarmedDamage+1d8, Force);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_FreeUnarmedStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h679a5d3cgea36g8caagcfd7gebbdee910cc1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h39e3d3b1gb37fgc87bg75c2g7b659b7eb280" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage +1d8, Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack;Strength" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="878702ae-500e-4ea5-ba5e-7316be100e60" />
+        <field name="Name" type="NameTableFieldDefinition" value="Charger_Push_Unarmed" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f858ca70-0c29-4ec2-900b-c1ece09d97ea" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('ElementalAttunement_Acid',context.Source) and not HasPassive('ElementalAttunement_Cold',context.Source) and not HasPassive('ElementalAttunement_Fire',context.Source) and not HasPassive('ElementalAttunement_Lightning',context.Source) and not HasPassive('ElementalAttunement_Thunder',context.Source) and not HasPassive('KiEmpoweredStrikes',context.Source) and not HasPassive('Fractured_3_FaceOfRage_Toggle_Force',context.Source)):DealDamage(UnarmedDamage, Bludgeoning);IF(HasPassive('ElementalAttunement_Acid',context.Source)):DealDamage(UnarmedDamage, Acid);IF(HasPassive('ElementalAttunement_Cold',context.Source)):DealDamage(UnarmedDamage, Cold);IF(HasPassive('ElementalAttunement_Fire',context.Source)):DealDamage(UnarmedDamage, Fire);IF(HasPassive('ElementalAttunement_Lightning',context.Source)):DealDamage(UnarmedDamage, Lightning);IF(HasPassive('ElementalAttunement_Thunder',context.Source)):DealDamage(UnarmedDamage, Thunder);IF(HasPassive('KiEmpoweredStrikes',context.Source) or HasPassive('Fractured_3_FaceOfRage_Toggle_Force',context.Source)):DealDamage(UnarmedDamage, Force);IF(Dead() or SkillCheck(Skill.Athletics,math.max(context.Target.GetPassiveSkill(Skill.Athletics),context.Target.GetPassiveSkill(Skill.Acrobatics)), IsSneakingOrInvisible())):Force(ShoveDistance,OriginToEntity,Aggressive);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeUnarmedAttack;Strength" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Somatic" enumeration_type_name="SpellSheathing" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90491b64-421f-43da-87af-7ad7cd439ea3" />
+        <field name="Name" type="NameTableFieldDefinition" value="__MAGIC ITEM__" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

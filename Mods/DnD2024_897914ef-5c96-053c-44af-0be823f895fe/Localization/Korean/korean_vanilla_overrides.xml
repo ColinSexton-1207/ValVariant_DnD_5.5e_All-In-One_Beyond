@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h043e97d5gca21g42b7g823ag1274ec45c6a1" version="3">하급 정령 창조</content>
+  <content contentuid="h16e0960bg5758g478bga682g986ced8af811" version="3">정령 창조: 화염의 정령</content>
+  <content contentuid="h17f85187g7584g4ab7gbb15g92ca03892a82" version="3">정령 창조: 대지의 미르미돈</content>
+  <content contentuid="h1e9dfee2g8d4ag4406g874cg45c261a11d46" version="2">포화 창조</content>
+  <content contentuid="h272298abge343g49a9gbe46gf83a6f00f3ba" version="3">하급 정령 창조: 에이저</content>
+  <content contentuid="h38c25d06g5994g446dga1f9g0404aa7eb7e0" version="3">정령 창조: 물의 미르미돈</content>
+  <content contentuid="h46e29875g0cc2g4dfdgbe48g53c684017c60" version="3">정령 창조: 대지의 정령</content>
+  <content contentuid="h4755962fg43abg48efg9e2fg3bcb1bc9fee5" version="3">&lt;LSTag Tooltip="WarlockSpellSlot"&gt;워락 주문 슬롯&lt;/LSTag&gt;으로 &lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;정령 창조&lt;/LSTag&gt;를 시전할 수 있습니다.</content>
+  <content contentuid="h5492f279g48bcg4389g875cg8f20255064b7" version="3">정령 창조: 공기의 정령</content>
+  <content contentuid="h5fdc9a60g9037g4785g8583g76cf800ae3cb" version="3">정령 창조: 화염의 미르미돈</content>
+  <content contentuid="h74e95a6bg2111g4ca8gb72cg0a9cb35673d3" version="3">&lt;LSTag Type="Spell" Tooltip="Target_ConjureElementals_Minor_Container"&gt;하급 정령 창조&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_GraspingVine"&gt;포박 덩굴&lt;/LSTag&gt;을 시전할 수 있습니다.</content>
+  <content contentuid="h790ececbgf0d3g4697gbb19ge9075426f178" version="2">&lt;LSTag Type="Spell" Tooltip="Wall_WallOfStone"&gt;바위의 벽&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;정령 창조&lt;/LSTag&gt;를 시전할 수 있습니다.</content>
+  <content contentuid="h828bc901g960eg4a77ga8fag979c7c49ec96" version="3">정령 창조 두루마리</content>
+  <content contentuid="h9632cd2eg887fg4d5cg8634g079f1c26679d" version="3">정령 창조: 공기의 미르미돈</content>
+  <content contentuid="hb77dc224g01d7g4e75g91b1g6c8c76a8c302" version="3">하급 정령 창조 두루마리</content>
+  <content contentuid="hc6794cbdgd72bg4442g9717g49f39dd88721" version="3">&lt;LSTag Type="Spell" Tooltip="Target_ConjureElementals_Minor_Container"&gt;하급 정령 창조&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_IceStorm"&gt;얼음 폭풍&lt;/LSTag&gt;을 시전할 수 있습니다.</content>
+  <content contentuid="hce53144cgef89g4664g8a99gd61a7911eb7d" version="3">정령 창조: 물의 정령</content>
+  <content contentuid="hd48b5a62g20ebg4f13gb622g2c33c7e097a4" version="4">숲의 존재 창조</content>
+  <content contentuid="hdcc899fdgc6fbg4df6g91a9gf3b3a69468df" version="3">하급 정령 창조: 얼음 메피트</content>
+  <content contentuid="he53d2fe1g1962g4a6dg9439g7e1fcd8cd9c7" version="4">포화 창조: 근거리 무기</content>
+  <content contentuid="he5dcbff7g0ca2g46ffgb2cdgcb7f29715ada" version="3">정령 창조</content>
+  <content contentuid="he8e3a2dbgaadcg42b7g87b1g3f942a8c84b3" version="2">&lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;정령 창조&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_GreaterRestoration"&gt;상급 회복&lt;/LSTag&gt;을 시전할 수 있습니다.</content>
+  <content contentuid="he9d82bb3g96c1g431dg9e51gade301ecda94" version="2">포화 창조: 원거리 무기</content>
+  <content contentuid="hef1e8b56gd82dg413dg858fgf4ce3dc63703" version="3">하급 정령 창조: 진흙 메피트</content>
+</contentList>

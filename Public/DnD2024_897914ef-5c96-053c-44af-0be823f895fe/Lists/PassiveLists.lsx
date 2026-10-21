@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="WeaponMasteryList"/>
+                    <attribute id="Passives" type="LSString" value="HasWeaponMastery_Cleave,HasWeaponMastery_Graze,HasWeaponMastery_Nick,HasWeaponMastery_Push,HasWeaponMastery_Sap,HasWeaponMastery_Slow,HasWeaponMastery_Topple,HasWeaponMastery_Vex"/>
+                    <attribute id="UUID" type="guid" value="b9543135-eceb-4ca9-b9fc-43befc11de3b"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="DivineOrderList"/>
+                    <attribute id="Passives" type="LSString" value="Cleric_DivineOrder_Protector,Cleric_DivineOrder_Thaumaturge_1,Cleric_DivineOrder_Thaumaturge_2,Cleric_DivineOrder_Thaumaturge_3,Cleric_DivineOrder_Thaumaturge_4,Cleric_DivineOrder_Thaumaturge_5,Cleric_DivineOrder_Thaumaturge_6,Cleric_DivineOrder_Thaumaturge_7,Cleric_DivineOrder_Thaumaturge_8,Cleric_DivineOrder_Thaumaturge_9,"/>
+                    <attribute id="UUID" type="guid" value="3ead5ccd-2598-42f4-85f2-370a93c0549f"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="BlessedStrikesList"/>
+                    <attribute id="Passives" type="LSString" value="Cleric_7_BlessedStrikes_Radiant,Cleric_7_BlessedStrikes_Necrotic,Cleric_7_BlessedStrikes_PotentSpellcasting"/>
+                    <attribute id="UUID" type="guid" value="db623e6f-18bf-45de-a99b-ccf145b574f5"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="PrimalOrderList"/>
+                    <attribute id="Passives" type="LSString" value="Cleric_PrimalOrder_Warden,Cleric_PrimalOrder_Magician_11,Cleric_PrimalOrder_Magician_1,Cleric_PrimalOrder_Magician_2,Cleric_PrimalOrder_Magician_10,Cleric_PrimalOrder_Magician_3,Cleric_PrimalOrder_Magician_4,Cleric_PrimalOrder_Magician_5,Cleric_PrimalOrder_Magician_6,Cleric_PrimalOrder_Magician_7,Cleric_PrimalOrder_Magician_8,Cleric_PrimalOrder_Magician_9,"/>
+                    <attribute id="UUID" type="guid" value="eb5672b5-ee56-4aed-a7aa-208f3092c432"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="ElementalFuryList"/>
+                    <attribute id="Passives" type="LSString" value="Druid_7_ElementalFury_PotentSpellcasting,Druid_7_ElementalFury_Cold,Druid_7_ElementalFury_Fire,Druid_7_ElementalFury_Lightning,Druid_7_ElementalFury_Thunder"/>
+                    <attribute id="UUID" type="guid" value="b3cf8b48-035f-4f2c-887f-d9bc55522d0c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Metamagic level 3"/>
+                    <attribute id="Passives" type="LSString" value="Metamagic_Careful,Metamagic_Distant,Metamagic_Empowered,Metamagic_Extended,Metamagic_Heightened,Metamagic_Quickened,Metamagic_Seeking,Metamagic_Subtle,Metamagic_Twinned"/>
+                    <attribute id="UUID" type="guid" value="c3506532-36eb-4d18-823e-497a537a9619"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 12"/>
+                    <attribute id="Passives" type="LSString" value="DevouringBlade"/>
+                    <attribute id="UUID" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 9"/>
+                    <attribute id="Passives" type="LSString" value="Lifedrinker,GiftOfTheProtectors,MinionsOfChaos"/>
+                    <attribute id="UUID" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 9 to 12"/>
+                    <attribute id="Passives" type="LSString" value="Lifedrinker,GiftOfTheProtectors,MinionsOfChaos"/>
+                    <attribute id="UUID" type="guid" value="bfddbe6a-86d3-4664-a7cf-804ab4d82c0c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 7"/>
+                    <attribute id="Passives" type="LSString" value="DreadfulWord,SculptorOfFlesh,WhispersOfTheGrave"/>
+                    <attribute id="UUID" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 7 to 9"/>
+                    <attribute id="Passives" type="LSString" value="DreadfulWord,SculptorOfFlesh,WhispersOfTheGrave"/>
+                    <attribute id="UUID" type="guid" value="303036ec-ace4-4587-91b0-215bcde3213c"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 7 to 12"/>
+                    <attribute id="Passives" type="LSString" value="DreadfulWord,SculptorOfFlesh,WhispersOfTheGrave"/>
+                    <attribute id="UUID" type="guid" value="21b5f1b6-2207-43d8-83a0-335641ba195b"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 5"/>
+                    <attribute id="Passives" type="LSString" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen"/>
+                    <attribute id="UUID" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 5 to 7"/>
+                    <attribute id="Passives" type="LSString" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen"/>
+                    <attribute id="UUID" type="guid" value="8d822b59-5dea-4696-b181-7c55d2c40f79"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 5 to 9"/>
+                    <attribute id="Passives" type="LSString" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen"/>
+                    <attribute id="UUID" type="guid" value="05d35084-517b-4df3-be68-e913510ed17a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 5 to 12"/>
+                    <attribute id="Passives" type="LSString" value="ThirstingBlade,ThirstingBlade_Check,GiftOfTheDepths,EldritchSmite,BookOfAncientSecrets,MireTheMind,OneWithShadows,SignOfIllOmen"/>
+                    <attribute id="UUID" type="guid" value="f6c1ba4f-e458-4d8b-8600-9b3897e7c6bb"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 2"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlastPlayer,DevilsSightPlayer,EldritchSpear,FiendishVigor,MaskOfManyFaces,OtherworldlyLeap,RepellingBlastPlayer,ThiefOfFiveFates,LFO_MI_Cleric,LFO_MI_Druid,LFO_MI_Wizard,LFO_Skilled,LFO_Alert,LFO_Healer,LFO_Musician,LFO_Tough,LFO_SavageAttacker,LFO_Lucky,LFO_TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 2 to 5"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlastPlayer,DevilsSightPlayer,EldritchSpear,FiendishVigor,MaskOfManyFaces,OtherworldlyLeap,RepellingBlastPlayer,ThiefOfFiveFates,LFO_MI_Cleric,LFO_MI_Druid,LFO_MI_Wizard,LFO_Skilled,LFO_Alert,LFO_Healer,LFO_Musician,LFO_Tough,LFO_SavageAttacker,LFO_Lucky,LFO_TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="ea315980-74ab-43cf-830a-1d237c7e28f6"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 2 to 7"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlastPlayer,DevilsSightPlayer,EldritchSpear,FiendishVigor,MaskOfManyFaces,OtherworldlyLeap,RepellingBlastPlayer,ThiefOfFiveFates,LFO_MI_Cleric,LFO_MI_Druid,LFO_MI_Wizard,LFO_Skilled,LFO_Alert,LFO_Healer,LFO_Musician,LFO_Tough,LFO_SavageAttacker,LFO_Lucky,LFO_TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="c512275e-26f2-4728-b9c2-c82f88884d60"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 2 to 9"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlastPlayer,DevilsSightPlayer,EldritchSpear,FiendishVigor,MaskOfManyFaces,OtherworldlyLeap,RepellingBlastPlayer,ThiefOfFiveFates,LFO_MI_Cleric,LFO_MI_Druid,LFO_MI_Wizard,LFO_Skilled,LFO_Alert,LFO_Healer,LFO_Musician,LFO_Tough,LFO_SavageAttacker,LFO_Lucky,LFO_TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="087aeaaa-29ee-408a-81b6-603db8f0f5f1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 2 to 12"/>
+                    <attribute id="Passives" type="LSString" value="AgonizingBlastPlayer,DevilsSightPlayer,EldritchSpear,FiendishVigor,MaskOfManyFaces,OtherworldlyLeap,RepellingBlastPlayer,ThiefOfFiveFates,LFO_MI_Cleric,LFO_MI_Druid,LFO_MI_Wizard,LFO_Skilled,LFO_Alert,LFO_Healer,LFO_Musician,LFO_Tough,LFO_SavageAttacker,LFO_Lucky,LFO_TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="540b796e-9861-4285-b3c0-d181c07320bc"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 1"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind"/>
+                    <attribute id="UUID" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 1 to 2"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind"/>
+                    <attribute id="UUID" type="guid" value="2468b50d-e1cc-48c3-993b-9beaa644e329"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="8adab8f9-e360-4f79-851b-2c7e050ca23d"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 1 to 5"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind"/>
+                    <attribute id="UUID" type="guid" value="66f09485-bed6-425d-9b64-79c0dfb067b2"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="39efef92-9987-46e2-8c43-54052c1be535"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 1 to 7"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind"/>
+                    <attribute id="UUID" type="guid" value="23e2b7db-8605-49df-a6c3-f59663c8217a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="a2d72748-0792-4f1e-a798-713a66d648eb"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 1 to 9"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind"/>
+                    <attribute id="UUID" type="guid" value="8ac7a31c-e60e-4478-a2ac-d105cb87b0b7"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="MergedInto" type="guid" value="ab56f79f-95ec-48e5-bd83-e80ba9afc844"/>
+                    <attribute id="Name" type="FixedString" value="5.5 Warlock invocations 1 to 12"/>
+                    <attribute id="Passives" type="LSString" value="PactOfTheBlade_Hex,PactOfTheChain,PactOfTheTome,ArmorOfShadows,BeastSpeech,BeguilingInfluence,EldritchMind"/>
+                    <attribute id="UUID" type="guid" value="305f105f-97a8-4d4f-b698-36099a1d316a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Alert"/>
+                    <attribute id="Passives" type="LSString" value="Alert"/>
+                    <attribute id="UUID" type="guid" value="e5a5b6fe-571c-4831-b752-0f7eea1a5659"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Healer"/>
+                    <attribute id="Passives" type="LSString" value="Healer"/>
+                    <attribute id="UUID" type="guid" value="054df8f8-2d1a-487f-8a62-20bee102b16b"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Lucky"/>
+                    <attribute id="Passives" type="LSString" value="Lucky_Unlock"/>
+                    <attribute id="UUID" type="guid" value="95d5a8a2-a010-4af7-a618-f1efe3a13f55"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Musician"/>
+                    <attribute id="Passives" type="LSString" value="Musician"/>
+                    <attribute id="UUID" type="guid" value="4d5463ed-a78f-49ba-bb92-6e6be5319bf7"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat SavageAttacker"/>
+                    <attribute id="Passives" type="LSString" value="SavageAttacker"/>
+                    <attribute id="UUID" type="guid" value="5d87ff80-3037-4018-9aa9-3abb18d248d4"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat TavernBrawler"/>
+                    <attribute id="Passives" type="LSString" value="TavernBrawler"/>
+                    <attribute id="UUID" type="guid" value="22254a0a-d047-48af-802d-a99af005b2a0"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Tough"/>
+                    <attribute id="Passives" type="LSString" value="Tough"/>
+                    <attribute id="UUID" type="guid" value="9623a438-58c9-4857-a681-6e9691a459e3"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fighter fighting style"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Ranger fighting style"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_DruidicWarrior,FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="a0bdb113-1cce-45ac-94fb-72d4c3f207e9"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Paladin Fighting Styles"/>
+                    <attribute id="Passives" type="LSString" value="FightingStyle_BlessedWarrior,FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting,FightingStyle_BlindFighting,FightingStyle_UnarmedFighting,FightingStyle_Interception,FightingStyle_ThrownWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="f8ebba38-932a-4c64-ae55-3df23e2f60fa"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Human Origin Feat"/>
+                    <attribute id="Passives" type="LSString" value="Alert,Healer,Lucky_Unlock,OriginFeat_MagicInitiate_Cleric,OriginFeat_MagicInitiate_Druid,OriginFeat_MagicInitiate_Wizard,Musician,SavageAttacker,OriginFeat_Skilled,TavernBrawler,Tough"/>
+                    <attribute id="UUID" type="guid" value="51988e80-d7cc-4351-aa7d-83b8ba3f989a"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Elf Keen Sense List"/>
+                    <attribute id="Passives" type="LSString" value="Insight,Perception,Survival "/>
+                    <attribute id="UUID" type="guid" value="8738b757-88a6-424b-bec4-7807c7af8f70"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="All Skill List"/>
+                    <attribute id="Passives" type="LSString" value="Acrobatics, AnimalHandling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, SleightOfHand, Stealth, Survival"/>
+                    <attribute id="UUID" type="guid" value="e9c5cb8f-1dc5-4118-be31-ff2ce2569917"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Barbarlian Skill List"/>
+                    <attribute id="Passives" type="LSString" value="AnimalHandling, Athletics, Intimidation, Nature, Perception, Survival, NoSkillProficiency"/>
+                    <attribute id="UUID" type="guid" value="4f027368-7aa6-4a3a-a1ce-d5195ba2ba27"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Dragonscarred Resistance List"/>
+                    <attribute id="Passives" type="LSString" value="Dragonscarred_Acid,Dragonscarred_Cold,Dragonscarred_Fire,Dragonscarred_Lightning,Dragonscarred_Poison"/>
+                    <attribute id="UUID" type="guid" value="0f3b7196-cad8-424f-a5c6-082879221f36"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Illrigger Combat Mastery"/>
+                    <attribute id="Passives" type="LSString" value="Illrigger_2_Bravado,Illrigger_2_Brutal,Illrigger_2_Inexorable,Illrigger_2_Lies,Illrigger_2_Lissome,Illrigger_2_Unfettered"/>
+                    <attribute id="UUID" type="guid" value="d7f7f99c-1fb0-4233-902d-248b6ef125e8"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Illrigger Interdiction"/>
+                    <attribute id="Passives" type="LSString" value="InterdictBoons_2_AbatingSeal,InterdictBoons_2_Bedevil,InterdictBoons_2_SoulEater,InterdictBoons_2_StyxsApathy,InterdictBoons_2_SwiftRetribution,InterdictBoons_7_AcheronsChain,InterdictBoons_7_ConflagrantChannel,InterdictBoons_7_ShadowShroud,InterdictBoons_7_UnleashHell,InterdictBoons_7_VengefulShot"/>
+                    <attribute id="UUID" type="guid" value="a34ad6e3-fc5f-4c36-8894-a15df5b0764b"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Illrigger Terrorizing Force"/>
+                    <attribute id="Passives" type="LSString" value="Illrigger_11_TerrorizingForce_1,Illrigger_11_TerrorizingForce_2,Illrigger_11_TerrorizingForce_3,Illrigger_11_TerrorizingForce_4"/>
+                    <attribute id="UUID" type="guid" value="1dbdafe6-448d-4226-98a1-9007650a995f"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Feat Rune Shaper"/>
+                    <attribute id="Passives" type="LSString" value="RuneShaper_Cloud,RuneShaper_Death,RuneShaper_Dragon,RuneShaper_Enemy,RuneShaper_Fire,RuneShaper_Friend,RuneShaper_Frost,RuneShaper_Hill,RuneShaper_Journey,RuneShaper_King,RuneShaper_Mountain,RuneShaper_Stone,RuneShaper_Storm"/>
+                    <attribute id="UUID" type="guid" value="b0daa5cc-db0c-4f31-a082-c91dbb8e368f"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fey Touched Feat"/>
+                    <attribute id="Passives" type="LSString" value="FeyTouched_AnimalFriendship,FeyTouched_Bane,FeyTouched_Bless,FeyTouched_CharmPerson,FeyTouched_Command,FeyTouched_CompelledDuel,FeyTouched_DissonantWhispers,FeyTouched_Heroism,FeyTouched_Hex,FeyTouched_HideousLaughter,FeyTouched_HuntersMark,FeyTouched_Sleep,FeyTouched_Somnolence,FeyTouched_SpeakWithAnimals"/>
+                    <attribute id="UUID" type="guid" value="04324705-5bef-4df1-95aa-9a1d75103339"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Shadow Touched Feat"/>
+                    <attribute id="Passives" type="LSString" value="ShadowTouched_CloakOfShadow,ShadowTouched_ColorSpray,ShadowTouched_DisguiseSelf,ShadowTouched_FalseLife,ShadowTouched_HungeringBlade,ShadowTouched_InflictWounds,ShadowTouched_RayOfSickness,ShadowTouched_ShroudBlood,ShadowTouched_WrathfulSmite"/>
+                    <attribute id="UUID" type="guid" value="ea067b3a-46cc-4f74-9b84-3a2fd2aa5945"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Magic Initiate Cleric Spell"/>
+                    <attribute id="Passives" type="LSString" value="MagicInitiate_Cleric_Bane,MagicInitiate_Cleric_Bless,MagicInitiate_Cleric_BloodbaneRune,MagicInitiate_Cleric_BoilBlood,MagicInitiate_Cleric_Command,MagicInitiate_Cleric_CreateDestroyWater,MagicInitiate_Cleric_CureWounds,MagicInitiate_Cleric_GuidingBolt,MagicInitiate_Cleric_HealingWord,MagicInitiate_Cleric_InflictWounds,MagicInitiate_Cleric_ProtectionFromEvilAndGood,MagicInitiate_Cleric_Sanctuary,MagicInitiate_Cleric_ShieldOfFaith,MagicInitiate_Cleric_Wardaway"/>
+                    <attribute id="UUID" type="guid" value="af60a937-0ecf-4038-9dfa-14e08b9ea75b"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Magic Initiate Druid Spell"/>
+                    <attribute id="Passives" type="LSString" value="MagicInitiate_Druid_AbsorbElements,MagicInitiate_Druid_AnimalFriendship,MagicInitiate_Druid_BloodRush,MagicInitiate_Druid_BoilBlood,MagicInitiate_Druid_CharmPerson,MagicInitiate_Druid_Consumption,MagicInitiate_Druid_CreateDestroyWater,MagicInitiate_Druid_CureWounds,MagicInitiate_Druid_EarthTremor,MagicInitiate_Druid_Jump,MagicInitiate_Druid_Entangle,MagicInitiate_Druid_FaerieFire,MagicInitiate_Druid_FogCloud,MagicInitiate_Druid_Goodberry,MagicInitiate_Druid_HealingWord,MagicInitiate_Druid_IceKnife,MagicInitiate_Druid_Longstrider,MagicInitiate_Druid_ProtectionFromEvilAndGood,MagicInitiate_Druid_ShroudBlood,MagicInitiate_Druid_SpeakWithAnimals,MagicInitiate_Druid_ThornArmor,MagicInitiate_Druid_Thunderwave"/>
+                    <attribute id="UUID" type="guid" value="6d10deb2-c54f-452c-aa96-4f2e2c9b3991"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Magic Initiate Wizard Spell"/>
+                    <attribute id="Passives" type="LSString" value="MagicInitiate_Wizard_AbsorbElements,MagicInitiate_Wizard_BodyWarpingOfGorgoroth,MagicInitiate_Wizard_BurningHands,MagicInitiate_Wizard_Catapult,MagicInitiate_Wizard_CharmPerson,MagicInitiate_Wizard_ChromaticOrb,MagicInitiate_Wizard_CloakOfShadow,MagicInitiate_Wizard_ColorSpray,MagicInitiate_Wizard_Consumption,MagicInitiate_Wizard_CrimsonLash,MagicInitiate_Wizard_DisguiseSelf,MagicInitiate_Wizard_EarthTremor,MagicInitiate_Wizard_Jump,MagicInitiate_Wizard_ExpeditiousRetreat,MagicInitiate_Wizard_FalseLife,MagicInitiate_Wizard_FeatherFall,MagicInitiate_Wizard_FindFamiliar,MagicInitiate_Wizard_FogCloud,MagicInitiate_Wizard_Grease,MagicInitiate_Wizard_HellsLash,MagicInitiate_Wizard_IceKnife,MagicInitiate_Wizard_Longstrider,MagicInitiate_Wizard_MageArmor,MagicInitiate_Wizard_MagicMissile,MagicInitiate_Wizard_ProtectionFromEvilAndGood,MagicInitiate_Wizard_RayOfSickness,MagicInitiate_Wizard_Shield,MagicInitiate_Wizard_ShroudBlood,MagicInitiate_Wizard_Sleep,MagicInitiate_Wizard_SpellfireFlare,MagicInitiate_Wizard_HideousLaughter,MagicInitiate_Wizard_Thunderwave,MagicInitiate_Wizard_TideOfDarkness,MagicInitiate_Wizard_UmbralTendril,MagicInitiate_Wizard_VibratingHumors,MagicInitiate_Wizard_Wardaway,MagicInitiate_Wizard_WitchBolt"/>
+                    <attribute id="UUID" type="guid" value="9d8e6ce0-f51a-47c4-abc4-af7dec3303dd"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Goliath Giant Ancestry"/>
+                    <attribute id="Passives" type="LSString" value="Goliath_1_GiantAncestry_Cloud,Goliath_1_GiantAncestry_Fire,Goliath_1_GiantAncestry_Frost,Goliath_1_GiantAncestry_Hill,Goliath_1_GiantAncestry_Stone,Goliath_1_GiantAncestry_Storm"/>
+                    <attribute id="UUID" type="guid" value="4ef24101-ccab-47cd-8196-55da7c92ccd4"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Fractured Mask of Civility List"/>
+                    <attribute id="Passives" type="LSString" value="Arcana,History,Investigation,Medicine,Nature,Persuasion,Religion"/>
+                    <attribute id="UUID" type="guid" value="28657ca3-eab0-44d5-b1ac-1fae260dd486"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Barbarian Wildheart level 6"/>
+                    <attribute id="Passives" type="LSString" value="AspectOfTheBeast_Bear,AspectOfTheBeast_Chimpanzee,AspectOfTheBeast_Crocodile,AspectOfTheBeast_Eagle,AspectOfTheBeast_Elk,AspectOfTheBeast_Stallion,AspectOfTheBeast_Tiger,AspectOfTheBeast_Wolf,AspectOfTheBeast_Wolverine"/>
+                    <attribute id="UUID" type="guid" value="fb9ea4a2-a1ce-4242-a893-84a088ac1145"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Name" type="FixedString" value="Enchanter Enchanting Conversationalist"/>
+                    <attribute id="Passives" type="LSString" value="Deception,Intimidation,Persuasion,NoSkillProficiency_1"/>
+                    <attribute id="UUID" type="guid" value="ba723f53-ea12-40aa-ba54-f11698e9a18a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

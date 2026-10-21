@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="37865a7e-d07a-43b7-80ea-edef792d1c25">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_18" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7c044802-8e75-408b-9416-eeee56c3c9f0" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Magic Weapon" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="hc07eac86g7983g1b9eg4f6bg629a0e86b214" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ca7afdaf-40a3-4bbf-98e3-3ddde2f1fa2e" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Ashardalon's Stride" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="he87b5a9cg9c3ag1b7fg2fefg3f7ae0ff3ef9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e28b5cd2-6a2b-4e46-8ccd-cba00ace9474" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Arcane Vigor" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h2826d606g7d49g321cg9686gfc615a4ba31d" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_2" />
+        <field name="UUID" type="IdTableFieldDefinition" value="26b974eb-a02f-4c3e-ba37-a33962c7b8a1" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Thorn Armor" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="he725b302g9ad6g038fg90e3g3b6453195180" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2d34056c-ad56-4393-8089-dc85b5f9b421" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Spectral Slash" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h1baba05fg926fg3fbeg861bg6aa1ecd27bef" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="45eb85b5-3ed2-4223-a184-c6350820afc1" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Danse Macabre" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="hd4d76441g18c5g426bga7f2g5e08f7cd3d34" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_19" />
+        <field name="UUID" type="IdTableFieldDefinition" value="017c55e3-df97-4a1a-b9f2-ee7754f09b54" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Blood Rush" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h5f77a0a5g6029g4b77g90a2g2c3430341346" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_20" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3342b31d-00a3-46a8-943a-06b054702955" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Bloodbane Rune" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h3e9ea50dg4178g4b19g995dgf7cc3a13f920" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_21" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d89c6930-0f91-411a-9a7b-3dd890505b04" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Vibrating Humors" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h6e675f13g21ccg47efgbb46gf5fa950155c1" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_22" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f8573e48-96ca-4a0d-9971-1e5ce4987036" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Somnolence" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h95105393gc043g4088gaf68g04299c6eb4cf" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_23" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e35d53c6-f98c-433e-adf7-6d786184359c" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Crimson Lash" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="hdcbe902age12fg4992ga380g528d61d3db9b" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_24" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e33fe82e-132e-47e5-91f6-030d0b40eaff" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Blood Wisp" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h58d3ce70g8639g4af4gbef7g4708b5e973ab" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_25" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b578d282-7102-4efe-81bf-e5d18d9f04ce" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Sense Lifeblood" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h00801c86g20e8g4c63g9f5eg5cec1a1152dc" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_26" />
+        <field name="UUID" type="IdTableFieldDefinition" value="06713acb-6fac-4dd2-b3e8-6bac001c7a8d" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Theft of Vitae" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h4f2d944egd72bg4c8fg9aa9gf6d89cf9971a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_27" />
+        <field name="UUID" type="IdTableFieldDefinition" value="80edd3da-f9e5-41f6-8631-68995c00ccfd" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Sanguine Shield" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h4afb1fafga72bg4445g9c74geda52c586bb9" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_28" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0ecf6a2c-d115-40b5-a4ed-2e7619888d71" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Blood Bond" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h4287ed8eg2eb0g430bg9f9dg9e6b9ce87040" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_29" />
+        <field name="UUID" type="IdTableFieldDefinition" value="74b06f5d-a76d-4c63-820b-3ea3b3e4c344" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Extract Iron" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="hefecbb30g9d22g497bgb4f7g3625a8c257da" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_30" />
+        <field name="UUID" type="IdTableFieldDefinition" value="7f8e7904-6fdb-4921-8eef-3eca34a30069" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Sanguine Poppet" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h3787ac08geef3g453cgafd9g9437fc6051be" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_31" />
+        <field name="UUID" type="IdTableFieldDefinition" value="56de7c14-e2e3-4b4a-afd1-3212040c26fe" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Circle of Scarlet" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="h3d8fe28fgbfccg4168gb0a5g9c5682284f24" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

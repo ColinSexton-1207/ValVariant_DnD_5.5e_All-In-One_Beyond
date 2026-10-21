@@ -1,0 +1,27 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+UsingSpellOnTarget((CHARACTER)_MageHand,(CHARACTER)_Target,"Target_MageHand_Pickpocketing",_,_,_)
+AND
+NOT QRY_BlockPickpocket(_MageHand, _Target)
+THEN
+StartPickpocket(_MageHand,_Target,1);
+
+IF
+AddedTo(_Item,(CHARACTER)_MageHand, _)
+AND
+IsTagged(_MageHand,(TAG)MAGEHAND_87d4dc3d-82e4-40c6-bcc6-95c21abd4645,1)
+AND
+IsCharacter(_MageHand, 1)
+AND
+IsSummon((CHARACTER)_MageHand, 1)
+AND
+CharacterGetOwner(_MageHand, _MageHandOwner)
+THEN
+MoveAllItemsTo((CHARACTER)_MageHand, (CHARACTER)_MageHandOwner, 1, 1, 1, 1);
+EXITSECTION
+
+ENDEXITSECTION

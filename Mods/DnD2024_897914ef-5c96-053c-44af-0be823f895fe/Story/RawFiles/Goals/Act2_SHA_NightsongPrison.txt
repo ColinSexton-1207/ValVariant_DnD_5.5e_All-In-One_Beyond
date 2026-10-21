@@ -1,0 +1,1161 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_GLO_CompoundFlag((FLAG)SHA_NightsongPrison_State_PlayerEnteredPrison_f2cbe7cf-5223-4522-a649-879d08638282,(FLAG)Act2_PointOfNoReturnReached_a3155f30-b8f3-4db5-ac21-d3036f4426e3);
+DB_PartyDialogSuppressionZone((TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0);
+
+
+//REGION Shadowfell Entrance Setup
+DB_ItemDialog_NarratorAD((ITEM)S_SHA_NightsongPrison_EntrancePlaque_308f465c-2294-4663-b989-074a258614b8, (DIALOGRESOURCE)SHA_NightsongPrison_AD_EntrancePlaque_e84e77bc-68e2-2241-013f-c8b64a6119db);
+
+// Dialog Setup
+DB_DropMutingStatussesDialog((DIALOGRESOURCE)SHA_NightsongPrison_GatherYourParty_29530c19-2d81-2a03-53ac-8f96304f4a87);
+DB_FlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_StartReadyCheck_9344260b-727a-6a3f-34da-fb28a1ba1116, (DIALOGRESOURCE)SHA_NightsongPrison_GatherYourParty_29530c19-2d81-2a03-53ac-8f96304f4a87);
+
+DB_DropMutingStatussesDialog((DIALOGRESOURCE)SHA_NightsongPrison_CINE_EnterWater_0517fe06-0777-8773-9784-dc9e2e9d7107);
+DB_AddCharactersInTriggerToDialog((DIALOGRESOURCE)SHA_NightsongPrison_CINE_EnterWater_0517fe06-0777-8773-9784-dc9e2e9d7107, (TRIGGER)S_SHA_NightsongPrison_Entrance_e28c4917-5918-4b41-92f2-26951dcb1344, 1, 0, 1);
+
+DB_DropMutingStatussesDialog((DIALOGRESOURCE)SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72);
+DB_AddCharactersInTriggerToDialog((DIALOGRESOURCE)SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0, 1, 0, 1);
+
+DB_DialogBlockAttackButton(SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72);
+DB_DialogBlockTradeButton(SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72);
+
+// Trigger Registration
+PROC_TriggerRegisterForPlayers(S_SHA_NightsongPrison_GatherPartyArea_8f3c363b-b497-4318-ae1d-f5dd20d034bb);
+PROC_TriggerRegisterForParty(S_SHA_NightsongPrison_Entrance_e28c4917-5918-4b41-92f2-26951dcb1344);
+
+PROC_TriggerRegisterForPlayers(S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562);
+PROC_TriggerRegisterForParty(S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0);
+
+TriggerRegisterForCharacter(S_SHA_NightsongPrison_Entrance_e28c4917-5918-4b41-92f2-26951dcb1344, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+TriggerRegisterForCharacter(S_SHA_NightsongPrison_EntranceADTrigger_eadfb071-e08f-451d-bbd3-aa907d695596, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+//END_REGION
+
+//REGION Shadowfell entrance lights
+
+PROC_TriggerRegisterForParty((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_000_234ce37b-9610-4748-b35e-c0f96c9647d3);
+PROC_TriggerRegisterForParty((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_001_ec7d34d8-c00c-4df9-8bfd-ed7a3d8f2f9d);
+PROC_TriggerRegisterForParty((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb);
+PROC_TriggerRegisterForParty((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc);
+
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_000_234ce37b-9610-4748-b35e-c0f96c9647d3, (ITEM)S_SHA_Light_000_297a8774-45df-4b52-997f-186b22bd1a8b, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_000_234ce37b-9610-4748-b35e-c0f96c9647d3, (ITEM)S_SHA_Light_001_4656a59d-2747-4f97-965f-4d7cabd6f396, 0);
+
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_001_ec7d34d8-c00c-4df9-8bfd-ed7a3d8f2f9d, (ITEM)S_SHA_Light_002_1c8b2a4b-9acc-47c0-92cb-7441524b0eba, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_001_ec7d34d8-c00c-4df9-8bfd-ed7a3d8f2f9d, (ITEM)S_SHA_Light_003_7a5d419f-8f68-41ab-8609-6e9c4592e866, 0);
+
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_004_0daf8377-cd86-47b5-aadc-24d2ebc69305, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_005_a8246a66-44a4-4aff-b2e4-bf8890caf157, 200);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_006_c5eadee0-b01b-42a6-8d85-c19fb412339c, 100);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_007_fec0e312-0c5c-4b45-95df-77dc53dc8685, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_008_025a8fcb-1ae3-4bd1-99cf-5dec70b28305, 300);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_009_71716d8d-3057-49b8-a08f-be3ac46e585f, 400);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_010_8b5d32c5-4973-478b-ba9e-6f6446308eab, 500);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_011_0c31c38e-45d0-4b01-8eba-aff87b5136cd, 500);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_012_aa932bb5-ec02-4ad0-a5bd-6da981dde9eb, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_013_39dcf2d8-e347-4fa7-bc0d-56bd9b8aa4a7, 100);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_014_56700af1-fb2e-453e-8c5b-652a17d02d3a, 100);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_015_65722b3c-ad19-4533-96a8-f70c0a3de888, 300);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_016_67f2fefd-37d9-4779-86b0-01290da09f2f, 1200);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_017_3cf9ac6e-b79b-4336-82f4-f8bb07aad627, 500);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_018_15d5654b-ce02-45ce-acd0-f3f50699941f, 1200);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_002_74680fe4-4a59-4581-b653-bdb5a5f42adb, (ITEM)S_SHA_Light_019_ed7daa46-ba76-41ee-ab0e-ae273d79ff47, 300);
+
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_020_464563fe-9bfe-42c6-9d03-a1297f1370b7, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_021_61fb3b17-ef2c-4ab4-8b3d-bb801fbd7150, 200);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_022_868bc886-2f10-4a8c-9c28-8018b2e673ae, 500);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_023_6046754a-97c1-47f6-b939-3ba9a95c4943, 300);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_024_a822b564-1f92-4441-bf79-41c24e1be886, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_025_4a61e46a-bcc1-4537-8558-3acef039cfa9, 300);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_026_38c000f9-ebe3-4c6e-8d35-71f54add4167, 500);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_027_2c8b13de-6d2f-4aad-91db-0c45dae9d5a8, 900);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_028_a654b8ff-4666-4c1a-b3a6-24de2fba77f3, 900);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_029_9cc1ca9e-f25b-4e26-b2db-ee4000286bd0, 0);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_030_ac921939-2292-47d6-b8e7-0324fb1eacd1, 200);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_031_e450b24d-9b41-43dc-ad4d-6e4780e78541, 200);
+DB_SHA_NightsongPrison_Lights((TRIGGER)S_SHA_NightsongPrison_EntryTrigger_003_4f2cb8cd-7031-4fc9-ab8a-f8bbeaa9fedc, (ITEM)S_SHA_Light_032_e8979cc9-adfa-44dd-96c3-e6c165e8974d, 200);
+//END_REGION
+
+//REGION Shadowfell entrance narrative loot
+
+DB_ItemDialog_NarratorAD((ITEM)S_SHA_StealthPlaque_28e77594-4469-4d9d-bdec-e0ce1681f177, SHA_NightsongPrison_AD_StealthPlaque_db88ba34-c1d3-00df-ec0c-0ac6e7bdea1a);
+DB_ItemDialog_NarratorAD((ITEM)S_SHA_MartialPlaque_8e28fe32-e46f-4e8c-9e86-d60d2488f261, SHA_NightsongPrison_AD_MartialPlaque_58e34526-74c5-9ed9-73f6-b099cf338df0);
+DB_ItemDialog_NarratorAD((ITEM)S_SHA_DarknessPlaque_7707ef50-3366-4bb6-a9f9-9a2e15938eb8, SHA_NightsongPrison_AD_DarknessPlaque_b19b8686-0db3-4320-6674-38c3279ef073);
+
+DB_OneShot_VoiceBarkTrigger((TRIGGER)S_SHA_PreparationRoom_02fd1bb2-5309-4831-8bb0-b22cdfcf1892, (VOICEBARKRESOURCE)SHA_NightsongPrison_VB_ShadowfellEntrance_6817a4ca-8806-d609-1c47-d565221e45f1, "Global");
+
+//END_REGION
+
+//REGION Vanishing Justiciars Setup
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_000_2646b41b-387f-4bf9-94ff-296618a7509a, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_000_5f2a7831-f0dd-4d88-b522-113c2f100642);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_001_b8b71d98-65b3-4196-acb4-264556620319, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_002_8273c3c1-e69e-48f4-8c02-b1921839f838); 
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_002_f77b6b24-670d-4970-bfde-a1ecb3546d23, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_003_fc38202f-70f5-4c95-b808-ad95ba1a3fe4);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_003_9f3f7a89-7a17-479b-ad50-9f6f4a6d9d45, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_004_418c57a4-e92c-4f3a-81b8-d035858f9ee9);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_004_f80d8816-99d2-4166-adc1-36671a3a3fca, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_005_5786948b-e948-4bb2-b482-56860524fcce);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_005_1e7bfcdd-0120-485e-b536-9ea955434e7c, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_009_4d08ca2c-2999-4318-a549-058106b497c4);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_006_6803a3db-ef72-42bf-9285-67bf8ab4f8e2, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_010_8d8d6fd9-ddf9-4742-b12c-7bbe0ba23903);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_007_8d3a8ab0-f874-4a99-9fb6-a7398e5a6695, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_006_c83351c0-404c-4d32-a051-5037eaf4f0ad);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_008_e10227ef-ac4e-4f57-b867-4daa83589639, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_007_83dbd3a3-e1bd-4ad9-88b5-9c967304da74);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_009_970dcd1f-b12e-4e52-981b-a5fdc88bb0b9, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_008_5739d4af-fb63-4145-b8f6-b1e968119f8b);
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)S_SHA_NightsongPrison_VanishingJusticiar_010_9ef69ab2-d46d-45cb-8f5d-bf65d189b06d, (TRIGGER)S_SHA_NightsongPrison_VanishTrigger_001_a9964896-1d09-48f8-8aa6-0edf5cac79e9);
+//END_REGION
+
+//REGION Nightsong's Fate Setup
+// Dialog Setup
+DB_KeepDialogsOnDeath((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+
+DB_IgnoreMutingStatussesDialog((DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+DB_AddCharactersInTriggerToDialog((DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c, (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562, 1, 0, 1);
+DB_DialogBlockAttackButton((DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+
+DB_IgnoreMutingStatussesDialog((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385);
+DB_AddCharactersInTriggerToDialog((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562, 1, 0, 1);
+DB_DialogBlockAttackButton((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385);
+
+DB_DialogBlockAttackButton((DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+
+DB_IgnoreMutingStatussesDialog((DIALOGRESOURCE)SHA_NightsongPrison_NightsongFreed_ba59f509-df8b-9bd9-431d-524f367cc14b);
+DB_AddCharactersInTriggerToDialog((DIALOGRESOURCE)SHA_NightsongPrison_NightsongFreed_ba59f509-df8b-9bd9-431d-524f367cc14b, S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562, 1, 0, 1);
+DB_DialogBlockAttackButton((DIALOGRESOURCE)SHA_NightsongPrison_NightsongFreed_ba59f509-df8b-9bd9-431d-524f367cc14b);
+
+DB_IgnoreMutingStatussesDialog((DIALOGRESOURCE)SHA_Nightsong_CINE_NightsongsFlight_71bd5b3a-b21a-4764-2306-7ad8987ebc09);
+DB_DialogBlockAttackButton((DIALOGRESOURCE)SHA_Nightsong_CINE_NightsongsFlight_71bd5b3a-b21a-4764-2306-7ad8987ebc09);
+
+DB_HostileToPlayerGroupCancelFlag((FLAG)SHA_Nightsong_Event_Resurrected_43ea94b5-f929-4eb4-baea-b9cdc459b53f, (FACTION)ACT1_SHA_Nightsong_89d54194-f9fd-4a99-879a-e11971bfe3e4);
+
+// Reaction can occur after each of the outcomes for the Nightsong situation 
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3, (DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3, (DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385);
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3, (DIALOGRESOURCE)SHA_NightsongsFate_OM_Shadowheart_AOM_OOM_COM_7c1dc5a3-0410-ebf4-3b3b-b2ee753562db);
+
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_NightsongSentToMoonrise_685b9761-43b6-9004-8655-073096c62731, (DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385);
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa, (DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa, (DIALOGRESOURCE)SHA_NightsongPrison_NightsongFreed_ba59f509-df8b-9bd9-431d-524f367cc14b);
+DB_FlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_StartNightsongFreedDialog_737d8c1e-7970-2c6c-06ec-8ccb3a9bf25e, (DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+DB_FlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_PermanentlyKillNightsong_097792de-6bd1-e7c9-77d3-fe6419e3170a, (DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+DB_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_NecroSummonsSkellies_8649c31d-15bf-dd68-5cc0-828e6f44af0f, (DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385);
+
+DB_GLO_DieFlag((FLAG)SHA_NightsongPrison_Event_PermanentlyKillNightsong_097792de-6bd1-e7c9-77d3-fe6419e3170a, (CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, DEATHTYPE.Physical, NULL_00000000-0000-0000-0000-000000000000);
+
+DB_PlayerHasTemplateItem((ITEMROOT)SHA_SharSpear_d590884d-55a2-4136-9777-531ee7d53f7e, (FLAG)SHA_NightsongPrison_State_HasSpear_08b1de4b-9f5c-41aa-93ec-9bf4376754b6);
+
+DB_SHA_NightsongPrison_NecroAndNightsongSpeakers(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, NULL_00000000-0000-0000-0000-000000000000);
+DB_SHA_NightsongPrison_NecroAndNightsongSpeakers(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, NULL_00000000-0000-0000-0000-000000000000, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+
+// Trigger Registration
+TriggerRegisterForCharacter(S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+TriggerRegisterForCharacter(S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+
+TriggerRegisterForCharacter(S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+TriggerRegisterForCharacter(S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+
+// Freeing Nightsong setup
+SetOnStage(S_SHA_NightsongPrison_Waypoint_3e872c6c-95d1-47ef-85b5-bfa835ebb525, 0);
+//END_REGION
+
+//REGION Balthazar's Skeletons
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_000_cc668fa4-557e-41c1-bd5b-78a1fe478eb4, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Caster_001_b273e9ee-12b0-4b7a-904c-249c2d96cbcd);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_006_5dbc8a80-2d82-4f73-a000-cc8ff0538be2, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Caster_002_568fe93a-bfb9-442d-ad0c-072b3647312c);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_015_6cf85f22-841f-4fbe-8948-c071666f1008, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Caster_003_8cf15356-011f-43a0-b4e6-9bdbaa9ec00a);
+
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_022_4d3501ba-e7c1-4109-83bd-50105364ef05, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_001_c7dc19c7-d335-4c92-b7ec-eb83e55af583);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_002_3e9e5c02-f58e-44b7-9a82-a48a59a75783, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_002_f9f5e14b-15f2-4cc2-8c11-89511fb6e048);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_019_3e0a68b4-a9e0-47fe-b8fd-6865dbdb651c, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_003_4a89535a-7bba-4389-bfea-e06f0e428c52);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_023_3e8dc625-e551-4cb8-a83a-e63cbd9f3328, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_004_ee76571d-62ca-41cd-b09a-b20c933d527c);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_001_7e8038fa-8173-4262-99d7-e5626b3e04ae, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_005_3289b74b-c010-4406-b380-2a5d521cf707);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_016_9ed5cfcd-1e23-491c-a3d9-f2983afd3e7e, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_006_c5fcc305-5505-4e17-9143-7397159952c7);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_017_0743ffc9-6aa4-4055-9426-f67478baaabf, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_007_1f2ce750-bd4a-4ffc-b42b-3427e6253477);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_018_6a58f358-52a6-4b65-a098-588e29a90ac8, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Melee_008_ebc74f77-af62-4952-9677-44bc33dc40a1);
+
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_011_440fd08d-c27f-4f9d-9048-50b896a88cb5, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Ranger_001_99b3bfee-594a-4e90-8bb7-41b77514b462);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_007_c035cd1d-743d-4434-b662-13537e73ff51, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Ranger_002_8d9dde65-c868-4f88-a23d-8f62da9db6e9);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_008_10b26022-ea85-44d6-93ec-f32f0e04c1ae, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Ranger_003_396f039e-7b50-4d13-abca-b0537986ea9d);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_009_6d9a8ad5-952b-4f19-bf29-4cc993fc5e3e, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Ranger_004_658542ef-f47e-40a2-a6a4-07e15ceb55de);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_010_2a22c249-a4d3-44d7-a2d2-3e77d0d3b928, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Ranger_005_091d9b80-ed6b-49fc-a56f-4676324c684f);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_012_92e43fdb-1e25-46f1-a9db-298f4515ee77, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Ranger_006_75798310-e2c3-4f4c-9ba1-2e48ab594819);
+
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_003_66241024-0a39-4931-ba4d-2a72fce8fe4c, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Giant_001_53f672fa-0724-44cf-b536-19e1df33d4eb);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_020_be305a26-0b47-4bf8-bbac-748a3805718f, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Giant_002_2a747f03-f547-4043-ada5-7cd7311487a4);
+DB_SHA_NightsongPrison_BalthazarSkeletons((ITEM)S_SHA_NightsongPrison_BonePile_021_3ac701c7-00c3-487b-b908-ff35175efa29, (CHARACTER)S_SHA_NightsongPrison_Skeleton_Giant_003_405c8ca9-02fb-46a9-b394-86adb963a6c0);
+
+
+//END_REGION
+KBSECTION
+//REGION Nightsong Fate Dialog
+IF
+DB_InRegion((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562)
+THEN
+PROC_SceneDialogOnly("SHA_NightsongPrison_MeetingNightsong", (CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562);
+DB_SpotPlayers((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NightsongPrison_MeetingNightsong", NULL_00000000-0000-0000-0000-000000000000, (FLAG)SHA_NightsongPrison_Event_MeetingNightsong_StopSpotting_f5d00e70-c888-471e-9257-2266844aa828);
+DB_SpotPlayers_Continuous((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NightsongPrison_MeetingNightsong");
+DB_SpotPlayers_SpotTrigger((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NightsongPrison_MeetingNightsong", (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562);
+DB_Dialogs((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, (DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c);
+
+IF
+DB_InRegion((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562)
+THEN
+PROC_RemoveAllDialogEntriesForSpeaker(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+PROC_SceneDialogOnly("SHA_NightsongPrison_MeetingNightsong", (CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562);
+DB_SpotPlayers((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong", NULL_00000000-0000-0000-0000-000000000000, (FLAG)SHA_NightsongPrison_Event_MeetingNightsong_StopSpotting_f5d00e70-c888-471e-9257-2266844aa828);
+DB_SpotPlayers_Continuous((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong");
+DB_SpotPlayers_SpotTrigger((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong", (TRIGGER)S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562);
+DB_Dialogs(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385);
+
+PROC
+PROC_SceneInterrupted(_Spotter, _Player, "SHA_NightsongPrison_MeetingNightsong", "Spotted")
+AND
+QRY_SHA_NightsongPrison_SelectMeetingNightsongDialog((CHARACTER)_Spotter)
+AND
+DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog(_Dialog, _, _)
+AND
+QRY_StartDialog((DIALOGRESOURCE)_Dialog, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Player)
+THEN
+SetFlag((FLAG)SHA_NightsongPrison_Event_MeetingNightsong_StopSpotting_f5d00e70-c888-471e-9257-2266844aa828);
+PROC_SceneOver("SHA_NightsongPrison_MeetingNightsong");
+
+PROC
+PROC_SceneInterrupted(_, _Player, "SHA_NightsongPrison_MeetingNightsong", _Interrupt)
+AND
+_Interrupt != "StartedDialog"
+AND
+_Interrupt != "Spotted"
+AND
+_Interrupt != "Unspotted"
+AND
+DB_SceneManager((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong")
+THEN
+PROC_SceneOver("SHA_NightsongPrison_MeetingNightsong");
+PROC_SetRelationToPlayers((FACTION)ACT2_SHA_Necromancer_6a8d2366-831d-48ad-8d58-1f99a5cc7ca1, 0);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _Inst)
+AND
+QRY_SpeakerIsAvailable(S_SHA_VoiceOfShar_OverrideSpeaker_9293e853-5c10-45a1-a158-ebcde08c02ee)
+THEN
+PROC_DialogAddSpeakingActor(_Inst, S_SHA_VoiceOfShar_OverrideSpeaker_9293e853-5c10-45a1-a158-ebcde08c02ee);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _Inst)
+AND
+QRY_SpeakerIsAvailable(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+THEN
+PROC_DialogAddSpeakingActor(_Inst, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _Inst)
+AND
+QRY_SpeakerIsAvailable(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+THEN
+PROC_DialogAddSpeakingActor(_Inst, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _Inst)
+AND
+NOT DB_Avatars((CHARACTER)S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679)
+AND
+QRY_SpeakerIsAvailable(S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679)
+AND
+QRY_IsInRange(S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, 25.0)
+THEN
+PROC_DialogAddSpeakingActor(_Inst, S_Player_ShadowHeart_3ed74f06-3c60-42dc-83f6-f034cb47c679);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _Inst)
+AND
+NOT DB_Avatars((CHARACTER)S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b)
+AND
+QRY_SpeakerIsAvailable(S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b)
+AND
+QRY_IsInRange(S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, 25.0)
+THEN
+PROC_DialogAddSpeakingActor(_Inst, S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b);
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _Inst)
+AND
+DB_PartyMembers(_Character)
+AND
+QRY_SpeakerIsAvailable(_Character)
+AND
+QRY_IsInRange(_Character, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, 25.0)
+THEN
+PROC_DialogAddListeningActor(_Inst, _Character);
+
+
+IF
+DialogStarted((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _)
+THEN
+PROC_TriggerRegisterForPlayers(S_SHA_NecroAndNightsong_DialogJoinTrigger_9475e91b-dd45-4fd1-b585-9b3f81524aab);
+
+IF
+EnteredTrigger(_Player, S_SHA_NecroAndNightsong_DialogJoinTrigger_9475e91b-dd45-4fd1-b585-9b3f81524aab)
+AND
+DB_Players(_Player)
+AND
+DB_DialogSpeakers(_Inst, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, _)
+AND
+NOT DB_DialogSpeakers(_Inst, _Player, _)
+AND
+NOT DB_Is_InCombat(_Player, _) //just making sure a combat AD doesn't do anything funny
+AND
+NOT DB_Is_InCombat(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, _) //just making sure a combat AD doesn't do anything funny
+THEN
+PROC_DialogAddListeningActor(_Inst, _Player);
+
+
+QRY
+QRY_SelectCustomDialog_AfterGenerics(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, _Player)
+AND
+DB_SceneManager((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong")
+AND
+NOT QRY_SpeakerIsAvailable(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+THEN
+DB_SelectedDialog((DIALOGRESOURCE)SHA_NightsongPrison_AD_NightsongUnavailable_61f5c7d5-28ea-07ca-5e2a-876a40839c09, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d);
+
+QRY
+QRY_SelectCustomDialog_AfterGenerics(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, _Player)
+AND
+DB_SceneManager((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong")
+AND
+QRY_SHA_NightsongPrison_SelectMeetingNightsongDialog((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+AND
+DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog(_Dialog, _FirstNPCSpeaker, _SecondNPCSpeaker)
+THEN
+DB_SelectedDialog((DIALOGRESOURCE)_Dialog, _FirstNPCSpeaker, _Player, _SecondNPCSpeaker);
+
+QRY
+QRY_SelectCustomDialog_AfterGenerics(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Player)
+AND
+DB_SceneManager((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NightsongPrison_MeetingNightsong")
+AND
+DB_SceneManager((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong")
+AND 
+NOT DB_PermaDefeated((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+AND
+NOT QRY_SpeakerIsAvailable(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+THEN
+DB_SelectedDialog((DIALOGRESOURCE)SHA_NightsongPrison_AD_NecroUnavailable_afc2832f-e21d-e346-868e-cfe58e4f5025, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+
+QRY
+QRY_SelectCustomDialog_AfterGenerics(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Player)
+AND
+QRY_SHA_NightsongPrison_SelectMeetingNightsongDialog((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+AND
+DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog(_Dialog, _FirstNPCSpeaker, _SecondNPCSpeaker)
+THEN
+DB_SelectedDialog((DIALOGRESOURCE)_Dialog, _FirstNPCSpeaker, _Player, _SecondNPCSpeaker);
+
+QRY
+QRY_SHA_NightsongPrison_SelectMeetingNightsongDialog((CHARACTER)_RequestedNPC)
+AND
+DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog(_OldDialog, _FirstSpeaker, _SecondSpeaker)
+THEN
+NOT DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog(_OldDialog, _FirstSpeaker, _SecondSpeaker);
+
+QRY
+QRY_SHA_NightsongPrison_SelectMeetingNightsongDialog((CHARACTER)_RequestedNPC)
+AND
+DB_SceneManager((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NightsongPrison_MeetingNightsong")
+AND
+DB_SceneManager((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong")
+AND
+QRY_SpeakerIsAvailable(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+AND
+QRY_SpeakerIsAvailable(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+AND
+DB_SHA_NightsongPrison_NecroAndNightsongSpeakers(_RequestedNPC,_FirstNPCSpeaker,_SecondNPCSpeaker)
+THEN
+DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog((DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385, _FirstNPCSpeaker, _SecondNPCSpeaker);
+
+QRY
+QRY_SHA_NightsongPrison_SelectMeetingNightsongDialog((CHARACTER)_RequestedNPC)
+AND
+DB_SceneManager((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NightsongPrison_MeetingNightsong")
+AND
+NOT DB_SceneManager((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_NightsongPrison_MeetingNightsong")
+AND
+QRY_SpeakerIsAvailable(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+THEN
+DB_QRYRTN_SHA_NightsongPrison_SelectedMeetingNightsongDialog((DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c, (CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, NULL_00000000-0000-0000-0000-000000000000);
+//END_REGION
+
+//REGION Freeing Nightsong
+IF
+DB_GlobalFlag(SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa)
+AND
+HasActiveStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NIGHTSONG_SOULCAGE", 1)
+THEN
+SetOnStage(S_SHA_SoulCage_1f62df99-914d-83b8-38cf-35708001f20c, 0);
+RemoveStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NIGHTSONG_SOULCAGE", NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+DB_GlobalFlag((FLAG)SHA_NightsongPrison_Event_GiveWeapon_7fa89ca7-3b1c-40ed-83ca-a03bec65e755)
+THEN
+QuestUpdate("HIDDEN_SCL_Boosters", "SCL_NightsongPrison_Weapon");
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_Nightsong_CINE_NightsongsFlight_71bd5b3a-b21a-4764-2306-7ad8987ebc09, _Inst)
+AND
+QRY_SpeakerIsAvailable(S_Player_Jaheira_91b6b200-7d00-4d62-8dc9-99e8339dfa1a)
+THEN
+PROC_DialogAddSpeakingActor(_Inst, S_Player_Jaheira_91b6b200-7d00-4d62-8dc9-99e8339dfa1a);
+
+// Only poof Nightsong after the dialog is finished
+//Check if nested through Shadowheart OM
+IF
+DialogEnded((DIALOGRESOURCE)SHA_NightsongsFate_OM_Shadowheart_AOM_OOM_COM_7c1dc5a3-0410-ebf4-3b3b-b2ee753562db, _)
+AND
+DB_GlobalFlag(SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa) 
+THEN
+PROC_NightsongPrison_FreeNightsong();
+
+//Check if nested through no Shadowheart path
+IF
+DialogEnded((DIALOGRESOURCE)SHA_NightsongPrison_NightsongsFate_309684a3-b0e7-9a5b-68fb-63c802c2240c, _)
+AND
+DB_GlobalFlag(SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa) 
+THEN
+PROC_NightsongPrison_FreeNightsong();
+
+PROC
+PROC_NightsongPrison_FreeNightsong()
+THEN
+NOT DB_NoLowAttitudeDialog((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+PROC_State_Progress(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_Nightsong", "SHA_State_Nightsong_Freed");
+PROC_State_Progress(S_HAV_Haven_SUB_6ac001f4-9c56-4a1b-963d-a509e158ffab, "HAV_Mood", "HAV_Mood_State_NightsongFreed");
+PROC_SceneOver("SHA_NightsongPrison_MeetingNightsong");
+PROC_SelfHealing_Enable((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+
+PROC
+PROC_NightsongPrison_FreeNightsong()
+AND
+DB_Players(_Player)
+AND
+QRY_SpeakerIsAvailable(_Player)
+AND
+NOT DB_OnlyOnce("SHA_NightsongPrison_StartedNightsongFlightCinematic")
+AND
+QRY_StartDialog((DIALOGRESOURCE)SHA_Nightsong_CINE_NightsongsFlight_71bd5b3a-b21a-4764-2306-7ad8987ebc09, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Player)
+THEN
+DB_OnlyOnce("SHA_NightsongPrison_StartedNightsongFlightCinematic");
+
+PROC
+PROC_StartDialog_AddExtraSpeakers((DIALOGRESOURCE)SHA_Nightsong_CINE_NightsongsFlight_71bd5b3a-b21a-4764-2306-7ad8987ebc09, _Inst)
+AND
+DB_PartyMembers(_Character)
+THEN
+PROC_DialogAddListeningActor(_Inst, _Character);
+
+PROC
+PROC_NightsongPrison_FreeNightsong()
+THEN
+MusicPlayGeneral("NightsongFree");
+
+
+//END_REGION
+
+//REGION Nightsong Resurrects
+// bookkeeping combats in the subregion
+IF
+DB_Is_InCombat(_Character, _CombatID)
+AND
+DB_InRegion((CHARACTER)_Character, S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+THEN
+DB_SHA_NightsongPrison_OngoingCombats(_CombatID);
+
+IF
+CombatEnded(_CombatID)
+AND
+DB_SHA_NightsongPrison_OngoingCombats(_CombatID)
+THEN
+NOT DB_SHA_NightsongPrison_OngoingCombats(_CombatID);
+
+// died while in combat
+IF
+DB_Dead(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+AND
+DB_SHA_NightsongPrison_OngoingCombats(_)
+AND
+QRY_SHA_NightsongPrison_NightsongCanResurrect()
+THEN
+DB_SHA_NightsongPrison_NightsongAwaitsResurrection(1);
+
+// died outside of combat
+IF
+DB_Dead(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+AND
+NOT DB_SHA_NightsongPrison_OngoingCombats(_)
+AND
+DB_ActiveLevel("SCL_Main_A")
+AND
+QRY_SHA_NightsongPrison_NightsongCanResurrect()
+THEN
+PROC_SHA_NightsongPrison_ResurrectNightsong();
+
+// was awaiting resurrection and combat round started
+IF
+CombatRoundStarted(_CombatID, _)
+AND
+DB_SHA_NightsongPrison_OngoingCombats(_CombatID)
+AND
+DB_SHA_NightsongPrison_NightsongAwaitsResurrection(1)
+AND
+QRY_SHA_NightsongPrison_NightsongCanResurrect()
+THEN
+PROC_SHA_NightsongPrison_ResurrectNightsong();
+
+// helpers
+PROC
+PROC_SHA_NightsongPrison_ResurrectNightsong()
+AND
+DB_Dead(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b)
+AND
+GetFaction(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Faction)
+THEN
+NOT DB_SHA_NightsongPrison_NightsongAwaitsResurrection(1);
+PROC_SetRelationToPlayers(_Faction, 50);
+ApplyStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NIGHTSONG_GROUNDED", -1.0, 1, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+ApplyStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "GLO_NIGHTSONGRESURRECTION_DOWNED", 0.0, 1, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+ApplyStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "GLO_NIGHTSONGRESURRECTION", 0.0, 1, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+
+PROC
+PROC_BlockPickupOfCharacter(_Char, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _)
+AND
+NOT DB_GlobalFlag(SHA_NightsongPrison_State_ShadowheartKilledNightsong_3cac3cd6-4c16-44a6-8246-a91922821169)
+THEN
+DB_CustomPickupCharacterResponse(_Char, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, 0);
+PROC_TryStartAD(GLO_AD_CannotUseNow_057cb7cf-5aa4-1ed7-9639-65530939b2f9, _Char);
+
+
+QRY
+QRY_SHA_NightsongPrison_NightsongCanResurrect()
+AND
+NOT DB_State_Current(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_Nightsong", "SHA_State_Nightsong_AtCol")
+AND
+NOT DB_GlobalFlag(MOO_Assault_State_InProgress_0f3a8f5d-7402-4220-bebb-d4b21d3db08d)
+AND
+NOT DB_LOW_SorcerousSundries_NightsongImpededByLorroakan(1)
+AND
+HasActiveStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_SHARSPEAR_MORTALWOUND", 0)
+THEN
+DB_NOOP(1);
+
+// Restoring the soul-cage status
+IF
+TimerFinished("Nightsong_PostResurrection")
+AND
+NOT DB_GlobalFlag(SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa)
+AND
+DB_State_Current(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_Nightsong", "SHA_State_Nightsong_AtTemple")
+THEN
+ApplyStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_NIGHTSONG_SOULCAGE", -1.0, 1, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+//END_REGION
+
+//REGION Killing Nightsong
+// Nightsong temporarily killed by the player
+IF
+KilledBy((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Player, _, _)
+AND
+DB_Players((CHARACTER)_Player)
+AND
+HasActiveStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_SHARSPEAR_MORTALWOUND", 0)
+THEN
+SetFlag((FLAG)GLO_NightsongPrison_State_KilledNightsong_e50857c8-aaa1-1f12-93bb-6818342a3725, _Player, 0);
+
+IF
+KilledBy((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _Player, _, _)
+AND
+DB_Players((CHARACTER)_Player)
+THEN
+SetTag(_Player, DARK_JUSTICIAR_4e4e26e8-9bbf-4913-93c7-c55972a6d051);
+
+// Nightsong is killed with the Spear
+IF
+FlagSet((FLAG)SHA_NightsongPrison_Event_PermanentlyKillNightsong_097792de-6bd1-e7c9-77d3-fe6419e3170a, _Char, _)
+THEN
+NOT DB_KeepDialogsOnDeath((CHARACTER)S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+NOT DB_PreventPermaDefeated(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b);
+ApplyStatus(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_SHARSPEAR_MORTALWOUND", -1.0, 1, _Char);
+//END_REGION
+
+//REGION Nightsong to Moonrise
+PROC
+PROC_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_NightsongSentToMoonrise_685b9761-43b6-9004-8655-073096c62731)
+THEN
+PROC_SHA_NightsongPrison_NightsongToMoonrise();
+
+PROC
+PROC_SHA_NightsongPrison_NightsongToMoonrise()
+THEN
+PROC_State_Progress(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_Nightsong", "SHA_State_Nightsong_AtMoo");
+PROC_State_Progress(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_Necromancer", "SHA_Necromancer_State_AtMoonrise");
+PROC_SceneOver("SHA_NightsongPrison_MeetingNightsong");
+//END_REGION
+
+//REGION Triggering PAD after reaching any of Nightsong's Fates
+//Balthazar Takes Nightsong
+PROC
+PROC_SHA_NightsongPrison_NightsongToMoonrise()
+THEN
+TimerLaunch("SHA_NightsongPrison_NightsongsFate_VBTimer", 800);
+
+//Nightsong Died
+IF
+DialogEnded(SHA_Nightsong_CINE_NightsongsDeath_7c9548d5-b719-60f0-43af-1b963a5e4c6e, _)
+AND
+DB_GlobalFlag((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3)
+THEN
+TimerLaunch("SHA_NightsongPrison_NightsongsFate_VBTimer", 800);
+
+//Nightsong Freed
+IF
+DialogEnded(SHA_Nightsong_CINE_NightsongsFlight_71bd5b3a-b21a-4764-2306-7ad8987ebc09, _)
+AND
+DB_GlobalFlag((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3)
+THEN
+TimerLaunch("SHA_NightsongPrison_NightsongsFate_VBTimer", 800);
+
+//Play the VB
+IF
+TimerFinished("SHA_NightsongPrison_NightsongsFate_VBTimer")
+THEN
+PROC_SHA_NightsongPrison_NightSongFateReaction();
+
+PROC
+PROC_SHA_NightsongPrison_NightSongFateReaction()
+AND
+DB_Avatars(_Avatar)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_ReactToNightsongsFateVB")
+THEN
+StartVoiceBark((VOICEBARKRESOURCE)SHA_NightsongPrison_VB_NightsongFateReaction_6c928ed1-2f0a-125b-05a0-3f8060f55d5f, _Avatar);
+
+//END_REGION
+
+//REGION Shadowfell Entrance
+
+//REGION Shadowfell Approach
+
+IF
+EnteredTrigger(_Player, _Trigger)
+AND
+DB_SHA_NightsongPrison_Lights(_Trigger, _Light, _Delay)
+THEN
+NOT DB_SHA_NightsongPrison_Lights(_Trigger, _Light, _Delay);
+ObjectTimerLaunch(_Light, "SHA_NightsongPrison_LightDelay", _Delay, 0);
+
+IF
+ObjectTimerFinished(_Light, "SHA_NightsongPrison_LightDelay")
+THEN
+SetEntityEvent(_Light, "turnOn",1);
+
+//END_REGION 
+
+IF
+AddedTo((ITEM)S_SHA_FalseSpearOfNight_846c9caf-1099-4e50-bb9d-d628d02a70ad, _Player, _)
+AND
+DB_Players((CHARACTER)_Player)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_FalseSpear")
+THEN
+StartVoiceBark((VOICEBARKRESOURCE)SHA_NightsongPrison_VB_FalseNightSpear_40156197-6ca6-b9c0-6a14-2f6bd9933af8, _Player);
+
+IF
+DB_InRegion(_Player, (TRIGGER)S_SHA_NightsongPrison_GatherPartyArea_8f3c363b-b497-4318-ae1d-f5dd20d034bb)
+AND
+DB_Players(_Player)
+AND
+NOT QRY_AnyPlayerNotInTrigger((TRIGGER)S_SHA_NightsongPrison_GatherPartyArea_8f3c363b-b497-4318-ae1d-f5dd20d034bb)
+THEN
+SetFlag((FLAG)SHA_NightsongPrison_State_AllPlayersAtEntrance_bcb4d489-aa30-236c-5a85-77d2ec1f939d);
+
+IF
+LeftTrigger(_Player, (TRIGGER)S_SHA_NightsongPrison_GatherPartyArea_8f3c363b-b497-4318-ae1d-f5dd20d034bb)
+AND
+DB_Players(_Player)
+AND
+QRY_AnyPlayerNotInTrigger((TRIGGER)S_SHA_NightsongPrison_GatherPartyArea_8f3c363b-b497-4318-ae1d-f5dd20d034bb)
+THEN
+ClearFlag((FLAG)SHA_NightsongPrison_State_AllPlayersAtEntrance_bcb4d489-aa30-236c-5a85-77d2ec1f939d);
+
+IF
+UseStarted(_Char, (ITEM)S_SHA_NightsongPrison_ShadowfellEntranceHelper_1fc893ad-277f-4bb3-914c-9bdef4ff0385)
+AND
+NOT QRY_SHA_SkipShadowfellDialog()
+AND
+QRY_StartDialog_Fixed((DIALOGRESOURCE)SHA_NightsongPrison_GatherYourParty_29530c19-2d81-2a03-53ac-8f96304f4a87, S_SHA_NightsongPrison_ShadowfellEntranceHelper_1fc893ad-277f-4bb3-914c-9bdef4ff0385, _Char)
+THEN
+DB_NOOP(1);
+
+IF
+UseStarted(_Char, (ITEM)S_SHA_NightsongPrison_ShadowfellEntranceHelper_1fc893ad-277f-4bb3-914c-9bdef4ff0385)
+AND
+QRY_SHA_SkipShadowfellDialog()
+THEN
+PROC_SHA_NightsongPrison_TeleportEffect(_Char);
+PROC_SHA_NightsongPrison_Entrance(_Char);
+
+QRY
+QRY_SHA_SkipShadowfellDialog()
+AND
+DB_GlobalFlag((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3)
+THEN
+DB_NOOP(1);
+
+QRY
+QRY_SHA_SkipShadowfellDialog()
+AND
+DB_GlobalFlag((FLAG)SHA_NightsongPrison_State_PlayerEnteredPrison_f2cbe7cf-5223-4522-a649-879d08638282)
+THEN
+DB_NOOP(1);
+
+IF
+ReadyCheckPassed("ReadyCheck_EnterNightsongPrison")
+AND
+DB_SHA_NightsongPrison_StartedReadyCheck(_Char)
+AND
+NOT QRY_SHA_NightsongPrison_AttemptEntranceCinematic(_Char)
+THEN
+PROC_SHA_NightsongPrison_TeleportEffect(_Char);
+PROC_SHA_NightsongPrison_Entrance(_Char);
+
+IF
+ReadyCheckPassed("ReadyCheck_EnterNightsongPrison")
+THEN
+PROC_State_Progress(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, "SHA_Necromancer", "SHA_Necromancer_State_AtPrison");
+
+IF
+ReadyCheckFailed("ReadyCheck_EnterNightsongPrison")
+AND
+DB_SHA_NightsongPrison_StartedReadyCheck(_Char)
+THEN
+NOT DB_SHA_NightsongPrison_StartedReadyCheck(_Char);
+
+IF
+SavegameLoaded()
+AND
+DB_SHA_NightsongPrison_StartedReadyCheck(_Char)
+THEN
+NOT DB_SHA_NightsongPrison_StartedReadyCheck(_Char);
+
+IF
+DialogEnded(SHA_NightsongPrison_CINE_EnterWater_0517fe06-0777-8773-9784-dc9e2e9d7107, _ID)
+THEN
+PROC_SHA_NightsongPrison_TryTeleport((INTEGER)_ID);
+
+IF
+DialogRequestFailed(SHA_NightsongPrison_CINE_EnterWater_0517fe06-0777-8773-9784-dc9e2e9d7107, _ID)
+THEN
+PROC_SHA_NightsongPrison_TryTeleport((INTEGER)_ID);
+
+PROC
+PROC_SHA_NightsongPrison_TryTeleport((INTEGER)_ID)
+AND
+DB_Players((CHARACTER)_Player)
+THEN
+PROC_SHA_NightsongPrison_TeleportEffect(_Player);
+PROC_SHA_NightsongPrison_Entrance(_Player);
+
+IF
+ScreenFadeDone(_UserId, _FadeId)
+AND
+DB_SHA_NightsongPrison_FadeEvents(_Character, _FadeId)
+THEN
+NOT DB_SHA_NightsongPrison_FadeEvents(_Character, _FadeId);
+ClearScreenFade(_Character, 2.0, _FadeId);
+
+QRY
+QRY_SHA_NightsongPrison_AttemptEntranceCinematic((CHARACTER)_Char)
+AND
+DB_Players(_Char)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_EntranceCinematic")
+THEN
+StartVoiceBark((VOICEBARKRESOURCE)SHA_NightsongPrison_VB_EnterWater_65a44496-e3e1-62af-13e9-8d39ab007232, _Char);
+
+PROC
+PROC_FlagReactionAfterDialog((CHARACTER)_Char, (FLAG)SHA_NightsongPrison_Event_StartReadyCheck_9344260b-727a-6a3f-34da-fb28a1ba1116, (DIALOGRESOURCE)SHA_NightsongPrison_GatherYourParty_29530c19-2d81-2a03-53ac-8f96304f4a87)
+AND
+NOT DB_SHA_NightsongPrison_StartedReadyCheck(_)
+THEN
+DB_SHA_NightsongPrison_StartedReadyCheck(_Char);
+ReadyCheckGlobal("ReadyCheck_EnterNightsongPrison", "Message_ProgressingWorldState", 1, _Char);
+
+PROC
+PROC_FlagReactionAfterDialog((CHARACTER)_Char, (FLAG)SHA_NightsongPrison_Event_StartReadyCheck_9344260b-727a-6a3f-34da-fb28a1ba1116, (DIALOGRESOURCE)SHA_NightsongPrison_GatherYourParty_29530c19-2d81-2a03-53ac-8f96304f4a87)
+THEN
+ClearFlag((FLAG)SHA_NightsongPrison_Event_StartReadyCheck_9344260b-727a-6a3f-34da-fb28a1ba1116, _Char);
+
+PROC
+PROC_SHA_NightsongPrison_Entrance((CHARACTER)_Character)
+AND
+DB_PartyMembers(_Character)
+THEN
+PROC_SHA_NightsongPrison_TeleportPlayerWithFade(_Character, (TRIGGER)S_SHA_NightsongPrison_EntranceTeleportTrigger_49b61a34-31ba-47cb-b075-f4baf6e6f122);
+
+PROC
+PROC_SHA_NightsongPrison_Entrance((CHARACTER)_Character)
+AND
+NOT DB_PartyMembers(_Character)
+THEN
+TeleportTo(_Character, S_SHA_NightsongPrison_EntranceTeleportTrigger_49b61a34-31ba-47cb-b075-f4baf6e6f122, "", 0, 0, 1);
+
+PROC
+PROC_SHA_NightsongPrison_TeleportEffect((CHARACTER)_Character)
+AND
+GetPosition(_Character, _X, _Y, _Z)
+THEN
+PlayEffectAtPosition(VFX_Script_Stub_Poof_01_f0cf792a-0f74-d17e-ad0d-6052a6131416, _X, _Y, _Z, 1.0);
+
+PROC
+PROC_SHA_NightsongPrison_TeleportPlayerWithFade((CHARACTER)_Character, (GUIDSTRING)_Target)
+AND
+GetUUID(_Character, _UserIDString)
+AND
+GUIDToString(_Target, _TargetID)
+AND
+Concatenate(_TargetID, _UserIdString, _FadeId)
+THEN
+DB_SHA_NightsongPrison_FadeEvents(_Character, _FadeId);
+ScreenFadeTo(_Character, 2.0, 0, _FadeId);
+
+PROC
+PROC_SHA_NightsongPrison_TeleportPlayerWithFade((CHARACTER)_Character, (GUIDSTRING)_Target)
+AND
+NOT DB_Is_InCombat(_Character, _)
+THEN
+TeleportTo(_Character, _Target, "", 0, 1, 1);
+
+PROC
+PROC_SHA_NightsongPrison_TeleportPlayerWithFade((CHARACTER)_Character, (GUIDSTRING)_Target)
+AND
+DB_Is_InCombat(_Character, _)
+THEN
+TeleportTo(_Character, _Target, "", 0, 0, 1);
+
+//END_REGION
+
+//REGION Shadowfell Prison
+IF
+DB_InRegion(_Player, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_Players(_Player)
+THEN
+SetFlag((FLAG)GLO_Companion_LeaveBlocked_4386e3a1-b16e-4331-92ec-29edbc359d51, _Player);
+
+IF
+DB_InRegion(_Player, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_Players(_Player)
+AND
+NOT DB_GlobalFlag((FLAG)SHA_NightsongPrison_State_PlayerEnteredPrison_f2cbe7cf-5223-4522-a649-879d08638282)
+THEN
+SetFlag(SHA_NightsongPrison_State_PlayerEnteredPrison_f2cbe7cf-5223-4522-a649-879d08638282, NULL_00000000-0000-0000-0000-000000000000, 0);
+
+IF
+DB_InRegion(_Char, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+THEN
+ApplyStatus(_Char, "FEATHER_FALL_SHADOWFELL", -1.0, 1, NULL_00000000-0000-0000-0000-000000000000);
+
+IF
+Resurrected(_Char)
+AND
+DB_InRegion(_Char, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_PartyMembers(_Char)
+THEN
+ApplyStatus(_Char, "FEATHER_FALL_SHADOWFELL", -1.0, 1, NULL_00000000-0000-0000-0000-000000000000);
+
+// TEMPORAL: Add Balthazar custom spell
+IF
+DB_InRegion((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+THEN
+SetTag((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (TAG)AI_USESPELL_A_33aa698c-aea0-43e2-bd16-582aa718fd3e);
+
+IF
+DB_InRegion(_Player, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_Players(_Player)
+AND
+NOT DB_PermaDefeated(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_ArrivedAtPrison")
+AND
+NOT QRY_StartDialog((DIALOGRESOURCE)SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72, S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, _Player)
+THEN
+TeleportTo(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, S_SHA_NightsongPrison_AllyPrisonPos_9a2ce54e-e117-43fa-a19d-38f6a015b0bc, "SHA_NightsongPrison_NecromancerAtNightsong");
+
+IF
+DB_InRegion(_Player, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_Players(_Player)
+AND
+DB_PermaDefeated(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_ArrivedAtPrison")
+AND
+NOT QRY_StartDialog((DIALOGRESOURCE)SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72, NULL_00000000-0000-0000-0000-000000000000, _Player)
+THEN
+DB_NOOP(1);
+
+IF
+DialogEnded(SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72, _)
+AND
+NOT DB_PermaDefeated(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d)
+THEN
+TeleportTo(S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, S_SHA_NightsongPrison_AllyPrisonPos_9a2ce54e-e117-43fa-a19d-38f6a015b0bc, "SHA_NightsongPrison_NecromancerAtNightsong");
+
+IF
+DialogEnded(SHA_NightsongPrison_ArriveAtShadowfell_5d63c3ff-6ef6-2e6a-0722-f752b72a8b72, _)
+AND
+DB_Players(_Player)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_PlayersHaveShadowfellArrivalScene")
+THEN
+ShowMapMarker(_Player, "SHA_NightsongPrison_Point", 1);
+TimerLaunch("SHA_NightsongPrison_EntryVBTimer", 3000);
+
+IF
+TimerFinished("SHA_NightsongPrison_EntryVBTimer")
+AND
+DB_Avatars(_Avatar)
+THEN
+StartVoiceBark(SHA_NightsongPrison_VB_EnteredShadowfell_de76d4f1-a12c-b503-8118-98c2005ac5d0, _Avatar);
+
+IF
+EnteredTrigger(_Player, S_SHA_NightsongPrison_PrisonArea_3673ff64-5760-40fb-8b43-ce4f7731c562)
+AND
+DB_Players(_Player)
+AND
+QRY_OnlyOnce("SHA_NightsongPrison_Player_Reached_Prison")
+THEN
+ShowMapMarker(_Player, "SHA_NightsongPrison_Point", 0);
+SetFlag((FLAG)GLO_Nightsong_Knows_Identity_1ef2f1fb-c790-a329-8d1c-4afe4e5cd571, NULL_00000000-0000-0000-0000-000000000000, 0);
+
+IF
+DB_DialogSpeakers(_ID, S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, _)
+AND
+DB_DialogPlayers(_ID, _, _)
+AND
+NOT DB_GlobalFlag((FLAG)SHA_Nightsong_HasMet_6b56f4b8-8bb3-5393-de12-d320fbb55218)
+THEN
+SetFlag((FLAG)SHA_Nightsong_HasMet_6b56f4b8-8bb3-5393-de12-d320fbb55218, NULL_00000000-0000-0000-0000-000000000000, 0);
+
+IF
+LeftTrigger(_Char, S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+THEN
+RemoveStatus(_Char, "FEATHER_FALL_SHADOWFELL", NULL_00000000-0000-0000-0000-000000000000);
+
+PROC
+PROC_State_Changed(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, "SHA_Nightsong", "SHA_State_Nightsong_PermanentlyDead")
+THEN
+NOT DB_PartyDialogSuppressionZone((TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0);
+
+IF
+FlagSet((FLAG)SHA_NightsongPrison_Event_NightsongSentToMoonrise_685b9761-43b6-9004-8655-073096c62731, _, _)
+THEN
+NOT DB_PartyDialogSuppressionZone((TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0);
+
+IF
+FlagSet((FLAG)SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa, _, _)
+THEN
+NOT DB_PartyDialogSuppressionZone((TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0);
+
+IF
+LeftTrigger(_Player, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_Players(_Player)
+THEN
+NOT DB_PartyDialogSuppressionZone((TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0);
+
+IF
+LeftTrigger(_Origin, (TRIGGER)S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+AND
+DB_Origins(_Origin)
+THEN
+ClearFlag((FLAG)GLO_Companion_LeaveBlocked_4386e3a1-b16e-4331-92ec-29edbc359d51, _Origin);
+
+// TEMPORAL: Remove Balthazar custom spell
+IF
+LeftTrigger((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, S_SHA_NightsongPrison_SUB_0a302268-dd92-4462-99e5-ca7491815ec0)
+THEN
+ClearTag((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (TAG)AI_USESPELL_A_33aa698c-aea0-43e2-bd16-582aa718fd3e);
+
+PROC
+PROC_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3)
+THEN
+PROC_Foop((ITEM)S_SHA_NightsongPrison_ExitPortal_3e872c6c-95d1-47ef-85b5-bfa835ebb525);
+
+IF
+UseFinished(_, (ITEM)S_SHA_NightsongPrison_ExitPortal_3e872c6c-95d1-47ef-85b5-bfa835ebb525, 1)
+THEN
+PROC_GlobalClearFlagAndCache(SHA_NightsongPrison_State_PlayerEnteredPrison_f2cbe7cf-5223-4522-a649-879d08638282);
+//END_REGION
+
+//REGION Vanishing Justiciars
+IF
+DB_SHA_NightsongPrison_VanishingJusticiars(_Justiciar, _VanishTrigger)
+THEN
+PROC_TriggerRegisterForParty(_VanishTrigger);
+DB_SpotPlayers(_Justiciar, "SHA_NightsongPrison_VanishingJusticiarSpotting", NULL_00000000-0000-0000-0000-000000000000, NULL_00000000-0000-0000-0000-000000000000);
+
+// Justiciars vanish if:
+// 1. Player gets too close (by entering a trigger)
+// 2. Applies a status (should cover most non-harmful spells being cast on Justiciar)
+// 3. Assault crime registered for Justiciar 
+
+IF
+DB_InRegion(_Player, _VanishTrigger)
+AND
+DB_PartyMembers(_Player)
+AND
+DB_SHA_NightsongPrison_VanishingJusticiars(_Justiciar, _VanishTrigger)
+THEN
+PROC_FadeOutEntity(_Justiciar);
+
+IF
+StatusApplied(_Justiciar, _Status, _Player, _)
+AND
+DB_SHA_NightsongPrison_VanishingJusticiars((CHARACTER)_Justiciar, _)
+AND
+DB_PartyMembers((CHARACTER)_Player)
+THEN
+PROC_FadeOutEntity(_Justiciar);
+
+QRY
+QRY_CRIME_BlockRegisterCrime((CHARACTER)_Criminal, (STRING)_Crime, (ITEM)_Item, (CHARACTER)_Justiciar, _CrimeID)
+AND
+DB_SHA_NightsongPrison_VanishingJusticiars(_Justiciar, _)
+AND
+QRY_SHA_NightsongPrison_JusticiarAssaulted(_Crime)
+THEN
+PROC_FadeOutEntity(_Justiciar);
+
+QRY
+QRY_SHA_NightsongPrison_JusticiarAssaulted((STRING)_Crime)
+AND
+QRY_CRIME_IsCrimeFamilyMember(_Crime, "AssaultRelated")
+THEN
+DB_NOOP(1);
+
+QRY
+QRY_SHA_NightsongPrison_JusticiarAssaulted((STRING)_Crime)
+AND
+QRY_CRIME_IsCrimeFamilyMember(_Crime, "Assault")
+THEN
+DB_NOOP(1);
+
+PROC
+PROC_SpotPlayers_Spotted(_Justiciar, "SHA_NightsongPrison_VanishingJusticiarSpotting", _PartyMember)
+THEN
+PROC_TryStartAD((DIALOGRESOURCE)SHA_NightsongPrison_AD_VanishingJusticiarChanting_2834f273-1441-bb9d-0656-54fc31550acb, _Justiciar);
+//END_REGION
+
+//REGION Balthazar's Skeletons
+IF
+DB_SHA_NightsongPrison_BalthazarSkeletons(_, _Skelly)
+THEN
+SetOnStage(_Skelly, 0);
+
+// TEMPORAL: Added the removing of the spell after casting it
+PROC
+PROC_GlobalFlagReactionAfterDialog((FLAG)SHA_NightsongPrison_Event_NecroSummonsSkellies_8649c31d-15bf-dd68-5cc0-828e6f44af0f, (DIALOGRESOURCE)SHA_NightsongPrison_NecroAndNightsong_500474d5-3855-9b12-29d1-b6e7645d7385)
+THEN
+ClearTag((CHARACTER)S_SHA_Necromancer_53651a9f-7ea8-444f-ba2d-224390b72f7d, (TAG)AI_USESPELL_A_33aa698c-aea0-43e2-bd16-582aa718fd3e);
+PROC_SHA_NightsongPrison_BalthazarSummonSkellies();
+
+IF
+CastedSpell(_Char, "Target_SHA_Necromancer_ReclaimControl", _, _, _)
+THEN
+PROC_SHA_NightsongPrison_BalthazarSummonSkellies();
+
+PROC
+PROC_SHA_NightsongPrison_BalthazarSummonSkellies()
+AND
+DB_SHA_NightsongPrison_BalthazarSkeletons(_Bones, _Skelly)
+THEN
+NOT DB_SHA_NightsongPrison_BalthazarSkeletons(_Bones, _Skelly);
+AppearAt(_Skelly, _Bones, 1, NULL_00000000-0000-0000-0000-000000000000, "SHA_NightsongPrison_SkellySummoned");
+PROC_Poof(_Bones);
+
+PROC
+PROC_SHA_NightsongPrison_BalthazarSummonSkellies()
+THEN
+PROC_SetRelationToPlayers((FACTION)ACT2_SHA_Necromancer_NightsongSkeletons_d0b1cca2-25d3-4e06-b8d2-56406bffb60b, 0);
+
+IF
+DB_SHA_NightsongPrison_BalthazarSkeletons(_Bones, _Skelly)
+THEN
+DB_GLO_DefeatCounter(_Skelly, "SHA_NightsongPrison_SkeletonsDefeated");
+
+IF
+DestroyedBy(_Bones, _, _, _)
+AND
+DB_SHA_NightsongPrison_BalthazarSkeletons(_Bones, _Skelly)
+THEN
+NOT DB_SHA_NightsongPrison_BalthazarSkeletons(_Bones, _Skelly);
+//END_REGION
+
+//REGION Debug
+IF
+TextEvent("SHA_NightsongPrison_GiveResearch")
+AND
+DB_Players(_Player)
+THEN
+ToInventory(S_SHA_Necromancer_Research_822d964d-1c62-4465-b493-1aa1c34baef3, _Player, 1, 1, 1);
+
+IF
+TextEvent("SHA_NightsongPrison_GiveNightSpear")
+AND
+GetHostCharacter(_Player)
+THEN
+ToInventory((ITEM)S_SHA_NightSpear_b2454f89-dc53-48a6-a8cd-92c7a380a6a8, _Player, 1, 1, 1);
+
+IF
+TextEvent("SHA_NightsongPrison_FreeNightsong")
+THEN
+PROC_Debug_FreeNightsong();
+
+IF
+TextEvent("SHA_NightsongPrison_ShadowheartKillsNightsong")
+THEN
+SetFlag(SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3);
+SetFlag((FLAG)SHA_NightsongPrison_State_ShadowheartKilledNightsong_3cac3cd6-4c16-44a6-8246-a91922821169);
+SetOnStage(S_GLO_Nightsong_6c55edb0-901b-4ba4-b9e8-3475a8392d9b, 0);
+
+IF
+TextEvent("SHA_NightsongPrison_PermanentlyKillNightsong")
+AND
+DB_Players(_Player)
+THEN
+SetFlag((FLAG)SHA_NightsongPrison_Event_PermanentlyKillNightsong_097792de-6bd1-e7c9-77d3-fe6419e3170a, _Player);
+
+IF
+TextEvent("SHA_NightsongPrison_NightsongToMoonrise")
+THEN
+PROC_Debug_NightsongToMoonrise();
+
+IF
+FlagSet((FLAG)SHA_NightsongPrison_Debug_GiveNightSpear_cc17c054-497d-467a-af98-56d6e20f3556, _Player, _)
+THEN
+ToInventory((ITEM)S_SHA_NightSpear_b2454f89-dc53-48a6-a8cd-92c7a380a6a8, _Player, 1, 1, 1);
+
+PROC
+PROC_Debug_NightsongToMoonrise()
+THEN
+SetFlag(SHA_NightsongPrison_Event_NightsongSentToMoonrise_685b9761-43b6-9004-8655-073096c62731, NULL_00000000-0000-0000-0000-000000000000, 0);
+SetFlag(SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3, NULL_00000000-0000-0000-0000-000000000000, 0);
+PROC_SHA_NightsongPrison_NightsongToMoonrise();
+
+PROC
+PROC_Debug_FreeNightsong()
+THEN
+SetFlag(SHA_NightsongPrison_State_NightsongFreed_24f27b06-6665-79ed-d7bf-e4bf356ca2fa);
+SetFlag(SHA_NightsongPrison_State_NightsongFateDecided_4a61bbda-83ef-2738-e366-d3d3a4fa75e3);
+PROC_NightsongPrison_FreeNightsong();
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Act2"

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="05f87e82-499d-4e0b-8dd7-859b8b3e5beb">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2f23a92e-c431-47f6-91fd-04a6e92e2232" />
+        <field name="Name" type="NameTableFieldDefinition" value="SLEEP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e043fcd-bcd0-4962-bd61-04aa9acd4955" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())):RemoveStatus(SLEEP)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);IF(StatusDurationLessThan(context.Target,'SLEEP',10)):CriticalHit(AttackTarget,Success,Always,3);DetectDisturbancesBlock(true);Advantage(AttackTarget);SightRangeOverride(0);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd31e4d13g939ag101eg9e56g93956331fc9c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f13f0af8-e7f2-40b2-9caa-291eb3edc6be" />
+        <field name="Name" type="NameTableFieldDefinition" value="SOMNOLENCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f23a92e-c431-47f6-91fd-04a6e92e2232" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SOMNOLENCE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())):RemoveStatus(SOMNOLENCE)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AbilityFailedSavingThrow(Strength);AbilityFailedSavingThrow(Dexterity);IF(StatusDurationLessThan(context.Target,'SOMNOLENCE',10)):CriticalHit(AttackTarget,Success,Always,3);DetectDisturbancesBlock(true);Advantage(AttackTarget);SightRangeOverride(0);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="45727491-adee-4f58-bd50-84969e1345fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="STUN_DAZING_BLAST" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="960dad73-5352-431a-a15e-1b62b1816cd0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abca3a91-4799-4207-8c26-853b13e37967" />
+        <field name="Name" type="NameTableFieldDefinition" value="DREAM" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f23a92e-c431-47f6-91fd-04a6e92e2232" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb36377c1g08c0g556fge8fbg80cbd9b569ef" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0fea27dgc56fg62a0ge057g7c9ddc6f463e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Psychic)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(3d6,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="538f69b9-03ab-485b-8179-aa1f4f163ad8" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOLD_PERSON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e487a04-156c-40d7-89d3-7f219ca98fc5" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6e43f60-517e-461b-b5b0-1ef3cfb6eb12" />
+        <field name="Name" type="NameTableFieldDefinition" value="HOLD_MONSTER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37e97b42-f8c0-4855-89fb-ff28d6d1b61b" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="487832d0-3f76-4293-8859-3a22f3a7de92" />
+        <field name="Name" type="NameTableFieldDefinition" value="SLEEPING_EYEBITE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c7cb7abe-9583-43a9-9f01-0c37c4c4f936" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cee4e035-05b2-4d27-984b-6726cd971cfe" />
+        <field name="Name" type="NameTableFieldDefinition" value="PARALYZED_ENDTURN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfab9815-2261-4720-8da4-8b98dc6b3a22" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

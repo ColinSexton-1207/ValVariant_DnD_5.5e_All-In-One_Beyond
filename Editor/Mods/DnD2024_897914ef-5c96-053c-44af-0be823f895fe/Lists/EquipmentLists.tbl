@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="01663a87-740b-4681-8ae4-4d63901066dd">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1ff4a7ef-7e27-4307-8b41-5087dce60abe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Gunslinger Weapons" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Pistol;WPN_Pistol_Copy;WPN_Musket" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94ae74c1-f079-4b27-b488-9ef96432a897" />
+        <field name="Name" type="NameTableFieldDefinition" value="Highway Rider Weapons" />
+        <field name="Items" type="StringTableFieldDefinition" value="WPN_Pistol;WPN_Pistol_Copy" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

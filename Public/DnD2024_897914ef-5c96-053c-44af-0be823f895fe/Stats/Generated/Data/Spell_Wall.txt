@@ -1,0 +1,34 @@
+new entry "Wall___SCROLL__"
+type "SpellData"
+data "SpellType" "Wall"
+
+new entry "Wall_WallOfFire_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfFire"
+data "UseCosts" "ActionPoint:1"
+
+new entry "Wall_WallOfIce_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfIce"
+data "UseCosts" "ActionPoint:1"
+
+new entry "Wall_WallOfStone_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfStone"
+data "UseCosts" "ActionPoint:1"
+
+new entry "Wall_BladeBarrier_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_BladeBarrier"
+data "UseCosts" "ActionPoint:1"
+
+new entry "Wall_WallOfThorns_spellscroll"
+type "SpellData"
+data "SpellType" "Wall"
+using "Wall_WallOfThorns"
+data "UseCosts" "ActionPoint:1"
+

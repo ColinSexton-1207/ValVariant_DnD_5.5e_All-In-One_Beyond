@@ -1,0 +1,11 @@
+function IsDruidCantrip()
+    return SpellId('Projectile_PoisonSpray')
+     | SpellId('Projectile_ProduceFlame_Hurl')
+     | SpellId('Projectile_ProduceFlame_Hurl_Free')
+     | SpellId('Projectile_StarryWisp')
+     | SpellId('Projectile_StarryWisp_MoonDruid')
+     | SpellId('Target_Frostbite')
+     | SpellId('Target_PrimalSavagery')
+     | SpellId('Target_ThornWhip')
+     | SpellId('Shout_Thunderclap')
+end

@@ -1,0 +1,52 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied(_Character, "SPIRITS_FROM_BEYOND", _, _)
+AND
+HasPassive(_Character, "FontOfInspiration", 0)
+AND
+HasPassive(_Character, "Bard_10_MagicalSecrets", 0)
+AND
+Random(6, _Random)
+AND
+IntegerToString(_Random,_NumberString)
+AND
+Concatenate("SPIRITS_FROM_BEYOND_",_NumberString,_Spirit)
+THEN
+ApplyStatus(_Character, _Spirit, -1.0);
+
+IF
+StatusApplied(_Character, "SPIRITS_FROM_BEYOND", _, _)
+AND
+HasPassive(_Character, "FontOfInspiration", 1)
+AND
+HasPassive(_Character, "Bard_10_MagicalSecrets", 0)
+AND
+Random(8, _Random)
+AND
+IntegerToString(_Random,_NumberString)
+AND
+Concatenate("SPIRITS_FROM_BEYOND_",_NumberString,_Spirit)
+THEN
+ApplyStatus(_Character, _Spirit, -1.0);
+
+IF
+StatusApplied(_Character, "SPIRITS_FROM_BEYOND", _, _)
+AND
+HasPassive(_Character, "FontOfInspiration", 1)
+AND
+HasPassive(_Character, "Bard_10_MagicalSecrets", 1)
+AND
+Random(10, _Random)
+AND
+IntegerToString(_Random,_NumberString)
+AND
+Concatenate("SPIRITS_FROM_BEYOND_",_NumberString,_Spirit)
+THEN
+ApplyStatus(_Character, _Spirit, -1.0);
+EXITSECTION
+
+ENDEXITSECTION

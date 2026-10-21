@@ -1,0 +1,67 @@
+-- Priorities 600,000+: Prone
+-- AI-controlled creatures use Standing Up before any other combat action
+game.actions.statusOverrides.DND55e_StandUpFromProne = Action
+{
+    function()
+        local spell = "Shout_RemoveProne"
+        local removingStatus = "PRONE_REMOVING"
+        if CanCast(me.Character, "Shout_RemoveProne_StandUp", nil) then
+            spell = "Shout_RemoveProne_StandUp"
+            removingStatus = "PRONE_REMOVING_STANDUP"
+        end
+
+        try
+            UseSpell(spell, me)
+        catch e if ls.CheckType(e, error.UseSpellFailed) then
+            -- Stand up without the cast so this override does not retry it forever
+            ApplyStatus(me, removingStatus, true, 0.0)
+        end
+    end
+    ,
+    Valid = function()
+        return
+            me.IsInCombat and
+            me.CanActInCombatTeamTurn and
+            me.IsCharacter and
+            not me.IsIncapacitated and
+            (not me.Character.IsPartyMember or me.Character.HasLostControl) and
+            (CanCast(me.Character, "Shout_RemoveProne", nil) or
+             CanCast(me.Character, "Shout_RemoveProne_StandUp", nil))
+    end
+    ,
+    Priority = 600000
+}
+
+-- Priorities 490,000+: Fear
+-- AI-controlled creatures under FEARED take the Dash action before the vanilla ScaredFlee override moves them away
+game.actions.statusOverrides.DND55e_DashWhileFeared = Action
+{
+    function()
+        local spell = "Shout_Dash"
+        if not CanCast(me.Character, spell, nil) then
+            spell = "Shout_Dash_NPC"
+        end
+
+        try
+            UseSpell(spell, me)
+        catch e if ls.CheckType(e, error.UseSpellFailed) then
+            -- Dash without the cast so this override does not retry it forever
+            ApplyStatus(me, "DASH", true, 6.0)
+        end
+    end
+    ,
+    Valid = function()
+        return
+            me.IsInCombat and
+            me.CanActInCombatTeamTurn and
+            me.IsCharacter and
+            not me.IsIncapacitated and
+            (not me.Character.IsPartyMember or me.Character.HasLostControl) and
+            HasActiveStatus(me, "FEARED") and
+            not HasActiveStatus(me, "DASH") and
+            (CanCast(me.Character, "Shout_Dash", nil) or
+             CanCast(me.Character, "Shout_Dash_NPC", nil))
+    end
+    ,
+    Priority = 490000
+}

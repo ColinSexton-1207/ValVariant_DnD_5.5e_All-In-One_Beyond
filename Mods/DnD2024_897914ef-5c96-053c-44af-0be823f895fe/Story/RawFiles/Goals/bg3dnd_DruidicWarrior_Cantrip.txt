@@ -1,0 +1,370 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+IF
+StatusApplied((CHARACTER)_Player, "DRUIDICWARRIOR_CANTRIP", _, _)
+AND
+GetStatusCurrentLifetime(_Player,"DRUIDICWARRIOR_CANTRIP",_Duration)
+AND
+_Duration > 11.0
+AND
+ResolveTranslatedString("h7ff3bb28ge2ffg4eddg88e6g02cd38c710da", _Msg)
+THEN
+RemoveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", NULL_00000000-0000-0000-0000-000000000000);
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP_END", -1.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Frostbite",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_FROSTBITE", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_FROSTBITE", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Guidance",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_GUIDANCE", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_GUIDANCE", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_PoisonSpray",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_POISONSPRAY", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_POISONSPRAY", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_PrimalSavagery",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_PRIMALSAVAGERY", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_PRIMALSAVAGERY", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_ProduceFlame",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_ProduceFlame",_,_,_)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_PRODUCEFLAME", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_Resistance",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_RESISTANCE", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_RESISTANCE", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_Shillelagh",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SHILLELAGH", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_SHILLELAGH", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Shillelagh",_,_,_)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SHILLELAGH", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_SHILLELAGH", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_SpareTheDying",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_SPARETHEDYING", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_SPARETHEDYING", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Projectile_StarryWisp",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_STARRYWISP", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_STARRYWISP", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Target_ThornWhip",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THORNWHIP", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_THORNWHIP", -1.0, 1, _Player);
+
+IF
+StartedPreviewingSpell((CHARACTER)_Player,"Shout_Thunderclap",_, _)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THUNDERCLAP", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_THUNDERCLAP", -1.0, 1, _Player);
+
+IF
+CastedSpell((CHARACTER)_Player,"Shout_Thunderclap",_,_,_)
+AND
+HasActiveStatus(_Player, "DRUIDICWARRIOR_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_CLERIC_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_DRUID_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "LFO_MAGICINITIATE_WIZARD_CANTRIP_START", 1)
+AND
+NOT HasActiveStatus(_Player, "MAGICINITIATE_THUNDERCLAP", 1)
+AND
+ResolveTranslatedString("h9d44a203g4f24g48e6gaee6g05715d7fa8e7", _Msg)
+THEN
+ApplyStatus(_Player, "DRUIDICWARRIOR_CANTRIP", 6.0, 1, _Player);
+OpenMessageBox(_Player, _Msg);
+ApplyStatus(_Player, "MAGICINITIATE_THUNDERCLAP", -1.0, 1, _Player);
+EXITSECTION
+
+ENDEXITSECTION

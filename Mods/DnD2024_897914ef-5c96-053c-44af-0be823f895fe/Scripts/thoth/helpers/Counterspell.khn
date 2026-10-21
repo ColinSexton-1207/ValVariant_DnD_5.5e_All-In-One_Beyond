@@ -1,0 +1,8 @@
+function CounterspellSavingThrow()
+    local counterspellDC = math.max(
+        SourceSpellDC(10, context.Observer, Ability.Intelligence),
+        SourceSpellDC(10, context.Observer, Ability.Wisdom),
+        SourceSpellDC(10, context.Observer, Ability.Charisma))
+    local st = ~SavingThrow(Ability.Constitution, counterspellDC, false, false, context.Source)
+    return ConditionResult(st.Result,{},{},st.Chance)
+end

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="53eea14d-0e3f-4411-9d44-36d1ff0a6775">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e43562e-4fcb-4239-9d5c-2814201d6fdc" />
+        <field name="Name" type="NameTableFieldDefinition" value="HIDEOUS_LAUGHTER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="59bdbebc-ade7-4df6-acb5-9a25c018332f" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SavingThrow(Ability.Wisdom, SourceSpellDC(), false, DisadvantageOnHeightenedSpell())" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);ActionResourceBlock(ReactionActionPoint);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="792314b1-e8b6-4a70-bc1e-02d2a649eb0b" />
+        <field name="Name" type="NameTableFieldDefinition" value="KNOCKED_DOWN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cbe12b32-5e46-4add-b47d-f44f13ab88b1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aa1c2a30-8afa-42b8-8164-c2c5392184fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="KNOCKED_DOWN_INSTANT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="432a03bf-8a83-430c-80fd-785a9db206f2" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e50e3ca-a3c0-482f-a45f-583115df9f9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="TWN_DISTILLERY_DRUNK_03" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="43efd2ef-8e87-4146-851b-2ecff52bc1b5" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="AC(-5);Advantage(AttackTarget);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97cb7810-7f78-42af-b26a-e506dde77ba8" />
+        <field name="Name" type="NameTableFieldDefinition" value="COMMAND_GROVEL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="00089887-ff49-492c-a355-3d17ec7ecdd1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="KO_Fallen" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="KO_Fallen" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);ActionResourceBlock(ReactionActionPoint);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(false);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1196941d-bc42-4105-a2ff-1f81d7cbbc99" />
+        <field name="Name" type="NameTableFieldDefinition" value="ASTARION_BEACH_WAKEUP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8472ede2-4cec-4b3f-aa93-688ea3609416" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="KO" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="KO" enumeration_type_name="StillAnimPriority" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2ec9ce64-45ae-4d5a-a258-aa609f87cf11" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_MONKAMULET_MADNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8937f3b-c0fe-4792-a6e4-be43d8fd23e6" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Laughing_Hideous" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Shouting" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);ActionResourceBlock(ActionPoint);ActionResourceBlock(BonusActionPoint);ActionResourceBlock(ReactionActionPoint);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(true);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
