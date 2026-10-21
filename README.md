@@ -32,6 +32,8 @@ These changes appear to be compatible with existing *DnD Beyond All-In-One* save
 * If the old *Use Hit Point Dice* action was on your hotbar, that slot may show up empty or broken. Just remove it.
 * As always, back up your save before swapping mod versions.
 
+> **⚠️ Do not install this alongside the original *DnD 5.5e All-in-One Beyond*.** This build uses the same mod UUID, folder name, and internal content IDs as the original, so the two will overwrite each other and only one (or a broken mix of both) will actually load. Disable or remove the original pak before installing this one. The upside of the shared UUID is that this build is a drop-in replacement: existing saves load without a missing-mod warning, and you can swap back the same way.
+
 ---
 
 ## 📜 Usage & License
