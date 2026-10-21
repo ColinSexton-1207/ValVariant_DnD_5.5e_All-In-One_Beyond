@@ -3013,8 +3013,8 @@ At Gunslinger level 9, your attack rolls with Ranged weapons score a Critical Hi
   <content contentuid="h99e9e197g55f2g72f5g3b37g75a3f15b60bc" version="1">You are a firearm expert. You can add your ability modifier to the damage rolls of weapon attacks made with firearms.</content>
   <content contentuid="h4e6ec503g245cg8614g1c81g7087625fa70e" version="1">Firearm Expert</content>
   <content contentuid="h86b389a9gfe27g7353g9f20g12d9431a57fa" version="1">You are a firearm expert. You can add your ability modifier to the damage rolls of weapon attacks made with firearms.</content>
-  <content contentuid="h61b78046g443bg1d02ge5bbgfe44da9ef621" version="11">Musket</content>
-  <content contentuid="h4b2511a0g4888gc3ffg4e1fgc9d9ee28927a" version="11">A long-barreled firearm designed for two-handed use, a Musket delivers powerful, accurate shots by firing a single heavy projectile over long distances.</content>
+  <content contentuid="h61b78046g443bg1d02ge5bbgfe44da9ef621" version="13">Musket</content>
+  <content contentuid="h4b2511a0g4888gc3ffg4e1fgc9d9ee28927a" version="13">A long-barreled firearm designed for two-handed use, a Musket delivers powerful, accurate shots by firing a single heavy projectile over long distances.</content>
   <content contentuid="hae35f153g7a35g4565ga666g79bb16da7dd3" version="1">Dragon Shape</content>
   <content contentuid="hb5de1336geb7cg937fg5ba9g13226b34f6df" version="1">Breath Weapon</content>
   <content contentuid="h82f57f8fg4253ga79egce21gde7d5fe72f73" version="2">You can use an action to exhale a plume of powerful energy from inside of you. Each creature in a [2] cone must make a Dexterity saving throw against your spell save DC. A creature takes [1] on a failed save, or half as much on a successful one.</content>
@@ -7284,4 +7284,8 @@ Each creature in that area makes a Strength saving throw. On a failed save, it t
   <content contentuid="h1567b8d0g0173g6bd4g55cag87f68dcb6ba7" version="1">You can use up to two Cunning Strike effects when you deal Sneak Attack damage.</content>
   <content contentuid="hb2c037c3g7e2eg4543g95fdg4b9b76dcce08" version="1">Shown as a level 1 spell due to a game engine limitation, but it is actually a level 2 spell.</content>
   <content contentuid="hf073e4a5gc4bcg1e42gd465gf4515840a424" version="1">Fire Finger Guns (Arcane Shot)</content>
+  <content contentuid="hb5143204gdc23gebe2gca0eg5d91a684a2ea" version="3">Lucent Destroyer</content>
+  <content contentuid="h528cf4abgcf6eg9eaeg6a71ged4956a47859" version="3">A long-barreled firearm designed for two-handed use, a Musket delivers powerful, accurate shots by firing a single heavy projectile over long distances.</content>
+  <content contentuid="hecaf5e04gad04gaff1g8fecg4be3a059172e" version="1">Thunderbuss</content>
+  <content contentuid="h37b8fffdgb189g2c8ag4320g95311bc62e07" version="1">The earliest type of one-handed firearm, a Pistol operates as a miniature Musket, loading and firing a single heavy projectile with deadly results.</content>
 </contentList>
