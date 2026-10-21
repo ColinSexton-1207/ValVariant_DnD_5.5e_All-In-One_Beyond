@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="7c4c3ae1-26ac-4765-a5d5-586976e0e458" />
+					<attribute id="Name" type="LSString" value="LOOT_SCROLL_Enlarge" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3d2e705cg4f53g4116g9d07ge06dd15f7324" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h701629dfgc58dg4887g8faeg08469d671d32" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_SCROLL_Enlarge" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_Enlarge" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="CanUseSpellScroll(&quot;Target_EnlargeReduce_spellscroll&quot;)" />
+											<attribute id="SkillID" type="FixedString" value="Target_EnlargeReduce_spellscroll" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="33" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SpellId" type="FixedString" value="Target_EnlargeReduce" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

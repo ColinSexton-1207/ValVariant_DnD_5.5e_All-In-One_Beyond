@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="TooltipUpcastDescriptions">
+        <node id="root">
+            <children>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Magic Weapon"/>
+                    <attribute id="Text" type="TranslatedString" handle="hc07eac86g7983g1b9eg4f6bg629a0e86b214" version="1"/>
+                    <attribute id="UUID" type="guid" value="7c044802-8e75-408b-9416-eeee56c3c9f0"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Ashardalon&apos;s Stride"/>
+                    <attribute id="Text" type="TranslatedString" handle="he87b5a9cg9c3ag1b7fg2fefg3f7ae0ff3ef9" version="1"/>
+                    <attribute id="UUID" type="guid" value="ca7afdaf-40a3-4bbf-98e3-3ddde2f1fa2e"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Arcane Vigor"/>
+                    <attribute id="Text" type="TranslatedString" handle="h2826d606g7d49g321cg9686gfc615a4ba31d" version="1"/>
+                    <attribute id="UUID" type="guid" value="e28b5cd2-6a2b-4e46-8ccd-cba00ace9474"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Thorn Armor"/>
+                    <attribute id="Text" type="TranslatedString" handle="he725b302g9ad6g038fg90e3g3b6453195180" version="1"/>
+                    <attribute id="UUID" type="guid" value="26b974eb-a02f-4c3e-ba37-a33962c7b8a1"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Spectral Slash"/>
+                    <attribute id="Text" type="TranslatedString" handle="h1baba05fg926fg3fbeg861bg6aa1ecd27bef" version="1"/>
+                    <attribute id="UUID" type="guid" value="2d34056c-ad56-4393-8089-dc85b5f9b421"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Danse Macabre"/>
+                    <attribute id="Text" type="TranslatedString" handle="hd4d76441g18c5g426bga7f2g5e08f7cd3d34" version="1"/>
+                    <attribute id="UUID" type="guid" value="45eb85b5-3ed2-4223-a184-c6350820afc1"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Blood Rush"/>
+                    <attribute id="Text" type="TranslatedString" handle="h5f77a0a5g6029g4b77g90a2g2c3430341346" version="1"/>
+                    <attribute id="UUID" type="guid" value="017c55e3-df97-4a1a-b9f2-ee7754f09b54"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Bloodbane Rune"/>
+                    <attribute id="Text" type="TranslatedString" handle="h3e9ea50dg4178g4b19g995dgf7cc3a13f920" version="1"/>
+                    <attribute id="UUID" type="guid" value="3342b31d-00a3-46a8-943a-06b054702955"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Vibrating Humors"/>
+                    <attribute id="Text" type="TranslatedString" handle="h6e675f13g21ccg47efgbb46gf5fa950155c1" version="1"/>
+                    <attribute id="UUID" type="guid" value="d89c6930-0f91-411a-9a7b-3dd890505b04"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Circle of Scarlet"/>
+                    <attribute id="Text" type="TranslatedString" handle="h3d8fe28fgbfccg4168gb0a5g9c5682284f24" version="1"/>
+                    <attribute id="UUID" type="guid" value="56de7c14-e2e3-4b4a-afd1-3212040c26fe"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Somnolence"/>
+                    <attribute id="Text" type="TranslatedString" handle="h95105393gc043g4088gaf68g04299c6eb4cf" version="1"/>
+                    <attribute id="UUID" type="guid" value="f8573e48-96ca-4a0d-9971-1e5ce4987036"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Crimson Lash"/>
+                    <attribute id="Text" type="TranslatedString" handle="hdcbe902age12fg4992ga380g528d61d3db9b" version="1"/>
+                    <attribute id="UUID" type="guid" value="e35d53c6-f98c-433e-adf7-6d786184359c"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Blood Wisp"/>
+                    <attribute id="Text" type="TranslatedString" handle="h58d3ce70g8639g4af4gbef7g4708b5e973ab" version="1"/>
+                    <attribute id="UUID" type="guid" value="e33fe82e-132e-47e5-91f6-030d0b40eaff"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Sense Lifeblood"/>
+                    <attribute id="Text" type="TranslatedString" handle="h00801c86g20e8g4c63g9f5eg5cec1a1152dc" version="1"/>
+                    <attribute id="UUID" type="guid" value="b578d282-7102-4efe-81bf-e5d18d9f04ce"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Theft of Vitae"/>
+                    <attribute id="Text" type="TranslatedString" handle="h4f2d944egd72bg4c8fg9aa9gf6d89cf9971a" version="1"/>
+                    <attribute id="UUID" type="guid" value="06713acb-6fac-4dd2-b3e8-6bac001c7a8d"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Sanguine Shield"/>
+                    <attribute id="Text" type="TranslatedString" handle="h4afb1fafga72bg4445g9c74geda52c586bb9" version="1"/>
+                    <attribute id="UUID" type="guid" value="80edd3da-f9e5-41f6-8631-68995c00ccfd"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Blood Bond"/>
+                    <attribute id="Text" type="TranslatedString" handle="h4287ed8eg2eb0g430bg9f9dg9e6b9ce87040" version="1"/>
+                    <attribute id="UUID" type="guid" value="0ecf6a2c-d115-40b5-a4ed-2e7619888d71"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Extract Iron"/>
+                    <attribute id="Text" type="TranslatedString" handle="hefecbb30g9d22g497bgb4f7g3625a8c257da" version="1"/>
+                    <attribute id="UUID" type="guid" value="74b06f5d-a76d-4c63-820b-3ea3b3e4c344"/>
+                </node>
+                <node id="TooltipUpcastDescriptions">
+                    <attribute id="Name" type="FixedString" value="Sanguine Poppet"/>
+                    <attribute id="Text" type="TranslatedString" handle="h3787ac08geef3g453cgafd9g9437fc6051be" version="1"/>
+                    <attribute id="UUID" type="guid" value="7f8e7904-6fdb-4921-8eef-3eca34a30069"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

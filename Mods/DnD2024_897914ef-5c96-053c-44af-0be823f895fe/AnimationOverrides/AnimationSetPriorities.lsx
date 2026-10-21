@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="1"/>
+    <region id="AnimationSetPriorities">
+        <node id="root">
+            <children>
+                <node id="AnimationSetPriority">
+                    <attribute id="Name" type="LSString" value="DnD55_Prone"/>
+                    <attribute id="Priority" type="int32" value="0"/>
+                    <attribute id="UUID" type="guid" value="7611954f-01a4-4b66-9b92-ea87cc43cf27"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

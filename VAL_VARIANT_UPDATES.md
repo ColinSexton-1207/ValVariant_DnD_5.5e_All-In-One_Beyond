@@ -20,6 +20,7 @@ The Val variant is a separate fork, so it shouldn't show up under the original n
 | `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\meta.lsx` | `Name`: `DnD 5.5e All-in-One BEYOND` → `Val's Variant: DnD 5.5e All-In-One Beyond`. |
 | same | `Author`: `Yoonmoonsik` → `Valtorei (Original: Yoonmoonsik)`. |
 | same | `PublishHandle`: `4419649` → `0`, so the mod is no longer tied to the original mod.io listing. |
+| same | `MD5`: `632fa963…` → empty. This was the original mod.io pak's checksum. A rebuilt pak can never match it, so the game hung at the mod verification screen. |
 
 ### Deliberately left in place
 - **The mod `UUID` (`897914ef-…`) and folder names.** Changing them would break existing saves that reference the base mod.

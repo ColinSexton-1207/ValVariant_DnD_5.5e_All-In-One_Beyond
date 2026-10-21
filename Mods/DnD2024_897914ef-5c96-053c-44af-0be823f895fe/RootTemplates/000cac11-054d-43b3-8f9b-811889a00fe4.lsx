@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="000cac11-054d-43b3-8f9b-811889a00fe4" />
+					<attribute id="Name" type="LSString" value="LOOT_SCROLL_FindSteed_YMS" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6192e9b5g8977g429cgb010g38af763aba20" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h9036825bg9a32g4e70g8c69gf202e0ae6384" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_SCROLL_FindSteed" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_FindSteed_YMS" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="CanUseSpellScroll(&quot;Shout_FindSteed_spellscroll&quot;)" />
+											<attribute id="SkillID" type="FixedString" value="Shout_FindSteed_spellscroll" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

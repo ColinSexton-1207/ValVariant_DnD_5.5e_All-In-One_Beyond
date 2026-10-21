@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="27b52787-2c0c-42c8-bdb4-89b8874e7546" />
+					<attribute id="Name" type="LSString" value="LOOT_SCROLL_InsectPlague_YMS" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h93979a42gdc26g4964ga7f7gc4974506e66a" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hab57462agb792g494bg9462g32ca3e45469e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_SCROLL_InsectPlague" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_InsectPlague_YMS" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="CanUseSpellScroll(&quot;Target_InsectPlague_spellscroll&quot;)" />
+											<attribute id="SkillID" type="FixedString" value="Target_InsectPlague_spellscroll" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

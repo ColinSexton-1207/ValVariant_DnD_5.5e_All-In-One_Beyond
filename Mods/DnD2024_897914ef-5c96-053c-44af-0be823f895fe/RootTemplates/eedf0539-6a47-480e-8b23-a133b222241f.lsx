@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="eedf0539-6a47-480e-8b23-a133b222241f" />
+					<attribute id="Name" type="LSString" value="LOOT_SCROLL_ExpeditiousRetreat" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7c1013b8g43f7g4fc3gb95ag5c6274d1316b" version="2" />
+					<attribute id="Description" type="TranslatedString" handle="h2c2386e2g0722g480egaa8ag57417fd707f9" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_SCROLL_ExpeditiousRetreat" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_ExpeditiousRetreat" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="CanUseSpellScroll(&quot;Shout_ExpeditiousRetreat_spellscroll&quot;)" />
+											<attribute id="SkillID" type="FixedString" value="Shout_ExpeditiousRetreat_spellscroll" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="33" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SpellId" type="FixedString" value="Shout_ExpeditiousRetreat" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

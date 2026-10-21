@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5e83f3b3-21ac-4de3-94b7-ab43ca3efb3c" />
+					<attribute id="Name" type="LSString" value="S_UND_AnimatedArmor_03" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="TemplateName" type="FixedString" value="2facfc7e-5fe9-4a8d-9fec-dcb5ce6c5ebf" />
+					<attribute id="Flag" type="uint8" value="1" />
+					<attribute id="Icon" type="FixedString" value="826d20bb-9329-bffe-9a81-3220c5d2b24c-EQP_HeavyCrossbow_(Icon_Animated_Armor)" />
+					<attribute id="Stats" type="FixedString" value="AnimatedArmor" />
+					<attribute id="Equipment" type="FixedString" value="EQP_HeavyCrossbow" />
+					<attribute id="SpotSneakers" type="bool" value="True" />
+					<attribute id="LevelOverride" type="int32" value="4" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="826d20bb-9329-bffe-9a81-3220c5d2b24c" />
+					<attribute id="AnubisConfigName" type="FixedString" value="UND_AnimatedArmor" />
+					<attribute id="Faction" type="guid" value="f438faa7-7b11-4221-9eaf-56d0e38eb5dc" />
+					<attribute id="Archetype" type="FixedString" value="ranged_stupid" />
+					<attribute id="SwarmGroup" type="FixedString" value="UND_Autmaton_AnimatedArmor_Swarm_1" />
+					<attribute id="AiHint" type="guid" value="3cae4ff5-e9c0-485b-b695-f8830961a781" />
+					<attribute id="CombatGroupID" type="FixedString" value="b8b7a250-c93e-d260-2ea6-09d6b4e67414" />
+					<children>
+						<node id="Transform">
+							<attribute id="Scale" type="float" value="1" />
+							<attribute id="Position" type="fvec3" value="-49.123432 52.476032 -292.37122" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.97172654 0 0.23610948" />
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="22e5209c-eaeb-40dc-b6ef-a371794110c2" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object" key="MapKey">
+											<attribute id="MapKey" type="FixedString" value="WLD_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="53403475-3141-4317-fa26-9f114ae0c2d9" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="bfd2a9ad-d8b6-e2a7-5f7b-2f959a4e19ef" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="41794b60-81f1-18ae-1b30-0ac91837fff0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Shove" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="UND_Tower_AutomatonCorpse" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="13105f7d-55fa-4292-abfe-b9d80054b48e" />
+					<attribute id="Name" type="LSString" value="LOOT_SCROLL_ChainLightning" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="4ffd5c4b-4c56-4f05-a228-a33754bb1806" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0aa4452egbcf6g4aa8g8b1dg3606ab9dbbf1" version="3" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_SCROLL_ChainLightning" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Scroll_ChainLightning" />
+					<attribute id="Description" type="TranslatedString" handle="h5cc2b487g9e1cg67f3gff45gb8bebf140d50" version="1" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="12" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="CanUseSpellScroll(&quot;Projectile_ChainLightning_spellscroll&quot;)" />
+											<attribute id="SkillID" type="FixedString" value="Projectile_ChainLightning_spellscroll" />
+											<attribute id="Consume" type="bool" value="True" />
+											<attribute id="ClassId" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+										</node>
+									</children>
+								</node>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="33" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="SpellId" type="FixedString" value="Projectile_ChainLightning" />
+											<attribute id="Consume" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
