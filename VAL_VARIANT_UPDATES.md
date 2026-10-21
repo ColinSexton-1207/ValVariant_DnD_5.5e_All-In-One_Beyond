@@ -9,6 +9,62 @@ Path shorthand used below:
 
 ---
 
+## 2026-10-21: Renamed the mod and unlinked it from mod.io
+
+### Why
+The Val variant is a separate fork, so it shouldn't show up under the original name or publish over the original mod.io page.
+
+### Changes
+| File | Change |
+|---|---|
+| `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\meta.lsx` | `Name`: `DnD 5.5e All-in-One BEYOND` → `Val's Variant: DnD 5.5e All-In-One Beyond`. |
+| same | `Author`: `Yoonmoonsik` → `Valtorei (Original: Yoonmoonsik)`. |
+| same | `PublishHandle`: `4419649` → `0`, so the mod is no longer tied to the original mod.io listing. |
+
+### Deliberately left in place
+- **The mod `UUID` (`897914ef-…`) and folder names.** Changing them would break existing saves that reference the base mod.
+- **The description and all other original author credits.**
+
+### How to test
+- In the mod manager, the mod should be listed as "Val's Variant: DnD 5.5e All-In-One Beyond" by "Valtorei (Original: Yoonmoonsik)".
+- Existing saves made with the base mod should still load without a missing-mod warning.
+
+---
+
+## 2026-10-21: Removed the short rest Hit Point Dice mechanic
+
+### Why
+The base mod replaced vanilla short rest healing with a "Use Hit Point Dice" action: a short rest healed only 1 HP, and you spent Hit Dice to heal the rest. This also broke the "short rest heals to full" custom game setting. The Val variant goes back to vanilla short rest behavior.
+
+### How the mechanic worked
+1. **Override**: the mod overrode vanilla's `ShortResting` passive. On short rest it ran `RegainHitPoints(1);ApplyStatus(SHORT_RESTING,100,20)` in place of vanilla healing.
+2. **Unlock**: the `SHORT_RESTING` status unlocked the `Shout_HitPointDice` action out of combat. It was removed on combat or turn start.
+3. **Spend**: `Shout_HitPointDice` (with 06/08/10/12 variants) spent a `HitPointDice` resource to regain 1dX + Constitution modifier.
+
+### Changes
+| File | Change |
+|---|---|
+| `Public\Stats\Generated\Data\Passive.txt` (and `Editor\Stats\Stats\Passive.stats`) | `ShortResting`: removed the overridden `StatsFunctors`, `DisplayName`, `Description`, `Icon`, `PriorityOrder`, `Properties` and the `UnlockSpellVariant(Shout_HitPointDice…)` boosts, so vanilla's healing and text apply again. Only the per-level `HitPointDice08` grants for non-mod classes remain. |
+| `Public\Stats\Generated\Data\Spell_Shout.txt` (and `Editor\Stats\SpellData\Shout.stats`) | Deleted `Shout_HitPointDice` and its `06`/`08`/`10`/`12` variants. |
+| same | `Shout_SpeedyRecovery` (Durable feat) inherited from `Shout_HitPointDice`. Copied the fields it relied on (healing, targeting, animation, intent, flags) into it directly and dropped the `using`. It works the same as before. |
+| `Public\Stats\Generated\Data\Status_BOOST.txt` (and `Editor\Stats\StatusData\Status_BOOST.stats`) | Deleted the `SHORT_RESTING` status. |
+| `Public\Stats\Generated\SpellSet.txt` (and `Editor\Stats\SpellData\SpellSet.stats`) | Removed `Shout_HitPointDice` from `CommonPlayerActions` and `CommonSummonActions`. |
+| `README_Modio.html`, `README_NexusMods.txt` | Removed "Hit Point Dice" from the Rest and Recovery feature list. |
+| `README.md` | Added a Save Compatibility section. |
+
+### Deliberately left in place
+- **The `HitPointDice06`–`12` action resources and the class progression grants.** Sangromancy, Durable (Speedy Recovery), Dwarven Fortitude, Lifedrinker and the ranger companions still spend them. Hit Dice still show on the resource panel.
+- **The `HIT_POINT_DIE_USE_*` statuses** used by Lifedrinker, and the Hit Dice icons.
+- **The `ShortResting` passive entry itself.** It still grants Hit Dice to non-mod classes and is vanilla's passive, so every character already has it.
+
+### How to test
+- Take damage, then short rest. Healing should match vanilla, including the "short rest heals to full" custom setting.
+- There should be no "Use Hit Point Dice" action on the hotbar or in common actions.
+- Take the Durable feat and use Speedy Recovery in combat. It should spend a Hit Die and heal 1dX + CON.
+- Load an existing save. If the old action was on the hotbar, that slot may be empty and can be removed.
+
+---
+
 ## 2026-10-21: Removed "One Spell With a Spell Slot Per Turn"
 
 ### Why
