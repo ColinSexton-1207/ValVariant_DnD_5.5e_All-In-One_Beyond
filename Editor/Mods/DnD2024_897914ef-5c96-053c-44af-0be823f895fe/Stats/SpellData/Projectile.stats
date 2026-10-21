@@ -5295,6 +5295,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1b65e03-5572-45bb-b3cf-138c7ff96308" />
+        <field name="Name" type="NameTableFieldDefinition" value="Burst_Blight_Needle" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3927ccae-8f23-40a9-b4f6-55b8b6bc7bc1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not HasStatus('SHADOW_MOUND_HARDCORE');" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="3b3a045e-e62b-4dee-809e-5a263ca93d22" />
         <field name="Name" type="NameTableFieldDefinition" value="CombatMark_Githyanki" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="94893340-1619-4b01-bfc7-0258017714a1" />

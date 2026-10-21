@@ -15678,6 +15678,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35acdbd7-bbf5-485c-b42e-2d60eec3f984" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHADOW_MOUND_HARDCORE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a688364a-a3e0-4f7f-aabf-dd72f14e632c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Piercing,Resistance);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7c851704-d1b6-4da4-991c-16689c92b575" />
         <field name="Name" type="NameTableFieldDefinition" value="SHA_TORTURETRIAL_DOUBLE_BARBARIAN" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4035f4ed-09ff-436f-9c65-ff542154d9ee" />

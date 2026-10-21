@@ -12615,6 +12615,12 @@ new entry "__NPC__"
 type "StatusData"
 data "StatusType" "BOOST"
 
+new entry "SHADOW_MOUND_HARDCORE"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SHADOW_MOUND_HARDCORE"
+data "Boosts" "Resistance(Piercing,Resistance);"
+
 new entry "SHA_TORTURETRIAL_DOUBLE_BARBARIAN"
 type "StatusData"
 data "StatusType" "BOOST"
