@@ -5653,6 +5653,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HIDEOUS_LAUGHTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="b323426b-6a27-4745-b73c-cd24c9f6e245" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5665,6 +5666,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HIDEOUS_LAUGHTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="b323426b-6a27-4745-b73c-cd24c9f6e245" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5677,6 +5679,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HIDEOUS_LAUGHTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="b323426b-6a27-4745-b73c-cd24c9f6e245" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5689,6 +5692,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HIDEOUS_LAUGHTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="b323426b-6a27-4745-b73c-cd24c9f6e245" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5701,6 +5705,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HIDEOUS_LAUGHTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="b323426b-6a27-4745-b73c-cd24c9f6e245" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5713,6 +5718,15 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(HIDEOUS_LAUGHTER,100,10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Self();" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="b323426b-6a27-4745-b73c-cd24c9f6e245" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71bce6c5-9068-4a06-aa17-2c0e468eeb0d" />
+        <field name="Name" type="NameTableFieldDefinition" value="WYR_SentientAmulet_HideousLaughter" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1047b46a-e850-4fb3-b06c-74d66c85eb59" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;HasHighGroundRangeExtension;IsConcentration;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
