@@ -9,6 +9,25 @@ Path shorthand used below:
 
 ---
 
+## 2026-10-21: Fixed infinite loading at the mod verification screen
+
+### Why
+After the original *DnD 5.5e All-in-One BEYOND* pak was removed, the game hung forever at the mod verification screen. `meta.lsx` still had the original mod.io pak's checksum (`MD5`), and a rebuilt pak can never match it. While the original pak was still installed, its matching checksum let verification pass, but the game was loading the original instead of this build.
+
+### Changes
+| File | Change |
+|---|---|
+| `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\meta.lsx` | `MD5`: `632fa963…` (the original mod.io pak) → empty. On the next pack the packer filled it in again with this build's checksum (`cac5ac4a…`) and raised `Version64` to `…987`. Expect both to change on every pack. |
+| `README.md` | Added Installation steps (unsubscribe from the original both in-game and on mod.io) and a Double Install troubleshooting section. |
+
+### Deliberately left in place
+- **`FileSize` (`97381861`)** is still the original pak's size. Verification passes with it as-is, so it was left alone. If the verification hang comes back after a pack, clear this next.
+
+### How to test
+- With only this build's pak in the Mods folder, the game gets past mod verification and lists the mod as "Val's Variant: DnD 5.5e All-In-One Beyond".
+
+---
+
 ## 2026-10-21: Renamed the mod and unlinked it from mod.io
 
 ### Why
@@ -20,7 +39,6 @@ The Val variant is a separate fork, so it shouldn't show up under the original n
 | `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\meta.lsx` | `Name`: `DnD 5.5e All-in-One BEYOND` → `Val's Variant: DnD 5.5e All-In-One Beyond`. |
 | same | `Author`: `Yoonmoonsik` → `Valtorei (Original: Yoonmoonsik)`. |
 | same | `PublishHandle`: `4419649` → `0`, so the mod is no longer tied to the original mod.io listing. |
-| same | `MD5`: `632fa963…` → empty. This was the original mod.io pak's checksum. A rebuilt pak can never match it, so the game hung at the mod verification screen. |
 
 ### Deliberately left in place
 - **The mod `UUID` (`897914ef-…`) and folder names.** Changing them would break existing saves that reference the base mod.
