@@ -9,6 +9,25 @@ Path shorthand used below:
 
 ---
 
+## 2026-10-21: Merged the latest upstream changes
+
+### Why
+Brings in Yoonmoonsik's latest updates (up to `3a702257`, "Update Spanish localization for firearms content") while keeping all the Val variant changes.
+
+### How the merge was done
+This repo started from a snapshot of upstream with no shared git history, so git reported every overlapping file as a conflict. The snapshot was matched to upstream commit `1c7aad8c` (the only differences were the Val edits), and each of the 42 conflicted files was merged three-way using that commit as the base:
+- **Upstream changes kept** where only upstream touched a file: races, weapons, localization, root templates.
+- **Val changes kept** where only we touched a file: stats, feats, story, READMEs, logo, thumbnail.
+- **Both kept** in `Spell_Target.txt` and `Target.stats`, which merged cleanly.
+- **`meta.lsx`**: kept our name, author, description and `MD5`. Took upstream's higher `Version64` (`145944796899311616`) so the build isn't seen as older than the original.
+
+Check: the merged result differs from upstream in exactly the same 19 files and lines as the Val edits differ from `1c7aad8c` (+102/−323).
+
+### How to test
+- Sync the repo to the Toolkit data folder, repack, and repeat the earlier tests: two slot spells per turn, vanilla short rests, icons on Jump, Shove, Topple, Dodge and Distract.
+
+---
+
 ## 2026-10-21: Fixed missing icons (Jump, Shove, Topple, Dodge, Distract and other custom icons)
 
 ### Why

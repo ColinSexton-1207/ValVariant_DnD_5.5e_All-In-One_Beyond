@@ -1,0 +1,45 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Important
+        * Search existing discussions before posting, including closed ones — the same questions come up often and may already be answered.
+        * One post = one question. Please don't bundle unrelated questions in a single post.
+        * If something in the mod clearly behaves incorrectly and you can reproduce it, open a **Bug Report** issue instead. This category is for questions about how the mod works or how to set it up.
+        * Class, subclass, and spell requests have their own categories — please use those.
+        * **Please don't link other mods (Nexus, mod.io, GitHub, etc.).** These links are always posted in good faith, but this mod is written from the rulebooks and I deliberately don't read other mods' implementations. Describe the behavior you're asking about in your own words instead.
+        * This mod rewrites spell lists and progressions wholesale and is **not designed to be compatible with other content mods**. Questions about running it alongside another content mod can't be answered.
+        * Questions about in-game behavior must be based on **a campaign created on the current release**. A campaign that was updated mid-playthrough keeps whatever the older version granted its characters, so behavior there can't be answered.
+        * **Posts that ignore the points above may be closed or deleted without review.**
+
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version
+      description: Only if your question is about the mod's in-game behavior. Shown in the in-game mod manager.
+      placeholder: e.g. 4.11.21.3
+    validations:
+      required: false
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Only if your question is about the mod's in-game behavior.
+      options:
+        - PC (Steam)
+        - PC (GOG)
+        - Mac
+        - PlayStation 5
+        - "Xbox Series X|S"
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Include the class, subclass, level, spell, or feature involved, and what you've already tried. Screenshots help.
+    validations:
+      required: true
