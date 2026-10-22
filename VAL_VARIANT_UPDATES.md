@@ -9,12 +9,34 @@ Path shorthand used below:
 
 ---
 
+## 2026-10-21: Fixed missing icons (Jump, Shove, Topple, Dodge, Distract and other custom icons)
+
+### Why
+The mod's icon atlas (`Public\…\GUI\bg3dnd_hotbarIcons.lsx`, 410 icons) loads its texture from `Assets/Textures/Icons/bg3dnd_hotbarIcons.dds`. The game resolves that path inside `Public\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\`, but the texture was only in `Mods\…\Assets\Textures\Icons\`. Every action with a custom icon showed up blank. While the original mod.io pak was installed it supplied the texture, so the problem only appeared after the original was removed.
+
+### Changes
+| File | Change |
+|---|---|
+| `Public\Assets\Textures\Icons\bg3dnd_hotbarIcons.dds` | Added. A copy of `Mods\…\Assets\Textures\Icons\bg3dnd_hotbarIcons.dds` (identical MD5). |
+| Toolkit data folder (`C:\Program Files (x86)\Steam\steamapps\common\Baldurs Gate 3\Data\`) | The Toolkit packs from here, not from this repo. Its folders are plain copies, not symlinks. Added the texture to its `Public`. Moved the stale duplicate files out of its `Mods` into `Desktop\bg3dnd-toolkit-mods-duplicate-backup`. All four folders (`Public`, `Mods`, `Editor\Mods`, `Projects`) now match the repo. |
+| `Mods\…\meta.lsx` | Synced from the Toolkit copy (`Version64` → `…988`). |
+
+### Deliberately left in place
+- **The copy in `Mods\…\Assets\Textures\Icons\`.** The game doesn't read it from there.
+- **`.gitignore`'s `**.DDS` rule.** The texture is 22 MB and isn't tracked by git, so a fresh clone won't have it. Copy it to the `Public` path before packing.
+- **Repo and Toolkit are separate copies.** Edits made in the repo don't reach the pak until they're copied into the Toolkit's data folder, and Toolkit edits don't reach the repo either. Sync them before packing and before committing.
+
+### How to test
+- After repacking, Jump, Shove, Topple, Dodge and Distract have icons on the hotbar, and so do other actions with custom icons from this mod.
+
+---
+
 ## 2026-10-21: Removed a stale duplicate of the mod's data from `Mods\` and updated the description and thumbnail
 
 ### Why
 Commit `d3ae992` added 1,141 files under `Mods\DnD2024_897914ef-5c96-053c-44af-0be823f895fe\`. They were an extracted copy of the original mod.io pak (`RootTemplates`, `Stats`, `Feats`, `Progressions`, and so on), which belongs in `Public\`. The copy:
 - was an **older** upstream version than `Public\`. It was missing the Opportunity Attack and Commander's Strike D8 entries that upstream GitHub and `Public\` have.
-- had none of the Val variant edits, and its `SpellSet.txt` still listed the deleted `Shout_HitPointDice`. This second `CommonPlayerActions` set hid Jump, Shove, Topple, Dodge, Distract and the other common actions in-game.
+- had none of the Val variant edits, and its `SpellSet.txt` still listed the deleted `Shout_HitPointDice`. It hadn't been packed yet, but it would have been included in the next build.
 
 ### Changes
 | File | Change |
@@ -27,7 +49,6 @@ Commit `d3ae992` added 1,141 files under `Mods\DnD2024_897914ef-5c96-053c-44af-0
 - Everything that was in `Mods\` before `d3ae992`: `meta.lsx`, `mod_publish_logo.png`, `Story`, `Localization`, `Scripts`, `Levels`, `GUI\metadata.lsf`, and the `.DDS` icons (ignored by `.gitignore`).
 
 ### How to test
-- After repacking, Jump, Shove, Topple, Dodge and Distract show in common actions, and there's no "Use Hit Point Dice" action.
 - After saving settings in the Toolkit, `Mods\DnD2024_…\` should not contain `Stats` or `RootTemplates`. If it does, the duplicate is back.
 
 ---

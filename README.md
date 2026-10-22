@@ -71,3 +71,9 @@ All of these mean the original pak is installed or got downloaded again. To fix 
 If you are interested in the base **BG3 DnD 5.5e Mod**, please visit and support the official repository created by **Yoonmoonsik** linked above.
 
 > Note that AI is occassionally used to help track changes between versions and documentation.
+
+---
+
+## ⚖️ Legal
+
+Val's Variant: DnD 5.5e All-In-One Beyond is unofficial Fan Content permitted under the [Fan Content Policy](https://company.wizards.com/en/legal/fancontentpolicy). Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
